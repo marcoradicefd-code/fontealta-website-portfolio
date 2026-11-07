@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@hookform/resolvers": "^6.0.0",
+    "@hookform/resolvers": "^7.0.2",
     "@portabletext/react": "^6.2.0",
     "@sanity/client": "^7.27.0",
     "@sanity/document-internationalization": "6.2.38",
