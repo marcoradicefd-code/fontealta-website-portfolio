@@ -1,3 +1,5 @@
+[English](README.en.md) · **Italiano**
+
 # Fontealta — sito istituzionale
 
 Sito multilingua di **Fontealta**, azienda di Viareggio che produce docce e rubinetteria outdoor in acciaio inox AISI 316. Il sito è costruito attorno al catalogo: collezioni, prodotti, finiture e progetti realizzati sono gestiti da CMS e tradotti.
