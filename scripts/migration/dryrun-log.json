@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-25T15:55:14.870Z",
+    "mode": "apply",
+    "csvPath": "/Volumes/PortableSSD/Repo da testare/Fontealta_MAPPING_28codici_batch2.csv",
+    "projectId": "mwlqc6ab",
+    "dataset": "production",
+    "accessoriesCollectionId": "collection-accessories-it",
+    "totals": {
+      "models": 591,
+      "section1Matched": 19,
+      "section1Changes": 19,
+      "section1Noop": 0,
+      "section2Matched": 52,
+      "section2Changes": 0,
+      "totalChanges": 19
+    }
+  },
+  "changes": [
+    {
+      "_id": "model-mx2i",
+      "code": "MX2.I",
+      "collections": [
+        "ILLE"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-mx3i",
+      "code": "MX3.I",
+      "collections": [
+        "ILLE"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-sb",
+      "code": "SB",
+      "collections": [
+        "Waterline"
+      ],
+      "productTypeOld": "doccia-soffione",
+      "productTypeNew": "doccia-accessori",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-sbslim",
+      "code": "SB.SLIM",
+      "collections": [
+        "Waterline"
+      ],
+      "productTypeOld": "doccia-soffione",
+      "productTypeNew": "doccia-accessori",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-spcd",
+      "code": "SP.CD",
+      "collections": [
+        "Boss"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-spf",
+      "code": "SP.F",
+      "collections": [
+        "Flamingo"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-spi",
+      "code": "SP.I",
+      "collections": [
+        "ILLE"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-spl",
+      "code": "SP.L",
+      "collections": [
+        "Skinny"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-spo",
+      "code": "SP.O",
+      "collections": [
+        "Origo"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-spy",
+      "code": "SP.Y",
+      "collections": [
+        "Twiggy"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-st1",
+      "code": "ST1",
+      "collections": [
+        "Waterline"
+      ],
+      "productTypeOld": "doccia-soffione",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-st1l",
+      "code": "ST1.L",
+      "collections": [
+        "Waterline"
+      ],
+      "productTypeOld": "doccia-soffione",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-stcd",
+      "code": "ST.CD",
+      "collections": [
+        "Boss"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-stf",
+      "code": "ST.F",
+      "collections": [
+        "Flamingo"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-sti",
+      "code": "ST.I",
+      "collections": [
+        "ILLE"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-stl",
+      "code": "ST.L",
+      "collections": [
+        "Skinny"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-sto",
+      "code": "ST.O",
+      "collections": [
+        "Origo"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-sty",
+      "code": "ST.Y",
+      "collections": [
+        "Twiggy"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "doccia-miscelatore",
+      "rule": "S1"
+    },
+    {
+      "_id": "model-w12ast",
+      "code": "W12.AST",
+      "collections": [
+        "Community"
+      ],
+      "productTypeOld": "doccia-colonna",
+      "productTypeNew": "lavabo-miscelatore",
+      "rule": "S1"
+    }
+  ],
+  "warnings": {
+    "missingCsvCodes": [],
+    "section1Section2Overlap": [],
+    "duplicateCsvCodes": [],
+    "duplicateSanityCodes": [],
+    "invalidTargetTypes": [],
+    "attualeMismatches": [],
+    "residualAfter": {
+      "controllo-termostatico": [],
+      "accessory": []
+    }
+  },
+  "countsBefore": {
+    "lavabo-colonna": 20,
+    "vasca-colonna": 45,
+    "doccia-colonna": 237,
+    "doccia-accessori": 55,
+    "lavabo-miscelatore": 43,
+    "doccia-miscelatore": 38,
+    "doccia-pannello": 10,
+    "doccia-soffione": 57,
+    "vasca-bordo": 38,
+    "lavabo-incasso": 20,
+    "lavabo-batteria": 6,
+    "kit-doccia": 22
+  },
+  "countsAfter": {
+    "lavabo-colonna": 20,
+    "vasca-colonna": 45,
+    "doccia-colonna": 222,
+    "doccia-accessori": 57,
+    "lavabo-miscelatore": 50,
+    "doccia-miscelatore": 48,
+    "doccia-pannello": 10,
+    "doccia-soffione": 53,
+    "vasca-bordo": 38,
+    "lavabo-incasso": 20,
+    "lavabo-batteria": 6,
+    "kit-doccia": 22
+  }
+}

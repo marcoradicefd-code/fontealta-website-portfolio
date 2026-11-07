@@ -1,0 +1,845 @@
+{
+  "mode": "EXECUTE (writes)",
+  "generatedFrom": "/Volumes/PortableSSD/01_Clienti/FonteAlta/Fonte alta cartella madre/08_Sito-Web/sito fonte-alta/fontealta-website/scripts/data/blocco2b-alimentazione-data.json",
+  "distribution": {
+    "standard+cw": 80,
+    "standard+cw+ew+4s": 28,
+    "standard+cw+4s": 10,
+    "standard+cw+ew": 31,
+    "standard": 10,
+    "standard+ew": 5
+  },
+  "toPatch": 164,
+  "skipped": [],
+  "excludedNeverPatched": {
+    "skippedNoEvidence": 28,
+    "toVerifyOnListino": 0
+  },
+  "diagnostics": {
+    "definedBefore": 156,
+    "toVerifyExisting": 0,
+    "skippedExisting": 28
+  },
+  "patches": [
+    {
+      "code": "Q53",
+      "id": "model-q53",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q53.E",
+      "id": "model-q53e",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q53.RC",
+      "id": "model-q53rc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q53.M",
+      "id": "model-q53m",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q53.ME",
+      "id": "model-q53me",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B76",
+      "id": "model-b76",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.E",
+      "id": "model-b76e",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.RC",
+      "id": "model-b76rc",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.2",
+      "id": "model-b762",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.2E",
+      "id": "model-b762e",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.M",
+      "id": "model-b76m",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.ME",
+      "id": "model-b76me",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B40L",
+      "id": "model-b40l",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40L.M",
+      "id": "model-b40lm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40L.RC",
+      "id": "model-b40lrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40V",
+      "id": "model-b40v",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40V.E",
+      "id": "model-b40ve",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40V.RC",
+      "id": "model-b40vrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40V.M",
+      "id": "model-b40vm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B40V.ME",
+      "id": "model-b40vme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "B60V.HF.M",
+      "id": "model-b60vhfm",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "B60V.HF.ME",
+      "id": "model-b60vhfme",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "BW76",
+      "id": "model-bw76",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.E",
+      "id": "model-bw76e",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.RC",
+      "id": "model-bw76rc",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.2",
+      "id": "model-bw762",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.2E",
+      "id": "model-bw762e",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.M",
+      "id": "model-bw76m",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.ME",
+      "id": "model-bw76me",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "C40",
+      "id": "model-c40",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C40.E",
+      "id": "model-c40e",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C40.RC",
+      "id": "model-c40rc",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C40.M",
+      "id": "model-c40m",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C40.ME",
+      "id": "model-c40me",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C90",
+      "id": "model-c90",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "C90.E",
+      "id": "model-c90e",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "C90.RC",
+      "id": "model-c90rc",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "C90.M",
+      "id": "model-c90m",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "C90.ME",
+      "id": "model-c90me",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "CL90",
+      "id": "model-cl90",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "CL90.E",
+      "id": "model-cl90e",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "CL90.RC",
+      "id": "model-cl90rc",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "CL90.M",
+      "id": "model-cl90m",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "CL90.ME",
+      "id": "model-cl90me",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "B76.AST",
+      "id": "model-b76ast",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "BW76.AST",
+      "id": "model-bw76ast",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "C50AS.AST",
+      "id": "model-c50asast",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C90.AST",
+      "id": "model-c90ast",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "CL90.AST",
+      "id": "model-cl90ast",
+      "value": ["standard", "cw", "ew", "4s"]
+    },
+    {
+      "code": "Q86.AST",
+      "id": "model-q86ast",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "COL90.AST",
+      "id": "model-col90ast",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "COL90.AST.L",
+      "id": "model-col90astl",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "C140.2",
+      "id": "model-c1402",
+      "value": ["standard"]
+    },
+    {
+      "code": "C140.AST.2",
+      "id": "model-c140ast2",
+      "value": ["standard"]
+    },
+    {
+      "code": "Q120",
+      "id": "model-q120",
+      "value": ["standard"]
+    },
+    {
+      "code": "Q120.AST",
+      "id": "model-q120ast",
+      "value": ["standard"]
+    },
+    {
+      "code": "Q86.2",
+      "id": "model-q862",
+      "value": ["standard"]
+    },
+    {
+      "code": "Q86.AST.2",
+      "id": "model-q86ast2",
+      "value": ["standard"]
+    },
+    {
+      "code": "C140.3",
+      "id": "model-c1403",
+      "value": ["standard"]
+    },
+    {
+      "code": "C140.4",
+      "id": "model-c1404",
+      "value": ["standard"]
+    },
+    {
+      "code": "C140.AST.3",
+      "id": "model-c140ast3",
+      "value": ["standard"]
+    },
+    {
+      "code": "C140.AST.4",
+      "id": "model-c140ast4",
+      "value": ["standard"]
+    },
+    {
+      "code": "F60.M",
+      "id": "model-f60m",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60.ME",
+      "id": "model-f60me",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60.RC",
+      "id": "model-f60rc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60L.M",
+      "id": "model-f60lm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60L.RC",
+      "id": "model-f60lrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60V.M",
+      "id": "model-f60vm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60V.ME",
+      "id": "model-f60vme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60V.RC",
+      "id": "model-f60vrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "D50",
+      "id": "model-d50",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "D50.E",
+      "id": "model-d50e",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "D50.RC",
+      "id": "model-d50rc",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "D50.M",
+      "id": "model-d50m",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "D50.ME",
+      "id": "model-d50me",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C50AS",
+      "id": "model-c50as",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C50AS.E",
+      "id": "model-c50ase",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C50AS.RC",
+      "id": "model-c50asrc",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C50AS.M",
+      "id": "model-c50asm",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C50AS.ME",
+      "id": "model-c50asme",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "C40L",
+      "id": "model-c40l",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40L.M",
+      "id": "model-c40lm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40L.RC",
+      "id": "model-c40lrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40V",
+      "id": "model-c40v",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40V.E",
+      "id": "model-c40ve",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40V.RC",
+      "id": "model-c40vrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40V.M",
+      "id": "model-c40vm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C40V.ME",
+      "id": "model-c40vme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "C60V.HF.M",
+      "id": "model-c60vhfm",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "C60V.HF.ME",
+      "id": "model-c60vhfme",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "C50R",
+      "id": "model-c50r",
+      "value": ["standard", "ew"]
+    },
+    {
+      "code": "C50R.E",
+      "id": "model-c50re",
+      "value": ["standard", "ew"]
+    },
+    {
+      "code": "C50R.RC",
+      "id": "model-c50rrc",
+      "value": ["standard", "ew"]
+    },
+    {
+      "code": "C50R.M",
+      "id": "model-c50rm",
+      "value": ["standard", "ew"]
+    },
+    {
+      "code": "C50R.ME",
+      "id": "model-c50rme",
+      "value": ["standard", "ew"]
+    },
+    {
+      "code": "S40",
+      "id": "model-s40",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "S40.E",
+      "id": "model-s40e",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "S40.RC",
+      "id": "model-s40rc",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "S40.M",
+      "id": "model-s40m",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "S40.ME",
+      "id": "model-s40me",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "S40L",
+      "id": "model-s40l",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40L.M",
+      "id": "model-s40lm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40L.RC",
+      "id": "model-s40lrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40V",
+      "id": "model-s40v",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40V.E",
+      "id": "model-s40ve",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40V.RC",
+      "id": "model-s40vrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40V.M",
+      "id": "model-s40vm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S40V.ME",
+      "id": "model-s40vme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "S60V.HF.M",
+      "id": "model-s60vhfm",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "S60V.HF.ME",
+      "id": "model-s60vhfme",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "Q86",
+      "id": "model-q86",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q86.E",
+      "id": "model-q86e",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q86.RC",
+      "id": "model-q86rc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q86.M",
+      "id": "model-q86m",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "Q86.ME",
+      "id": "model-q86me",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CSR40",
+      "id": "model-csr40",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "CSR40.E",
+      "id": "model-csr40e",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "CSR40.RC",
+      "id": "model-csr40rc",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "CSR40.M",
+      "id": "model-csr40m",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "CSR40.ME",
+      "id": "model-csr40me",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "CS40L",
+      "id": "model-cs40l",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40L.M",
+      "id": "model-cs40lm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40L.RC",
+      "id": "model-cs40lrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40V",
+      "id": "model-cs40v",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40V.E",
+      "id": "model-cs40ve",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40V.RC",
+      "id": "model-cs40vrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40V.M",
+      "id": "model-cs40vm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS40V.ME",
+      "id": "model-cs40vme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "CS60V.HF.M",
+      "id": "model-cs60vhfm",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "CS60V.HF.ME",
+      "id": "model-cs60vhfme",
+      "value": ["standard", "cw", "4s"]
+    },
+    {
+      "code": "I40",
+      "id": "model-i40",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "I40.E",
+      "id": "model-i40e",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "I40.RC",
+      "id": "model-i40rc",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "I40.M",
+      "id": "model-i40m",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "I40.ME",
+      "id": "model-i40me",
+      "value": ["standard", "cw", "ew"]
+    },
+    {
+      "code": "I40.D",
+      "id": "model-i40d",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40.D.E",
+      "id": "model-i40de",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40.D.RC",
+      "id": "model-i40drc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40.D.M",
+      "id": "model-i40dm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40.D.ME",
+      "id": "model-i40dme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40L",
+      "id": "model-i40l",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40L.M",
+      "id": "model-i40lm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40L.RC",
+      "id": "model-i40lrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40L.D",
+      "id": "model-i40ld",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40L.D.M",
+      "id": "model-i40ldm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40L.D.RC",
+      "id": "model-i40ldrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V",
+      "id": "model-i40v",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.E",
+      "id": "model-i40ve",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.RC",
+      "id": "model-i40vrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.M",
+      "id": "model-i40vm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.ME",
+      "id": "model-i40vme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.D",
+      "id": "model-i40vd",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.D.E",
+      "id": "model-i40vde",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.D.RC",
+      "id": "model-i40vdrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.D.M",
+      "id": "model-i40vdm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "I40V.D.ME",
+      "id": "model-i40vdme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60.D.M",
+      "id": "model-f60dm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60.D.ME",
+      "id": "model-f60dme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60.D.RC",
+      "id": "model-f60drc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60L.D.M",
+      "id": "model-f60ldm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60L.D.RC",
+      "id": "model-f60ldrc",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60V.D.M",
+      "id": "model-f60vdm",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60V.D.ME",
+      "id": "model-f60vdme",
+      "value": ["standard", "cw"]
+    },
+    {
+      "code": "F60V.D.RC",
+      "id": "model-f60vdrc",
+      "value": ["standard", "cw"]
+    }
+  ]
+}

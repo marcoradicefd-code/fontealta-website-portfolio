@@ -1,0 +1,789 @@
+{
+  "skip": {
+    "toContent": "Zum Inhalt springen"
+  },
+  "nav": {
+    "ariaLabel": "Hauptnavigation",
+    "collezioni": "Kollektionen",
+    "produzione": "Produktion",
+    "outdoor": "Outdoor",
+    "indoor": "Indoor",
+    "kitchen": "Kitchen",
+    "finiture": "Oberflächen",
+    "chiSiamo": "Über uns",
+    "contatti": "Kontakt",
+    "blog": "Blog",
+    "areaPro": "Pro-Bereich",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "back": "Zurück",
+    "home": "Home",
+    "breadcrumbAria": "Pfad",
+    "switchTo": "Zu {lang} wechseln",
+    "langLabel": "Sprache auswählen",
+    "comingSoon": "Coming soon",
+    "menzioniLegali": "Rechtliche Hinweise"
+  },
+  "footer": {
+    "columns": {
+      "collezioni": "Kollektionen",
+      "azienda": "Unternehmen",
+      "contatti": "Kontakt",
+      "suDiNoi": "Über uns",
+      "legal": "Rechtliches",
+      "areaRiservata": "Pro-Bereich",
+      "newsletter": "Newsletter"
+    },
+    "links": {
+      "chiSiamo": "Über uns",
+      "produzione": "Produktion",
+      "finiture": "Oberflächen",
+      "progetti": "Projekte",
+      "news": "News",
+      "richiediPreventivo": "Angebot anfordern",
+      "areaPro": "Geschützter Bereich"
+    },
+    "privacyPolicy": "Datenschutzerklärung",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "newsletterInvito": "Kollektionen, Oberflächen und realisierte Projekte: die Neuigkeiten von Fontealta."
+  },
+  "brand": {
+    "wordmark": "FONTEALTA",
+    "tagline": {
+      "line1": "Stahlspezialisten.",
+      "line2": "Outdoor-Duschsäulen.",
+      "line3": "Made in Italy."
+    }
+  },
+  "collezioni": {
+    "heroEyebrow": "Der Katalog.",
+    "heroH1Top": "Wir kleiden das Wasser",
+    "heroH1Bot": "in Stahl AISI 316.",
+    "heroSub": "Die Fontealta-Kollektionen aus Edelstahl AISI 316, für Bad, Outdoor, Küche und Yacht.",
+    "heroImageAlt": "Blick von oben auf einen weißen Sandstrand und das türkisfarbene Meer, das sich daran bricht.",
+    "stat1Label": "Kollektionen",
+    "stat2Value": "500+",
+    "stat2Label": "Artikel",
+    "stat3Value": "7",
+    "stat3Label": "Oberflächen im Katalog",
+    "stat4Value": "Italy",
+    "stat4Label": "Made in",
+    "gridEyebrow": "Die Kollektionen",
+    "gridH2": "Jede Kollektion, eine Geschichte, die es zu erzählen gilt.",
+    "gridIntro": "Jede Kollektion entsteht aus einer Perspektive auf die Beziehung zwischen Stahl, Geste und Alltag.",
+    "progettareH2": "Sie finden nicht, was Sie suchen?",
+    "progettareSub": "Erzählen Sie uns von Ihrem Projekt: Wohnhaus, Hospitality, Yacht. Unser technisches Team begleitet Sie von der Wahl der Oberflächen bis zum maßgeschneiderten Entwurf.",
+    "metaTitle": "Kollektionen",
+    "metaDescription": "Die Fontealta-Kollektionen aus Edelstahl AISI 316, für Bad, Outdoor, Küche und Yacht. Freistehende Säulen, Armaturen, maßgeschneiderte Lösungen.",
+    "titoloConTipo": "{tipo} {titolo}",
+    "tipoBreve": {
+      "doccia": "Duschsäulen",
+      "docciaEBagno": "Duschsäulen und Standarmaturen",
+      "bagno": "Standarmaturen",
+      "cucina": "Küchenarmaturen",
+      "giardino": "Gartenarmaturen",
+      "bidet": "Bidetmischer"
+    }
+  },
+  "catalogo": {
+    "eyebrow": "Katalog",
+    "titolo": "Entdecken Sie, wie Made in Italy entsteht",
+    "sottotitolo": "Alle Kollektionen, Oberflächen und Codes in einem einzigen PDF. Wir senden es Ihnen sofort.",
+    "badgeAnno": "Katalog 2026",
+    "badgePagine": "143 Seiten",
+    "badgeFormato": "PDF"
+  },
+  "dettaglio": {
+    "eyebrow": "Kollektion",
+    "statArticoli": "Artikel",
+    "statFiniture": "Oberflächen",
+    "statAmbient": "Bereich",
+    "filtroFinitura": "Oberfläche",
+    "filtroAmbiente": "Bereich",
+    "filtroNessunRisultato": "Kein Modell entspricht den ausgewählten Filtern.",
+    "filtriApri": "Filter",
+    "filtriApriConta": "Filter ({n})",
+    "filtriTitolo": "Filter",
+    "filtriChiudi": "Filter schließen",
+    "filtriMostra": "{n} Modelle anzeigen",
+    "filtriMostraUno": "1 Modell anzeigen",
+    "filtriNessuno": "Kein Modell",
+    "filtriTogli": "Entfernen Sie einen Filter, um die Modelle zu sehen",
+    "filtriAzzera": "Zurücksetzen",
+    "filtriRimuovi": "Filter {nome} entfernen",
+    "filtriApplicati": "Angewendete Filter",
+    "tagRichiedeCorpoIncasso": "Erfordert Unterputzkörper",
+    "metaDescription": "Die Kollektion {collezione} von Fontealta aus Edelstahl AISI 316: {articoli, plural, =1 {ein Artikel} other {# Artikel}}{finiture, plural, =0 {} =1 {, eine Oberfläche} other {, # Oberflächen}}."
+  },
+  "corpiIncasso": {
+    "eyebrow": "UP-Teile",
+    "statCorpi": "UP-Teile",
+    "statAmbienti": "Bereiche",
+    "usedByTitle": "Verwendet von",
+    "labelAmbiti": "Anwendungsbereiche",
+    "metaTitle": "UP-Teile",
+    "metaDescription": "Die UP-Teile von Fontealta aus Edelstahl AISI 316: der Teil, der in der Wand bleibt und das Projekt trägt.",
+    "metaTitleCorpo": "{codice} · UP-Teile",
+    "metaDescriptionCorpo": "{codice}, UP-Teil von Fontealta aus Edelstahl AISI 316: der Teil, der in der Wand bleibt und das Projekt trägt."
+  },
+  "modello": {
+    "eyebrow": "Kollektion",
+    "specsTitle": "Spezifikationen",
+    "labelType": "Typ",
+    "labelAmbient": "Bereich",
+    "labelFinishes": "Verfügbare Oberflächen",
+    "labelConcealedBody": "UP-Teil",
+    "labelCustomizable": "Individualisierbar",
+    "labelDimensions": "Abmessungen",
+    "yes": "Ja",
+    "waterHotCold": "Kalt- und Warmwasser",
+    "waterCold": "Nur Kaltwasser",
+    "alimStandard": "Standardinstallation",
+    "alimStandardPlus": "Variante XT / XQ / XQ.A",
+    "alimCw": "Unterputz-Wasseranschluss",
+    "alimEw": "Aufputz-Wasseranschluss",
+    "alim4s": "Frostschutz: Heizkabel 230V",
+    "collectionAffinitiesTitle": "Verwandte Kollektionen",
+    "finishesTitle": "Oberflächen",
+    "metaTitle": "{nome} · {testa}",
+    "metaDescription": "{nome}, aus der Kollektion {collezione} von Fontealta. Edelstahl AISI 316{finiture, plural, =0 {.} =1 {, eine verfügbare Oberfläche.} other {, # verfügbare Oberflächen.}}",
+    "tipo": "{subtype} für {categoria}",
+    "tipoSoloAmbiente": "für {categoria}",
+    "metaDescriptionTipo": "{nome}. {tipo} von Fontealta aus Edelstahl AISI 316{finiture, plural, =0 {.} =1 {, eine verfügbare Oberfläche.} other {, # verfügbare Oberflächen.}}"
+  },
+  "schedaModello": {
+    "progettareH2": "Interessiert Sie dieses Modell?",
+    "progettareSub": "Erzählen Sie uns von Ihrem Projekt: Wir antworten Ihnen zu Oberflächen, Verfügbarkeit und Lieferzeiten.",
+    "richiediInformazioni": "Informationen anfragen"
+  },
+  "produzione": {
+    "metaTitle": "Produktion",
+    "metaDescription": "Jedes Produkt durchläuft mehrere Phasen nach den Standards der Nautik: europäischer Edelstahl AISI 316, TIG-Schweißen, Polieren, Lackierung. Viareggio, seit 1999.",
+    "heroEyebrow": "Die Produktion",
+    "heroH1": "Wie eine Säule entsteht.",
+    "heroSub": "Am Anfang steht eine sechs Meter lange Stahlstange. Am Ende eine Duschsäule. Dazwischen liegt eine Zahl von Schritten, die man nicht erwartet, und viele davon werden noch von Hand ausgeführt.",
+    "heroImageAlt": "Edelstahlstangen in Bearbeitung im Fontealta-Werk in Viareggio.",
+    "fasiAria": "Die neun Phasen der Produktion",
+    "f1Title": "Die Stange",
+    "f1Spec": "6000 mm · AISI 316",
+    "f1P1": "Der Stahl kommt in sechs Meter langen Stangen an, bereits ab Werk lasermarkiert mit Durchmesser, Wandstärke, Schmelznummer, Charge und genauem Produktionsdatum. Jedes Rohr wird bei der Anlieferung geprüft.",
+    "f1P2": "Das bedeutet, dass wir von jeder Säule, die hier herauskommt, wissen, aus welcher Schmelze sie stammt. Das ist keine Bürokratie: Es ist das, was es erlaubt, Jahre später den Ursprung eines Teils zurückzuverfolgen.",
+    "f1Alt": "Sechs Meter lange Edelstahlstangen AISI 316, ab Werk lasermarkiert.",
+    "f2Title": "Der Zuschnitt",
+    "f2Spec": "3000 mm · 30° bei Twiggy",
+    "f2P1": "Die Stangen werden exakt in der Mitte durchtrennt: drei Meter, das Aufmaß der höchsten Modelle. Kein Abfall, kein unbrauchbarer Verschnitt.",
+    "f2P2": "Bei der Serie Twiggy hat der Schnitt eine Neigung von dreißig Grad, ausgeführt, solange das Rohr noch gerade ist. An diesem Punkt der Verarbeitung wirkt das wie ein Fehler. Er dient dazu, die Verschiebung des Metalls beim Biegen auszugleichen, damit der Kopf der Säule am Ende perfekt parallel zum Boden steht.",
+    "f2Alt": "Durchtrennen einer Edelstahlstange in der Mitte ihrer Länge.",
+    "f3Title": "Die Biegung",
+    "f3Spec": "Wandstärke > 3 mm",
+    "f3P1": "Ein Rohr mit einer Wandstärke von über drei Millimetern kalt zu biegen, ohne es zu quetschen, erfordert ein Teil, das kein Kunde je zu Gesicht bekommt: einen beweglichen Dorn aus einer Bronze-Aluminium-Legierung, der in das Rohr eindringt und den runden Querschnitt hält, während die Biegemaschine arbeitet.",
+    "f3P2": "Der Dorn allein reicht jedoch nicht aus. Die Elastizität des Stahls verändert sich unmerklich von einer Schmelze zur anderen, und zwei Rohre mit exakt derselben Spezifikation reagieren leicht unterschiedlich. Zu Beginn jeder Charge wird der Biegewinkel von Hand neu kalibriert: gebogen, gemessen, korrigiert.",
+    "f3Alt": "Biegemaschine bei der Arbeit an einem dickwandigen Edelstahlrohr.",
+    "f4Title": "Die Bauteile",
+    "f4Spec": "Aus dem Vollen gefräst · CNC",
+    "f4P1": "In unserer Werkstatt fräsen CNC-Bearbeitungszentren die Innenkörper der Selbstschluss-Armaturen und die mechanischen Bauteile aus dem Vollen. Das technische Datenblatt jedes Teils nennt sein Material.",
+    "f4P2": "Aus dem Vollen zu fräsen statt zusammenzubauen bedeutet weniger Verbindungsstellen, und jede Verbindungsstelle weniger ist eine Stelle weniger, an der etwas nachgeben kann.",
+    "f4Alt": "Aus dem Vollen gefräste Edelstahlkomponenten auf einem CNC-Bearbeitungszentrum.",
+    "f5Title": "Das Schweißen",
+    "f5Spec": "TIG",
+    "f5P1": "Die Außenstrukturen werden mit dem TIG-Schweißverfahren gefestigt. Es ist die langsamste der verfügbaren Methoden und diejenige, die bei den größten Strukturen hält.",
+    "f5Alt": "TIG-Schweißen an einer Außenstruktur aus Edelstahl.",
+    "f6Title": "Das Polieren",
+    "f6Spec": "Zunehmende Körnung",
+    "f6P1": "Das ist die Phase, die der Kunde nicht sieht und die über alles andere entscheidet.",
+    "f6P2": "Roher Stahl hat eine natürliche Porosität: mikroskopisch kleine Öffnungen, an denen Korrosion entstehen kann. Die Oberfläche wird mit Schleifpapier in zunehmender Körnung poliert, dann mit Lamellenbürstmaschinen und Baumwolltüchern, die die Poren endgültig schließen.",
+    "f6P3": "Erst dann kann die Chromoxidschicht, die den Stahl rostfrei macht, die gesamte Oberfläche umhüllen, ohne Schwachstellen zu hinterlassen. Eine Spiegelpolitur ist keine ästhetische Laune: Sie ist das Zeichen, dass darunter nichts Offenes geblieben ist.",
+    "f6Alt": "Polieren einer Edelstahloberfläche mit Lamellenbürsten.",
+    "f7Title": "Die Oberfläche",
+    "f7Spec": "7 Oberflächen · RAL Pantone NCS",
+    "f7P1": "Von hier an bekommt die Säule ihre Haut: poliert, gebürstet, lackiert und PVD. Sieben Oberflächen stehen im Katalog. Die Farbe nicht: Die hat keine Nummer, denn die Lackierung kennt keine Grenzen. RAL, Pantone oder NCS, auch für ein einziges Stück.",
+    "f7Alt": "Duschsäulen aus Edelstahl mit unterschiedlichen Oberflächen nebeneinander.",
+    "f8Title": "Die Trocknung",
+    "f8Spec": "14 Tage · −20/+60 °C",
+    "f8P1": "Die lackierten Teile trocknen zwei Wochen lang natürlich bei Raumtemperatur. Das sind zwei der fünf Wochen, die wir als Produktionszeit angeben.",
+    "f8P2": "Ein Ofen würde dieselbe Arbeit in weniger als einer Stunde erledigen, aber er würde den Lack aushärten und starr machen. Eine Säule im Außenbereich durchläuft im Winter minus zwanzig Grad und im Sommer über sechzig Grad auf einer Oberfläche in der Sonne, und bei jedem Zyklus dehnt sich der Stahl aus. Ein starrer Lack bekommt früher oder später Risse. Ein langsam getrockneter Lack bleibt elastisch und folgt dem Metall.",
+    "f8P3": "Zwei Wochen Wartezeit gegen zehn Jahre Haltbarkeit.",
+    "f8Alt": "Lackierte Teile bei natürlicher Trocknung bei Raumtemperatur.",
+    "f9Title": "Installation, Prüfung, Verpackung",
+    "f9Spec": "Millimetergenaue Toleranzen",
+    "f9P1": "Im Inneren werden hydraulische Anlagen montiert, bei denen jede Verbindung mit millimetergenauen Toleranzen arbeitet. Die Griffe erhalten die Laser-Kennzeichnung von Fontealta, die das Teil authentifiziert. Jede Säule wird vor der Auslieferung hydraulisch geprüft.",
+    "f9P2": "Der letzte Schritt ist ein weicher Beutel aus Vliesstoff, dann die stoßfeste Verpackung: denn der riskanteste Teil der Reise ist für ein spiegelpoliertes und lackiertes Stück oft der letzte.",
+    "f9Alt": "Montage der internen Hydraulikanlage und Prüfung einer Duschsäule.",
+    "chiusuraH2": "Zeit ist ein Werkstoff.",
+    "chiusuraP": "Wir arbeiten nicht, um schnell zu sein. Wir arbeiten, damit das Stück draußen hält, Salz und Sonne, über viele Jahre.",
+    "chiusuraCta": "Werkstatt entdecken",
+    "chiusuraDidascalia": "Illustrierte Rekonstruktion der Werkstatt in Viareggio.",
+    "formH2": "Möchten Sie sehen, wie wir arbeiten?"
+  },
+  "finiture": {
+    "metaTitle": "Oberflächen",
+    "metaDescription": "Sieben Oberflächen im Katalog und jede Farbe auf Anfrage: RAL, Pantone oder NCS, auch für ein einziges Stück. Auf demselben Stahl AISI 316.",
+    "heroEyebrow": "Die Materialien",
+    "heroTitle": "Die Oberflächen.",
+    "heroSubtitle": "Natürlich, lackiert, PVD. Personalisierung auf Anfrage in jedem RAL, PANTONE, NCS.",
+    "emptyState": "Derzeit keine Oberfläche verfügbar.",
+    "progettareH2": "Die Farbe, die Sie brauchen, ist nicht auf dieser Seite?",
+    "category": {
+      "natural": "Natürlich",
+      "mirror": "Poliert",
+      "painted": "Lackiert",
+      "pvd": "PVD"
+    }
+  },
+  "referenze": {
+    "metaTitle": "Referenzen",
+    "metaDescription": "Fontealta-Projekte und Installationen, realisiert von Architekten und Studios aus aller Welt.",
+    "heroEyebrow": "Referenzen",
+    "heroTitle": "Projekte mit der Handschrift von Fontealta.",
+    "heroSubtitle": "Villen am Mittelmeer, Beachclubs, Yachten. Die Orte, an denen der Stahl von Fontealta Form annimmt.",
+    "eyebrowItem": "Projekt",
+    "emptyEyebrow": "Demnächst",
+    "emptyTitle": "Unsere Referenzen, bald online.",
+    "emptyBody": "Wir sammeln gerade die bedeutendsten mit Fontealta realisierten Projekte. Erzählen Sie uns in der Zwischenzeit von Ihrem.",
+    "emptyCta": "Kontaktieren Sie uns",
+    "notFoundTitle": "Referenz nicht gefunden",
+    "galleryEyebrow": "Galerie",
+    "galleryHeading": "Das Projekt in Bildern.",
+    "collectionsEyebrow": "Kollektionen",
+    "collectionsHeading": "Verwendete Kollektionen.",
+    "collectionEyebrowItem": "Kollektion",
+    "category": {
+      "hospitality": "Hospitality",
+      "residenziale": "Privat",
+      "yacht": "Yacht",
+      "beach-club": "Beach club",
+      "spa-wellness": "Spa · Wellness"
+    }
+  },
+  "chiSiamo": {
+    "metaTitle": "Über uns",
+    "metaDescription": "Seit 1999 verarbeiten wir in Viareggio Edelstahl AISI 316: freistehende Duschsäulen, Armaturen, Farbe nach Maß. Zwei Handwerke, eine Idee.",
+    "heroH1": "Meeresstahl.",
+    "heroSub": "Seit 1999 verarbeiten wir Edelstahl AISI 316 in Viareggio, am Meer, wo das Salz jede Oberfläche auf die Probe stellt.",
+    "s1Eyebrow": "1999",
+    "s1H2": "Zwei Handwerke, eine Idee.",
+    "s1P1": "Fontealta entsteht im Februar 1999 in Viareggio, aus der Begegnung zweier Kompetenzen, die normalerweise nicht miteinander sprechen.",
+    "s1P2": "Auf der einen Seite die Armaturen. Der Vater von Andrea Farnocchia hatte ihr ein Leben gewidmet: Er wusste, wie man Wasser durch einen Metallkörper fließen lässt, welche Toleranzen wichtig sind und was kaputtgeht.",
+    "s1P3": "Auf der anderen Seite die Nautik. Andrea kam aus dem Studium dieses Sektors, wo die erste Frage zu einem Material nie ist, ob es schön ist, sondern wie sehr es dem Salz widersteht.",
+    "s1P4": "Aus dieser Begegnung entstand eine Entscheidung, die damals exzentrisch wirkte: hochwertige Armaturen aus rostfreiem Stahl herzustellen, statt aus verchromtem Messing, wie es alle taten.",
+    "s1ImageAlt": "Fontealta-Handwerker bei der Arbeit an einem Mischer aus Stahl",
+    "s2H2": "Warum AISI 316.",
+    "s2P1": "Am Meer trifft der Stahl jeden Tag auf Salz: Deshalb braucht es Meeresstahl.",
+    "s2P2": "Zwischen einem AISI 304 und einem AISI 316 liegen nur wenige Prozentpunkte Molybdän. Genau das wenige bremst die Lochkorrosion, die an einem unsichtbaren Punkt beginnt und sich von dort ausbreitet.",
+    "s2P3": "Der 316er kostet mehr und ist schwieriger zu verarbeiten: Er verlangsamt jede Phase der Produktion, und das zusätzliche Nickel und Molybdän machen ihn als Rohmaterial teurer.",
+    "s2P4": "Unsere Duschsäulen und Edelstahlarmaturen sind aus AISI 316. Und der Stahl, den wir verarbeiten, stammt ausschließlich aus europäischer Produktion.",
+    "s3H2": "Vom Rohr zur Prüfung.",
+    "s3P1": "Freistehende Duschsäulen, Armaturen fürs Bad, Lösungen für Küche und Nautik. Zwanzig Kollektionen, über fünfhundert Artikel, sieben Oberflächen im Katalog und jede Farbe auf Anfrage: RAL, Pantone oder NCS, auch für ein einziges Stück, ohne Mindestbestellmenge.",
+    "s3P2": "Wir entwerfen und produzieren intern, vom rohen Rohr bis zur hydraulischen Prüfung. Der Produktionszyklus ist vollständig italienisch: die Präzision der Maschine, wo die Maschine gebraucht wird, die Hand des Handwerkers, wo die Maschine nicht hinreicht.",
+    "s3P3": "Wenn ein Projekt etwas verlangt, das es nicht gibt, bauen wir es. Das ist eine Gewohnheit aus der Arbeit an Megayachten, wo das Standardteil fast nie ausreicht.",
+    "s4H2": "Warum gerade hier.",
+    "s4P1": "Viareggio ist keine Adresse. Es ist der Grund, warum wir bestimmte Dinge tun können.",
+    "s4P2": "Die Werften haben uns Zulieferer gegeben, die Stahl nach nautischen Standards verarbeiten: Ein Fehler, der anderswo unbemerkt bliebe, wird hier sofort sichtbar und führt zum Ausschuss.",
+    "s4P3": "Die Strandbäder und Hotels an der Küste sind unser Prüfstand: Eine Dusche, die einen Sommer am Strand übersteht, hat jeden häuslichen Gebrauch schon bestanden.",
+    "s4P4": "Und dann ist da der Karneval. Die Umzugswagen sind bis zu zwanzig Meter hohe Konstruktionen, die jedes Jahr von Grund auf neu gebaut und von Hand in jedem benötigten Farbton bemalt werden. Um sie herum, und um die Lackierer der Megayachten, ist in Viareggio ein Zulieferernetz entstanden, das im Rest Italiens seinesgleichen sucht.",
+    "s4P5": "Es sind dieselben Zulieferer, an die wir uns wenden. Deshalb ist ein Farbton außerhalb des Katalogs für ein einzelnes Stück bei uns eine normale Anfrage und keine Ausnahme, die verhandelt werden muss.",
+    "s5H2": "Erst die Fragen.",
+    "s5P1": "Unsere Duschsäulen und Edelstahlarmaturen sind immer aus AISI 316 und lassen sich überall installieren. Die Unterschiede liegen woanders, und es sind drei.",
+    "s5P2": "Die Oberfläche, weil nicht alle gleich auf die Witterung und die Pflege reagieren, die das Projekt gewährleisten kann. Die Ausstattung, weil sie sich nach der vorhandenen oder möglichen Installation richtet. Die Montage, weil sie davon abhängt, wer das Produkt wie oft benutzt.",
+    "s5P3": "Das sind die Fragen, die wir stellen, bevor wir irgendetwas vorschlagen. Das ist keine Verkaufshöflichkeit: Es ist die Art, wie wir verhindern, dass sich ein Planer drei Jahre nach der Lieferung für eine Entscheidung rechtfertigen muss, die besser hätte getroffen werden können.",
+    "s5P4": "Unsere Arbeit endet, wenn das Projekt der Zeit standhält. Nicht, wenn die Bestellung aufgegeben wird.",
+    "formH2": "Den Rest erzählen wir Ihnen persönlich.",
+    "formIntro": "Erzählen Sie uns von Ihrem Projekt: von der Privatresidenz über Hospitality bis hin zu Megayachten."
+  },
+  "contatti": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Sprechen Sie mit Fontealta über Ihr Indoor- und Outdoor-Projekt aus Stahl AISI 316. Sitz in Viareggio, Toskana.",
+    "heroEyebrow": "Persönliche Beratung",
+    "heroH1": "Sprechen wir über Ihr Projekt.",
+    "heroSub": "Von der ersten Idee bis zur Montage begleitet Sie unser Team in jeder Phase.",
+    "sedeEyebrow": "Unser Sitz",
+    "form": {
+      "nome": "Vorname",
+      "cognome": "Nachname",
+      "email": "Email",
+      "telefono": "Telefon",
+      "azienda": "Unternehmen",
+      "richiesta": "Was Sie benötigen",
+      "richiestaPlaceholder": "Bitte auswählen",
+      "richiestaOptions": {
+        "preventivo": "Angebot",
+        "consulenza": "Beratung",
+        "altro": "Sonstiges"
+      },
+      "paese": "Land",
+      "paesePlaceholder": "Auswählen…",
+      "paeseAltro": "Anderes Land",
+      "noteFacoltative": "Anmerkungen (optional)",
+      "noteAltro": "Beschreiben Sie Ihre Anfrage",
+      "noteAltroPaese": "Nennen Sie Ihr Land und beschreiben Sie Ihre Anfrage",
+      "notePaese": "Anmerkungen · nennen Sie Ihr Land",
+      "noteContatore": "{n} von {max} Zeichen",
+      "submit": "Absenden",
+      "inviato": "Gesendet",
+      "invioInCorso": "Wird gesendet",
+      "confermaRiga": "Vielen Dank, {nome}. Wir werden uns bei Ihnen melden.",
+      "nuovaRichiesta": "Weitere Anfrage senden",
+      "catalogoRimando": "Sie suchen den Katalog? Erhalten Sie ihn sofort per E-Mail →",
+      "catalogoRicevi": "Katalog ansehen",
+      "catalogoConferma": "Wir haben Ihnen den Katalog an {email} gesendet. Falls Sie ihn nicht finden, prüfen Sie bitte auch Ihren Spam-Ordner.",
+      "catalogoRipiego": "Wir konnten Ihnen die E-Mail leider nicht senden.",
+      "catalogoScarica": "PDF jetzt herunterladen",
+      "newsletterCasella": "Ich willige ein, den Newsletter und die Werbemitteilungen von Fontealta per E-Mail zu erhalten, wie in der <link>Datenschutzerklärung</link> beschrieben.",
+      "newsletterConferma": "Vielen Dank, wir haben Sie für den Newsletter angemeldet. Sie können sich jederzeit über den Link in jeder E-Mail abmelden.",
+      "errorGeneric": "Wir konnten Ihre Anfrage nicht senden. Versuchen Sie es erneut oder schreiben Sie uns an info@fontealta.it.",
+      "privacyRiga": "Mit dem Absenden der Anfrage erklären Sie, die <link>Datenschutzerklärung</link> gelesen zu haben.",
+      "esca": "Dieses Feld leer lassen",
+      "errors": {
+        "nomeRequired": "Geben Sie Ihren Vornamen ein.",
+        "cognomeRequired": "Geben Sie Ihren Nachnamen ein.",
+        "emailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein.",
+        "richiestaRequired": "Wählen Sie eine Option aus.",
+        "paeseRequired": "Wählen Sie Ihr Land aus.",
+        "noteRequired": "Beschreiben Sie Ihre Anfrage mit mindestens 10 Zeichen.",
+        "notePaeseRequired": "Nennen Sie Ihr Land in den Anmerkungen."
+      }
+    },
+    "mapTitle": "Karte des Fontealta-Sitzes in Viareggio",
+    "mapAriaLabel": "Karte",
+    "areaProH2": "Sind Sie Planer?",
+    "areaProText": "Greifen Sie im geschützten Bereich auf technische Datenblätter, Preislisten und 3D-Dateien zu.",
+    "areaProLogin": "Anmelden",
+    "areaProRegister": "Registrieren",
+    "newsletterFooter": {
+      "iscriviti": "Anmelden",
+      "iscritto": "Angemeldet",
+      "casella": "Aktivieren Sie das Kästchen, um sich anzumelden."
+    }
+  },
+  "areaRiservata": {
+    "metaTitle": "Geschützter Bereich",
+    "metaDescription": "Der Bereich für Architekten, Händler und Baustellen wird gerade eingerichtet. Für Preislisten, Datenblätter und Zeichnungen schreiben Sie uns.",
+    "eyebrow": "Geschützter Bereich",
+    "title": "Stahl hat seine eigene Zeit.",
+    "body": "Wir bereiten einen Bereich für Architekten, Händler und Baustellen vor: Preislisten, Datenblätter, Zeichnungen. Für alles andere sind heute wir da.",
+    "cta": "Schreiben Sie uns"
+  },
+  "officina": {
+    "metaTitle": "Wie eine Säule entsteht",
+    "metaDescription": "Die Werkstatt in Viareggio in zwölf Abteilungen, von der Stahlstange bis zur verpackten Säule.",
+    "ogImageAlt": "Illustration der Fontealta-Werkstatt in Viareggio: die zwölf Abteilungen, von der Stahlstange bis zur verpackten Säule",
+    "titoloIframe": "Interaktive Illustration der Fontealta-Werkstatt"
+  },
+  "home": {
+    "heroH1Top": "Stahl",
+    "heroH1Bot": "und Farbe.",
+    "heroSub": "Duschsäulen und Armaturen aus Edelstahl AISI 316. Jede Farbe in RAL, Pantone oder NCS, auch für ein einziges Stück. Made in Viareggio seit 1999.",
+    "heroProjectCta": "Ihr Projekt besprechen",
+    "heroStat1Value": "1999",
+    "heroStat1Label": "Seit",
+    "heroStat2Label": "Kollektionen",
+    "heroStat3Value": "500+",
+    "heroStat3Label": "Artikel",
+    "heroStat4Value": "Italy",
+    "heroStat4Label": "Made in",
+    "featuredEyebrow": "Die Kollektionen",
+    "featuredH2": "Jede Kollektion, eine Geschichte, die es zu erzählen gilt.",
+    "featuredIntro": "Freistehende Duschsäulen, Armaturen, maßgeschneiderte Lösungen. Sieben Oberflächen im Katalog und jede Farbe auf Anfrage, auch für ein einziges Stück.",
+    "featuredPrev": "Vorherige Kollektion",
+    "featuredNext": "Nächste Kollektion",
+    "featuredGoTo": "Zur Kollektion {n} gehen",
+    "featuredCardAlt": "Kollektion {nome}",
+    "featuredCta": "Kollektionen entdecken",
+    "aisiH2Top": "AISI 316.",
+    "aisiH2Bot": "Eine rostfreie Verbindung.",
+    "aisiIntro": "Seit 1999 ist die tiefe Kenntnis des Stahls die Grundlage unserer Kollektionen. Er widersteht salzhaltiger Luft, Chlor und UV-Strahlung. Zu 100% recycelbar, unendlich oft.",
+    "teamEyebrow": "Über uns",
+    "teamH2Top": "Hohe Qualität,",
+    "teamH2Bot": "Zutiefst menschlich.",
+    "teamIntro": "Von Viareggio in der Toskana aus geht jedes Stück durch erfahrene Hände: geschnitten, geschweißt, poliert und kontrolliert, ein Stück nach dem anderen.",
+    "teamCta": "Entdecken Sie unsere Geschichte",
+    "ctaH2": "Erzählen Sie uns von Ihrem Projekt.",
+    "ctaIntro": "Ein Wohnhaus, ein Hotel, eine Yacht: Sagen Sie uns, was Sie planen.",
+    "formPersonal": "Persönliche Daten",
+    "formNeed": "Was Sie benötigen",
+    "metaTitle": "Armaturen und Duschsäulen aus AISI 316 · Fontealta",
+    "metaDescription": "Duschsäulen für innen und außen, Bad- und Küchenarmaturen aus Stahl AISI 316, für Haus, Hotel und Yacht. Jede Farbe in RAL, Pantone oder NCS."
+  },
+  "productCategories": {
+    "lavabo": "Waschtisch",
+    "doccia": "Dusche",
+    "vasca": "Badewanne",
+    "cucina": "Küche",
+    "giardino": "Garten",
+    "bidet": "Bidet"
+  },
+  "productSubtypes": {
+    "accessori": "Zubehör",
+    "accessori-colonna": "Säulenzubehör",
+    "batteria-3-fori": "3-Loch-Batterie",
+    "bocca": "Auslauf",
+    "bodyjet": "Seitenbrause",
+    "braccio": "Brausearm",
+    "braccio-con-soffione": "Wandbrause mit Kopfbrause",
+    "cascata": "Wasserfall",
+    "colonna": "Säule",
+    "colonna-divisibile": "Trennbare Duschsäule",
+    "doccetta": "Handbrause",
+    "erogazione-parete": "Wandanschlussbogen",
+    "flessibile": "Brauseschlauch",
+    "kit": "Kit",
+    "miscelatore": "Mischer",
+    "miscelatore-parete": "Wandmischer",
+    "pannello": "Paneel",
+    "ponte": "Brückenarmatur",
+    "rubinetto": "Wasserhahn",
+    "rubinetto-parete": "Wasserhahn für Wandmontage",
+    "saliscendi": "Brausestange",
+    "scarico": "Ablaufgarnitur",
+    "soffione": "Kopfbrause",
+    "soffitto": "Deckeneinbau"
+  },
+  "legale": {
+    "metaTitle": "Rechtliche Hinweise",
+    "metaDescription": "Nutzungsbedingungen der Fontealta-Website, Datenschutzerklärung, Cookie-Richtlinie und Transparenz beim Einsatz künstlicher Intelligenz.",
+    "eyebrow": "Rechtliches",
+    "title": "Rechtliche Hinweise",
+    "intro": "Die Nutzungsbedingungen der Website fontealta.it sowie die Informationen zur Verarbeitung personenbezogener Daten, zu Cookies und zum Einsatz künstlicher Intelligenz.",
+    "sezioni": {
+      "societa": {
+        "titolo": "Unternehmensangaben und Zertifizierungen",
+        "aggiornato": "Letzte Aktualisierung: Oktober 2026.",
+        "blocchi": [
+          {
+            "li": "<b>Firmenname:</b> {ragioneSociale}"
+          },
+          {
+            "li": "<b>Eingetragener Sitz:</b> {sede}"
+          },
+          {
+            "li": "<b>USt-IdNr.:</b> {piva}"
+          },
+          {
+            "li": "<b>Eintragung im Unternehmensregister der Toscana Nord-Ovest (Italien):</b> Nr. {codiceFiscale} (REA {rea})"
+          },
+          {
+            "li": "<b>Stammkapital:</b> {capitale}, voll eingezahlt"
+          },
+          {
+            "li": "<b>PEC (zertifizierte E-Mail):</b> {pec}"
+          },
+          {
+            "li": "<b>Zertifizierung:</b> Qualitätsmanagementsystem nach {norma}, Zertifikat Nr. {numero}, ausgestellt von {ente}, IAF-Bereich {settore}, gültig bis {scadenza}."
+          },
+          {
+            "li": "<b>Zum Herunterladen:</b> {certificato} · {politica}"
+          }
+        ],
+        "documenti": {
+          "certificato": "Zertifikat ISO 9001:2015 (PDF)",
+          "politica": "Qualitätspolitik (PDF)"
+        }
+      },
+      "termini": {
+        "titolo": "Nutzungsbedingungen der Website",
+        "aggiornato": "Letzte Aktualisierung: Oktober 2026.",
+        "blocchi": [
+          {
+            "h3": "Annahme"
+          },
+          {
+            "p": "Der Zugriff auf die Website fontealta.it und ihre Seiten (im Folgenden „die Website“) sowie deren Nutzung setzen die vollständige Annahme der vorliegenden Nutzungsbedingungen voraus. Wer diese nicht annehmen möchte, wird gebeten, die Website nicht zu nutzen. Rubinetteria F & F L’Artigiana S.r.l. (im Folgenden „Fontealta“ oder „die Gesellschaft“) kann die vorliegenden Nutzungsbedingungen jederzeit ändern; maßgeblich ist die auf dieser Seite veröffentlichte Fassung mit dem Datum der letzten Aktualisierung. Bei Abweichungen zwischen den Sprachversionen der Website ist die italienische Fassung maßgeblich."
+          },
+          {
+            "h3": "Art der Website"
+          },
+          {
+            "p": "Die Website dient der Information und Präsentation der Produkte von Fontealta. <b>Die Website ist kein Online-Shop</b>: Sie ermöglicht keine Käufe, weist keine Preise für die Öffentlichkeit aus und stellt kein Angebot an die Öffentlichkeit im Sinne von Art. 1336 des italienischen Zivilgesetzbuchs (Codice Civile) dar. Die veröffentlichten Informationen, einschließlich Produktbeschreibungen, Oberflächen, Bilder und etwaiger technischer Merkmale, haben rein informativen Charakter. Für jede Lieferung sind ausschließlich das von der Gesellschaft ausgestellte kommerzielle Angebot und die Auftragsbestätigung sowie die offiziellen Kataloge und Preislisten in der jeweils gültigen Fassung maßgeblich."
+          },
+          {
+            "h3": "Geistiges Eigentum"
+          },
+          {
+            "p": "Sämtliche Inhalte der Website sind Eigentum von Fontealta oder ihrer Lizenzgeber und werden durch die italienischen und internationalen Vorschriften zum Urheberrecht, zu Marken und zum Design geschützt. Dazu gehören beispielsweise: Texte, Fotografien, Renderings und Bilder, Videos, Zeichnungen, technische Datenblätter, Kataloge und Preislisten, der Code der Website, die Marke <b>Fontealta</b>, das Monogramm, die auf der Website veröffentlichten Kollektionsnamen und die Modellcodes."
+          },
+          {
+            "p": "Die Produkte von Fontealta, ihr Design und ihre Formen entstammen ausschließlich der Gestaltung der Gesellschaft. Die Vervielfältigung, Kopie, Nachahmung, Fälschung oder Verwendung, auch teilweise, von Produkten, Zeichnungen, Marken und Namen ist ohne schriftliche Zustimmung der Gesellschaft untersagt."
+          },
+          {
+            "p": "Das Ansehen der Website sowie das Ausdrucken oder Speichern einzelner Seiten für den persönlichen, nicht kommerziellen Gebrauch ist gestattet, sofern jede Kopie die Quellenangabe und die Hinweise auf das geistige Eigentum enthält. Jede andere Nutzung, insbesondere die Vervielfältigung der Produktbilder auf Websites, in Katalogen, auf Marktplätzen oder in Materialien Dritter, bedarf der schriftlichen Genehmigung der Gesellschaft, die bei info@fontealta.it anzufragen ist."
+          },
+          {
+            "p": "Die auf der Website eventuell genannten Marken, Namen und Logos Dritter (darunter die Bezeichnungen der Oberflächen, technischer Standards wie AISI und RAL, von Messen und von Technologieanbietern) gehören den jeweiligen Inhabern."
+          },
+          {
+            "h3": "Erlaubte Nutzung"
+          },
+          {
+            "p": "Der Nutzer verpflichtet sich, die Website in Übereinstimmung mit dem Gesetz und den vorliegenden Nutzungsbedingungen zu nutzen. Insbesondere ist es untersagt: Inhalte, Bilder oder Daten der Website systematisch zu extrahieren oder zu sammeln (Scraping, unbefugtes Crawling, Massendownloads); Viren oder schädlichen Code einzuschleusen oder den Betrieb der Website oder der sie hostenden Infrastruktur zu beeinträchtigen; das Kontaktformular für automatisierte, werbliche oder seiner Funktion fremde Zwecke zu verwenden; die technischen Schutzmaßnahmen der Website zu umgehen."
+          },
+          {
+            "h3": "Gewährleistungsausschluss und Haftungsbeschränkung"
+          },
+          {
+            "p": "Fontealta bemüht sich um die Richtigkeit der Inhalte der Website, gewährleistet jedoch nicht, dass diese fehlerfrei, vollständig oder jederzeit aktuell sind; sie behält sich vor, diese ohne vorherige Ankündigung zu ändern. Die Produkteigenschaften können sich ohne vorherige Ankündigung ändern; die am Bildschirm wiedergegebenen Oberflächenfarben sind unverbindlich und können vom tatsächlichen Produkt abweichen. Fontealta gewährleistet nicht, dass die Website stets erreichbar oder frei von Unterbrechungen ist."
+          },
+          {
+            "p": "Im gesetzlich zulässigen Umfang haftet Fontealta nicht für unmittelbare oder mittelbare Schäden, die sich aus der Nutzung oder der Unmöglichkeit der Nutzung der Website, aus dem Vertrauen auf die darin enthaltenen Informationen, aus Unterbrechungen, Fehlern, Viren oder unbefugten Zugriffen ergeben, außer im Falle von Vorsatz oder grober Fahrlässigkeit. Nichts in den vorliegenden Nutzungsbedingungen schließt eine Haftung aus oder beschränkt sie, die gesetzlich nicht ausgeschlossen werden kann."
+          },
+          {
+            "h3": "Links zu Websites Dritter"
+          },
+          {
+            "p": "Die Website kann Links zu Websites Dritter enthalten (zum Beispiel Social-Media-Profile, Messe-Websites, Partner). Diese Websites werden nicht von Fontealta kontrolliert, die nicht für deren Inhalte, Datenschutzrichtlinien oder Funktionsweise verantwortlich ist. Wer einen Link zur Website setzen möchte, kann dies auf die Startseite oder auf einzelne Seiten tun, ohne diese einzubetten (Framing) und ohne eine nicht bestehende Verbindung oder Billigung nahezulegen."
+          },
+          {
+            "h3": "Kontaktformular und Anfragen"
+          },
+          {
+            "p": "Über das Kontaktformular gesendete Anfragen werden gemäß der Datenschutzerklärung bearbeitet. Eine Antwort der Gesellschaft auf eine Anfrage stellt keine vertragliche Verpflichtung dar, solange sie nicht in einem Angebot oder einer Auftragsbestätigung formalisiert wurde."
+          },
+          {
+            "h3": "Anwendbares Recht und zuständiges Gericht"
+          },
+          {
+            "p": "Die vorliegenden Nutzungsbedingungen unterliegen italienischem Recht. Für jede Streitigkeit in Bezug auf die Website und die vorliegenden Nutzungsbedingungen ist ausschließlich das Gericht Lucca zuständig, vorbehaltlich des für Verbraucher gesetzlich zwingend vorgeschriebenen Gerichtsstands."
+          }
+        ]
+      },
+      "privacy": {
+        "titolo": "Datenschutzerklärung",
+        "aggiornato": "Letzte Aktualisierung: Oktober 2026.",
+        "blocchi": [
+          {
+            "p": "Die vorliegende Datenschutzerklärung beschreibt die Art und Weise der Verarbeitung personenbezogener Daten der Nutzer, die die Website aufrufen und ihre Kontakt-, Katalog- und Newsletter-Anmeldeformulare verwenden, gemäß Art. 13 der Verordnung (EU) 2016/679 („GDPR“) und des italienischen Gesetzesdekrets (D.Lgs.) 196/2003 in der durch das D.Lgs. 101/2018 geänderten Fassung."
+          },
+          {
+            "h3": "Verantwortlicher"
+          },
+          {
+            "p": "Rubinetteria F & F L’Artigiana S.r.l., Via Libeccio 13/15, 55049 Viareggio (LU), Italien, USt-IdNr. IT01718720467, E-Mail info@fontealta.it, PEC (zertifizierte E-Mail) fontealta_lartigiana@pec.it. Der Verantwortliche kann für jede Anfrage zu personenbezogenen Daten unter den angegebenen Kontaktdaten erreicht werden. Die Gesellschaft hat keinen Datenschutzbeauftragten benannt, da die gesetzlichen Voraussetzungen dafür nicht vorliegen."
+          },
+          {
+            "h3": "Erhobene Daten und Zwecke"
+          },
+          {
+            "p": "<b>Kontaktformular.</b> Vorname, Nachname, E-Mail, Telefon (optional), Unternehmen (optional) und Art der Anfrage, wählbar zwischen Angebot, Beratung und Sonstiges. Außerdem: Land, Anmerkungen (optional; erforderlich bei der Anfrageart „Sonstiges“ oder bei „Anderes Land“) und die Sprache, in der die Website aufgerufen wird, automatisch erkannt. Zweck: Beantwortung von Informations- und Angebotsanfragen. Rechtsgrundlage: Durchführung vorvertraglicher Maßnahmen auf Anfrage der betroffenen Person (Art. 6.1.b GDPR) und berechtigtes Interesse des Verantwortlichen an der Beantwortung (Art. 6.1.f). Nach dem Absenden erhält die betroffene Person an die angegebene Adresse eine automatische E-Mail zur Bestätigung des Eingangs, die über Brevo versendet wird. Das Absenden der Anfrage führt nicht zur Anmeldung zum Newsletter, die nur erfolgt, wenn die betroffene Person das dafür vorgesehene optionale Kästchen anklickt."
+          },
+          {
+            "p": "<b>Katalogwunsch.</b> Vorname, Nachname, E-Mail und Land; Anmerkungen nur bei „Anderes Land“, um es anzugeben. Außerdem: die Sprache, in der die Website aufgerufen wird, automatisch erkannt. Zweck: Versand des angeforderten Katalogs als PDF per E-Mail, in der Sprache des angegebenen Landes, und Beantwortung der Anfrage. Das Absenden der Anfrage führt nicht zur Anmeldung zum Newsletter, die nur erfolgt, wenn die betroffene Person das dafür vorgesehene optionale Kästchen anklickt. Rechtsgrundlage: Durchführung vorvertraglicher Maßnahmen auf Anfrage der betroffenen Person (Art. 6.1.b GDPR) und berechtigtes Interesse des Verantwortlichen an der Beantwortung (Art. 6.1.f)."
+          },
+          {
+            "p": "<b>Newsletter und Werbemitteilungen.</b> Daten: E-Mail, Vorname, Nachname, Land (im Formular in der Fußzeile nicht abgefragt), Sprache der Website, Herkunftsseite, Datum, Uhrzeit und Version des Einwilligungstexts. Zweck: Versand des Newsletters und von Werbemitteilungen zu Produkten, Kollektionen, Projekten und Veranstaltungen von Fontealta per E-Mail sowie aggregierte und individuelle Messung der Öffnungen und Klicks der Nachrichten, um deren Inhalte zu verbessern. Rechtsgrundlage: Einwilligung der betroffenen Person (Art. 6.1.a GDPR und Art. 130 D.Lgs. 196/2003), erteilt durch Anklicken des optionalen Kästchens beim Absenden eines Kontaktformulars oder eines Formulars zur Kataloganfrage oder durch Anmeldung über das Newsletter-Formular in der Fußzeile der Website, das Vorname, Nachname und E-Mail sowie das Anklicken des Kästchens abfragt. Die Einwilligung ist freiwillig: Eine fehlende Einwilligung verhindert oder beeinflusst weder die Beantwortung von Anfragen noch den Versand des Katalogs. Die Einwilligung kann jederzeit über den Abmeldelink in jeder E-Mail oder per Nachricht an info@fontealta.it widerrufen werden, ohne die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung zu berühren (Art. 7.3 GDPR)."
+          },
+          {
+            "p": "<b>Technische Navigationsdaten.</b> IP-Adresse, Browser- und Gerätetyp, aufgerufene Seiten, Zeitpunkte, die von den Hosting- und Distributionsanbietern zum Betrieb und zur Sicherheit der Website verarbeitet werden (Schutz vor Angriffen, Diagnose). Rechtsgrundlage: berechtigtes Interesse (Art. 6.1.f). Diese Daten werden nicht zur Identifizierung des Nutzers verwendet."
+          },
+          {
+            "p": "<b>Nutzungsstatistiken.</b> Die Website verwendet Vercel Web Analytics, das weder Cookies noch dauerhafte Identifikatoren einsetzt und aggregierte Daten erhebt (besuchte Seiten, verweisende Seite, Land, Geräteart). Dabei handelt es sich nicht um Profiling, und es ist keine Einwilligung erforderlich."
+          },
+          {
+            "p": "Die Website sieht keine Registrierung von Konten für die Öffentlichkeit vor, betreibt kein Profiling und trifft keine automatisierten Entscheidungen. Werbemitteilungen werden nur an Personen gesendet, die ihre Einwilligung in der oben beschriebenen Weise erteilt haben. Die Angabe der im Formular als Pflichtfelder gekennzeichneten Daten ist erforderlich, um der Anfrage nachzukommen; fehlen sie, kann die Anfrage nicht bearbeitet werden. Die Einwilligung in den Newsletter ist dagegen freiwillig."
+          },
+          {
+            "h3": "Empfänger und Auftragsverarbeiter"
+          },
+          {
+            "p": "Die Daten können im Auftrag des Verantwortlichen von Anbietern verarbeitet werden, die gemäß Art. 28 GDPR als Auftragsverarbeiter benannt sind:"
+          },
+          {
+            "li": "Vercel Inc.: Hosting, Web-Infrastruktur und Nutzungsstatistiken"
+          },
+          {
+            "li": "Sanity AS: Verwaltung der Inhalte (CMS)"
+          },
+          {
+            "li": "Zapier Inc.: Weiterleitung der über die Formulare der Website gesendeten Anfragen an den Verantwortlichen"
+          },
+          {
+            "li": "Sendinblue SAS (Brevo), 17 rue Salneuve, 75017 Paris, Frankreich: Versand der E-Mail mit dem angeforderten Katalog und der automatischen Bestätigungs-E-Mail für Kontaktanfragen, Versand des Newsletters und Verwaltung der An- und Abmeldungen"
+          },
+          {
+            "li": "Cloudflare Inc.: Hosting und Verteilung der Videos"
+          },
+          {
+            "p": "Auf der Seite Kontakt ist eine von Google Ireland Ltd. bereitgestellte Google-Maps-Karte eingebettet: Beim Laden der Karte erhält Google technische Navigationsdaten, darunter die IP-Adresse, und verarbeitet diese gemäß der eigenen Datenschutzerklärung."
+          },
+          {
+            "p": "Die Daten können außerdem von zur Verarbeitung befugten Mitarbeitern der Gesellschaft und, soweit erforderlich, von Beratern, Wiederverkäufern oder Gebietsvertretern zur Kenntnis genommen werden, um der Anfrage im Rahmen des Zwecks nachzukommen. Die Daten werden nicht verbreitet oder an Dritte für deren eigene Zwecke weitergegeben."
+          },
+          {
+            "h3": "Datenübermittlung außerhalb der Europäischen Union"
+          },
+          {
+            "p": "Einige Anbieter, darunter Google für die Karte auf der Seite Kontakt, haben ihren Sitz in den Vereinigten Staaten oder übermitteln dorthin Daten. Die Übermittlungen erfolgen auf der Grundlage geeigneter Garantien gemäß Art. 44-49 GDPR: von der Europäischen Kommission angenommene Standardvertragsklauseln und, soweit anwendbar, die Teilnahme des Anbieters am Data Privacy Framework EU-USA. Eine Kopie der Garantien kann beim Verantwortlichen angefordert werden."
+          },
+          {
+            "h3": "Aufbewahrungsdauer"
+          },
+          {
+            "p": "Die über das Kontaktformular erhobenen Daten werden für die zur Bearbeitung der Anfrage erforderliche Zeit und in jedem Fall höchstens 24 Monate ab dem letzten Kontakt aufbewahrt, sofern nicht andere gesetzliche Pflichten bestehen oder ein Vertragsverhältnis begründet wird; in diesem Fall gelten die für kaufmännische und steuerliche Unterlagen vorgesehenen Aufbewahrungsfristen. Die technischen Navigationsdaten werden von den Anbietern nur für die zur Sicherheit unbedingt erforderliche Zeit aufbewahrt, in der Regel nicht länger als 30 Tage."
+          },
+          {
+            "p": "Die für den Newsletter verarbeiteten Daten werden bis zum Widerruf der Einwilligung und in jedem Fall höchstens 24 Monate ab der letzten Interaktion mit den erhaltenen Mitteilungen aufbewahrt und danach gelöscht. Nach dem Widerruf oder der Löschung bewahrt der Verantwortliche nur die E-Mail-Adresse und die Angaben zur Einwilligung und zu ihrem Widerruf auf, für die Zeit, die erforderlich ist, um die Rechtmäßigkeit der Verarbeitung nachzuweisen und den Willen der betroffenen Person zu respektieren, keine Mitteilungen mehr zu erhalten (Art. 6.1.c und 6.1.f GDPR)."
+          },
+          {
+            "p": "Die Protokolle über den Versand der E-Mails werden von Brevo 24 Monate lang aufbewahrt."
+          },
+          {
+            "h3": "Rechte der betroffenen Person"
+          },
+          {
+            "p": "Die betroffene Person kann jederzeit die in Art. 15-22 GDPR vorgesehenen Rechte ausüben: Zugang zu den eigenen Daten, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit, Widerspruch gegen eine auf berechtigtem Interesse beruhende Verarbeitung und, jederzeit und ohne Begründung, gegen die Verarbeitung zu Marketingzwecken (Art. 21.2 GDPR), Widerruf der Einwilligung (Art. 7.3 GDPR). Anfragen sind an info@fontealta.it zu richten. Der Verantwortliche antwortet innerhalb eines Monats, verlängerbar in den gesetzlich vorgesehenen Fällen."
+          },
+          {
+            "h3": "Beschwerde bei der Aufsichtsbehörde"
+          },
+          {
+            "p": "Die betroffene Person hat das Recht, bei der Garante per la protezione dei dati personali (italienische Datenschutzbehörde, www.gpdp.it) Beschwerde einzulegen, wenn sie der Ansicht ist, dass die Verarbeitung ihrer Daten gegen die GDPR verstößt, unbeschadet jedes weiteren verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs."
+          },
+          {
+            "h3": "Sicherheit"
+          },
+          {
+            "p": "Der Verantwortliche ergreift dem Risiko angemessene technische und organisatorische Maßnahmen: verschlüsselte Verbindungen (HTTPS), Zugriffskontrolle für das CMS, qualifizierte Anbieter, die durch Vereinbarungen gemäß Art. 28 GDPR gebunden sind, Schutzmaßnahmen gegen automatisierte Übermittlungen über das Kontaktformular."
+          },
+          {
+            "h3": "Änderungen"
+          },
+          {
+            "p": "Die vorliegende Datenschutzerklärung kann aktualisiert werden; maßgeblich ist die auf dieser Seite veröffentlichte Fassung mit dem Datum der letzten Aktualisierung."
+          }
+        ]
+      },
+      "cookie": {
+        "titolo": "Cookie-Richtlinie",
+        "aggiornato": "Letzte Aktualisierung: Oktober 2026.",
+        "blocchi": [
+          {
+            "p": "Die vorliegende Cookie-Richtlinie erläutert, welche Cookies und ähnlichen Technologien die Website verwendet, gemäß Art. 122 des italienischen Gesetzesdekrets (D.Lgs.) 196/2003 und den Leitlinien des Garante per la protezione dei dati personali (italienische Datenschutzbehörde) vom 10. Juni 2021."
+          },
+          {
+            "h3": "Was sind Cookies"
+          },
+          {
+            "p": "Cookies sind kleine Textdateien, die Websites auf dem Gerät des Nutzers speichern, um korrekt zu funktionieren oder Informationen zu sammeln. Man unterscheidet zwischen technischen Cookies, die für den Betrieb und die Bereitstellung des vom Nutzer angeforderten Dienstes erforderlich sind und für die keine Einwilligung erforderlich ist, sowie Profiling-Cookies oder Cookies Dritter zu Marketingzwecken, die eine vorherige Einwilligung erfordern."
+          },
+          {
+            "h3": "Von der Website verwendete Cookies"
+          },
+          {
+            "p": "Die Website verwendet ausschließlich technische und funktionale Cookies. Sie verwendet keine Profiling-, Marketing- oder Cookies Dritter zu diesen Zwecken und gibt keine Daten für solche Zwecke an Dritte weiter. Gemäß den Leitlinien des Garante ist daher keine vorherige Einwilligung erforderlich, und es ist kein Einwilligungsbanner vorhanden."
+          },
+          {
+            "li": "<b>NEXT_LOCALE</b>: speichert die Sprache der besuchten Seiten, um die Inhalte in der richtigen Sprache anzuzeigen. Dauer: Sitzung. Zweck: funktional. Erstanbieter."
+          },
+          {
+            "li": "<b>Vorschau-Cookies für Inhalte</b> (__prerender_bypass, sanity-preview-perspective, sanity-preview-variant, sanity-preview-partitioned): werden nur für die Administratoren der Website während der Bearbeitung der Inhalte im CMS gesetzt. Dauer: Sitzung. Zweck: technisch. Erstanbieter."
+          },
+          {
+            "h3": "Nutzungsstatistiken"
+          },
+          {
+            "p": "Für die Nutzungsstatistiken verwendet die Website Vercel Web Analytics, das weder Cookies noch dauerhafte Identifikatoren einsetzt und aggregierte Daten erhebt (besuchte Seiten, verweisende Seite, Land, Geräteart). Dabei handelt es sich nicht um Profiling, und es ist keine Einwilligung erforderlich."
+          },
+          {
+            "h3": "Inhalte Dritter"
+          },
+          {
+            "p": "Die Seite Kontakt enthält eine eingebettete Google-Maps-Karte. In der von der Website verwendeten Konfiguration setzt die Karte keine Cookies (Prüfung vom 16. September 2026); sie erhält jedoch technische Navigationsdaten, wie in der Datenschutzerklärung beschrieben. Sollte Google dieses Verhalten ändern, wird vor dem Laden der Karte ein Einwilligungsbanner aktiviert."
+          },
+          {
+            "p": "Die auf der Website vorhandenen Videos werden von Cloudflare Inc. ohne Cookies bereitgestellt. Die Website bindet keine weiteren Widgets oder Skripte Dritter, von sozialen Netzwerken oder von Werbeplattformen ein. Etwaige Links zu Websites Dritter (soziale Netzwerke, Messen, Partner) führen zu Websites, die ihre eigenen Cookie-Richtlinien anwenden."
+          },
+          {
+            "h3": "Wie man Cookies verwaltet"
+          },
+          {
+            "p": "Der Nutzer kann Cookies über die Einstellungen seines Browsers blockieren oder löschen. Die Deaktivierung technischer Cookies kann einige Funktionen der Website beeinträchtigen, zum Beispiel die Speicherung der Sprache. Anleitungen finden sich in den Hilfeseiten von Chrome, Firefox, Safari und Edge."
+          },
+          {
+            "h3": "Aktualisierungen"
+          },
+          {
+            "p": "Die vorliegende Cookie-Richtlinie kann im Laufe der Zeit aktualisiert werden; Änderungen werden auf dieser Seite veröffentlicht. Bei zukünftiger Einführung von Analysetools mit Cookies oder von Profiling-Tools wird vor deren Laden ein entsprechendes Einwilligungsbanner aktiviert."
+          }
+        ]
+      },
+      "ai": {
+        "titolo": "Transparenz beim Einsatz künstlicher Intelligenz",
+        "aggiornato": "Letzte Aktualisierung: September 2026.",
+        "blocchi": [
+          {
+            "p": "Gemäß Art. 50 der Verordnung (EU) 2024/1689 („AI Act“) informiert Fontealta darüber, dass:"
+          },
+          {
+            "li": "<b>Bilder.</b> Einige auf der Website veröffentlichte Ambiente-Bilder werden mit Werkzeugen der künstlichen Intelligenz auf der Grundlage der offiziellen Renderings der Fontealta-Produkte erstellt. Fotografien der Produkte, des Werks und der Personen werden nicht künstlich erzeugt. Die abgebildeten Produkte entsprechen den tatsächlichen Produkten; Umgebungen und Farben haben illustrativen Charakter."
+          },
+          {
+            "li": "<b>Kein interaktives System.</b> Die Website verwendet keine Konversationsassistenten, Chatbots, Systeme zur Emotionserkennung oder biometrischen Kategorisierung."
+          }
+        ]
+      }
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Material, Projekt, Territorium. Der Stahl AISI 316, erzählt von denen, die ihn seit 1999 von Berufs wegen kennen.",
+    "heroTitle": "Blog",
+    "heroSubtitle": "Material, Projekt, Territorium. Der Stahl AISI 316, erzählt von denen, die ihn seit 1999 von Berufs wegen kennen.",
+    "filterAll": "Alle",
+    "readArticle": "Artikel lesen",
+    "prev": "Vorherige",
+    "next": "Nächste",
+    "empty": "Kein Artikel veröffentlicht.",
+    "back": "Zurück zum Blog",
+    "writtenBy": "Geschrieben von",
+    "readingTime": "{min} Min. Lesezeit",
+    "updatedOn": "Aktualisiert am {date}",
+    "watchOnYoutube": "Auf YouTube ansehen",
+    "contactH2": "Haben Sie eine technische Frage?",
+    "contactSub": "Schreiben Sie uns: Es antwortet Ihnen, wer den Stahl jeden Tag bearbeitet.",
+    "notFound": "Artikel nicht gefunden"
+  },
+  "errorPages": {
+    "notFound": {
+      "eyebrow": "404",
+      "metaTitle": "Seite nicht gefunden",
+      "title": "Diese Seite existiert nicht, oder nicht mehr.",
+      "body": "Wie Wasser fließt und verändert sich unser Katalog. Was Sie suchen, hat vielleicht seine Form geändert.",
+      "ctaPrimary": "Kollektionen entdecken",
+      "ctaSecondary": "Zurück zur Startseite"
+    },
+    "error": {
+      "title": "Etwas hat nicht funktioniert.",
+      "body": "Ein technisches Problem, kein Fabrikationsfehler. Versuchen Sie es gleich noch einmal, oder schreiben Sie uns an <mail>info@fontealta.it</mail>.",
+      "ctaRetry": "Erneut versuchen",
+      "ctaSecondary": "Kollektionen entdecken"
+    }
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "contactPrompt": "Keine Antwort gefunden? <link>Schreiben Sie uns</link>"
+  },
+  "paginaUso": {
+    "outdoorShower": "Gartendusche",
+    "inSintesi": "Kurz gesagt",
+    "tabella": "Vergleichstabelle",
+    "collezioni": "Unsere Kollektionen mit Duschsäule für draußen"
+  },
+  "immagini": {
+    "stabilimento": "Das Fontealta-Werk in Viareggio",
+    "collezione": "Kollektion {nome}",
+    "prodotto": "{descrizione} {codice}, {collezione}",
+    "prodottoConMisura": "{descrizione} {codice}, {misura}, {collezione}",
+    "misura": "{nome} {valore}",
+    "misure": {
+      "altezzaTotale": "Gesamthöhe",
+      "diametroPlacca": "Rosetten-Ø",
+      "placca": "Rosette",
+      "sporgenzaBocca": "Ausladung Auslauf",
+      "diametroSoffione": "Kopfbrausen-Ø",
+      "soffione": "Kopfbrause",
+      "lunghezza": "Länge",
+      "diametro": "Ø",
+      "base": "Sockel",
+      "profondita": "Tiefe"
+    }
+  }
+}

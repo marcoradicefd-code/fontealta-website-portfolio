@@ -1,0 +1,789 @@
+{
+  "skip": {
+    "toContent": "Skip to content"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "collezioni": "Collections",
+    "produzione": "Production",
+    "outdoor": "Outdoor",
+    "indoor": "Indoor",
+    "kitchen": "Kitchen",
+    "finiture": "Finishes",
+    "chiSiamo": "About",
+    "contatti": "Contact",
+    "blog": "Blog",
+    "areaPro": "Pro Area",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "back": "Back",
+    "home": "Home",
+    "breadcrumbAria": "Breadcrumb",
+    "switchTo": "Switch to {lang}",
+    "langLabel": "Select language",
+    "comingSoon": "Coming soon",
+    "menzioniLegali": "Legal notice"
+  },
+  "footer": {
+    "columns": {
+      "collezioni": "Collections",
+      "azienda": "Company",
+      "contatti": "Contact",
+      "suDiNoi": "About us",
+      "legal": "Legal",
+      "areaRiservata": "Pro area",
+      "newsletter": "Newsletter"
+    },
+    "links": {
+      "chiSiamo": "About",
+      "produzione": "Production",
+      "finiture": "Finishes",
+      "progetti": "Projects",
+      "news": "News",
+      "richiediPreventivo": "Request a quote",
+      "areaPro": "Pro Area"
+    },
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "allRightsReserved": "All rights reserved.",
+    "newsletterInvito": "Collections, finishes and completed projects: the latest from Fontealta."
+  },
+  "brand": {
+    "wordmark": "FONTEALTA",
+    "tagline": {
+      "line1": "Steel specialists.",
+      "line2": "Outdoor showers.",
+      "line3": "Made in Italy."
+    }
+  },
+  "collezioni": {
+    "heroEyebrow": "The catalogue.",
+    "heroH1Top": "We dress water",
+    "heroH1Bot": "in AISI 316 steel.",
+    "heroSub": "Fontealta collections in AISI 316 stainless steel, for the bathroom, the outdoors, the kitchen, the yacht.",
+    "heroImageAlt": "Aerial view of a white sand beach and the turquoise sea breaking along it.",
+    "stat1Label": "Collections",
+    "stat2Value": "500+",
+    "stat2Label": "Articles",
+    "stat3Value": "7",
+    "stat3Label": "Catalogue finishes",
+    "stat4Value": "Italy",
+    "stat4Label": "Made in",
+    "gridEyebrow": "The collections",
+    "gridH2": "Every collection, a story to tell.",
+    "gridIntro": "Every collection starts from a point of view on the relationship between steel, gesture and everyday life.",
+    "progettareH2": "Can’t find what you’re looking for?",
+    "progettareSub": "Tell us about your project: residence, hospitality, yacht. Our technical team guides you from finish selection to bespoke design.",
+    "metaTitle": "Collections",
+    "metaDescription": "Fontealta collections in AISI 316 stainless steel: bathroom, outdoors, kitchen, yacht. Freestanding columns, taps, made-to-measure solutions.",
+    "titoloConTipo": "{tipo} {titolo}",
+    "tipoBreve": {
+      "doccia": "Shower columns",
+      "docciaEBagno": "Shower columns",
+      "bagno": "Bathroom taps",
+      "cucina": "Kitchen mixers",
+      "giardino": "Garden taps",
+      "bidet": "Bidet mixers"
+    }
+  },
+  "catalogo": {
+    "eyebrow": "Catalogue",
+    "titolo": "Discover how Made in Italy comes to life",
+    "sottotitolo": "All the collections, finishes and codes in a single PDF. We will send it to you right away.",
+    "badgeAnno": "Catalog 2026",
+    "badgePagine": "143 pages",
+    "badgeFormato": "PDF"
+  },
+  "dettaglio": {
+    "eyebrow": "Collection",
+    "statArticoli": "Articles",
+    "statFiniture": "Finishes",
+    "statAmbient": "Ambient",
+    "filtroFinitura": "Finish",
+    "filtroAmbiente": "Application",
+    "filtroNessunRisultato": "No model matches the selected filters.",
+    "filtriApri": "Filters",
+    "filtriApriConta": "Filters ({n})",
+    "filtriTitolo": "Filters",
+    "filtriChiudi": "Close filters",
+    "filtriMostra": "Show {n} models",
+    "filtriMostraUno": "Show 1 model",
+    "filtriNessuno": "No models",
+    "filtriTogli": "Remove a filter to see models",
+    "filtriAzzera": "Clear",
+    "filtriRimuovi": "Remove filter {nome}",
+    "filtriApplicati": "Applied filters",
+    "tagRichiedeCorpoIncasso": "Requires concealed body",
+    "metaDescription": "The {collezione} collection by Fontealta in AISI 316 stainless steel: {articoli, plural, =1 {one article} other {# articles}}{finiture, plural, =0 {} =1 {, one finish} other {, # finishes}}."
+  },
+  "corpiIncasso": {
+    "eyebrow": "Concealed bodies",
+    "statCorpi": "Bodies",
+    "statAmbienti": "Settings",
+    "usedByTitle": "Used by",
+    "labelAmbiti": "Settings",
+    "metaTitle": "Concealed bodies",
+    "metaDescription": "Fontealta concealed bodies in AISI 316 stainless steel: the part that stays in the wall and carries the project.",
+    "metaTitleCorpo": "{codice} · Concealed bodies",
+    "metaDescriptionCorpo": "{codice}, a Fontealta concealed body in AISI 316 stainless steel: the part that stays in the wall and carries the project."
+  },
+  "modello": {
+    "eyebrow": "Collection",
+    "specsTitle": "Specifications",
+    "labelType": "Type",
+    "labelAmbient": "Ambient",
+    "labelFinishes": "Available finishes",
+    "labelConcealedBody": "Concealed body",
+    "labelCustomizable": "Customizable",
+    "labelDimensions": "Dimensions",
+    "yes": "Yes",
+    "waterHotCold": "Cold and hot water",
+    "waterCold": "Cold water only",
+    "alimStandard": "Standard installation",
+    "alimStandardPlus": "XT / XQ / XQ.A variant",
+    "alimCw": "Concealed water supply",
+    "alimEw": "External water supply",
+    "alim4s": "No-frost: 230V heating",
+    "collectionAffinitiesTitle": "Related collections",
+    "finishesTitle": "Finishes",
+    "metaTitle": "{nome} · {testa}",
+    "metaDescription": "{nome}, from the {collezione} collection by Fontealta. AISI 316 stainless steel{finiture, plural, =0 {.} =1 {, one finish available.} other {, # finishes available.}}",
+    "tipo": "{categoria} {subtype}",
+    "tipoSoloAmbiente": "for the {categoria}",
+    "metaDescriptionTipo": "{nome}. {tipo} by Fontealta, AISI 316 stainless steel{finiture, plural, =0 {.} =1 {, one finish available.} other {, # finishes available.}}"
+  },
+  "schedaModello": {
+    "progettareH2": "Interested in this model?",
+    "progettareSub": "Tell us about your project: we’ll get back to you on finishes, availability and lead times.",
+    "richiediInformazioni": "Request information"
+  },
+  "produzione": {
+    "metaTitle": "Production",
+    "metaDescription": "Every product is made in multiple stages to nautical industry standards: European-made AISI 316 steel, TIG welding, polishing, painting. Viareggio, since 1999.",
+    "heroEyebrow": "Production",
+    "heroH1": "How a column is made.",
+    "heroSub": "It starts with a steel bar six metres long. It ends as a shower column. In between there are more stages than you would expect, and several of them are still done by hand.",
+    "heroImageAlt": "Stainless steel bars being worked at the Fontealta plant in Viareggio.",
+    "fasiAria": "The nine stages of production",
+    "f1Title": "The bar",
+    "f1Spec": "6000 mm · AISI 316",
+    "f1P1": "The steel arrives in six-metre bars, laser marked at source with diameter, wall thickness, heat number, batch and exact production date. Every tube is inspected on arrival.",
+    "f1P2": "It means that for every column leaving here we know which heat it came from. This is not paperwork: it is what makes it possible, years later, to trace a piece back to its origin.",
+    "f1Alt": "Six-metre AISI 316 stainless steel bars, laser marked at source.",
+    "f2Title": "The cut",
+    "f2Spec": "3000 mm · 30° on Twiggy",
+    "f2P1": "The bars are cut exactly in half: three metres, the developed length of the tallest models. No offcuts, nothing left unusable.",
+    "f2P2": "On the Twiggy series the cut is set at thirty degrees, made while the tube is still straight. At that point in the process it looks like a mistake. It compensates for the way the metal shifts during bending, so that the head of the column ends up perfectly parallel to the ground.",
+    "f2Alt": "A stainless steel bar being cut at its mid point.",
+    "f3Title": "The bend",
+    "f3Spec": "Wall thickness > 3 mm",
+    "f3P1": "Cold bending a tube with a wall thicker than three millimetres without crushing it takes a part no customer will ever see: a moving mandrel in bronze and aluminium alloy that goes inside the tube and holds the section round while the bending machine works.",
+    "f3P2": "The mandrel alone is not enough. The elasticity of steel changes imperceptibly from one heat to the next, and two tubes with the same specification react slightly differently. At the start of every batch the bend angle is recalibrated by hand: bend, measure, correct.",
+    "f3Alt": "A bending machine working a thick-walled stainless steel tube.",
+    "f4Title": "The components",
+    "f4Spec": "Milled from solid · CNC",
+    "f4P1": "In our workshop, CNC machining centres mill the internal bodies of the timed taps and the mechanical components from solid. The technical sheet of each piece states what it is made of.",
+    "f4P2": "Milling from solid instead of assembling means fewer joints, and every joint saved is one less place where something can give way.",
+    "f4Alt": "Stainless steel components milled from solid on a CNC machining centre.",
+    "f5Title": "The welding",
+    "f5Spec": "TIG",
+    "f5P1": "The external structures are consolidated with TIG welding. It is the slowest method available and it is the one that holds on the largest structures.",
+    "f5Alt": "TIG welding on an external stainless steel structure.",
+    "f6Title": "The polishing",
+    "f6Spec": "Increasing grit",
+    "f6P1": "This is the stage the customer never sees and the one that decides everything else.",
+    "f6P2": "Raw steel has a natural porosity: microscopic openings where corrosion can take hold. The surface is polished with abrasive papers of increasing grit, then with flap brush machines and cotton wheels, which close the pores for good.",
+    "f6P3": "Only then can the chromium oxide layer, the one that makes steel stainless, wrap the whole surface without leaving weak points. A mirror finish is not a flourish: it is the sign that nothing underneath has been left open.",
+    "f6Alt": "Polishing a stainless steel surface with flap brushes.",
+    "f7Title": "The finish",
+    "f7Spec": "7 finishes · RAL Pantone NCS",
+    "f7P1": "This is where the column takes on its skin: mirror, brushed, painted and PVD. There are seven finishes in the catalogue. Colour is another matter: it has no number, because painting has no limits. RAL, Pantone or NCS, even on a single piece.",
+    "f7Alt": "Stainless steel shower columns in different finishes side by side.",
+    "f8Title": "The drying",
+    "f8Spec": "14 days · −20/+60 °C",
+    "f8P1": "Painted parts dry naturally, at room temperature, for two weeks. That is two of the five we quote as production time.",
+    "f8P2": "An oven would do the same job in under an hour, but it would harden the paint and make it rigid. An outdoor column goes from minus twenty degrees in winter to over sixty on a surface in full sun, and with every cycle the steel expands. A rigid paint cracks sooner or later. A slowly dried paint stays elastic and follows the metal.",
+    "f8P3": "Two weeks of waiting against ten years of durability.",
+    "f8Alt": "Painted parts drying naturally at room temperature.",
+    "f9Title": "Assembly, testing, packing",
+    "f9Spec": "Millimetric tolerances",
+    "f9P1": "Inside, the plumbing is fitted, with every connection working to millimetric tolerances. The handles receive the Fontealta laser marking, which authenticates the piece. Every column is hydraulically tested before it leaves.",
+    "f9P2": "The last step is a soft non-woven bag, then shock-proof packing: because the riskiest part of the journey, for a mirror polished and painted piece, is often the last one.",
+    "f9Alt": "Fitting the internal plumbing and testing a shower column.",
+    "chiusuraH2": "Time is a material.",
+    "chiusuraP": "We do not work to be fast. We work so the piece holds up outside, in salt and sun, for years to come.",
+    "chiusuraCta": "Explore the workshop",
+    "chiusuraDidascalia": "Illustrated reconstruction of the Viareggio workshop.",
+    "formH2": "Want to see how we work?"
+  },
+  "finiture": {
+    "metaTitle": "Finishes",
+    "metaDescription": "Seven catalogue finishes and any colour on request: RAL, Pantone or NCS, even on a single piece. On the same AISI 316 steel.",
+    "heroEyebrow": "Materials",
+    "heroTitle": "The finishes.",
+    "heroSubtitle": "Natural, painted, PVD. Customisation on request in any RAL, PANTONE, NCS.",
+    "emptyState": "No finishes available at the moment.",
+    "progettareH2": "Is the colour you need not on this page?",
+    "category": {
+      "natural": "Natural",
+      "mirror": "Mirror",
+      "painted": "Painted",
+      "pvd": "PVD"
+    }
+  },
+  "referenze": {
+    "metaTitle": "Projects",
+    "metaDescription": "Fontealta projects and installations by architects and studios worldwide.",
+    "heroEyebrow": "Projects",
+    "heroTitle": "Projects by Fontealta.",
+    "heroSubtitle": "Mediterranean villas, beach clubs, yachts. Where Fontealta steel takes shape.",
+    "eyebrowItem": "Project",
+    "emptyEyebrow": "Coming soon",
+    "emptyTitle": "Our projects, online soon.",
+    "emptyBody": "We’re curating the most significant projects realised with Fontealta. In the meantime, tell us about yours.",
+    "emptyCta": "Get in touch",
+    "notFoundTitle": "Project not found",
+    "galleryEyebrow": "Gallery",
+    "galleryHeading": "The project in images.",
+    "collectionsEyebrow": "Collections",
+    "collectionsHeading": "Collections used.",
+    "collectionEyebrowItem": "Collection",
+    "category": {
+      "hospitality": "Hospitality",
+      "residenziale": "Residential",
+      "yacht": "Yacht",
+      "beach-club": "Beach club",
+      "spa-wellness": "Spa · Wellness"
+    }
+  },
+  "chiSiamo": {
+    "metaTitle": "About us",
+    "metaDescription": "Since 1999 in Viareggio we have worked AISI 316 stainless steel: freestanding shower columns, taps, made-to-measure colour. Two trades, one idea.",
+    "heroH1": "Marine steel.",
+    "heroSub": "Since 1999 we have worked AISI 316 stainless steel in Viareggio, by the sea, where salt puts every surface to the test.",
+    "s1Eyebrow": "1999",
+    "s1H2": "Two trades, one idea.",
+    "s1P1": "Fontealta was born in Viareggio in February 1999, from the meeting of two skills that rarely speak to each other.",
+    "s1P2": "On one side, taps and fittings. Andrea Farnocchia’s father had spent a lifetime there: he knew how to make water flow inside a metal body, which tolerances matter and which things break.",
+    "s1P3": "On the other, boatbuilding. Andrea came from studies in that field, where the first question about a material is never whether it is beautiful, but how well it resists salt.",
+    "s1P4": "From that meeting came a choice that seemed eccentric at the time: making high-end taps in stainless steel, instead of chrome-plated brass like everyone else.",
+    "s1ImageAlt": "Fontealta craftsman working on a steel mixer",
+    "s2H2": "Why AISI 316.",
+    "s2P1": "By the sea, steel meets salt every day: that is why it takes marine steel.",
+    "s2P2": "Between AISI 304 and AISI 316 there are a few percentage points of molybdenum. That little is what slows pitting corrosion, the kind that starts from an invisible point and spreads from there.",
+    "s2P3": "316 costs more and is harder to work: it slows down every stage of production, and its extra nickel and molybdenum make it a more expensive raw material.",
+    "s2P4": "Our shower columns and steel taps are AISI 316. And the steel we work is exclusively of European production.",
+    "s3H2": "From tube to testing.",
+    "s3P1": "Freestanding shower columns, bathroom taps, solutions for kitchens and for yachts. Twenty collections, over five hundred articles, seven catalogue finishes and any colour on request: RAL, Pantone or NCS, even on a single piece, with no minimum order.",
+    "s3P2": "We design and manufacture in-house, from raw tube to hydraulic testing. The production cycle is entirely Italian: machine precision where the machine is needed, the craftsman’s hand where the machine cannot reach.",
+    "s3P3": "When a project asks for something that does not exist, we build it. It is a habit we have from working on megayachts, where the standard piece is almost never enough.",
+    "s4H2": "Why exactly here.",
+    "s4P1": "Viareggio is not an address. It is the reason we can do certain things.",
+    "s4P2": "The shipyards gave us suppliers who work steel to yacht-building standards: a flaw that would go unnoticed elsewhere is immediately flagged here, and becomes a reject.",
+    "s4P3": "The beach clubs and hotels of the coast are our proving ground: a shower that survives a summer on the beach has already surpassed any domestic use.",
+    "s4P4": "And then there is the Carnival. The floats are structures up to twenty metres tall, rebuilt from scratch every year and hand-painted in whatever shade is needed. Around them, and around the megayacht painters, Viareggio has grown a network of specialists with no equivalent in the rest of Italy.",
+    "s4P5": "They are the same suppliers we turn to. That is why an off-catalogue shade on a single piece is, for us, a normal request and not an exception to negotiate.",
+    "s5H2": "Questions first.",
+    "s5P1": "Our shower columns and steel taps are always AISI 316, and can be installed anywhere. The differences lie elsewhere, and there are three.",
+    "s5P2": "The finish, because not all of them respond the same way to the exposure and maintenance the project will be able to guarantee. The equipment, because it changes according to the system in place or the one that can be brought in. The installation, because it depends on who will use the product and how often.",
+    "s5P3": "These are the questions we ask before proposing anything. It is not commercial courtesy: it is how we avoid a designer finding themselves, three years after delivery, answering for a choice that could have been made better.",
+    "s5P4": "Our work ends when the project holds over time. Not when the order is placed.",
+    "formH2": "The rest we tell in person.",
+    "formIntro": "Tell us about your project: from private residences to hospitality, all the way to megayachts."
+  },
+  "contatti": {
+    "metaTitle": "Contact",
+    "metaDescription": "Talk to Fontealta about your AISI 316 stainless steel indoor or outdoor project. Based in Viareggio, Tuscany.",
+    "heroEyebrow": "Personalised consultation",
+    "heroH1": "Let’s talk about your project.",
+    "heroSub": "From the first idea to installation, our team supports you at every stage.",
+    "sedeEyebrow": "Our office",
+    "form": {
+      "nome": "First name",
+      "cognome": "Last name",
+      "email": "Email",
+      "telefono": "Phone",
+      "azienda": "Company",
+      "richiesta": "How can we help",
+      "richiestaPlaceholder": "Choose an option",
+      "richiestaOptions": {
+        "preventivo": "Quote",
+        "consulenza": "Consultancy",
+        "altro": "Other"
+      },
+      "paese": "Country",
+      "paesePlaceholder": "Select…",
+      "paeseAltro": "Other country",
+      "noteFacoltative": "Notes (optional)",
+      "noteAltro": "Describe your request",
+      "noteAltroPaese": "Tell us your country and describe your request",
+      "notePaese": "Notes · tell us your country",
+      "noteContatore": "{n} of {max} characters",
+      "submit": "Send",
+      "inviato": "Sent",
+      "invioInCorso": "Sending",
+      "confermaRiga": "Thank you, {nome}. We will be in touch.",
+      "nuovaRichiesta": "Send another request",
+      "catalogoRimando": "Looking for the catalogue? Receive it by email right away →",
+      "catalogoRicevi": "View the catalogue",
+      "catalogoConferma": "We have sent the catalogue to {email}. If you cannot find it, please check your spam folder too.",
+      "catalogoRipiego": "We were unable to send you the email.",
+      "catalogoScarica": "Download the PDF now",
+      "newsletterCasella": "I agree to receive Fontealta’s newsletter and commercial communications by email, as described in the <link>notice</link>.",
+      "newsletterConferma": "Thank you, we have subscribed you to the newsletter. You can unsubscribe at any time from the link in every email.",
+      "errorGeneric": "We couldn’t send your request. Please try again or email us at info@fontealta.it.",
+      "privacyRiga": "By sending your request, you declare that you have read the <link>privacy notice</link>.",
+      "esca": "Leave this field empty",
+      "errors": {
+        "nomeRequired": "Please enter your first name.",
+        "cognomeRequired": "Please enter your last name.",
+        "emailInvalid": "Please enter a valid email address.",
+        "richiestaRequired": "Please select an option.",
+        "paeseRequired": "Please select your country.",
+        "noteRequired": "Please describe your request in at least 10 characters.",
+        "notePaeseRequired": "Please tell us your country in the notes."
+      }
+    },
+    "mapTitle": "Map of Fontealta’s office in Viareggio",
+    "mapAriaLabel": "Map",
+    "areaProH2": "Are you a designer?",
+    "areaProText": "Access the reserved area for technical sheets, price lists and 3D files.",
+    "areaProLogin": "Log in",
+    "areaProRegister": "Register",
+    "newsletterFooter": {
+      "iscriviti": "Subscribe",
+      "iscritto": "Subscribed",
+      "casella": "Tick the box to subscribe."
+    }
+  },
+  "areaRiservata": {
+    "metaTitle": "Pro Area",
+    "metaDescription": "The space for architects, dealers and shipyards is in the works. For price lists, technical sheets and drawings, write to us.",
+    "eyebrow": "Pro Area",
+    "title": "Steel takes its time.",
+    "body": "We are preparing a space for architects, dealers and shipyards: price lists, technical sheets, drawings. For everything else, today, there is us.",
+    "cta": "Write to us"
+  },
+  "officina": {
+    "metaTitle": "How a column is made",
+    "metaDescription": "The Viareggio workshop in twelve departments, from the steel bar to the packed column.",
+    "ogImageAlt": "Illustrated drawing of the Fontealta workshop in Viareggio: the twelve departments, from the steel bar to the packed column",
+    "titoloIframe": "Interactive drawing of the Fontealta workshop"
+  },
+  "home": {
+    "heroH1Top": "Steel",
+    "heroH1Bot": "and Colour.",
+    "heroSub": "Freestanding shower columns and taps in AISI 316 stainless steel. Any RAL, Pantone or NCS colour, even on a single piece. Made in Viareggio since 1999.",
+    "heroProjectCta": "Let’s talk about your project",
+    "heroStat1Value": "1999",
+    "heroStat1Label": "Since",
+    "heroStat2Label": "Collections",
+    "heroStat3Value": "500+",
+    "heroStat3Label": "Articles",
+    "heroStat4Value": "Italy",
+    "heroStat4Label": "Made in",
+    "featuredEyebrow": "The collections",
+    "featuredH2": "Every collection, a story to tell.",
+    "featuredIntro": "Freestanding shower columns, taps, made-to-measure solutions. Seven catalogue finishes and any colour on request, even for a single piece.",
+    "featuredPrev": "Previous collection",
+    "featuredNext": "Next collection",
+    "featuredGoTo": "Go to collection {n}",
+    "featuredCardAlt": "{nome} collection",
+    "featuredCta": "Explore the collections",
+    "aisiH2Top": "AISI 316.",
+    "aisiH2Bot": "A stainless bond.",
+    "aisiIntro": "Since 1999, deep knowledge of steel has been the foundation of our collections. It withstands salt air, chlorine and UV rays. 100% recyclable, endlessly.",
+    "teamEyebrow": "About us",
+    "teamH2Top": "High quality,",
+    "teamH2Bot": "Highly human.",
+    "teamIntro": "From Viareggio, Tuscany, every piece passes through expert hands: cut, welded, polished and inspected one unit at a time.",
+    "teamCta": "Discover our story",
+    "ctaH2": "Tell us about your project.",
+    "ctaIntro": "A residence, a hotel, a yacht: tell us what you are designing.",
+    "formPersonal": "Personal details",
+    "formNeed": "What you need",
+    "metaTitle": "Taps and shower columns in AISI 316 steel · Fontealta",
+    "metaDescription": "Indoor and outdoor shower columns, bathroom and kitchen taps in AISI 316 steel, for homes, hotels and yachts. Any RAL, Pantone or NCS colour. Since 1999."
+  },
+  "productCategories": {
+    "lavabo": "Basin",
+    "doccia": "Shower",
+    "vasca": "Bath",
+    "cucina": "Kitchen",
+    "giardino": "Garden",
+    "bidet": "Bidet"
+  },
+  "productSubtypes": {
+    "accessori": "Accessories",
+    "accessori-colonna": "Column accessories",
+    "batteria-3-fori": "Set 3-holes",
+    "bocca": "Spout",
+    "bodyjet": "Body Jet",
+    "braccio": "Arm",
+    "braccio-con-soffione": "Arm with showerhead",
+    "cascata": "Waterfall",
+    "colonna": "Column",
+    "colonna-divisibile": "Divisible column",
+    "doccetta": "Handshower",
+    "erogazione-parete": "Wall coupling",
+    "flessibile": "Flexible hose",
+    "kit": "Kit",
+    "miscelatore": "Mixer",
+    "miscelatore-parete": "Wall-mounted mixer",
+    "pannello": "Panel",
+    "ponte": "Bridge",
+    "rubinetto": "Tap",
+    "rubinetto-parete": "Wall-mounted tap",
+    "saliscendi": "Sliding rail",
+    "scarico": "Waste",
+    "soffione": "Showerhead",
+    "soffitto": "Ceiling-mounted"
+  },
+  "legale": {
+    "metaTitle": "Legal notice",
+    "metaDescription": "Terms of use for the Fontealta website, privacy notice, cookie policy and transparency on the use of artificial intelligence.",
+    "eyebrow": "Legal",
+    "title": "Legal notice",
+    "intro": "The conditions of use of the fontealta.it website and information on the processing of personal data, on cookies and on the use of artificial intelligence.",
+    "sezioni": {
+      "societa": {
+        "titolo": "Company information and certifications",
+        "aggiornato": "Last updated: October 2026.",
+        "blocchi": [
+          {
+            "li": "<b>Company name:</b> {ragioneSociale}"
+          },
+          {
+            "li": "<b>Registered office:</b> {sede}"
+          },
+          {
+            "li": "<b>VAT number:</b> {piva}"
+          },
+          {
+            "li": "<b>Registered with the Companies Register of Toscana Nord-Ovest (Italy):</b> no. {codiceFiscale} (REA {rea})"
+          },
+          {
+            "li": "<b>Share capital:</b> {capitale}, fully paid up"
+          },
+          {
+            "li": "<b>Certified email (PEC):</b> {pec}"
+          },
+          {
+            "li": "<b>Certification:</b> quality management system compliant with {norma}, certificate no. {numero} issued by {ente}, IAF sector {settore}, valid until {scadenza}."
+          },
+          {
+            "li": "<b>Downloads:</b> {certificato} · {politica}"
+          }
+        ],
+        "documenti": {
+          "certificato": "ISO 9001:2015 certificate (PDF)",
+          "politica": "Quality policy (PDF)"
+        }
+      },
+      "termini": {
+        "titolo": "Terms and conditions of use of the Site",
+        "aggiornato": "Last updated: October 2026.",
+        "blocchi": [
+          {
+            "h3": "Acceptance"
+          },
+          {
+            "p": "Access to the fontealta.it website and its pages (hereinafter “the Site”) and its use constitute full acceptance of these Terms. Anyone who does not intend to accept them is invited not to use the Site. Rubinetteria F & F L’Artigiana S.r.l. (hereinafter “Fontealta” or “the Company”) may amend these Terms at any time; the version in force is the one published on this page with the date of last update. In the event of any discrepancy between the language versions of the Site, the Italian version prevails."
+          },
+          {
+            "h3": "Nature of the Site"
+          },
+          {
+            "p": "The Site has informational purposes and presents Fontealta products. <b>The Site is not an online shop</b>: it does not allow purchases, does not display prices to the public and does not constitute an offer to the public within the meaning of art. 1336 of the Italian Civil Code. The information published, including product descriptions, finishes, images and any technical characteristics, is of an indicative nature. For every supply, only the commercial offer and the order confirmation issued by the Company, and the official catalogues and price lists in the version in force, are authoritative."
+          },
+          {
+            "h3": "Intellectual property"
+          },
+          {
+            "p": "All content on the Site is owned by Fontealta or its licensors and is protected by Italian and international rules on copyright, trade marks and design. This includes, by way of example: texts, photographs, renders and images, videos, drawings, technical data sheets, catalogues and price lists, the Site’s code, the <b>Fontealta</b> trade mark, the monogram, the names of the collections published on the Site and the model codes."
+          },
+          {
+            "p": "Fontealta products, their design and their shapes are conceived exclusively by the Company. The reproduction, copying, imitation, counterfeiting or use, even partial, of products, designs, trade marks and names without the Company’s written consent is prohibited."
+          },
+          {
+            "p": "Consultation of the Site and the printing or saving of individual pages for personal, non-commercial use is permitted, provided that each copy retains the indication of the source and the references to intellectual property. Any other use, and in particular the reproduction of product images on third-party websites, catalogues, marketplaces or materials, requires the Company’s written authorisation, to be requested at info@fontealta.it."
+          },
+          {
+            "p": "Any third-party trade marks, names and logos mentioned on the Site (including the names of finishes, technical standards such as AISI and RAL, trade fairs and technology providers) belong to their respective owners."
+          },
+          {
+            "h3": "Permitted use"
+          },
+          {
+            "p": "The user undertakes to use the Site in accordance with the law and these Terms. In particular, it is prohibited to: systematically extract or collect content, images or data from the Site (scraping, unauthorised crawling, mass downloading); introduce viruses, malicious code or interfere with the operation of the Site or of the infrastructure hosting it; use the contact form for automated, advertising or otherwise unrelated submissions; circumvent the Site’s technical protection measures."
+          },
+          {
+            "h3": "Exclusion of warranties and limitation of liability"
+          },
+          {
+            "p": "Fontealta takes care over the accuracy of the Site’s content but does not guarantee that it is free of errors, complete or updated at all times; it reserves the right to amend it without notice. Product characteristics may vary without notice; finish colours reproduced on screen are indicative and may differ from the actual product. Fontealta does not guarantee that the Site is always accessible or free of interruptions."
+          },
+          {
+            "p": "To the extent permitted by law, Fontealta is not liable for direct or indirect damage arising from the use or impossibility of use of the Site, from reliance on the information contained in it, or from interruptions, errors, viruses or unauthorised access, except in cases of wilful misconduct or gross negligence. Nothing in these Terms excludes or limits liability that cannot be excluded by law."
+          },
+          {
+            "h3": "Links to third-party websites"
+          },
+          {
+            "p": "The Site may contain links to third-party websites (for example social media profiles, trade fair websites, partners). Such websites are not controlled by Fontealta, which is not responsible for their content, their privacy policies or their operation. Anyone wishing to insert a link to the Site may do so to the home page or to individual pages, without framing them and without implying a non-existent association or endorsement."
+          },
+          {
+            "h3": "Contact form and enquiries"
+          },
+          {
+            "p": "Enquiries sent through the contact form are processed as indicated in the privacy notice. A response by the Company to an enquiry does not constitute a contractual commitment until it is formalised in an offer or an order confirmation."
+          },
+          {
+            "h3": "Applicable law and competent court"
+          },
+          {
+            "p": "These Terms are governed by Italian law. For any dispute relating to the Site and to these Terms, the Court of Lucca has exclusive jurisdiction, save for the mandatory jurisdiction provided for by law for consumers."
+          }
+        ]
+      },
+      "privacy": {
+        "titolo": "Privacy notice",
+        "aggiornato": "Last updated: October 2026.",
+        "blocchi": [
+          {
+            "p": "This notice describes how the personal data of users who consult the Site and use its contact, catalogue request and newsletter subscription forms is processed, pursuant to art. 13 of EU Regulation 2016/679 (“GDPR”) and Italian Legislative Decree 196/2003 as amended by Italian Legislative Decree 101/2018."
+          },
+          {
+            "h3": "Data controller"
+          },
+          {
+            "p": "Rubinetteria F & F L’Artigiana S.r.l., Via Libeccio 13/15, 55049 Viareggio (LU), Italy, VAT number IT01718720467, email info@fontealta.it, certified email (PEC) fontealta_lartigiana@pec.it. The data controller may be contacted for any request concerning personal data at the details indicated above. The Company has not appointed a Data Protection Officer, as the legal requirements for doing so are not met."
+          },
+          {
+            "h3": "Data collected and purposes"
+          },
+          {
+            "p": "<b>Contact form.</b> First name, surname, email, telephone number (optional), company (optional) and type of enquiry, chosen from quote, consultation and other. In addition: country, notes (optional; required for the “other” enquiry type or with “Other country”) and the language in which the Site is browsed, detected automatically. Purpose: to respond to requests for information and quotations. Legal basis: performance of pre-contractual measures at the request of the data subject (art. 6.1.b GDPR) and the data controller’s legitimate interest in responding (art. 6.1.f). After sending, the data subject receives at the address provided an automatic email confirming receipt, sent through Brevo. Sending the request does not entail subscribing to the newsletter, which happens only if the data subject ticks the dedicated optional box."
+          },
+          {
+            "p": "<b>Catalogue request.</b> Name, surname, email and country; notes only with “Other country”, to specify it. In addition: the language in which the Site is browsed, detected automatically. Purpose: to send by email the requested catalogue in PDF, in the language of the country indicated, and to respond to the request. Sending the request does not entail subscribing to the newsletter, which happens only if the data subject ticks the dedicated optional box. Legal basis: performance of pre-contractual measures at the request of the data subject (art. 6.1.b GDPR) and the data controller’s legitimate interest in responding (art. 6.1.f)."
+          },
+          {
+            "p": "<b>Newsletter and commercial communications.</b> Data: email, name, surname, country (not requested by the form in the footer), language of the Site, page of origin, date, time and version of the consent text. Purpose: sending by email the newsletter and commercial communications about Fontealta’s products, collections, projects and events, and measuring, in aggregate and individually, the opening of messages and clicks, in order to improve their content. Legal basis: the data subject’s consent (art. 6.1.a GDPR and art. 130 of Italian Legislative Decree 196/2003), given by ticking the optional box when a contact or catalogue request form is sent, or by subscribing with the newsletter form in the footer of the Site, which asks for the name, surname and email and the ticking of the box. Consent is optional: refusing it does not prevent or condition the response to requests or the sending of the catalogue. Consent can be withdrawn at any time using the unsubscribe link in every email or by writing to info@fontealta.it, without affecting the lawfulness of the processing based on consent before its withdrawal (art. 7.3 GDPR)."
+          },
+          {
+            "p": "<b>Technical browsing data.</b> IP address, browser and device type, pages requested, timestamps, processed by hosting and distribution providers for the operation and security of the Site (protection against attacks, diagnostics). Legal basis: legitimate interest (art. 6.1.f). This data is not used to identify the user."
+          },
+          {
+            "p": "<b>Usage statistics.</b> The Site uses Vercel Web Analytics, which does not employ cookies or persistent identifiers and collects aggregated data (pages visited, referrer, country, device type). This does not constitute profiling and no consent is required."
+          },
+          {
+            "p": "The Site does not provide for public account registration, does not carry out profiling and does not make automated decisions. Commercial communications are sent only to those who have given their consent in the manner described above. The provision of data marked as mandatory in the form is necessary to follow up on the request; without it, the request cannot be processed. Consent to the newsletter, on the other hand, is optional."
+          },
+          {
+            "h3": "Recipients and data processors"
+          },
+          {
+            "p": "The data may be processed, on behalf of the data controller, by suppliers appointed as data processors pursuant to art. 28 GDPR:"
+          },
+          {
+            "li": "Vercel Inc.: hosting, web infrastructure and usage statistics"
+          },
+          {
+            "li": "Sanity AS: content management (CMS)"
+          },
+          {
+            "li": "Zapier Inc.: forwarding to the data controller of enquiries sent through the forms on the Site"
+          },
+          {
+            "li": "Sendinblue SAS (Brevo), 17 rue Salneuve, 75017 Paris, France: sending of the email with the requested catalogue and of the automatic email confirming contact requests, sending of the newsletter and management of subscriptions and unsubscriptions"
+          },
+          {
+            "li": "Cloudflare Inc.: hosting and distribution of videos"
+          },
+          {
+            "p": "The Contact page embeds a Google Maps map, provided by Google Ireland Ltd.: when the map loads, Google receives technical browsing data, including the IP address, and processes it in accordance with its own privacy notice."
+          },
+          {
+            "p": "The data may also be accessed by Company personnel authorised to process it and, where necessary, by consultants, resellers or area agents in order to follow up on the request, within the limits of the purpose. The data is not disseminated or transferred to third parties for their own purposes."
+          },
+          {
+            "h3": "Transfer of data outside the European Union"
+          },
+          {
+            "p": "Some suppliers, including Google for the map on the Contact page, are based in the United States or transfer data there. Transfers take place on the basis of appropriate safeguards pursuant to artt. 44-49 GDPR: Standard Contractual Clauses adopted by the European Commission and, where applicable, the supplier’s adherence to the EU-US Data Privacy Framework. A copy of the safeguards may be requested from the data controller."
+          },
+          {
+            "h3": "Retention period"
+          },
+          {
+            "p": "The data collected through the contact form is retained for the time necessary to handle the request and, in any case, for a maximum of 24 months from the last contact, save for different legal obligations or the establishment of a contractual relationship, in which case the retention periods provided for commercial and tax documentation apply. Technical browsing data is retained by the suppliers for the time strictly necessary for security purposes, generally not exceeding 30 days."
+          },
+          {
+            "p": "The data processed for the newsletter is retained until consent is withdrawn and, in any case, for no more than 24 months from the last interaction with the communications received, after which it is erased. After withdrawal or erasure, the data controller retains only the email address and the information on the consent and its withdrawal, for the time necessary to demonstrate the lawfulness of the processing and to respect the data subject’s wish not to receive further communications (art. 6.1.c and 6.1.f GDPR)."
+          },
+          {
+            "p": "The logs of the emails sent are retained by Brevo for 24 months."
+          },
+          {
+            "h3": "Rights of the data subject"
+          },
+          {
+            "p": "The data subject may exercise at any time the rights provided for by artt. 15-22 GDPR: access to their data, rectification, erasure, restriction of processing, portability, objection to processing based on legitimate interest and, at any time and without giving reasons, to processing for marketing purposes (art. 21.2 GDPR), and withdrawal of consent (art. 7.3 GDPR). Requests should be sent to info@fontealta.it. The data controller responds within one month, extendable in the cases provided for by law."
+          },
+          {
+            "h3": "Complaint to the supervisory authority"
+          },
+          {
+            "p": "The data subject has the right to lodge a complaint with the Garante per la protezione dei dati personali (the Italian Data Protection Authority) (www.gpdp.it) if they believe that the processing of their data infringes the GDPR, without prejudice to any other administrative or judicial remedy."
+          },
+          {
+            "h3": "Security"
+          },
+          {
+            "p": "The data controller adopts technical and organisational measures appropriate to the risk: encrypted connections (HTTPS), access control to the CMS, qualified suppliers bound by agreements pursuant to art. 28 GDPR, protections against automated submissions on the contact form."
+          },
+          {
+            "h3": "Amendments"
+          },
+          {
+            "p": "This notice may be updated; the version in force is the one published on this page with the date of last update."
+          }
+        ]
+      },
+      "cookie": {
+        "titolo": "Cookie policy",
+        "aggiornato": "Last updated: October 2026.",
+        "blocchi": [
+          {
+            "p": "This cookie policy explains which cookies and similar technologies the Site uses, pursuant to art. 122 of Italian Legislative Decree 196/2003 and the Guidelines of the Garante per la protezione dei dati personali (the Italian Data Protection Authority) of 10 June 2021."
+          },
+          {
+            "h3": "What cookies are"
+          },
+          {
+            "p": "Cookies are small text files that websites save on the user’s device in order to function correctly or to collect information. They are divided into technical cookies, necessary for the operation and provision of the service requested by the user, for which no consent is required, and profiling or third-party cookies for marketing purposes, which require prior consent."
+          },
+          {
+            "h3": "Cookies used by the Site"
+          },
+          {
+            "p": "The Site exclusively uses technical and functional cookies. It does not use profiling, marketing or third-party cookies for such purposes, and does not transfer data to third parties for such purposes. Accordingly, pursuant to the Guidelines of the Garante, no prior consent is required and no consent banner is present."
+          },
+          {
+            "li": "<b>NEXT_LOCALE</b>: stores the language of the pages visited, to show content in the correct language. Duration: session. Purpose: functional. First party."
+          },
+          {
+            "li": "<b>Content preview cookies</b> (__prerender_bypass, sanity-preview-perspective, sanity-preview-variant, sanity-preview-partitioned): set only for Site administrators while editing content in the CMS. Duration: session. Purpose: technical. First party."
+          },
+          {
+            "h3": "Usage statistics"
+          },
+          {
+            "p": "For usage statistics, the Site uses Vercel Web Analytics, which does not employ cookies or persistent identifiers and collects aggregated data (pages visited, referrer, country, device type). This does not constitute profiling and no consent is required."
+          },
+          {
+            "h3": "Third-party content"
+          },
+          {
+            "p": "The Contact page embeds a Google Maps map. In the configuration adopted by the Site, the map does not set cookies (checked on 16 September 2026); it does, however, receive technical browsing data, as described in the privacy notice. Should Google change this behaviour, a consent banner will be activated before the map loads."
+          },
+          {
+            "p": "The videos on the Site are distributed by Cloudflare Inc. without cookies. The Site does not embed any other third-party widgets or scripts, from social networks or advertising platforms. Any links to third-party websites (social media, trade fairs, partners) lead to websites that apply their own cookie policies."
+          },
+          {
+            "h3": "How to manage cookies"
+          },
+          {
+            "p": "The user may block or delete cookies through their browser settings. Disabling technical cookies may compromise certain functionalities of the Site, such as the memory of the language. Instructions are available in the guides for Chrome, Firefox, Safari and Edge."
+          },
+          {
+            "h3": "Updates"
+          },
+          {
+            "p": "This cookie policy may be updated over time; changes will be published on this page. Should analytics tools using cookies or profiling tools be introduced in the future, a compliant consent banner will be activated before they load."
+          }
+        ]
+      },
+      "ai": {
+        "titolo": "Transparency on the use of artificial intelligence",
+        "aggiornato": "Last updated: September 2026.",
+        "blocchi": [
+          {
+            "p": "Pursuant to art. 50 of Regulation (EU) 2024/1689 (“AI Act”), Fontealta informs that:"
+          },
+          {
+            "li": "<b>Images.</b> Some setting images published on the Site are generated using artificial intelligence tools starting from the official renders of Fontealta products. Photographs of the products, of the plant and of people are not artificially generated. The products depicted correspond to the actual products; settings and colours are for illustrative purposes."
+          },
+          {
+            "li": "<b>No interactive system.</b> The Site does not use conversational assistants, chatbots, emotion recognition systems or biometric categorisation systems."
+          }
+        ]
+      }
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Material, project, territory. AISI 316 steel told by those who know it as a craft, since 1999.",
+    "heroTitle": "Blog",
+    "heroSubtitle": "Material, project, territory. AISI 316 steel told by those who know it as a craft, since 1999.",
+    "filterAll": "All",
+    "readArticle": "Read the article",
+    "prev": "Previous",
+    "next": "Next",
+    "empty": "No articles published yet.",
+    "back": "Back to the Blog",
+    "writtenBy": "Written by",
+    "readingTime": "{min} min read",
+    "updatedOn": "Updated {date}",
+    "watchOnYoutube": "Watch on YouTube",
+    "contactH2": "Do you have a technical question?",
+    "contactSub": "Write to us: you’ll hear back from the people who work the steel every day.",
+    "notFound": "Article not found"
+  },
+  "errorPages": {
+    "notFound": {
+      "eyebrow": "404",
+      "metaTitle": "Page not found",
+      "title": "This page doesn’t exist, or no longer does.",
+      "body": "Like water, our catalogue flows and transforms. What you’re looking for may have taken a new shape.",
+      "ctaPrimary": "Explore the collections",
+      "ctaSecondary": "Back to home"
+    },
+    "error": {
+      "title": "Something didn’t work.",
+      "body": "A technical hiccup, not a manufacturing flaw. Try again in a moment, or write to us at <mail>info@fontealta.it</mail>.",
+      "ctaRetry": "Try again",
+      "ctaSecondary": "Explore the collections"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "contactPrompt": "Can’t find the answer? <link>Write to us</link>"
+  },
+  "paginaUso": {
+    "outdoorShower": "Outdoor shower",
+    "inSintesi": "In short",
+    "tabella": "Comparison table",
+    "collezioni": "Our collections with an outdoor shower column"
+  },
+  "immagini": {
+    "stabilimento": "The Fontealta factory in Viareggio",
+    "collezione": "{nome} collection",
+    "prodotto": "{descrizione} {codice}, {collezione}",
+    "prodottoConMisura": "{descrizione} {codice}, {misura}, {collezione}",
+    "misura": "{nome} {valore}",
+    "misure": {
+      "altezzaTotale": "overall height",
+      "diametroPlacca": "plate Ø",
+      "placca": "plate",
+      "sporgenzaBocca": "spout projection",
+      "diametroSoffione": "showerhead Ø",
+      "soffione": "showerhead",
+      "lunghezza": "length",
+      "diametro": "Ø",
+      "base": "base",
+      "profondita": "depth"
+    }
+  }
+}

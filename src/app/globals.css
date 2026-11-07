@@ -1,0 +1,1439 @@
+@import "tailwindcss";
+
+/* Tailwind legge ogni file tracciato da git, anche i documenti: una parola con la forma di una
+   classe, scritta in una rule o in una voce di history, diventava una regola del foglio globale
+   (#266), e le classi scritte come testo fermavano `pnpm dev` (dal 22/09/2026). Le classi stanno
+   nel codice, quindi i documenti restano fuori. Fuori anche la config di ESLint: descrive le classi
+   vietate e non ne usa nessuna, e la forma che cita nel commento fermava `pnpm dev` da sola.
+   Fuori anche la tavola dell'officina, sorgente e output: ha il suo CSS, e le sue classi non sono
+   del sito (spec docs/specs/tavola-officina.md). */
+@source not "../../docs";
+@source not "../../.claude";
+@source not "../../**/*.md";
+@source not "../../eslint.config.mjs";
+@source not "../../tavola";
+@source not "../../public/officina-tavola";
+
+@theme inline {
+  /* PRIMITIVI (riordino dei token, Fase 1, 21/10/2026): ogni colore del sito, una volta sola.
+     I ruoli qui sotto e gli alias di :root li richiamano con var(); i componenti leggono i
+     ruoli. Due neri diversi per scelta, e due chiari: il crema e il bianco puro (token,
+     Fase 2, 23/10/2026: il bianco caldo #fcfaf5 è confluito nel crema, il fondo delle card
+     #faf8f5 nel bianco puro, scelto da Marco sul provino perché la card stacca dalla pagina). */
+  --color-fa-ink: #0b1215; /* Figma Brand/black: il nero freddo delle sezioni scure */
+  --color-fa-black: #1a1a18; /* il nero caldo del testo */
+  --color-fa-navy: #1b2e4a; /* l'unico accento del sito */
+  --color-fa-navy-light: #2a4570;
+  --color-fa-navy-bright: #3d5f99;
+  --color-fa-white: #f6f4f0; /* il crema: fondo della pagina, testo su scuro */
+  --color-fa-paper: #ffffff; /* il bianco puro: card chiare, oggetti sopra le foto, controlli su scuro */
+  --color-fa-card-cover: #ece9e3; /* Figma grey/91: riquadro della cover e dei segnaposto */
+  /* errore dei moduli, un rosso per fondo (Marco, 28/10/2026): su chiaro 7,82:1 sul crema e 8,59 sul bianco,
+     su scuro 9,31:1 sull'inchiostro e 8,59 sul nero. Prima uno solo, #9b2c2c: 6,85 sul crema, 2,51 sull'inchiostro */
+  --color-fa-error: #8f2424;
+  --color-fa-error-on-dark: #ff9b91;
+  /* il peso degli errori dei moduli: ruolo, alias della scala (700). È l'unico testo piccolo a 700, scelta voluta
+     come GOV.UK; i testi piccoli dell'interfaccia restano a 600 (Marco, 28/10/2026) */
+  --fa-error-font-weight: var(--font-weight-bold);
+  /* il peso delle parole chiave in grassetto (FAQ, articolo del blog): ruolo, alias della scala (600) */
+  --fa-strong-font-weight: var(--font-weight-semibold);
+
+  /* RUOLI: alias dei primitivi, mai un valore nuovo. */
+  --color-fa-text-primary: var(--color-fa-black);
+  --color-fa-surface: var(--color-fa-paper); /* il fondo delle card chiare: sul crema stacca */
+  /* ⚠️ Stesso valore di --color-fa-white, ma scritto e NON come var(): le classi lo usano
+     anche col modificatore di opacità (le voci del menu all'82%, al 70%, al 30%). Con un
+     valore scritto Tailwind calcola quel colore al build; con un var() lo manda al browser
+     come color-mix in oklab, cioè un altro colore calcolato. Misurato sul CSS servito il
+     21/10/2026. Diventa un alias quando le trasparenze avranno i loro token (Fase 2). */
+  --color-fa-text-on-dark: #f6f4f0;
+
+  /* Colori con alfa (B1-bis, 22/09/2026). Stavano solo in :root, sotto un
+     commento che diceva «can't use @theme for rgba»: con Tailwind 4 non è vero.
+     Il valore sta qui, :root lo richiama (schema di --fa-white), le classi lo
+     usano senza scriverlo a mano. Valori identici a prima; niente modificatore
+     di opacità (`/72`), che passa da color-mix e non garantisce lo stesso
+     colore al livello.
+     ⚠️ --color-fa-text-on-dark-secondary ACCENDE `text-fa-text-on-dark-secondary`,
+     che footer.tsx scrive dal 10/09/2026 (7c5b5c8) senza che generasse CSS: la
+     riga della ragione sociale e della P.IVA prendeva il colore ereditato,
+     #1a1a18 sull'inchiostro, 1,08:1. Col token è il bianco al 65%, 7,63:1.
+     È il solo cambio di pixel voluto della PR (23/09/2026). */
+  --color-fa-text-secondary: rgba(26, 26, 24, 0.8);
+  --color-fa-text-tertiary: rgba(26, 26, 24, 0.45);
+  --color-fa-text-on-dark-secondary: rgb(246 244 240 / 0.65);
+  --color-fa-border-dark: rgba(246, 244, 240, 0.12);
+  --color-fa-white-08: rgba(246, 244, 240, 0.08); /* bordo della barra solida */
+  --color-fa-ink-72: rgb(11 18 21 / 0.72); /* pastiglia delle frecce del carosello */
+
+  /* DATI DI PRODOTTO, non colori del sito: le finiture (FASE 4.2.3), allineate a
+     finish.name di Sanity, che fa fede. Brushed Brass è ammesso solo qui. Le gocce e
+     l'alimentazione stanno in :root, più sotto, nello stesso ruolo. */
+  --color-fa-steel-mx: #d4d4d0; /* Polished Supermirror */
+  --color-fa-steel-bx: #b8b6b0; /* Brushed natural */
+  --color-fa-steel-mb: #2c2c2a; /* Matte Black painted */
+  --color-fa-steel-rl: #e8e6e1; /* Painted RAL/PANTONE/NCS placeholder */
+  --color-fa-steel-ab: #0a0a09; /* PVD Brushed Absolute Black */
+  --color-fa-steel-bb: #c4a35a; /* PVD Brushed Brass */
+  --color-fa-steel-bc: #b07040; /* PVD Brushed Copper */
+  --color-fa-steel-db: #1c1c1a; /* PVD Polished Deep Black */
+
+  /* Font families */
+  --font-sans: "Satoshi", "Inter", "Helvetica Neue", "Arial", sans-serif;
+
+  /* Border Radius. I gradini sotto i 12px non li usava nessuno e sono tolti (21/10/2026):
+     senza il nostro valore tornerebbero a quelli di Tailwind, e la guardia di lint li vieta. */
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  /* Il raggio delle card con la foto (collezione, in evidenza, finitura) e del riquadro delle
+     lingue del menu (token, Fase 2, 23/10/2026: era scritto a mano, 24 e 26 px). Nella scala di
+     Tailwind `3xl` vale già 24 px: il nome lo fissa, come per gli altri gradini. */
+  --radius-3xl: 24px;
+  --radius-pill: 100px;
+  --radius-full: 50%;
+
+  /* Spacing (extending Tailwind's default) */
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+  --spacing-34: 8.5rem; /* il padding desktop di `.fa-section` */
+
+  /* Ruoli di spaziatura (Marco, 30/10/2026, strada B dell'analisi delle spaziature): le relazioni
+     fra testi che il sito ripete, un valore solo ciascuna. Tailwind ne fa le classi (`mt-eyebrow`,
+     `mt-heading-intro`…). Il resto resta la scala da 4 px (`--spacing` × n). */
+  --spacing-eyebrow: 1rem; /* 16 · occhiello → titolo (le card restano a 8, `mt-2`) */
+  --spacing-title-text: 1.5rem; /* 24 · H1 → paragrafo degli hero */
+  --spacing-heading-intro: 1.25rem; /* 20 · H2 → introduzione */
+  --spacing-intro-content: 3rem; /* 48 · introduzione, o titolo senza, → contenuto */
+  --spacing-text-action: 2rem; /* 32 · testo → bottone */
+  /* Il gradino sopra, dove il sito aveva già uno spazio più largo (Marco, 30/10/2026 sera: nessuno
+     spazio scende rispetto a prima; un valore fuori scala sale al gradino sopra, mai sotto). */
+  --spacing-eyebrow-feature: 1.5rem; /* 24 · occhiello → titolo: hero di /collezioni, sezioni di chi siamo */
+  --spacing-title-text-hero: 2rem; /* 32 · titolo display → paragrafo: home, /collezioni, referenze */
+  --spacing-heading-intro-feature: 1.5rem; /* 24 · titolo → testo nelle sezioni di chi siamo */
+  --spacing-intro-feature: 4rem; /* 64 · introduzione → contenuto nei blocchi in evidenza (AISI) */
+  --spacing-text-action-feature: 2.5rem; /* 40 · testo → bottone nei blocchi da soli, nelle pagine di messaggio e sulla scheda modello sotto `sm` */
+
+  /* Larghezza del sito (riordino dei token, Fase 1): la stessa per barra, piè di pagina e
+     `.fa-container`, che la legge da --container-max in :root. */
+  --container-site: 1200px;
+
+  /* Shadows */
+  /* +10% di opacità (token, Fase 2, 23/10/2026), insieme al fondo bianco delle card chiare.
+     Era 0,08. */
+  --shadow-card: 0 4px 24px rgba(26, 26, 24, 0.088);
+  --shadow-product: 0 8px 40px rgba(26, 26, 24, 0.12);
+
+  /* Custom easing */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  /* La curva che GSAP chiama `power2.out` (scarto massimo di avanzamento 0,003): in CSS
+     si scrive con questo nome, in GSAP col suo (token, Fase 2, 23/10/2026). */
+  --ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+
+  /* Typography scale */
+  /* Display Hero — la misura degli H1 degli hero full-bleed. Era 4rem e ORFANA
+     (zero usi in tutto src/), un doppione dei valori cablati in `.fa-h1`. Ora
+     porta la misura del Figma «Display Hero» ed e' usata da `.fa-hero-h1`.
+     Il pavimento a 48px e il tetto a 96px sono gli stessi che l'hero della
+     collezione singola aveva inline (DEV-1, giu 2026); il peso 700 e il
+     line-height 1.05 vengono dal Figma e NON da li' — quell'hero stava a 400
+     e 0.92. Il letter-spacing -0.02em (= -1,92px a 96) e' confermato sul
+     Figma e coincide con quello che la collezione singola aveva inline. */
+  --text-display-hero: clamp(48px, 8vw, 96px);
+  --text-display-hero--line-height: 1.05;
+  --text-display-hero--letter-spacing: -0.02em;
+  --text-display-hero--font-weight: 700;
+
+  /* I due titoli di sezione fuori dalla scala dei titoli (Marco, 30/10/2026, DESIGN-SYSTEM.md
+     scelta b): la regola dei titoli di sezione è `heading-2`, questi restano col loro ruolo, a zero
+     pixel. Erano scritti in linea, quattro proprietà per titolo. */
+  --text-display-close: clamp(2.25rem, 5vw, 4rem); /* 36→64 · chiusura condivisa, apertura del catalogo */
+  --text-display-close--line-height: 1.05;
+  --text-display-close--letter-spacing: -1.2px;
+  --text-display-close--font-weight: 500;
+  --text-display-story: clamp(2rem, 4vw + 1rem, 3.25rem); /* 32→52 · AISI e team della home */
+  --text-display-story--line-height: 1.05;
+  --text-display-story--letter-spacing: -0.8px;
+  --text-display-story--font-weight: 600;
+
+  /* La scala dei titoli, in ordine (riordino dei token, Fase 1, 21/10/2026): le classi
+     `.fa-h1`…`.fa-h4` e `.fa-card-title` leggono questi valori invece di riscriverli.
+     heading-2 e heading-3 erano `display-secondary` e `section-heading`, mai usati;
+     heading-2 porta il clamp di `.fa-h2`, che prima aveva per token solo il suo massimo. */
+  --text-heading-1: clamp(2.5rem, 6vw + 1rem, 4rem);
+  --text-heading-1--line-height: 1.05;
+  --text-heading-1--letter-spacing: -0.5px;
+  --text-heading-1--font-weight: 600;
+
+  --text-heading-2: clamp(2rem, 4vw + 1rem, 3rem);
+  --text-heading-2--line-height: 1.08;
+  --text-heading-2--letter-spacing: -0.4px;
+  --text-heading-2--font-weight: 600;
+
+  --text-heading-3: 2.25rem;
+  --text-heading-3--line-height: 1.12;
+  --text-heading-3--letter-spacing: -0.3px;
+  --text-heading-3--font-weight: 600;
+
+  --text-heading-4: 1.5rem;
+  --text-heading-4--line-height: 1.2;
+  --text-heading-4--letter-spacing: -0.2px;
+  --text-heading-4--font-weight: 600;
+
+  --text-card-title: 1.375rem; /* 22px — Figma; distinto da heading-4 (24px), M22 */
+  --text-card-title--line-height: 1.2;
+  --text-card-title--letter-spacing: -0.2px;
+  --text-card-title--font-weight: 600;
+
+  --text-sub-heading: 1.25rem;
+  --text-sub-heading--line-height: 1.3;
+  --text-sub-heading--letter-spacing: -0.1px;
+
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.6;
+
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.5;
+
+  --text-button: 0.9375rem;
+  --text-button--line-height: 1;
+  --text-button--letter-spacing: 0.3px;
+
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.4;
+  --text-caption--letter-spacing: 0.1px;
+
+  --text-nav: 0.8125rem;
+  --text-nav--line-height: 1;
+  --text-nav--letter-spacing: 0.5px;
+
+  /* Gradini della scala: SOLO dimensione (B1, 22/09/2026). Nessun compagno
+     --line-height né --letter-spacing, quindi `text-micro-3` imposta il solo
+     font-size, esattamente come faceva `text-[11.5px]`: interlinea e
+     spaziatura restano quelle ereditate o scritte accanto. Numerati da 1 in
+     ordine di grandezza dentro la famiglia; il valore in px sta nel commento,
+     mai nel nome. I nomi nudi qui sopra (`--text-caption`, `--text-nav`…)
+     sono i token del design system CON interlinea, e non sono il gradino 1.
+     Il nudo da 11 px, `--text-micro`, è tolto il 23/10/2026: zero usi, e la sua
+     taglia è quella di `--text-micro-2`.
+     Unire i mezzi pixel (11/11,5, 12/12,5…) è una decisione di design a parte.
+     La guardia `better-tailwindcss/no-restricted-classes` in eslint.config.mjs
+     vieta le taglie `text-[…]` scritte a mano. */
+  --text-micro-1: 10px; /* 10px */
+  --text-micro-2: 11px; /* 11px */
+  --text-micro-3: 11.5px; /* 11,5px */
+  --text-micro-4: 12px; /* 12px */
+  --text-micro-5: 12.5px; /* 12,5px */
+
+  --text-caption-1: 13px; /* 13px */
+  --text-caption-2: 13.5px; /* 13,5px */
+  --text-caption-3: 14.5px; /* 14,5px */
+
+  --text-body-1: 15px; /* 15px */
+  --text-body-2: 16.5px; /* 16,5px */
+  --text-body-3: 1.05rem; /* 16,8px */
+  --text-body-4: 17px; /* 17px */
+  --text-body-5: 1.125rem; /* 18px */
+  --text-body-6: clamp(1.1875rem, 2.1vw, 1.375rem); /* 19→22px */
+
+  --text-display-1: 1.25rem; /* 20px */
+  --text-display-2: 1.6rem; /* 25,6px */
+  --text-display-3: 28px; /* 28px */
+  --text-display-4: 1.9rem; /* 30,4px */
+  --text-display-5: clamp(1.75rem, 3.2vw, 2.5rem); /* 28→40px */
+
+  /* Interlinea e spaziatura scritte a mano nelle classi (B1-bis, 22/09/2026):
+     stessi valori, ora con un nome. `tracking-N` numerati in ordine di
+     grandezza; il solo valore in em ha un nome di ruolo, perché scala con la
+     taglia e non sta in una scala in px. Dal 23/10/2026 (token, Fase 2) anche
+     `--text-body-lg` ha 1,6, ma resta l'interlinea della sua taglia: i due nomi
+     dicono due ruoli. */
+  --leading-lede: 1.6; /* paragrafo dell'hero: home e /collezioni, scheda autore del blog */
+  /* 1,2 e non l'1,25 di Tailwind (token, Fase 2, 23/10/2026): titoli e righe delle card
+     collezione e della card del blog, didascalia AISI. */
+  --leading-tight: 1.2;
+  --tracking-1: 0.2px; /* 0,2px */
+  --tracking-2: 0.3px; /* 0,3px */
+  --tracking-3: 0.4px; /* 0,4px */
+  --tracking-4: 0.5px; /* 0,5px */
+  --tracking-5: 1.5px; /* 1,5px */
+  --tracking-7: 3px; /* 3px; il gradino 6 (2px) non lo usava nessuno, tolto il 21/10/2026 */
+  --tracking-link: 0.08em; /* link della 404 e della pagina d'errore */
+}
+
+/* CSS Custom Properties for non-color tokens */
+:root {
+  /* Text colors with alpha: il valore sta in @theme (B1-bis, 22/09/2026), qui
+     l'alias, come per --fa-white. */
+  --fa-text-secondary: var(--color-fa-text-secondary); /* alpha 0.7→0.8 (lug 2026): ~#464643 su --fa-white (~8.6:1) — secondario visibilmente più scuro (scelta cliente); color-only, i dt Specifiche scuriscono con esso */
+  --fa-text-tertiary: var(--color-fa-text-tertiary);
+  --fa-text-on-dark-secondary: var(--color-fa-text-on-dark-secondary);
+
+  /* Borders */
+  --fa-border-light: rgba(26, 26, 24, 0.10);
+  --fa-border-medium: rgba(26, 26, 24, 0.20);
+  --fa-border-dark: var(--color-fa-border-dark);
+  --fa-border-dark-medium: rgba(246, 244, 240, 0.25);
+
+  /* Altezza della nav fissa. FONTE UNICA, due consumatori: l'header
+     (`h-(--fa-nav-h)` in navigation.tsx) e lo `scroll-margin-top` dei
+     bersagli degli anchor qui sotto. Il `LenisProvider` NON la legge e non deve:
+     `scrollTo` di Lenis somma già lo `scrollMarginTop` del bersaglio (letto in
+     `lenis.mjs`), quindi un offset in JS conterebbe due volte — misurato, 128 px
+     invece di 64. Una leva sola per tutti e due i percorsi. */
+  --fa-nav-h: 64px;
+
+  /* === FASE 4.1.1: aliases for @layer components classes === */
+  --fa-black: var(--color-fa-black);
+  --fa-white: var(--color-fa-white);
+  --fa-paper: var(--color-fa-paper);
+  --fa-navy: var(--color-fa-navy);
+  --fa-navy-light: var(--color-fa-navy-light);
+  --fa-navy-bright: var(--color-fa-navy-bright);
+  --fa-text-primary: var(--color-fa-text-primary);
+  --fa-text-on-dark: var(--color-fa-text-on-dark);
+
+  /* === FASE 5 / 0.3: Figma token reconciliation aliases (additive) === */
+  --fa-ink: var(--color-fa-ink);
+  --fa-card-cover: var(--color-fa-card-cover);
+  --fa-error: var(--color-fa-error);
+  --fa-error-on-dark: var(--color-fa-error-on-dark); /* emessa per il CSS dei campi scuri (campi-scuri.ts) */
+
+  /* === Block 2: water-supply drops + freestanding alimentation (catalogue color coding) ===
+     DATI DI PRODOTTO, come le finiture in @theme: non colori del sito. */
+  --drop-hot: #f58468; /* warm coral */
+  --drop-cold: #56a7c5; /* cold blue */
+  --alim-standard: #babdbf; /* grey */
+  --alim-standard-plus: #99d7da; /* aqua — XT/XQ/XQ.A */
+  --alim-cw: #b3c6d0; /* blue-grey — concealed supply */
+  --alim-ew: #c39991; /* rosé — external supply */
+  --alim-4s: #b9b37d; /* olive — no-frost 230V */
+
+  /* === Finish dot size (additive, valore INVARIATO): 26px promosso a token
+     così le gocce della card ne derivano il 75% senza duplicare il numero === */
+  --fa-finish-dot-size: 26px;
+
+  /* === FASE 4.1.1: missing alpha === */
+  --fa-text-on-dark-tertiary: rgba(246, 244, 240, 0.45);
+
+  /* L'ombra della pill flottante dei filtri: due strati, uno stretto e uno largo (la storia
+     dei valori sta su `.fa-filtri-flottante`). Prende il posto di --shadow-floating, che
+     non usava nessuno. */
+  --shadow-floating-pill: 0 2px 8px rgb(0 0 0 / 0.45), 0 8px 24px rgb(0 0 0 / 0.18);
+
+  /* L'ombra stretta del testo sulle foto (token, Fase 2, 23/10/2026): era scritta a mano in
+     tre grafie, sulla barra, sugli hero di /chi-siamo e /produzione e sui paragrafi delle fasi. */
+  --fa-text-shadow-photo: 0 1px 2px rgb(11 18 21 / 0.55);
+  /* Il velo di hover sui fondi scuri, il bianco al 10% (token, Fase 2, 23/10/2026): pill della
+     barra chiara, pill on-dark, frecce del carosello. Le classi `hover:bg-white/10` hanno lo
+     stesso valore e restano: col modificatore di opacità Tailwind lo scrive in un altro formato. */
+  --fa-veil-hover-dark: rgb(255 255 255 / 0.1);
+
+  /* === FASE 4.1.1: motion durations ===
+     Con un nome anche le durate che erano scritte a mano (riordino dei token, Fase 1,
+     21/10/2026), stessi valori: --dur-control per i controlli (Button, pill, frecce),
+     --dur-reveal per l'entrata allo scorrimento, --dur-sheet per il foglio dei filtri e i
+     pallini. Fonderli in meno gradini è una decisione di design a parte. */
+  --dur-micro: 200ms;
+  --dur-sheet: 250ms;
+  --dur-control: 300ms;
+  --dur-standard: 400ms;
+  --dur-reveal: 600ms;
+  --dur-hero: 800ms;
+
+  /* Opacità degli elementi (token, Fase 2, 23/10/2026): un nome per ruolo, stessi valori di
+     prima. Stanno in `:root` perché Tailwind non ha un namespace di tema per l'opacità. */
+  --fa-opacity-disabled: 0.4; /* controllo disabilitato */
+  --fa-opacity-inactive: 0.5; /* bandiera della lingua spenta */
+  --fa-opacity-watermark: 0.55; /* immagine in filigrana */
+  --fa-opacity-muted: 0.6; /* elemento attenuato */
+  --fa-opacity-hover: 0.7; /* link in hover */
+  --fa-opacity-subdued: 0.85; /* immagine e voce attenuate */
+  --fa-opacity-image: 0.9; /* immagine della card collezione */
+
+  /* === FASE 4.1.1: layout === */
+  --container-max: var(--container-site);
+
+  /* Il bersaglio tattile minimo, 44px (WCAG 2.5.8): pill su puntatore grosso, la lista
+     delle lingue del menu, il link indietro del blog. È un ruolo diverso da
+     --btn-height-m, che vale 44 per coincidenza. */
+  --fa-touch-min: 44px;
+
+  /* === FASE 2 button-system (PREVIEW): sizing tokens =================
+     4 taglie per RUOLO, single source consumata da Button + .fa-pill + nav +
+     paginazione. Valori PROVVISORI di preview (griglia 8px, font 14→17).
+     height = altezza target · pad = padding orizzontale · font = font-size. */
+  --btn-height-s: 36px;
+  --btn-pad-s: 16px;
+  --btn-font-s: 14px;
+  --btn-height-m: 44px;
+  --btn-pad-m: 24px;
+  --btn-font-m: 15px;
+  --btn-height-l: 48px;
+  --btn-pad-l: 32px;
+  --btn-font-l: 16px;
+  --btn-height-xl: 64px;
+  --btn-pad-xl: 40px;
+  --btn-font-xl: 17px;
+
+  /* LO SPESSORE della traccia dei CTA outline: quello del bordo delle card (set 2026,
+     Marco). Le card scrivevano un bordo da 0,2 rem, cioè 3,2 px, che Chromium e WebKit
+     dipingono a 3 px a DPR 1, 2 e 3 (misurato con getComputedStyle): il token è il
+     numero dipinto, e dal 23/10/2026 le card leggono lui. In px e non in rem di
+     proposito, perché `1.5px` usciva 1 px su Chromium e 1,5 su WebKit.
+     ⚠️ Fra i controlli, SOLO i CTA outline, i bottoni grandi (`Button variant="secondary"`). Per un giro
+     l'hanno avuto anche i toggle e le frecce: Marco li ha visti a video e li ha
+     riportati allo spessore di prima (1 px pill dell'header e del menu, frecce e 404;
+     `1.5px` tab, pill e chip dei filtri, «Azzera»). Il COLORE invece è unificato: i
+     due token qui sotto valgono per ogni controllo a bordo. */
+  --fa-stroke: 3px;
+  /* Gli altri due spessori della traccia (riordino dei token, Fase 1, 21/10/2026), con
+     gli stessi valori di prima: 1,5 px i controlli dei filtri, la casella e le pill (tab
+     del blog comprese); 1 px il filo, cioè le pill dell'header, le frecce e i pallini del
+     carosello, il tag e i divisori. */
+  --fa-stroke-control: 1.5px;
+  --fa-stroke-hairline: 1px;
+  /* IL COLORE della traccia, di ogni controllo a bordo (set 2026, Marco: «la traccia del
+     CTA deve essere quella delle card»). Bianco PURO come le card, confermato da Marco:
+     il testo su scuro è il crema, `--fa-text-on-dark`.
+     ⚠️ Misurato, non dedotto: le card scrivevano `border-white/100`, cioè BIANCO PURO
+     #ffffff, e non il bianco caldo #fcfaf5 come si credeva. Il token prende il colore
+     che le card hanno sempre dipinto, così le card restano identiche al pixel. Il CTA
+     outline su scuro usava bianco caldo al 40%, che sull'inchiostro si dipingeva grigio
+     rgb(104,108,108). Chi lo usa sui fondi SCURI: CTA outline, pill lingua e Area
+     Riservata dell'header e del menu mobile, frecce del carosello, tab del blog. Gli
+     stati pieni (tab attiva) tengono il bordo del colore del fondo. ⚠️ Fuori: i pallini
+     del carosello, i campi dei moduli, la tendina delle lingue. */
+  --fa-stroke-color: var(--fa-paper);
+  /* Sui fondi CHIARI la traccia è navy: è il bordo che il CTA outline su chiaro ha
+     sempre avuto, e l'unico del sistema sopra il 3:1 di WCAG 1.4.11 sul crema
+     (12,44:1; `--fa-border-medium` sta a 1,52). Lo usano CTA outline su chiaro, pill
+     dei filtri desktop, chip e «Azzera» dello sheet. */
+  --fa-stroke-color-on-light: var(--fa-navy);
+
+  /* I CAMPI DEL MODULO di contatto (14/10/2026, Marco): `.fa-contact-input` su fondo scuro
+     (/contatti e ProgettareCta) e `.fa-home-input` sulla home. Valori identici a quelli
+     scritti prima nei due blocchi `<style>`: zero pixel.
+     ⚠️ Stanno in `:root` e NON in `@theme`: Tailwind emette solo le variabili `@theme` che
+     qualcosa usa («only used CSS variables will be generated»), e un `var()` scritto solo
+     nel `<style>` di un componente non conta. Misurato sul CSS servito il 14/10:
+     `--text-body-sm--line-height` non c'era. Riferite da qui, dentro il CSS che Tailwind
+     elabora, le variabili della scala risultano usate e vengono emesse.
+     Gradini numerati per grandezza: -1 il più piccolo. */
+  --fa-field-font-1: var(--text-body-sm); /* 14px · fondo scuro */
+  --fa-field-font-2: 1rem; /* 16px · home */
+  --fa-field-leading-1: 1.5; /* home */
+  --fa-field-leading-2: var(--text-body-sm--line-height); /* 1,5 · fondo scuro (era 1,55: token, Fase 2, 23/10/2026) */
+  --fa-field-pad-y: calc(var(--spacing) * 2); /* 8px */
+  --fa-field-border: var(--fa-stroke-hairline); /* 1px, il filo: il bordo inferiore; --fa-stroke (3px) è dei CTA */
+  --fa-field-border-color-light: rgba(11, 18, 21, 0.25); /* bordo dei campi sulla home */
+  /* Etichetta ed errore dei campi su chiaro (`CAMPI_CHIARI_CSS`): stessi valori della scala,
+     riferiti da qui perché Tailwind emetta le variabili (token, Fase 2, 23/10/2026). */
+  --fa-field-label-font: var(--text-micro-1); /* 10px */
+  --fa-field-label-tracking: var(--tracking-4); /* 0,5px */
+  /* L'ALTEZZA di un campo, calcolata e non scritta: la danno a un `select` (14/10/2026).
+     Il menu calcolava `line-height: normal` (36 px contro 38,69 su fondo scuro, 39 contro 41
+     sulla home) e il suo bordo stava 2-2,7 px più in alto del campo accanto. Con la stessa
+     formula dell'input è allineato per costruzione. */
+  --fa-field-h-1: calc(
+    var(--fa-field-font-1) * var(--fa-field-leading-2) + 2 * var(--fa-field-pad-y) +
+      var(--fa-field-border)
+  ); /* 38,7px · fondo scuro */
+  --fa-field-h-2: calc(
+    var(--fa-field-font-2) * var(--fa-field-leading-1) + 2 * var(--fa-field-pad-y) +
+      var(--fa-field-border)
+  ); /* 41px · home */
+
+  /* === Spaziature di layout (Marco, 30/10/2026) ===
+     La sezione è RESPONSIVE (come la scala responsive di GOV.UK): 96 px, 136 da 1024 (la media
+     query è subito sotto). Le misure degli hero e delle testate dipendono dall'altezza dello
+     schermo (`vh`): stanno qui, una per forma, e nessun componente le scrive più a mano. Stessi
+     valori di prima, a zero pixel. */
+  --fa-space-section: calc(var(--spacing) * 24);
+  --fa-space-hero-top: clamp(120px, 18vh, 200px); /* hero di collezione e referenze */
+  --fa-space-hero-top-contact: clamp(120px, 16vh, 200px); /* hero dei contatti */
+  --fa-space-hero-bottom: clamp(60px, 10vh, 120px);
+  --fa-space-hero-bottom-detail: clamp(48px, 8vh, 96px); /* dettaglio di una referenza */
+  --fa-space-hero-gap: clamp(24px, 3vw, 48px); /* fra le statistiche dell'hero di collezione */
+  --fa-space-hero-inset: max(24px, calc((100vw - 1240px) / 2)); /* rientro del testo degli hero */
+  --fa-space-sheet-bottom: clamp(40px, 6vh, 72px); /* sotto la testata di modello e corpo */
+  --fa-space-article-top: clamp(104px, 13vh, 152px); /* testata dell'articolo del blog */
+  --fa-space-article-bottom: clamp(48px, 8vh, 80px);
+  --fa-space-article-cols: clamp(40px, 6vw, 84px); /* fra le colonne della testata dell'articolo */
+  --fa-space-legal-bottom: clamp(20px, 3vh, 36px); /* sotto il titolo delle menzioni legali */
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --fa-space-section: var(--spacing-34);
+  }
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-fa-white);
+  color: var(--color-fa-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Scroll reveal animation */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity var(--dur-reveal) var(--ease-out-expo),
+                transform var(--dur-reveal) var(--ease-out-expo);
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Fade-in solo opacità (nessun movimento) — usato dalla griglia blog al cambio
+   pagina: il contenuto cambia in modo fluido, la sezione resta ferma. */
+@keyframes fa-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fa-fade-in {
+    animation: fa-fade-in var(--dur-standard, 400ms) var(--ease-out-expo, ease);
+  }
+}
+
+/* Skip to content link */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: calc(var(--spacing) * 3) calc(var(--spacing) * 6);
+  background: var(--color-fa-navy);
+  color: var(--color-fa-text-on-dark);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-button);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.skip-to-content:focus {
+  top: 16px;
+}
+
+/* === FASE 4.1.1: design system component utilities (verbatim from handoff) === */
+/* NAV IN MODALITÀ TRASPARENTE — 31/08/2026. Tre leve, un solo posto.
+   Sopra un hero full-bleed le voci di menu sono testo di 13 px su una foto: senza
+   nulla misuravano p99 3,2-5,2 sui glifi. Le leve, in ordine di peso:
+     1. colore PIENO invece dell'80% (a);
+     2. `text-shadow`, che EREDITA e quindi sta sul contenitore (b);
+     3. lo scrim `.fa-nav-scrim` qui sotto (c).
+   ⚠️ TUTTE E TRE solo in modalità trasparente. In modalità solida la barra ha il
+   suo fondo, le leve non servono, e quello stile è condiviso con ogni altra
+   pagina del sito: non si tocca.
+   ⚠️ Le regole di colore stanno FUORI da `@layer`: le utility Tailwind vivono in
+   `@layer utilities`, e una regola non stratificata vince sul cascade a
+   prescindere dalla specificità. Con un `@layer components` perderebbero contro
+   `text-fa-text-on-dark/80` e non se ne accorgerebbe nessun controllo statico.
+   ⚠️ I selettori restano STRETTI e non `:is(a, span, button)`: elencano i
+   controlli e le voci che vanno portati a bianco pieno, uno per uno. Fino a
+   settembre 2026 la ragione era l'opposta — «Area Riservata» era al 40% perché
+   disabilitata, e includerla l'avrebbe fatta sembrare attiva. Adesso la pagina
+   c'è, la pill è un link, e `.fa-nav-pill` la mette in lista. */
+.fa-nav-chiara {
+  /* OMBRA PORTATA, non alone. È la stessa dei paragrafi delle card di
+     /produzione — `0 1px 2px` ink .55 — e per la stessa ragione: stacca il testo
+     dalla foto senza disegnargli intorno niente che si legga come una forma.
+     ⚠️ REVOCATO l'alone ×3 (`0 0 1px` ripetuto tre volte): a 13 px chiudeva un
+     filo attorno al glifo e si leggeva come un BORDO, non come profondità.
+     ⚠️ E resta scartata la ricetta a otto direzioni con raggio 0: è l'unica che
+     soddisfa la metrica dell'anello (alfa mediana 0,983 contro 0,255), ma
+     produce un contorno netto da fumetto. La scelta qui è di resa, presa
+     guardando i ritagli a 4× nei due motori, non di numero. */
+  text-shadow: var(--fa-text-shadow-photo);
+}
+/* ⚠️ PROPRIETÀ DIVERSE, SELETTORI DIVERSI. Il `color` vale per tutti e tre; il
+   `background-color` vale SOLO per la pill. Tenerli in un selettore combinato ha
+   dato a ogni voce di menu e al wordmark un riquadro d'inchiostro al 20% che
+   nessuno aveva chiesto — e che alzava anche le misure, facendo sembrare le voci
+   più leggibili di quanto siano. Se una dichiarazione non vale per tutti i
+   selettori della lista, la lista è sbagliata. */
+.fa-nav-chiara ul li a,
+.fa-nav-chiara > a span,
+.fa-nav-chiara button[aria-label],
+.fa-nav-chiara .fa-nav-pill {
+  color: var(--fa-text-on-dark);
+}
+/* Le DUE pill affiancate a destra — lingua e Area Riservata — e nient'altro.
+   ⚠️ Per CLASSE e non per `button[aria-label]`, set 2026: quell'attributo ce l'ha
+   anche l'hamburger, che prendeva così un riquadro d'inchiostro al 20% a riposo e
+   uno bianco al 10% al tap. Sotto `xl` le pill non esistono, e l'hamburger era
+   l'unico bersaglio della regola: il riquadro faceva parte dell'abbaglio all'apertura
+   del menu. */
+.fa-nav-chiara .fa-nav-pill {
+  background-color: rgb(11 18 21 / var(--fa-nav-pill-a));
+}
+/* L'hover si RIDICHIARA qui: la regola sopra non è stratificata e batterebbe
+   `hover:bg-white/10` di Tailwind, spegnendo il ritorno visivo del bottone.
+   ⚠️ E si ridichiara DENTRO `(hover: hover)`, come fa Tailwind v4 con le sue
+   utility: su WebKit, al tocco, `:hover` resta attaccato finché non si tocca
+   altrove, e una regola scritta a mano senza la media query lo mostrava. */
+@media (hover: hover) {
+  .fa-nav-chiara .fa-nav-pill:hover {
+    background-color: var(--fa-veil-hover-dark);
+  }
+}
+
+/* Scrim sotto la barra, ricetta Material: alto CINQUE volte la barra, il punto
+   centrale a 3/10 del lato scuro, fine a zero. I 3/10 a metà altezza sono ciò che
+   rende la caduta concava: con una rampa lineare l'occhio legge un bordo.
+   ⚠️ Strato della NAV, non degli hero: prima home e collezioni avevano un loro
+   strato alto (.55/.20/0 al 18% dell'altezza dell'hero) e chi-siamo e produzione
+   non avevano niente. Ora la sorgente è UNA, uguale su tutte e quattro le route
+   trasparenti, e quei due strati sono stati rimossi: due gradienti sovrapposti
+   sarebbero due tarature da tenere allineate a mano.
+   Il lato scuro è una custom property perché è stato scelto MISURANDO tre valori
+   (.50/.60/.70) e prendendo il più chiaro che tiene il pavimento AA su tutte e
+   quattro le pagine. */
+:root {
+  /* Lato scuro dello scrim, scelto misurando .50/.60/.70 sul fotogramma peggiore
+     di quattro pagine: è il più chiaro che tiene il pavimento AA ovunque. */
+  --fa-nav-scrim-a: 0.7;
+  /* Fondo proprio della pill lingua in modalità trasparente: la pill sta a destra,
+     sopra la parte più chiara dell'hero della home, e da sola non arrivava al
+     pavimento nemmeno col wordmark a 6,59. Scelto a passi di +.10. */
+  --fa-nav-pill-a: 0.2;
+
+  /* === Card fasi di /produzione — le tre leve della resa, tutte qui ===
+     Si tarano sul preview senza rifare la PR. Le consuma `.fa-card-testo`.
+     ⚠️ Ce n'era una quarta, `--card-scrim-global`, un velo piatto acceso
+     all'apertura: RIMOSSA, non azzerata. Serviva a smussare il salto fra card
+     chiusa e aperta, e quel salto non esiste più — aprendo, la fotografia non
+     cambia affatto. Un token a zero sarebbe stato una leva capace solo di
+     ricreare ciò che si è appena tolto, e in più lasciava un layer composto per
+     card. */
+  /* Sfocatura del fondo nella sola zona del testo. Desktop, vedi `.fa-card-testo`. */
+  --card-text-blur: 7px;
+  /* Larghezza della fascia in cui la zona si spegne, in percentuale della zona.
+     E' la leva contro lo «stacco»: piu' e' larga, meno si vede dove finisce. */
+  --card-text-sfuma: 34%;
+  /* Fondo scuro della zona del testo. Questo è il valore MOBILE, dove la zona è
+     un gradiente dal basso; su desktop scende a 0.55 (zona piatta a sinistra). */
+  --card-text-scrim: 0.7;
+}
+/* ⚠️ SOLO SOTTO `xl`. Su desktop la fascia è REVOCATA (decisione Marco 31/08):
+   l'ombra morbida sui glifi fa il lavoro e la barra resta davvero trasparente.
+   ⚠️ La soglia è quella dell'HAMBURGER e non un numero scelto qui: la fascia
+   accompagna la barra-hamburger per tutta la sua vita. Con una soglia diversa ci
+   sarebbe una finestra con l'hamburger senza fascia — la barra che cambia forma e
+   la sua protezione che cambia a un'altra larghezza è la classe di incoerenza che
+   nessuno ritrova sei mesi dopo. ⚠️ Era `lg` (1024) fino alla PR 5 di set 2026,
+   quando il menu è passato a `xl` (1280) perché in tedesco, francese e spagnolo le
+   voci toccavano il logo: se un giorno cambia la soglia del menu in
+   `navigation.tsx`, questa riga cambia con lei. */
+@media (min-width: 80rem) {
+  .fa-nav-scrim {
+    display: none;
+  }
+}
+.fa-nav-scrim {
+  /* FISSO e fuori dall'header, fra la pagina e il pannello del menu (z-40): il
+     pannello opaco lo copre, così all'apertura non si smonta niente. Dentro
+     l'header (z-50) dipingeva sopra il pannello e doveva sparire al tap — ed era
+     proprio quel fotogramma senza scrim e senza pannello a lampeggiare. */
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 35;
+  /* CINQUE volte l'altezza della barra, non tre. I 3× erano il minimo che tiene la
+     forma senza banding, NON il tetto: a 192 px lo strato finiva a 5 px sopra
+     l'occhiello della home (che parte a 197) e quel testo perdeva 1,08 rispetto
+     allo strato lato-hero che questo sostituisce — con la prova che alzare il lato
+     scuro da .70 a .90 non lo muoveva di un centesimo, perché non lo raggiungeva.
+     A 320 px la copertura all'altezza dell'occhiello torna equivalente. */
+  height: calc(5 * var(--fa-nav-h));
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgb(11 18 21 / var(--fa-nav-scrim-a)) 0%,
+    rgb(11 18 21 / calc(var(--fa-nav-scrim-a) * 0.3)) 50%,
+    rgb(11 18 21 / 0) 100%
+  );
+}
+
+/* La pagina della tavola dell'officina (`/officina`, spec `docs/specs/tavola-officina.md`).
+   Due righe: lo spazio dell'header, che resta fisso e non si tocca, e la tavola in
+   iframe, che prende tutto il resto. Nessuna altezza scritta a mano. */
+.fa-officina {
+  display: grid;
+  grid-template-rows: var(--fa-nav-h) 1fr;
+  height: 100%;
+}
+
+/* Sulla pagina della tavola il documento non scorre: alto quanto la finestra (con
+   l'altezza dinamica dove c'è), senza rimbalzo, e senza il piè di pagina, che lo
+   farebbe scorrere. La rotella sopra l'iframe va al documento dell'iframe, e sopra
+   l'header Lenis ha limite zero: nessun codice per lo scroll (custodito da
+   `officina.spec.ts`). */
+html:has(.fa-officina),
+body:has(.fa-officina) {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body:has(.fa-officina) footer {
+  display: none;
+}
+
+/* Atterraggio degli anchor sotto la nav fissa — DUE PERCORSI, UN PUNTO, UNA LEVA.
+   Lo legge il browser quando salta nativamente a un frammento (`prefers-reduced-
+   motion`, o Lenis assente: esattamente i casi in cui il provider non intercetta)
+   E lo legge Lenis, che nel suo `scrollTo` somma lo `scrollMarginTop` del nodo.
+   Quindi qui si tara l'atterraggio di entrambi, e nel provider non va toccato
+   nulla: un `offset` in JS conterebbe due volte (misurato: 128 px invece di 64). */
+#main-content,
+#progettare,
+#catalogo,
+details[data-legal-section] {
+  scroll-margin-top: var(--fa-nav-h);
+}
+
+/* Menzioni legali: in stampa si stampano tutte le sezioni, anche quelle chiuse. Il
+   contenuto di un details chiuso sta in ::details-content con content-visibility
+   hidden; questa regola lo copre dove lo pseudo-elemento esiste, e l'evento
+   beforeprint di LegalDetailsSync apre le sezioni in tutti gli altri browser. */
+@media print {
+  details[data-legal-section]::details-content {
+    content-visibility: visible;
+  }
+}
+
+@layer components {
+  /* eyebrow */
+  .fa-eyebrow {
+    font-size: var(--text-caption-1);
+    letter-spacing: var(--tracking-4);
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--fa-navy);
+  }
+  .fa-eyebrow.on-dark { color: var(--fa-navy-bright); }
+
+  /* headings */
+  /* Hero full-bleed. Il confine e' scritto in CLAUDE.md: NON lo usano la scheda
+     modello, la scheda corpo e la 404 (sono `.fa-h2`, e ModelHero e' escluso per
+     LOCK), l'articolo del blog e le pagine legali (`.fa-h1`), e l'archivio
+     Referenze, che resta la sua eccezione editoriale in corsivo. */
+  .fa-hero-h1 {
+    /* `balance` pareggia le righe invece di riempirle una per una. Misurato su
+       12 combinazioni pagina x viewport ne cambia DUE, /produzione e /contatti a
+       1440: «Come nasce una / colonna.» diventa «Come nasce / una colonna.».
+       NON risolve /collezioni a 390, dove «316.» resta da sola sulla quarta
+       riga: li' non c'e' una spezzatura migliore a quella misura. */
+    text-wrap: balance;
+    font-size: var(--text-display-hero);
+    line-height: var(--text-display-hero--line-height);
+    letter-spacing: var(--text-display-hero--letter-spacing);
+    font-weight: var(--text-display-hero--font-weight);
+    margin: 0;
+  }
+  .fa-h1 {
+    font-size: var(--text-heading-1);
+    line-height: var(--text-heading-1--line-height);
+    letter-spacing: var(--text-heading-1--letter-spacing);
+    font-weight: var(--text-heading-1--font-weight);
+    margin: 0;
+  }
+  .fa-h2 {
+    font-size: var(--text-heading-2);
+    line-height: var(--text-heading-2--line-height);
+    letter-spacing: var(--text-heading-2--letter-spacing);
+    font-weight: var(--text-heading-2--font-weight);
+    margin: 0;
+  }
+  .fa-h3 {
+    font-size: var(--text-heading-3);
+    line-height: var(--text-heading-3--line-height);
+    letter-spacing: var(--text-heading-3--letter-spacing);
+    font-weight: var(--text-heading-3--font-weight);
+    margin: 0;
+  }
+  .fa-h4 {
+    font-size: var(--text-heading-4);
+    line-height: var(--text-heading-4--line-height);
+    letter-spacing: var(--text-heading-4--letter-spacing);
+    font-weight: var(--text-heading-4--font-weight);
+    margin: 0;
+  }
+
+  /* body */
+  .fa-body-lg { font-size: var(--text-body-lg); line-height: var(--text-body-lg--line-height); }
+  .fa-body-sm { font-size: var(--text-body-sm); line-height: var(--text-body-sm--line-height); }
+
+  /* section + container */
+  .fa-section { padding: var(--fa-space-section) calc(var(--spacing) * 6); }
+  .fa-section.dark { background: var(--fa-ink); color: var(--fa-text-on-dark); }
+  .fa-section.light { background: var(--fa-white); color: var(--fa-text-primary); }
+  .fa-container { max-width: var(--container-max); margin: 0 auto; }
+  .fa-container.narrow { max-width: 800px; }
+
+  /* tag */
+  .fa-tag {
+    display: inline-block;
+    font-size: var(--text-micro-1);
+    font-weight: 500;
+    letter-spacing: var(--tracking-3);
+    text-transform: uppercase;
+    padding: var(--spacing) calc(var(--spacing) * 3);
+    border-radius: var(--radius-pill);
+    border: var(--fa-stroke-hairline) solid var(--fa-border-medium);
+    color: var(--fa-text-secondary);
+  }
+  .fa-tag.on-dark { color: var(--fa-text-on-dark-secondary); border-color: var(--fa-border-dark-medium); }
+
+  /* Block 2 — static alimentation marker chip (non-interactive: no hover/cursor;
+     .fa-pill S sizing tokens; --alim-* background applied inline per type) */
+  .fa-alim-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--btn-height-s);
+    padding: 0 var(--btn-pad-s);
+    font-size: var(--btn-font-s);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: var(--radius-pill);
+    color: var(--fa-text-primary);
+  }
+
+  /* finish dot (default 26px). Solo i pallini delle FINITURE: card modello e
+     FinishSelector. I pallini del carosello hanno `.fa-coverflow-dot`, nel
+     componente — una classe, un ruolo (set 2026: prima la classe era una sola
+     per tutti e due, e l'hover di questa arrivava anche a quelli). */
+  .fa-finish-dot {
+    width: var(--fa-finish-dot-size);
+    height: var(--fa-finish-dot-size);
+    border-radius: var(--radius-full);
+    box-shadow: 0 0 0 1px var(--fa-border-light) inset;
+    transition: transform var(--dur-sheet) ease;
+  }
+  .fa-finish-dot:hover { transform: scale(1.15); cursor: pointer; }
+
+  /* Finiture sulla card modello a DUE COLONNE (21/09/2026): sotto `sm` restano
+     i primi tre pallini e il resto diventa «+N». Il taglio è in CSS e non in
+     JS — i pallini oltre il terzo sono nel DOM e tornano da `sm` in su — così
+     il markup servito è uno solo per tutte le larghezze.
+     Il tre è misurato: card 165, testo utile 133, pallino 26 e gap 10 →
+     3×26 + 2×10 = 98 entrano, il quarto porterebbe a 134. */
+  @media (width < 40rem) {
+    .fa-finiture-card > .fa-finish-dot:nth-of-type(n + 4) { display: none; }
+  }
+  .fa-finiture-resto {
+    font-size: var(--text-micro-2);
+    font-weight: 500;
+    line-height: 1;
+    color: rgba(26, 26, 24, 0.55);
+  }
+
+  /* Gocce acqua sulla CARD (icon-only): altezza = 75% del pallino finitura, dal
+     token → se il pallino cambia misura, le gocce seguono. La scheda resta 28px. */
+  .fa-drops-card {
+    height: calc(var(--fa-finish-dot-size) * 0.75);
+    width: auto;
+  }
+
+  /* filter pill (FASE 4.2.3) */
+  /* ── FILTRI MOBILE (< lg) ────────────────────────────────────────────────
+     Barra compatta + bottom sheet. Su 390 le pill a tutta larghezza occupavano
+     423px, cioè metà schermo prima della prima card.
+
+     ⚠️ Qui i bersagli tattili sono a --btn-height-m (44), NON alla S (36) delle
+     pill desktop: sono comandi che si toccano col dito. Le pill desktop restano
+     a 36 — difetto preesistente, a registro, fuori dal perimetro di questa PR. */
+  .fa-filtri-chip,
+  .fa-filtri-mostra,
+  .fa-filtri-azzera,
+  .fa-filtri-apri {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(var(--spacing) * 2);
+    font-family: inherit;
+    min-height: var(--btn-height-m);
+    font-size: var(--btn-font-s);
+    font-weight: 500;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: all var(--dur-micro) var(--ease-out-expo);
+    white-space: nowrap;
+  }
+
+  /* Chip dentro lo sheet: come una .fa-pill, un gradino più alta. */
+  /* ⚠️ Il bordo è `--fa-navy` e NON `--fa-border-medium`, che su `--fa-white`
+     misura **1,52:1** — sotto il 3:1 di WCAG 1.4.11, che è la soglia dei bordi
+     dei componenti di interfaccia. Nel design system non esiste un token di
+     bordo che ci arrivi: `light` sta a 1,36 e `medium` a 1,52, e servirebbe
+     alfa ≥ 0,50. Si usa quindi il pattern già in casa per un controllo
+     outlined su chiaro — `Button variant="secondary"`, `1.5px solid navy` —
+     che misura 12,44:1. Le `.fa-pill` di desktop restano a 1,52: stesso token,
+     stesso difetto, fuori dal perimetro di questa PR come i loro 36px. */
+  .fa-filtri-chip {
+    padding-inline: calc(var(--spacing) * 4);
+    background: transparent;
+    color: var(--fa-text-secondary);
+    border: var(--fa-stroke-control) solid var(--fa-stroke-color-on-light);
+  }
+  .fa-filtri-chip.scelta {
+    background: var(--fa-navy);
+    border-color: var(--fa-navy);
+    color: var(--fa-text-on-dark);
+  }
+  /* A zero risultati, l'ultimo acceso: si INDICA quale togliere, non si toglie
+     da soli. L'anello sta fuori dal bordo, così non sposta il testo. Navy come la
+     traccia sul chiaro: era oro fino al 20/10/2026. */
+  .fa-filtri-chip.da-togliere {
+    outline: 2px solid var(--fa-stroke-color-on-light);
+    outline-offset: 2px;
+  }
+
+  /* La casella della newsletter (19/10/2026, Marco): la traccia dei controlli, 1,5 px, e
+     NIENTE ORO, nemmeno nel fuoco. Su chiaro bordo navy, spuntata fondo navy e spunta crema,
+     anello navy; su scuro (`.su-scuro`) bordo bianco, spuntata fondo bianco e spunta
+     d'inchiostro, anello bianco. La spunta è il tracciato `SPUNTA` del bottone di invio, in
+     un SVG sopra la casella. Dopo l'invio (`aria-disabled`) l'aspetto non cambia. */
+  .fa-casella {
+    appearance: none;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border: var(--fa-stroke-control) solid var(--fa-stroke-color-on-light);
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .fa-casella:checked {
+    background: var(--fa-stroke-color-on-light);
+  }
+  .fa-casella:focus-visible {
+    outline: 2px solid var(--fa-stroke-color-on-light);
+    outline-offset: 3px;
+  }
+  .fa-casella.su-scuro {
+    border-color: var(--fa-stroke-color);
+  }
+  .fa-casella.su-scuro:checked {
+    background: var(--fa-stroke-color);
+  }
+  .fa-casella.su-scuro:focus-visible {
+    outline-color: var(--fa-stroke-color);
+  }
+  .fa-casella[aria-disabled="true"] {
+    cursor: default;
+  }
+  /* In errore (la casella obbligatoria della newsletter nel piè di pagina) il bordo prende il rosso del
+     suo fondo, come i campi (28/10/2026). Dopo le regole su scuro: stessa specificità, vince l'ultima. */
+  .fa-casella[aria-invalid="true"] {
+    border-color: var(--fa-error);
+  }
+  .fa-casella.su-scuro[aria-invalid="true"] {
+    border-color: var(--fa-error-on-dark);
+  }
+  .fa-casella-spunta {
+    color: var(--fa-text-on-dark);
+    opacity: 0;
+  }
+  .fa-casella.su-scuro + .fa-casella-spunta {
+    color: var(--fa-ink);
+  }
+  .fa-casella:checked + .fa-casella-spunta {
+    opacity: 1;
+  }
+
+  /* Piede dello sheet */
+  .fa-filtri-mostra {
+    flex: 1;
+    padding-inline: var(--btn-pad-m);
+    background: var(--fa-navy);
+    color: var(--fa-text-on-dark);
+    border: 0;
+  }
+  .fa-filtri-mostra.spento {
+    background: var(--fa-border-medium);
+    color: var(--fa-text-secondary);
+    cursor: not-allowed;
+  }
+  .fa-filtri-azzera {
+    padding-inline: var(--btn-pad-s);
+    background: transparent;
+    color: var(--fa-navy);
+    border: var(--fa-stroke-control) solid var(--fa-stroke-color-on-light);
+  }
+  .fa-filtri-azzera:disabled {
+    opacity: var(--fa-opacity-disabled);
+    cursor: default;
+  }
+
+  /* Barra: il bottone di apertura e i chip applicati.
+     ⚠️ **PILL INVERSA** (Marco, 21/09/2026): fondo chiaro e testo navy, non il
+     contrario. La pill flottante vive sopra le fotografie del catalogo, che
+     sono scure: un oggetto CHIARO ci si stacca, uno scuro ci si confonde —
+     misurato, v. `.fa-filtri-flottante`. `border: 0` resta: è una pill piena e
+     le pill piene di questo progetto non hanno traccia.
+     ⚠️ Il fondo è **`--fa-paper`, cioè bianco**, e non un `--fa-cream`, che in
+     questo progetto NON esiste: i chiari sono `--fa-white` (#f6f4f0, ed è
+     proprio il fondo della sezione, quindi inutilizzabile qui) e `--fa-paper`
+     (#ffffff); il 21/09 c'erano anche #fcfaf5, confluito nel crema il 23/10/2026,
+     e #faf8f5, confluito nel bianco lo stesso giorno. La regola
+     era «crema, bianco se il crema non stacca dal crema della pagina»: il crema
+     non stacca — bordo a **1,13** sulla zona chiara — e il bianco nemmeno
+     (1,18), ma è misurabilmente meglio in tutti e due i contesti, quindi vince
+     lui. I numeri per esteso stanno su `.fa-filtri-flottante`. */
+  .fa-filtri-apri {
+    padding-inline: var(--btn-pad-s);
+    background: var(--fa-paper);
+    color: var(--fa-navy);
+    border: 0;
+  }
+
+  /* La pill dei filtri FLOTTANTE, sotto `lg` (21/09/2026, decisione di Marco).
+     Larghezza al contenuto e mai piena: è un comando, non una barra di sistema.
+     ⚠️ `bottom` tiene conto della safe-area dell'iPhone col home indicator —
+     `env(safe-area-inset-bottom)` vale 0 dove non serve, quindi la stessa riga
+     va bene ovunque e non serve una media query per i telefoni con la tacca.
+     ⚠️ `z-index` 40: sopra le card e sotto la nav fissa. Con lo sheet non c'è
+     gara — un `<dialog>` aperto con `showModal()` sta nel TOP LAYER, che è
+     fuori dall'ordine degli z-index — ma la pill si spegne comunque quando lo
+     sheet è aperto, perché restare accesa sotto il velo la farebbe vedere
+     sbiadita invece che assente.
+     ⛔ **NIENTE TRACCIA E UN OGGETTO SOLO** (Marco, 21/09/2026): pill piena,
+     nessun bordo, nessuna piastra dietro. Lo stacco lo fanno il COLORE e
+     un'ombra morbida.
+     ⚠️ **La storia di questa riga è tre ipotesi e due misure che le hanno
+     ribaltate, e va letta prima di cambiarla.** Tutto misurato sopra la cover
+     scura di una card a metà scorrimento, a 390 e DPR 2, come contrasto fra il
+     pieno della pill e l'anello di pixel a 3px dal bordo, lato per lato e
+     tenendo il PEGGIORE:
+
+       pill navy + ombra a due strati   1,87   ← prima ipotesi
+       pill navy senza ombra            2,22     (il controllo: l'ombra PEGGIORA)
+       pill navy + piastra crema       13,1    ← seconda ipotesi, scartata: due
+                                                 stadi concentrici alla stessa
+                                                 distanza si leggono come un bordo
+       pill INVERSA, crema su scuro     v. sotto ← quella in vigore
+
+     Perché l'ombra da sola non bastava: la pill era navy, cioè SCURA, e la
+     cover sotto è scura; scurire l'intorno di un oggetto scuro lo avvicina al
+     fondo invece di separarlo. Invertendo la pill il problema sparisce alla
+     radice — un oggetto chiaro sopra una fotografia scura si stacca da sé — e
+     l'ombra torna a fare il mestiere per cui esiste, l'elevazione.
+     I numeri, misurati nei DUE contesti chiesti da Marco — sopra la cover scura
+     di una card (rgb 73,88,101) e sopra il crema della sezione — scegliendo i
+     punti di scorrimento col metodo di spegnere la pill e guardare cosa c'è
+     dietro i suoi fianchi:
+
+       variante                     cover scura    zona crema
+       bianco + ombra stretta+larga    3,95           1,29      ← in vigore
+       bianco, sola ombra larga        3,45           1,18
+       crema, sola ombra larga         3,31           1,13
+       crema senza ombra               3,02           1,06
+       pill NAVY di prima              2,30           1,77
+
+     ⚠️ **Sopra la cover l'inversa batte la navy su ogni lato** (3,95 contro
+     2,30), ed è la ragione per cui la pill si è invertita. Sul lato migliore
+     arriva a **6,40**. ⚠️ Il tetto fisico su QUELLA cover è **6,99**: bianco
+     contro rgb(73,88,101). Un «> 7:1» è sopra il massimo possibile lì, e si
+     otterrebbe solo su una foto più scura.
+     ⛔ **Sulla zona crema il 3:1 su tutti i lati è IRRAGGIUNGIBILE, per
+     chiunque**: per portarci il bordo servirebbe un anello a luminanza 0,27,
+     cioè un contorno scuro quanto una traccia — vietata. Non è un limite di
+     questa scelta: **anche la pill navy fallisce lì** (1,77 sul lato sotto, dove
+     la sua ombra la circonda di scuro). Quello che l'ombra fa davvero sul crema
+     è il lato SOTTO, che passa da 6,26 senza ombra a **9,21**: la pill si legge
+     come appoggiata, e il suo testo navy sul bianco sta comunque a 12,44. */
+  .fa-filtri-flottante {
+    position: fixed;
+    left: 50%;
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    z-index: 40;
+    transform: translateX(-50%);
+    /* Il contenitore è SOLO posizione: fondo, forma e ombra stanno sulla pill,
+       perché è un oggetto solo. */
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-floating-pill);
+    /* ⚠️ `visibility` sta nella lista apposta: toglie la pill dal giro del
+       tabulatore quando è spenta, e messa in transizione resta visibile per
+       tutta la dissolvenza invece di sparire di colpo al primo fotogramma. */
+    transition:
+      opacity var(--dur-standard) var(--ease-out-expo),
+      translate var(--dur-standard) var(--ease-out-expo),
+      visibility var(--dur-standard);
+  }
+  .fa-filtri-flottante[data-visibile="false"] {
+    opacity: 0;
+    translate: 0 12px;
+    /* Spenta anche al tatto e al fuoco: una pill invisibile che risponde al tap
+       è peggio di una assente. */
+    pointer-events: none;
+    visibility: hidden;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fa-filtri-flottante {
+      transition: none;
+    }
+    .fa-filtri-flottante[data-visibile="false"] {
+      translate: none;
+    }
+  }
+  .fa-filtri-applicati {
+    display: flex;
+    gap: calc(var(--spacing) * 2);
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Dissolvenza a destra: dice che c'è dell'altro senza una barra di scorrimento
+       che su touch non si vede comunque. */
+    mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent 100%);
+  }
+  .fa-filtri-applicati::-webkit-scrollbar {
+    display: none;
+  }
+  .fa-filtri-applicati > * {
+    flex: 0 0 auto;
+  }
+
+  /* Lo sheet. `<dialog>` sta nel top layer: niente z-index contro la nav fissa. */
+  .fa-filtri-sheet {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0 auto;
+    padding: 0;
+    border: 0;
+    position: fixed;
+    inset: auto 0 0 0;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    background: var(--fa-white);
+    color: var(--fa-text-primary);
+    box-shadow: var(--shadow-product);
+  }
+  .fa-filtri-sheet::backdrop {
+    background: rgb(11 18 21 / 0.5);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .fa-filtri-sheet[open] {
+      animation: fa-sheet-su var(--dur-sheet) var(--ease-out-expo);
+    }
+    .fa-filtri-sheet[open]::backdrop {
+      animation: fa-sheet-velo var(--dur-sheet) var(--ease-out-expo);
+    }
+  }
+  @keyframes fa-sheet-su {
+    from {
+      transform: translateY(100%);
+    }
+  }
+  @keyframes fa-sheet-velo {
+    from {
+      opacity: 0;
+    }
+  }
+
+  .fa-pill {
+    /* FASE 2: sizing dalla taglia S (token unico, condiviso con Button size="s").
+       inline-flex + min-height per centrare il testo nell'altezza fissa. */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    min-height: var(--btn-height-s);
+    font-size: var(--btn-font-s);
+    letter-spacing: var(--tracking-2);
+    padding-inline: var(--btn-pad-s);
+    border-radius: var(--radius-pill);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--dur-control);
+    background: transparent;
+    color: var(--fa-text-secondary);
+    border: var(--fa-stroke-control) solid var(--fa-stroke-color-on-light);
+    white-space: nowrap;
+  }
+  /* L'hover cambiava il colore del bordo, da grigio a navy: con la traccia già navy
+     non si vedrebbe più niente, quindi prende il velo del CTA outline su chiaro
+     (`hover:bg-fa-navy/8`). Dentro `(hover: hover)`, come ogni hover scritto a mano. */
+  @media (hover: hover) {
+    .fa-pill:hover {
+      color: var(--fa-navy);
+      background: rgb(27 46 74 / 0.08);
+    }
+  }
+  .fa-pill.active {
+    background: var(--fa-navy);
+    color: var(--fa-text-on-dark);
+    border-color: var(--fa-navy);
+  }
+  /* FASE 2 dedup: hover/press della pill blu attiva (navy → navy-light + scale 0.97).
+     Il timing 300ms NON è più duplicato qui — vive nella base .fa-pill (single source),
+     come <Button variant="primary">. Esclude la pill bianca .on-dark.active e :disabled. */
+  .fa-pill.active:not(.on-dark):not(:disabled):hover {
+    background: var(--fa-navy-light);
+    border-color: var(--fa-navy-light);
+  }
+  .fa-pill.active:not(.on-dark):not(:disabled):active {
+    transform: scale(0.97);
+  }
+  /* on-dark variant (Blog filters on anthracite) — mirrors .fa-tag on-dark.
+     Testo bianco pieno (no grigio) per leggibilità; lo stato attivo resta il fill bianco. */
+  .fa-pill.on-dark {
+    color: var(--fa-text-on-dark);
+    border-color: var(--fa-stroke-color);
+  }
+  /* Stessa ragione dell'hover su chiaro: il bordo è già bianco, il velo è quello del
+     CTA outline su scuro (`hover:bg-white/10`). */
+  @media (hover: hover) {
+    .fa-pill.on-dark:hover {
+      color: var(--fa-text-on-dark);
+      background: var(--fa-veil-hover-dark);
+    }
+  }
+  .fa-pill.on-dark.active {
+    background: var(--fa-white);
+    color: var(--fa-black);
+    border-color: var(--fa-white);
+  }
+
+  /* FASE 2: hit-area touch ≥44px per i controlli S (WCAG 2.5.8 Target Size Min).
+     Solo su puntatore grosso (dito) → il visivo resta 36px su desktop/mouse. */
+  @media (pointer: coarse) {
+    .fa-pill {
+      min-height: var(--fa-touch-min);
+    }
+  }
+}
+
+/* === FASE 4.1.3b: row gallery mobile fallback ===
+   The Porsche-style horizontal flex layout becomes unreadable below 768px
+   (4 collapsed tiles ≈ 48px each on a 375px viewport). At ≤767px we collapse
+   the layout to a 2×2 grid with all captions revealed; the JS state machine
+   keeps running, the CSS just overrides the visual presentation. */
+@layer components {
+  @media (max-width: 767px) {
+    [data-fa-gallery="row"] {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      height: auto !important;
+      gap: calc(var(--spacing) * 2);
+    }
+    [data-fa-gallery="row"] > div {
+      flex: none !important;
+      min-height: 240px;
+      aspect-ratio: 4 / 5;
+    }
+    [data-fa-gallery="row"] [data-fa-place-vertical] {
+      display: none !important;
+    }
+    [data-fa-gallery="row"] [data-fa-active-content] [data-fa-caption] {
+      clip-path: inset(0 0 0 0) !important;
+      transform: translateY(0) !important;
+    }
+    [data-fa-gallery="row"] [data-fa-active-content] [data-fa-eyebrow] {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+  }
+}
+
+/* === FASE 5 / 0.3: card title utility (Figma "Card Title" 22/1.2/-0.2) ===
+   22px (1.375rem), distinto da .fa-h4 (24px). Per nome finitura/card. */
+@layer components {
+  .fa-card-title {
+    font-size: var(--text-card-title);
+    line-height: var(--text-card-title--line-height);
+    letter-spacing: var(--text-card-title--letter-spacing);
+    font-weight: var(--text-card-title--font-weight);
+    margin: 0;
+  }
+}
+
+/* === Zona del testo delle card /produzione (set 2026) ===
+   Marco: «la foto nitida, la sfocatura solo sotto il testo». Prima di questa
+   modifica la foto NON era sfocata da un `filter` — non ce n'è mai stato uno — ma
+   lo strato sfocato era largo il 106,8% della card e alto due terzi, quindi a
+   schermo la fotografia risultava sfocata lo stesso. E soprattutto era SCURA:
+   misurata la luminanza del fondo sotto i glifi del corpo, 0,006-0,014, contro
+   0,0056 dell'inchiostro puro. Cioè sotto il testo la foto era già nera, e quel
+   contrasto di 16:1 non era un buon risultato: era il massimo teorico di quel
+   bianco su quell'inchiostro, ottenuto cancellando l'immagine.
+
+   Ora il peso sta in UNA zona sola, e la foto vive dappertutto altrove.
+
+   DUE FORME, un solo elemento, perché il testo occupa porzioni diverse:
+    - mobile e tablet stretto (sotto `md`): il testo prende tutta la larghezza,
+      quindi la zona è un gradiente
+      dal basso, TRASPARENTE IN ALTO — così metà foto resta visibile — e senza
+      sfocatura. Su mobile la sfocatura non serviva già prima: l'energia di
+      dettaglio lì era 0,15 contro 2,91 di desktop, e 8px la portavano a 0,12,
+      cioè costo GPU per niente;
+    - desktop: il testo sta a sinistra, quindi la zona è la COLONNA sinistra,
+      piatta, sfocata, coi bordi sfumati dalla maschera. Il numero sta a destra e
+      resta fuori: è la ragione per cui la zona ha una larghezza e non `inset: 0`.
+
+   LARGHEZZA = padding + la stessa max-width del paragrafo + fascia di
+   dissolvenza. Legata al tetto del testo e non a un numero a parte, così se il
+   paragrafo cambia larghezza la zona lo segue.
+
+   TRANSIZIONE: solo `opacity`, dichiarata SOLO nello stato aperto. In apertura
+   entra a transizione di altezza finita (`transition-delay: var(--fa-fase-dur)`);
+   in chiusura sparisce al PRIMO frame, perché la regola smette di applicarsi e
+   non c'è nulla da animare. Mai una sfocatura animata sopra un'altezza animata.
+   `backdrop-filter` NON ha una transizione propria: l'opacità dell'elemento
+   modula anche il risultato del filtro, quindi la sfocatura entra in dissolvenza
+   insieme alla zona senza pagare una seconda animazione.
+
+   ⚠️ SOLO la proprietà non prefissata: il prefisso lo mette il build in base ai
+   target. Scrivendo a mano anche `-webkit-backdrop-filter`, Lightning CSS teneva
+   SOLO quella e buttava via la standard — misurato sul foglio servito. In
+   Chromium non si vede, perché il webkit è un alias; su Firefox l'effetto
+   sparirebbe e basta.
+
+   `@supports not`: dove `backdrop-filter` non c'è il fondo sale a 0.78, così il
+   testo resta leggibile senza sfocatura.
+
+   Il fondo della zona è l'inchiostro della sezione (22/10/2026): era il nero caldo del
+   testo, e sulla card aperta si leggeva come un'ombra di un altro colore. È scritto
+   `rgb(11 18 21 / …)`, i valori di --color-fa-ink, e NON `color-mix` col token: per i
+   browser senza `color-mix` il build emetteva un ripiego con l'inchiostro PIENO, cioè
+   una zona nera e opaca (letto sul CSS servito). */
+@layer components {
+  .fa-card-testo {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      transparent 46%,
+      rgb(11 18 21 / var(--card-text-scrim)) 100%
+    );
+  }
+  [data-aperta="true"] .fa-card-testo {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    [data-aperta="true"] .fa-card-testo {
+      transition: opacity var(--dur-sheet) linear var(--fa-fase-dur);
+    }
+  }
+
+  /* ⚠️ Il confine è `md` (48rem) e NON `sm` come quello degli scrim, ed è una
+     divergenza MISURATA, non una svista. La forma a colonna presuppone testo a
+     sinistra e foto a destra: sotto gli 810px di viewport quel presupposto cade,
+     perché il paragrafo resta largo 540 (è il suo tetto) mentre la card si
+     stringe, e la zona — che deve lasciare 180px al numero — non ci arriva più.
+     Misurato col confine a `sm`: a 640px di viewport il paragrafo sbordava di
+     140px dalla zona, a 700 di 114, a 767 di 47. Cioè le ultime parole di ogni
+     riga restavano senza fondo. Sotto `md` vale la forma mobile, che il testo lo
+     copre tutto perché è larga quanto la card. */
+  @media (min-width: 48rem) {
+    .fa-card-testo {
+      --card-text-scrim: 0.55;
+      right: auto;
+      /* Pieno fino alla fine del paragrafo, poi la fascia. Il `min()` e' il
+         guinzaglio: sotto i 1200px la card si stringe ma il numero resta dov'e',
+         a destra, e senza tetto la zona se lo mangerebbe. 180px e' la sua
+         larghezza piu' un respiro. */
+      width: min(calc(40px + min(62ch, 540px) + 240px), calc(100% - 150px));
+      background: rgb(11 18 21 / var(--card-text-scrim));
+      /* ⚠️ RAMPE SMOOTHSTEP, non lineari. Una rampa lineare ha la derivata
+         discontinua ai due estremi: l'occhio legge quei ginocchi come una riga
+         (bande di Mach), ed e' quello lo «stacco» che si vedeva. `3t² − 2t³` ha
+         derivata NULLA agli estremi, quindi entra ed esce dal pieno senza
+         spigoli.
+         ⚠️ I fermi sono 13 per lato sul verticale e 17 sull'orizzontale, e NON
+         nove: fra un fermo e l'altro il gradiente CSS interpola diritto, quindi
+         pochi fermi lasciano un ginocchio a ogni giunzione. Con nove si vedevano
+         i gradini su un fondo piatto — non sulla foto, dove la texture li
+         nasconde, ma la card 08 ha un muro liscio in mezzo ed e' li' che
+         sarebbero comparsi.
+         Orizzontale in PERCENTUALE della zona, cosi' la fascia si comprime da
+         sola quando la card e' stretta; verticale in px, perche' la card cresce
+         in altezza aprendosi e una percentuale sposterebbe la dissolvenza sotto
+         il titolo. */
+      mask-image:
+        linear-gradient(
+          180deg,
+          transparent 0,
+          rgb(0 0 0 / 0.0197) 7.33px,
+          rgb(0 0 0 / 0.0741) 14.67px,
+          rgb(0 0 0 / 0.1562) 22px,
+          rgb(0 0 0 / 0.2593) 29.33px,
+          rgb(0 0 0 / 0.3762) 36.67px,
+          rgb(0 0 0 / 0.5) 44px,
+          rgb(0 0 0 / 0.6238) 51.33px,
+          rgb(0 0 0 / 0.7407) 58.67px,
+          rgb(0 0 0 / 0.8438) 66px,
+          rgb(0 0 0 / 0.9259) 73.33px,
+          rgb(0 0 0 / 0.9803) 80.67px,
+          #000 88px,
+          #000 calc(100% - 88px),
+          rgb(0 0 0 / 0.9803) calc(100% - 80.67px),
+          rgb(0 0 0 / 0.9259) calc(100% - 73.33px),
+          rgb(0 0 0 / 0.8438) calc(100% - 66px),
+          rgb(0 0 0 / 0.7407) calc(100% - 58.67px),
+          rgb(0 0 0 / 0.6238) calc(100% - 51.33px),
+          rgb(0 0 0 / 0.5) calc(100% - 44px),
+          rgb(0 0 0 / 0.3762) calc(100% - 36.67px),
+          rgb(0 0 0 / 0.2593) calc(100% - 29.33px),
+          rgb(0 0 0 / 0.1562) calc(100% - 22px),
+          rgb(0 0 0 / 0.0741) calc(100% - 14.67px),
+          rgb(0 0 0 / 0.0197) calc(100% - 7.33px),
+          transparent 100%
+        ),
+        linear-gradient(
+          90deg,
+          #000 0,
+          #000 calc(100% - var(--card-text-sfuma)),
+          rgb(0 0 0 / 0.9888) calc(100% - var(--card-text-sfuma) * 0.9375),
+          rgb(0 0 0 / 0.957) calc(100% - var(--card-text-sfuma) * 0.875),
+          rgb(0 0 0 / 0.9077) calc(100% - var(--card-text-sfuma) * 0.8125),
+          rgb(0 0 0 / 0.8438) calc(100% - var(--card-text-sfuma) * 0.75),
+          rgb(0 0 0 / 0.7681) calc(100% - var(--card-text-sfuma) * 0.6875),
+          rgb(0 0 0 / 0.6836) calc(100% - var(--card-text-sfuma) * 0.625),
+          rgb(0 0 0 / 0.5933) calc(100% - var(--card-text-sfuma) * 0.5625),
+          rgb(0 0 0 / 0.5) calc(100% - var(--card-text-sfuma) * 0.5),
+          rgb(0 0 0 / 0.4067) calc(100% - var(--card-text-sfuma) * 0.4375),
+          rgb(0 0 0 / 0.3164) calc(100% - var(--card-text-sfuma) * 0.375),
+          rgb(0 0 0 / 0.2319) calc(100% - var(--card-text-sfuma) * 0.3125),
+          rgb(0 0 0 / 0.1562) calc(100% - var(--card-text-sfuma) * 0.25),
+          rgb(0 0 0 / 0.0923) calc(100% - var(--card-text-sfuma) * 0.1875),
+          rgb(0 0 0 / 0.043) calc(100% - var(--card-text-sfuma) * 0.125),
+          rgb(0 0 0 / 0.0112) calc(100% - var(--card-text-sfuma) * 0.0625),
+          transparent 100%
+        );
+      mask-composite: intersect;
+    }
+    @supports (backdrop-filter: blur(1px)) {
+      [data-aperta="true"] .fa-card-testo {
+        backdrop-filter: blur(var(--card-text-blur));
+      }
+    }
+    @supports not (backdrop-filter: blur(1px)) {
+      .fa-card-testo {
+        --card-text-scrim: 0.78;
+      }
+    }
+  }
+}

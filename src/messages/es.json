@@ -1,0 +1,789 @@
+{
+  "skip": {
+    "toContent": "Saltar al contenido"
+  },
+  "nav": {
+    "ariaLabel": "Navegación principal",
+    "collezioni": "Colecciones",
+    "produzione": "Producción",
+    "outdoor": "Outdoor",
+    "indoor": "Indoor",
+    "kitchen": "Kitchen",
+    "finiture": "Acabados",
+    "chiSiamo": "Nosotros",
+    "contatti": "Contacto",
+    "blog": "Blog",
+    "areaPro": "Área pro",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "back": "Atrás",
+    "home": "Home",
+    "breadcrumbAria": "Ruta de navegación",
+    "switchTo": "Cambiar a {lang}",
+    "langLabel": "Seleccionar idioma",
+    "comingSoon": "Coming soon",
+    "menzioniLegali": "Aviso legal"
+  },
+  "footer": {
+    "columns": {
+      "collezioni": "Colecciones",
+      "azienda": "Empresa",
+      "contatti": "Contacto",
+      "suDiNoi": "Nosotros",
+      "legal": "Legal",
+      "areaRiservata": "Área pro",
+      "newsletter": "Newsletter"
+    },
+    "links": {
+      "chiSiamo": "Quiénes somos",
+      "produzione": "Producción",
+      "finiture": "Acabados",
+      "progetti": "Proyectos",
+      "news": "News",
+      "richiediPreventivo": "Solicitar presupuesto",
+      "areaPro": "Área reservada"
+    },
+    "privacyPolicy": "Política de privacidad",
+    "cookiePolicy": "Política de cookies",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "newsletterInvito": "Colecciones, acabados y proyectos realizados: las novedades de Fontealta."
+  },
+  "brand": {
+    "wordmark": "FONTEALTA",
+    "tagline": {
+      "line1": "Especialistas del acero.",
+      "line2": "Columnas de ducha para exteriores.",
+      "line3": "Made in Italy."
+    }
+  },
+  "collezioni": {
+    "heroEyebrow": "El catálogo.",
+    "heroH1Top": "Vestimos el agua",
+    "heroH1Bot": "en acero AISI 316.",
+    "heroSub": "Las colecciones Fontealta en acero inoxidable AISI 316, para el baño, el exterior, la cocina, el yate.",
+    "heroImageAlt": "Vista aérea de una playa de arena blanca y el mar turquesa que rompe en ella.",
+    "stat1Label": "Colecciones",
+    "stat2Value": "500+",
+    "stat2Label": "Artículos",
+    "stat3Value": "7",
+    "stat3Label": "Acabados en catálogo",
+    "stat4Value": "Italy",
+    "stat4Label": "Made in",
+    "gridEyebrow": "Las colecciones",
+    "gridH2": "Cada colección, una historia que contar.",
+    "gridIntro": "Cada colección nace de un punto de vista sobre la relación entre acero, gesto y cotidianidad.",
+    "progettareH2": "¿No encuentra lo que busca?",
+    "progettareSub": "Cuéntenos el proyecto: residencia, hospitality, yate. Nuestro equipo técnico le acompaña desde la elección de los acabados hasta el diseño a medida.",
+    "metaTitle": "Colecciones",
+    "metaDescription": "Colecciones Fontealta en acero inox AISI 316: columnas freestanding, grifería y soluciones a medida para baño, exterior, cocina y yate.",
+    "titoloConTipo": "{tipo} {titolo}",
+    "tipoBreve": {
+      "doccia": "Columnas de ducha",
+      "docciaEBagno": "Columnas de ducha",
+      "bagno": "Grifería de baño",
+      "cucina": "Grifos de cocina",
+      "giardino": "Grifos de jardín",
+      "bidet": "Monomandos bidet"
+    }
+  },
+  "catalogo": {
+    "eyebrow": "Catálogo",
+    "titolo": "Descubra cómo nace el Made in Italy",
+    "sottotitolo": "Todas las colecciones, los acabados y los códigos en un único PDF. Se lo enviamos ahora mismo.",
+    "badgeAnno": "Catálogo 2026",
+    "badgePagine": "143 páginas",
+    "badgeFormato": "PDF"
+  },
+  "dettaglio": {
+    "eyebrow": "Colección",
+    "statArticoli": "Artículos",
+    "statFiniture": "Acabados",
+    "statAmbient": "Ambiente",
+    "filtroFinitura": "Acabado",
+    "filtroAmbiente": "Ambiente",
+    "filtroNessunRisultato": "Ningún modelo corresponde a los filtros seleccionados.",
+    "filtriApri": "Filtros",
+    "filtriApriConta": "Filtros ({n})",
+    "filtriTitolo": "Filtros",
+    "filtriChiudi": "Cerrar los filtros",
+    "filtriMostra": "Mostrar {n} modelos",
+    "filtriMostraUno": "Mostrar 1 modelo",
+    "filtriNessuno": "Ningún modelo",
+    "filtriTogli": "Quitar un filtro para ver los modelos",
+    "filtriAzzera": "Restablecer",
+    "filtriRimuovi": "Quitar filtro {nome}",
+    "filtriApplicati": "Filtros aplicados",
+    "tagRichiedeCorpoIncasso": "Requiere cuerpo empotrado",
+    "metaDescription": "La colección {collezione} de Fontealta en acero inoxidable AISI 316: {articoli, plural, =1 {un artículo} other {# artículos}}{finiture, plural, =0 {} =1 {, un acabado} other {, # acabados}}."
+  },
+  "corpiIncasso": {
+    "eyebrow": "Cuerpos empotrados",
+    "statCorpi": "Cuerpos",
+    "statAmbienti": "Ambientes",
+    "usedByTitle": "Usado por",
+    "labelAmbiti": "Ámbitos",
+    "metaTitle": "Cuerpos empotrados",
+    "metaDescription": "Los cuerpos empotrados Fontealta en acero inoxidable AISI 316: la parte que permanece en la pared y sostiene el proyecto.",
+    "metaTitleCorpo": "{codice} · Cuerpos empotrados",
+    "metaDescriptionCorpo": "{codice}, cuerpo empotrado Fontealta en acero inoxidable AISI 316: la parte que permanece en la pared y sostiene el proyecto."
+  },
+  "modello": {
+    "eyebrow": "Colección",
+    "specsTitle": "Especificaciones",
+    "labelType": "Tipología",
+    "labelAmbient": "Ambiente",
+    "labelFinishes": "Acabados disponibles",
+    "labelConcealedBody": "Cuerpo empotrado",
+    "labelCustomizable": "Personalizable",
+    "labelDimensions": "Dimensiones",
+    "yes": "Sí",
+    "waterHotCold": "Caliente y fría",
+    "waterCold": "Solo agua fría",
+    "alimStandard": "Instalación estándar",
+    "alimStandardPlus": "Variante XT / XQ / XQ.A",
+    "alimCw": "Alimentación hídrica empotrada",
+    "alimEw": "Alimentación hídrica externa",
+    "alim4s": "Anticongelante: cableado calefactor 230V",
+    "collectionAffinitiesTitle": "Colecciones afines",
+    "finishesTitle": "Acabados",
+    "metaTitle": "{nome} · {testa}",
+    "metaDescription": "{nome}, de la colección {collezione} de Fontealta. Acero inoxidable AISI 316{finiture, plural, =0 {.} =1 {, un acabado disponible.} other {, # acabados disponibles.}}",
+    "tipo": "{subtype} para {categoria}",
+    "tipoSoloAmbiente": "para {categoria}",
+    "metaDescriptionTipo": "{nome}. {tipo} Fontealta en acero inoxidable AISI 316{finiture, plural, =0 {.} =1 {, un acabado disponible.} other {, # acabados disponibles.}}"
+  },
+  "schedaModello": {
+    "progettareH2": "¿Le interesa este modelo?",
+    "progettareSub": "Cuéntenos su proyecto: le respondemos sobre acabados, disponibilidad y plazos de entrega.",
+    "richiediInformazioni": "Solicitar información"
+  },
+  "produzione": {
+    "metaTitle": "Producción",
+    "metaDescription": "Cada producto se trabaja en múltiples fases según los estándares de la náutica: acero AISI 316 europeo, soldadura TIG, pulido, barnizado. Viareggio, desde 1999.",
+    "heroEyebrow": "La producción",
+    "heroH1": "Cómo nace una columna.",
+    "heroSub": "Se parte de una barra de acero de seis metros de largo. Se llega a una columna de ducha. En medio hay un número de pasos que no se esperaría, y varios de ellos todavía se hacen a mano.",
+    "heroImageAlt": "Barras de acero inoxidable en proceso en la fábrica Fontealta de Viareggio.",
+    "fasiAria": "Las nueve fases de la producción",
+    "f1Title": "La barra",
+    "f1Spec": "6000 mm · AISI 316",
+    "f1P1": "El acero llega en barras de seis metros, ya marcadas con láser en origen con diámetro, espesor, número de colada, lote y fecha exacta de producción. Cada tubo se inspecciona a su llegada.",
+    "f1P2": "Significa que de cada columna salida de aquí sabemos de qué colada proviene. No es burocracia: es lo que permite, años después, remontarse al origen de una pieza.",
+    "f1Alt": "Barras de acero inoxidable AISI 316 de seis metros, marcadas con láser en origen.",
+    "f2Title": "El corte",
+    "f2Spec": "3000 mm · 30° en Twiggy",
+    "f2P1": "Las barras se seccionan exactamente por la mitad: tres metros, la medida de desarrollo de los modelos más altos. Ningún desperdicio, ningún recorte inutilizable.",
+    "f2P2": "En la serie Twiggy el corte tiene una inclinación de treinta grados, realizada cuando el tubo aún está recto. En ese punto del proceso parece un error. Sirve para compensar el desplazamiento del metal durante el doblado, de modo que la cabeza de la columna, al final, resulte perfectamente paralela al suelo.",
+    "f2Alt": "Seccionado de una barra de acero inoxidable por la mitad de su longitud.",
+    "f3Title": "El doblado",
+    "f3Spec": "Espesor > 3 mm",
+    "f3P1": "Doblar en frío un tubo con un espesor superior a tres milímetros sin aplastarlo requiere una pieza que ningún cliente verá jamás: un alma móvil de aleación de bronce y aluminio, que entra en el tubo y mantiene su sección redonda mientras la dobladora trabaja.",
+    "f3P2": "Pero el alma no basta. La elasticidad del acero cambia de forma imperceptible de una colada a otra, y dos tubos con la misma especificación reaccionan de manera ligeramente distinta. Al inicio de cada lote, el ángulo de doblado se recalibra a mano: se dobla, se mide, se corrige.",
+    "f3Alt": "Dobladora trabajando en un tubo de acero inoxidable de pared gruesa.",
+    "f4Title": "Las piezas",
+    "f4Spec": "Fresados en pieza maciza · CNC",
+    "f4P1": "En nuestro taller, los centros de mecanizado de control numérico fresan en pieza maciza los cuerpos internos de los grifos temporizados y las piezas mecánicas. La ficha técnica de cada pieza indica de qué material está hecha.",
+    "f4P2": "Fresar en pieza maciza en lugar de ensamblar significa menos uniones, y cada unión de menos es un punto de menos donde algo puede ceder.",
+    "f4Alt": "Componentes de acero inoxidable fresados en pieza maciza en un centro de mecanizado de control numérico.",
+    "f5Title": "La soldadura",
+    "f5Spec": "TIG",
+    "f5P1": "Las estructuras externas se consolidan con soldadura TIG. Es el método más lento entre los disponibles, y es el que resiste en las estructuras más imponentes.",
+    "f5Alt": "Soldadura TIG en una estructura externa de acero inoxidable.",
+    "f6Title": "El pulido",
+    "f6Spec": "Grano creciente",
+    "f6P1": "Es la fase que el cliente no ve y que decide todo lo demás.",
+    "f6P2": "El acero en bruto tiene una porosidad natural: aberturas microscópicas donde la corrosión puede iniciarse. La superficie se pule con papeles abrasivos de grano creciente, luego con máquinas de cepillos laminares y paños de algodón, que cierran definitivamente los poros.",
+    "f6P3": "Solo en ese momento la capa de óxido de cromo, la que hace inoxidable al acero, puede envolver toda la superficie sin dejar puntos débiles. Un acabado espejo no es un capricho estético: es la señal de que debajo no ha quedado nada abierto.",
+    "f6Alt": "Pulido de una superficie de acero inoxidable con cepillos laminares.",
+    "f7Title": "El acabado",
+    "f7Spec": "7 acabados · RAL Pantone NCS",
+    "f7P1": "A partir de aquí la columna toma su piel: espejo, cepillado, barnizado y PVD. Son siete los acabados en catálogo. El color no: ese no tiene un número, porque el barnizado no tiene límites. RAL, Pantone o NCS, incluso en una sola pieza.",
+    "f7Alt": "Columnas de ducha de acero inoxidable con distintos acabados, una junto a otra.",
+    "f8Title": "El secado",
+    "f8Spec": "14 días · −20/+60 °C",
+    "f8P1": "Las piezas barnizadas se secan de forma natural, a temperatura ambiente, durante dos semanas. Son dos de las cinco que indicamos como tiempo de producción.",
+    "f8P2": "Un horno haría el mismo trabajo en menos de una hora, pero endurecería la pintura volviéndola rígida. Una columna de exterior pasa de los veinte grados bajo cero del invierno a más de sesenta en una superficie al sol, y en cada ciclo el acero se dilata. Una pintura rígida, tarde o temprano, se agrieta. Una pintura secada lentamente permanece elástica y sigue al metal.",
+    "f8P3": "Dos semanas de espera contra diez años de resistencia.",
+    "f8Alt": "Piezas barnizadas en secado natural a temperatura ambiente.",
+    "f9Title": "Instalación, pruebas, embalaje",
+    "f9Spec": "Tolerancias milimétricas",
+    "f9P1": "En el interior se montan instalaciones hidráulicas donde cada racor trabaja con tolerancias milimétricas. Las manijas reciben el marcado láser Fontealta, que autentica la pieza. Cada columna se somete a pruebas hidráulicas antes de salir.",
+    "f9P2": "El último paso es una bolsa suave de TNT, luego el embalaje antigolpes: porque la parte más arriesgada del recorrido, para una pieza pulida a espejo y barnizada, suele ser la última.",
+    "f9Alt": "Montaje de la instalación hidráulica interna y prueba de una columna de ducha.",
+    "chiusuraH2": "El tiempo es un material.",
+    "chiusuraP": "No trabajamos para ser rápidos. Trabajamos para que la pieza resista fuera, a la sal y al sol, con el paso de los años.",
+    "chiusuraCta": "Explorar el taller",
+    "chiusuraDidascalia": "Reconstrucción ilustrada del taller de Viareggio.",
+    "formH2": "¿Quiere ver cómo trabajamos?"
+  },
+  "finiture": {
+    "metaTitle": "Acabados",
+    "metaDescription": "Siete acabados en catálogo y cualquier color bajo pedido: RAL, Pantone o NCS, incluso en una sola pieza. Sobre el mismo acero AISI 316.",
+    "heroEyebrow": "Los materiales",
+    "heroTitle": "Los acabados.",
+    "heroSubtitle": "Natural, barnizado, PVD. Personalización bajo pedido en cualquier RAL, PANTONE, NCS.",
+    "emptyState": "Ningún acabado disponible por el momento.",
+    "progettareH2": "¿El color que necesita no está en esta página?",
+    "category": {
+      "natural": "Natural",
+      "mirror": "Espejo",
+      "painted": "Barnizado",
+      "pvd": "PVD"
+    }
+  },
+  "referenze": {
+    "metaTitle": "Referencias",
+    "metaDescription": "Proyectos e instalaciones Fontealta firmados por arquitectos y estudios de todo el mundo.",
+    "heroEyebrow": "Referencias",
+    "heroTitle": "Proyectos firmados por Fontealta.",
+    "heroSubtitle": "Villas en el Mediterráneo, beach club, yates. Los lugares donde el acero Fontealta toma forma.",
+    "eyebrowItem": "Proyecto",
+    "emptyEyebrow": "Próximamente",
+    "emptyTitle": "Nuestras referencias, pronto online.",
+    "emptyBody": "Estamos reuniendo los proyectos más significativos realizados con Fontealta. Mientras tanto, cuéntenos el suyo.",
+    "emptyCta": "Contáctenos",
+    "notFoundTitle": "Referencia no encontrada",
+    "galleryEyebrow": "Galería",
+    "galleryHeading": "El proyecto en imágenes.",
+    "collectionsEyebrow": "Colecciones",
+    "collectionsHeading": "Colecciones utilizadas.",
+    "collectionEyebrowItem": "Colección",
+    "category": {
+      "hospitality": "Hospitality",
+      "residenziale": "Residencial",
+      "yacht": "Yacht",
+      "beach-club": "Beach club",
+      "spa-wellness": "Spa · Wellness"
+    }
+  },
+  "chiSiamo": {
+    "metaTitle": "Quiénes somos",
+    "metaDescription": "Desde 1999 en Viareggio trabajamos el acero inoxidable AISI 316: columnas de ducha freestanding, grifería, color a medida. Dos oficios, una idea.",
+    "heroH1": "El acero marino.",
+    "heroSub": "Desde 1999 trabajamos el acero inoxidable AISI 316 en Viareggio, junto al mar, donde la sal pone a prueba cada superficie.",
+    "s1Eyebrow": "1999",
+    "s1H2": "Dos oficios, una idea.",
+    "s1P1": "Fontealta nace en Viareggio en febrero de 1999, del encuentro entre dos competencias que normalmente no se hablan.",
+    "s1P2": "Por un lado, la grifería. El padre de Andrea Farnocchia nos había dedicado toda una vida: sabía cómo se hace correr el agua dentro de un cuerpo de metal, cuáles son las tolerancias que importan y cuáles son las cosas que se rompen.",
+    "s1P3": "Por el otro, la náutica. Andrea venía de los estudios del sector, donde la primera pregunta sobre un material nunca es si es bonito, sino cuánto resiste a la sal.",
+    "s1P4": "De aquel encuentro nació una decisión que entonces parecía excéntrica: fabricar grifería de alta gama en acero inoxidable, en lugar de latón cromado como hacían todos.",
+    "s1ImageAlt": "Artesano Fontealta trabajando en un monomando de acero",
+    "s2H2": "Por qué AISI 316.",
+    "s2P1": "Junto al mar, el acero se encuentra con la sal cada día: por eso hace falta el acero marino.",
+    "s2P2": "Entre un AISI 304 y un AISI 316 hay pocos puntos porcentuales de molibdeno. Es ese poco lo que frena la corrosión puntiforme, la que empieza desde un punto invisible y desde ahí se extiende.",
+    "s2P3": "El 316 cuesta más y es más difícil de trabajar: ralentiza cada fase de la producción, y el níquel y el molibdeno de más lo encarecen como materia prima.",
+    "s2P4": "Nuestras columnas de ducha y nuestros grifos de acero son de AISI 316. Y el acero que trabajamos es exclusivamente de producción europea.",
+    "s3H2": "Del tubo a la prueba final.",
+    "s3P1": "Columnas de ducha freestanding, grifería de baño, soluciones para la cocina y para la náutica. Veinte colecciones, más de quinientos artículos, siete acabados en catálogo y cualquier color bajo pedido: RAL, Pantone o NCS, incluso en una sola pieza, sin mínimos de pedido.",
+    "s3P2": "Diseñamos y producimos internamente, desde el tubo en bruto hasta la prueba hidráulica. El ciclo productivo es totalmente italiano: la precisión de la máquina donde hace falta la máquina, la mano del artesano donde la máquina no llega.",
+    "s3P3": "Cuando un proyecto pide algo que no existe, lo construimos. Es una costumbre que tenemos del trabajo en megayates, donde la pieza estándar casi nunca basta.",
+    "s4H2": "Por qué justo aquí.",
+    "s4P1": "Viareggio no es una dirección. Es la razón por la que podemos hacer ciertas cosas.",
+    "s4P2": "Los astilleros nos han dado proveedores que trabajan el acero según estándares náuticos: un defecto que en otro lugar pasaría inadvertido aquí se pone en evidencia de inmediato, y genera un descarte.",
+    "s4P3": "Los complejos turísticos de playa y los hoteles de la costa son nuestro banco de pruebas: una ducha que aguanta un verano en la playa ya ha superado cualquier uso doméstico.",
+    "s4P4": "Y luego está el Carnaval. Las carrozas son estructuras de hasta veinte metros de altura, reconstruidas cada año desde cero y pintadas a mano en cualquier tonalidad que se necesite. En torno a ellas, y a los pintores de los megayates, ha crecido en Viareggio una industria auxiliar que en el resto de Italia no tiene equivalentes.",
+    "s4P5": "Son los mismos proveedores a los que recurrimos nosotros. Por eso un tono fuera de catálogo en una sola pieza, con nosotros, es una petición normal y no una excepción que negociar.",
+    "s5H2": "Primero las preguntas.",
+    "s5P1": "Nuestras columnas de ducha y nuestros grifos de acero son siempre de AISI 316, y se instalan en cualquier lugar. Las diferencias están en otra parte, y son tres.",
+    "s5P2": "El acabado, porque no todos responden del mismo modo a la exposición y al mantenimiento que el proyecto podrá garantizar. La dotación, porque cambia según la instalación que existe o que se puede llevar. La instalación, porque depende de quién usará el producto y con qué frecuencia.",
+    "s5P3": "Son las preguntas que hacemos antes de proponer cualquier cosa. No es cortesía comercial: es la forma de evitar que un proyectista se encuentre, tres años después de la entrega, respondiendo de una elección que se podía hacer mejor.",
+    "s5P4": "Nuestro trabajo termina cuando el proyecto resiste en el tiempo. No cuando sale el pedido.",
+    "formH2": "El resto se lo contamos en persona.",
+    "formIntro": "Cuéntenos su proyecto: desde la residencia privada hasta el hospitality, hasta los megayates."
+  },
+  "contatti": {
+    "metaTitle": "Contacto",
+    "metaDescription": "Hable con Fontealta sobre su proyecto de interior o exterior en acero AISI 316. Sede en Viareggio, Toscana.",
+    "heroEyebrow": "Asesoramiento personalizado",
+    "heroH1": "Hablemos de su proyecto.",
+    "heroSub": "Desde la primera idea hasta la instalación, nuestro equipo le acompaña en cada fase.",
+    "sedeEyebrow": "Nuestra sede",
+    "form": {
+      "nome": "Nombre",
+      "cognome": "Apellido",
+      "email": "Email",
+      "telefono": "Teléfono",
+      "azienda": "Empresa",
+      "richiesta": "¿Qué necesita?",
+      "richiestaPlaceholder": "Elija una opción",
+      "richiestaOptions": {
+        "preventivo": "Presupuesto",
+        "consulenza": "Asesoramiento",
+        "altro": "Otro"
+      },
+      "paese": "País",
+      "paesePlaceholder": "Seleccionar…",
+      "paeseAltro": "Otro país",
+      "noteFacoltative": "Notas (opcional)",
+      "noteAltro": "Describa su solicitud",
+      "noteAltroPaese": "Indique su país y describa su solicitud",
+      "notePaese": "Notas · indique su país",
+      "noteContatore": "{n} de {max} caracteres",
+      "submit": "Enviar",
+      "inviato": "Enviado",
+      "invioInCorso": "Enviando",
+      "confermaRiga": "Gracias, {nome}. Nos pondremos en contacto con usted.",
+      "nuovaRichiesta": "Enviar otra solicitud",
+      "catalogoRimando": "¿Busca el catálogo? Recíbalo ahora mismo por correo electrónico →",
+      "catalogoRicevi": "Ver el catálogo",
+      "catalogoConferma": "Le hemos enviado el catálogo a {email}. Si no lo encuentra, revise también la carpeta de spam.",
+      "catalogoRipiego": "No hemos podido enviarle el correo electrónico.",
+      "catalogoScarica": "Descargar el PDF ahora",
+      "newsletterCasella": "Consiento recibir por correo electrónico la newsletter y las comunicaciones comerciales de Fontealta, tal y como se describe en la <link>política de privacidad</link>.",
+      "newsletterConferma": "Gracias, le hemos suscrito a la newsletter. Puede darse de baja en cualquier momento desde el enlace presente en cada correo electrónico.",
+      "errorGeneric": "No hemos podido enviar la solicitud. Vuelva a intentarlo o escríbanos a info@fontealta.it.",
+      "privacyRiga": "Al enviar la solicitud, usted declara haber leído la <link>política de privacidad</link>.",
+      "esca": "No rellenar este campo",
+      "errors": {
+        "nomeRequired": "Indique su nombre.",
+        "cognomeRequired": "Indique su apellido.",
+        "emailInvalid": "Indique una dirección de correo electrónico válida.",
+        "richiestaRequired": "Seleccione una opción.",
+        "paeseRequired": "Seleccione su país.",
+        "noteRequired": "Describa su solicitud en al menos 10 caracteres.",
+        "notePaeseRequired": "Indique su país en las notas."
+      }
+    },
+    "mapTitle": "Mapa de la sede Fontealta en Viareggio",
+    "mapAriaLabel": "Mapa",
+    "areaProH2": "¿Es usted proyectista?",
+    "areaProText": "Acceda al área reservada para fichas técnicas, listas de precios y archivos 3D.",
+    "areaProLogin": "Acceder",
+    "areaProRegister": "Registrarse",
+    "newsletterFooter": {
+      "iscriviti": "Suscribirse",
+      "iscritto": "Suscrito",
+      "casella": "Marque la casilla para suscribirse."
+    }
+  },
+  "areaRiservata": {
+    "metaTitle": "Área reservada",
+    "metaDescription": "El espacio para arquitectos, distribuidores y obras está en preparación. Para listas de precios, fichas técnicas y planos, escríbanos.",
+    "eyebrow": "Área reservada",
+    "title": "El acero tiene sus tiempos.",
+    "body": "Estamos preparando un espacio para arquitectos, distribuidores y obras: listas de precios, fichas técnicas, planos. Para todo lo demás, hoy, estamos nosotros.",
+    "cta": "Escríbanos"
+  },
+  "officina": {
+    "metaTitle": "Cómo nace una columna",
+    "metaDescription": "El taller de Viareggio en doce secciones, de la barra de acero a la columna embalada.",
+    "ogImageAlt": "Lámina ilustrada del taller Fontealta en Viareggio: las doce secciones, de la barra de acero a la columna embalada",
+    "titoloIframe": "Lámina interactiva del taller Fontealta"
+  },
+  "home": {
+    "heroH1Top": "Acero",
+    "heroH1Bot": "y Color.",
+    "heroSub": "Columnas de ducha y grifería en acero inoxidable AISI 316. Cualquier color RAL, Pantone o NCS, incluso en una sola pieza. Made in Viareggio desde 1999.",
+    "heroProjectCta": "Hablemos de su proyecto",
+    "heroStat1Value": "1999",
+    "heroStat1Label": "Desde",
+    "heroStat2Label": "Colecciones",
+    "heroStat3Value": "500+",
+    "heroStat3Label": "Artículos",
+    "heroStat4Value": "Italy",
+    "heroStat4Label": "Made in",
+    "featuredEyebrow": "Las colecciones",
+    "featuredH2": "Cada colección, una historia que contar.",
+    "featuredIntro": "Columnas de ducha freestanding, grifería, soluciones a medida. Siete acabados en catálogo y cualquier color bajo pedido, incluso para una sola pieza.",
+    "featuredPrev": "Colección anterior",
+    "featuredNext": "Colección siguiente",
+    "featuredGoTo": "Ir a la colección {n}",
+    "featuredCardAlt": "Colección {nome}",
+    "featuredCta": "Ver las colecciones",
+    "aisiH2Top": "AISI 316.",
+    "aisiH2Bot": "Un vínculo inoxidable.",
+    "aisiIntro": "Desde 1999 el conocimiento profundo del acero está en la base de nuestras colecciones. Resiste al salitre, al cloro y a los rayos UV. Reciclable al 100%, infinitas veces.",
+    "teamEyebrow": "Quiénes somos",
+    "teamH2Top": "Alta calidad,",
+    "teamH2Bot": "Altamente humano.",
+    "teamIntro": "Desde Viareggio, en la Toscana, cada pieza pasa por manos expertas: cortada, soldada, pulida y controlada una unidad a la vez.",
+    "teamCta": "Descubrir nuestra historia",
+    "ctaH2": "Cuéntenos el proyecto.",
+    "ctaIntro": "Una residencia, un hotel, un yate: díganos qué está proyectando.",
+    "formPersonal": "Datos personales",
+    "formNeed": "¿Qué necesita?",
+    "metaTitle": "Grifería y columnas de ducha inox AISI 316 · Fontealta",
+    "metaDescription": "Columnas de ducha interior y exterior, grifería de baño y cocina en acero AISI 316, para casa, hotel y yate. Cualquier color RAL, Pantone o NCS."
+  },
+  "productCategories": {
+    "lavabo": "Lavabo",
+    "doccia": "Ducha",
+    "vasca": "Bañera",
+    "cucina": "Cocina",
+    "giardino": "Jardín",
+    "bidet": "Bidet"
+  },
+  "productSubtypes": {
+    "accessori": "Accesorios",
+    "accessori-colonna": "Accesorios de columna",
+    "batteria-3-fori": "Batería 3 agujeros",
+    "bocca": "Caño",
+    "bodyjet": "Ducha lateral mural",
+    "braccio": "Brazo",
+    "braccio-con-soffione": "Brazo con rociador",
+    "cascata": "Cascada",
+    "colonna": "Columna",
+    "colonna-divisibile": "Columna divisible",
+    "doccetta": "Teleducha",
+    "erogazione-parete": "Codo mural",
+    "flessibile": "Flexible",
+    "kit": "Kit",
+    "miscelatore": "Monomando",
+    "miscelatore-parete": "Monomando mural",
+    "pannello": "Panel",
+    "ponte": "Túnel",
+    "rubinetto": "Grifo",
+    "rubinetto-parete": "Grifo mural",
+    "saliscendi": "Deslizante",
+    "scarico": "Desagüe",
+    "soffione": "Rociador",
+    "soffitto": "Techo"
+  },
+  "legale": {
+    "metaTitle": "Aviso legal",
+    "metaDescription": "Condiciones de uso del sitio Fontealta, política de privacidad, política de cookies y transparencia sobre el uso de la inteligencia artificial.",
+    "eyebrow": "Legal",
+    "title": "Aviso legal",
+    "intro": "Las condiciones de uso del sitio fontealta.it y la información sobre el tratamiento de los datos personales, las cookies y el uso de la inteligencia artificial.",
+    "sezioni": {
+      "societa": {
+        "titolo": "Datos de la sociedad y certificaciones",
+        "aggiornato": "Última actualización: octubre de 2026.",
+        "blocchi": [
+          {
+            "li": "<b>Razón social:</b> {ragioneSociale}"
+          },
+          {
+            "li": "<b>Domicilio social:</b> {sede}"
+          },
+          {
+            "li": "<b>Número de IVA:</b> {piva}"
+          },
+          {
+            "li": "<b>Inscripción en el Registro de Empresas de Toscana Nord-Ovest (Italia):</b> n.º {codiceFiscale} (REA {rea})"
+          },
+          {
+            "li": "<b>Capital social:</b> {capitale}, íntegramente desembolsado"
+          },
+          {
+            "li": "<b>PEC (correo electrónico certificado):</b> {pec}"
+          },
+          {
+            "li": "<b>Certificación:</b> sistema de gestión de la calidad conforme a la norma {norma}, certificado n.º {numero} emitido por {ente}, sector IAF {settore}, válido hasta el {scadenza}."
+          },
+          {
+            "li": "<b>Documentos para descargar:</b> {certificato} · {politica}"
+          }
+        ],
+        "documenti": {
+          "certificato": "Certificado ISO 9001:2015 (PDF)",
+          "politica": "Política de calidad (PDF)"
+        }
+      },
+      "termini": {
+        "titolo": "Términos y condiciones de uso del sitio",
+        "aggiornato": "Última actualización: octubre de 2026.",
+        "blocchi": [
+          {
+            "h3": "Aceptación"
+          },
+          {
+            "p": "El acceso al sitio fontealta.it y a sus páginas (en adelante «el Sitio») y su uso implican la aceptación íntegra de las presentes Condiciones. Quien no desee aceptarlas queda invitado a no utilizar el Sitio. Rubinetteria F & F L’Artigiana S.r.l. (en adelante «Fontealta» o «la Sociedad») puede modificar las presentes Condiciones en cualquier momento; la versión vigente es la publicada en esta página con la fecha de la última actualización. En caso de discrepancia entre las versiones lingüísticas del Sitio, prevalece la versión italiana."
+          },
+          {
+            "h3": "Naturaleza del Sitio"
+          },
+          {
+            "p": "El Sitio tiene finalidad informativa y de presentación de los productos Fontealta. <b>El Sitio no es una tienda en línea</b>: no permite compras, no expone precios al público y no constituye oferta al público en el sentido del art. 1336 del Código Civil italiano. La información publicada, incluidas las descripciones de los productos, los acabados, las imágenes y las eventuales características técnicas, tiene valor indicativo. Para cada suministro son válidos exclusivamente la oferta comercial y la confirmación de pedido emitidas por la Sociedad, los catálogos y las listas de precios oficiales en su versión vigente."
+          },
+          {
+            "h3": "Propiedad intelectual"
+          },
+          {
+            "p": "Todos los contenidos del Sitio son propiedad de Fontealta o de sus licenciantes y están protegidos por las normas italianas e internacionales sobre derechos de autor, marcas y diseño. Forman parte de ellos, a título de ejemplo: los textos, las fotografías, los renders y las imágenes, los vídeos, los diseños, las fichas técnicas, los catálogos y las listas de precios, el código del Sitio, la marca <b>Fontealta</b>, el monograma, los nombres de las colecciones publicadas en el Sitio y los códigos de los modelos."
+          },
+          {
+            "p": "Los productos Fontealta, su diseño y sus formas son de exclusiva creación de la Sociedad. Queda prohibida la reproducción, la copia, la imitación, la falsificación o el uso, incluso parcial, de productos, diseños, marcas y nombres sin el consentimiento escrito de la Sociedad."
+          },
+          {
+            "p": "Se permite la consulta del Sitio y la impresión o el guardado de páginas individuales para uso personal y no comercial, siempre que cada copia mantenga la indicación de la fuente y las referencias a la propiedad intelectual. Cualquier otro uso, y en particular la reproducción de las imágenes de producto en sitios, catálogos, marketplaces o materiales de terceros, requiere la autorización escrita de la Sociedad, que debe solicitarse a info@fontealta.it."
+          },
+          {
+            "p": "Las marcas, los nombres y los logotipos de terceros eventualmente citados en el Sitio (entre ellos las denominaciones de los acabados, de los estándares técnicos como AISI y RAL, de las ferias y de los proveedores tecnológicos) pertenecen a sus respectivos titulares."
+          },
+          {
+            "h3": "Uso permitido"
+          },
+          {
+            "p": "El usuario se compromete a utilizar el Sitio de conformidad con la ley y con las presentes Condiciones. En particular, queda prohibido: extraer o recopilar de forma sistemática contenidos, imágenes o datos del Sitio (scraping, crawling no autorizado, descarga masiva); introducir virus, código malicioso o interferir con el funcionamiento del Sitio o de la infraestructura que lo aloja; utilizar el formulario de contacto para envíos automáticos, publicitarios o en todo caso ajenos a su función; eludir las medidas técnicas de protección del Sitio."
+          },
+          {
+            "h3": "Exclusión de garantías y limitación de responsabilidad"
+          },
+          {
+            "p": "Fontealta cuida la exactitud de los contenidos del Sitio, pero no garantiza que estén libres de errores, sean completos o estén actualizados en todo momento; se reserva el derecho de modificarlos sin previo aviso. Las características de los productos pueden variar sin previo aviso; los colores de los acabados reproducidos en pantalla son indicativos y pueden diferir del producto real. Fontealta no garantiza que el Sitio esté siempre accesible o libre de interrupciones."
+          },
+          {
+            "p": "En los límites permitidos por la ley, Fontealta no responde de los daños directos o indirectos derivados del uso o de la imposibilidad de uso del Sitio, de la confianza depositada en la información en él contenida, de interrupciones, errores, virus o accesos no autorizados, salvo en caso de dolo o culpa grave. Nada en las presentes Condiciones excluye o limita responsabilidades que no puedan excluirse por ley."
+          },
+          {
+            "h3": "Enlaces a sitios de terceros"
+          },
+          {
+            "p": "El Sitio puede contener enlaces a sitios de terceros (por ejemplo, perfiles sociales, sitios de ferias, socios). Dichos sitios no están controlados por Fontealta, que no responde de sus contenidos, de sus políticas de privacidad ni de su funcionamiento. Quien desee insertar un enlace al Sitio puede hacerlo hacia la página de inicio o hacia páginas individuales, sin enmarcarlas (framing) y sin dar a entender una asociación o una aprobación inexistente."
+          },
+          {
+            "h3": "Formulario de contacto y solicitudes"
+          },
+          {
+            "p": "Las solicitudes enviadas a través del formulario de contacto se tratan según lo indicado en la política de privacidad. Una respuesta de la Sociedad a una solicitud no constituye compromiso contractual hasta que se formalice en una oferta o en una confirmación de pedido."
+          },
+          {
+            "h3": "Ley aplicable y fuero competente"
+          },
+          {
+            "p": "Las presentes Condiciones se rigen por la ley italiana. Para cualquier controversia relativa al Sitio y a las presentes Condiciones son competentes con carácter exclusivo los tribunales de Lucca, salvo el fuero irrenunciable previsto por la ley para los consumidores."
+          }
+        ]
+      },
+      "privacy": {
+        "titolo": "Política de privacidad",
+        "aggiornato": "Última actualización: octubre de 2026.",
+        "blocchi": [
+          {
+            "p": "La presente política describe las modalidades de tratamiento de los datos personales de los usuarios que consultan el Sitio y utilizan sus formularios de contacto, de solicitud de catálogo y de suscripción a la newsletter, en el sentido del art. 13 del Reglamento UE 2016/679 («GDPR») y del Decreto Legislativo italiano (D.Lgs.) 196/2003, modificado por el D.Lgs. 101/2018."
+          },
+          {
+            "h3": "Responsable del tratamiento"
+          },
+          {
+            "p": "Rubinetteria F & F L’Artigiana S.r.l., Via Libeccio 13/15, 55049 Viareggio (LU), Italia, P.IVA IT01718720467, correo electrónico info@fontealta.it, PEC (correo electrónico certificado) fontealta_lartigiana@pec.it. El Responsable del tratamiento puede ser contactado para cualquier solicitud relativa a los datos personales en los datos de contacto indicados. La Sociedad no ha designado un Delegado de Protección de Datos, al no darse los presupuestos legales para ello."
+          },
+          {
+            "h3": "Datos recabados y finalidades"
+          },
+          {
+            "p": "<b>Formulario de contacto.</b> Nombre, apellidos, correo electrónico, teléfono (opcional), empresa (opcional) y tipo de solicitud, a elegir entre presupuesto, asesoramiento y otro. Además: país, notas (opcionales; obligatorias con la solicitud «otro» o con «Otro país») e idioma de navegación del Sitio, detectado automáticamente. Finalidad: dar respuesta a solicitudes de información y presupuesto. Base jurídica: ejecución de medidas precontractuales a solicitud del interesado (art. 6.1.b GDPR) e interés legítimo del Responsable del tratamiento en responder (art. 6.1.f). Tras el envío, el interesado recibe en la dirección indicada un correo electrónico automático de confirmación de la recepción, enviado a través de Brevo. El envío de la solicitud no implica la suscripción a la newsletter, que se produce solo si el interesado marca la casilla opcional prevista a tal efecto."
+          },
+          {
+            "p": "<b>Solicitud del catálogo.</b> Nombre, apellidos, correo electrónico y país; notas solo con «Otro país», para indicarlo. Además: idioma de navegación del Sitio, detectado automáticamente. Finalidad: enviar por correo electrónico el catálogo en PDF solicitado, en el idioma del país indicado, y dar respuesta a la solicitud. El envío de la solicitud no implica la suscripción a la newsletter, que se produce solo si el interesado marca la casilla opcional prevista a tal efecto. Base jurídica: ejecución de medidas precontractuales a solicitud del interesado (art. 6.1.b GDPR) e interés legítimo del Responsable del tratamiento en responder (art. 6.1.f)."
+          },
+          {
+            "p": "<b>Newsletter y comunicaciones comerciales.</b> Datos: correo electrónico, nombre, apellidos, país (no solicitado por el formulario del pie de página), idioma del Sitio, página de procedencia, fecha, hora y versión del texto del consentimiento. Finalidad: envío por correo electrónico de la newsletter y de comunicaciones comerciales sobre productos, colecciones, proyectos y eventos de Fontealta, y medición agregada e individual de las aperturas y los clics de los mensajes, para mejorar sus contenidos. Base jurídica: consentimiento del interesado (art. 6.1.a GDPR y art. 130 D.Lgs. 196/2003), prestado marcando la casilla opcional al enviar un formulario de contacto o de solicitud del catálogo, o suscribiéndose con el formulario de la newsletter del pie de página del Sitio, que solicita el nombre, los apellidos y el correo electrónico y la selección de la casilla. El consentimiento es opcional: su falta no impide ni condiciona la respuesta a las solicitudes ni el envío del catálogo. El consentimiento puede revocarse en cualquier momento mediante el enlace de baja presente en cada correo electrónico o escribiendo a info@fontealta.it, sin perjuicio de la licitud del tratamiento basado en el consentimiento previo a su revocación (art. 7.3 GDPR)."
+          },
+          {
+            "p": "<b>Datos técnicos de navegación.</b> Dirección IP, tipo de navegador y dispositivo, páginas solicitadas, horarios, tratados por los proveedores de hosting y distribución para el funcionamiento y la seguridad del Sitio (protección contra ataques, diagnóstico). Base jurídica: interés legítimo (art. 6.1.f). Estos datos no se utilizan para identificar al usuario."
+          },
+          {
+            "p": "<b>Estadísticas de uso.</b> El Sitio utiliza Vercel Web Analytics, que no emplea cookies ni identificadores persistentes y recopila datos agregados (páginas visitadas, procedencia, país, tipo de dispositivo). No se trata de elaboración de perfiles y no se requiere el consentimiento."
+          },
+          {
+            "p": "El Sitio no prevé el registro de cuentas para el público, no realiza elaboración de perfiles y no toma decisiones automatizadas. Las comunicaciones comerciales se envían únicamente a quien haya prestado el consentimiento en la forma descrita arriba. La aportación de los datos marcados como obligatorios en el formulario es necesaria para dar curso a la solicitud; en su ausencia, la solicitud no podrá ser atendida. El consentimiento a la newsletter es, en cambio, opcional."
+          },
+          {
+            "h3": "Destinatarios y encargados del tratamiento"
+          },
+          {
+            "p": "Los datos pueden ser tratados, por cuenta del Responsable del tratamiento, por proveedores designados como encargados del tratamiento en el sentido del art. 28 GDPR:"
+          },
+          {
+            "li": "Vercel Inc.: alojamiento, infraestructura web y estadísticas de uso"
+          },
+          {
+            "li": "Sanity AS: gestión de contenidos (CMS)"
+          },
+          {
+            "li": "Zapier Inc.: reenvío al Responsable del tratamiento de las solicitudes enviadas desde los formularios del Sitio"
+          },
+          {
+            "li": "Sendinblue SAS (Brevo), 17 rue Salneuve, 75017 París, Francia: envío del correo electrónico con el catálogo solicitado y del correo electrónico automático de confirmación de las solicitudes de contacto, envío de la newsletter y gestión de las suscripciones y de las bajas"
+          },
+          {
+            "li": "Cloudflare Inc.: alojamiento y distribución de los vídeos"
+          },
+          {
+            "p": "En la página Contacto está incorporado un mapa de Google Maps, proporcionado por Google Ireland Ltd.: al cargarse el mapa, Google recibe los datos técnicos de navegación, entre ellos la dirección IP, y los trata conforme a su propia política de privacidad."
+          },
+          {
+            "p": "Los datos pueden ser conocidos además por personal de la Sociedad autorizado al tratamiento y, en caso necesario, por consultores, distribuidores o agentes de zona para dar curso a la solicitud, dentro de los límites de la finalidad. Los datos no se difunden ni se ceden a terceros para fines propios."
+          },
+          {
+            "h3": "Transferencia de datos fuera de la Unión Europea"
+          },
+          {
+            "p": "Algunos proveedores, entre ellos Google para el mapa de la página Contacto, tienen su sede en Estados Unidos o transfieren allí los datos. Las transferencias se realizan sobre la base de garantías adecuadas en el sentido de los artt. 44-49 GDPR: cláusulas contractuales tipo adoptadas por la Comisión Europea y, cuando sea aplicable, la adhesión del proveedor al Data Privacy Framework UE-EE. UU. Puede solicitarse copia de las garantías al Responsable del tratamiento."
+          },
+          {
+            "h3": "Periodo de conservación"
+          },
+          {
+            "p": "Los datos recabados a través del formulario de contacto se conservan durante el tiempo necesario para gestionar la solicitud y, en todo caso, durante un máximo de 24 meses desde el último contacto, salvo distintas obligaciones legales o el establecimiento de una relación contractual, en cuyo caso se aplican los plazos de conservación previstos para la documentación comercial y fiscal. Los datos técnicos de navegación son conservados por los proveedores durante el tiempo estrictamente necesario para la seguridad, por lo general no más de 30 días."
+          },
+          {
+            "p": "Los datos tratados para la newsletter se conservan hasta la revocación del consentimiento y, en todo caso, no más de 24 meses desde la última interacción con las comunicaciones recibidas, transcurridos los cuales se suprimen. Tras la revocación o la supresión, el Responsable del tratamiento conserva únicamente la dirección de correo electrónico y la información sobre el consentimiento y su revocación, durante el tiempo necesario para demostrar la licitud del tratamiento y respetar la voluntad del interesado de no recibir más comunicaciones (art. 6.1.c y 6.1.f GDPR)."
+          },
+          {
+            "p": "Brevo conserva durante 24 meses los registros de los envíos de correos electrónicos."
+          },
+          {
+            "h3": "Derechos del interesado"
+          },
+          {
+            "p": "El interesado puede ejercer en cualquier momento los derechos previstos por los artt. 15-22 GDPR: acceso a sus propios datos, rectificación, supresión, limitación del tratamiento, portabilidad, oposición al tratamiento basado en el interés legítimo y, en cualquier momento y sin motivación, al tratamiento con fines de marketing (art. 21.2 GDPR), revocación del consentimiento (art. 7.3 GDPR). Las solicitudes deben enviarse a info@fontealta.it. El Responsable del tratamiento responde en el plazo de un mes, prorrogable en los casos previstos por la ley."
+          },
+          {
+            "h3": "Reclamación ante la autoridad de control"
+          },
+          {
+            "p": "El interesado tiene derecho a presentar una reclamación ante el Garante per la protezione dei dati personali (autoridad italiana de protección de datos) (www.gpdp.it) si considera que el tratamiento de sus propios datos vulnera el GDPR, sin perjuicio de cualquier otra acción en sede administrativa o judicial."
+          },
+          {
+            "h3": "Seguridad"
+          },
+          {
+            "p": "El Responsable del tratamiento adopta medidas técnicas y organizativas adecuadas al riesgo: conexiones cifradas (HTTPS), control de los accesos al CMS, proveedores cualificados vinculados por acuerdos en el sentido del art. 28 GDPR, protecciones contra envíos automáticos en el formulario de contacto."
+          },
+          {
+            "h3": "Modificaciones"
+          },
+          {
+            "p": "La presente política puede ser actualizada; la versión vigente es la publicada en esta página con la fecha de la última actualización."
+          }
+        ]
+      },
+      "cookie": {
+        "titolo": "Política de cookies",
+        "aggiornato": "Última actualización: octubre de 2026.",
+        "blocchi": [
+          {
+            "p": "La presente política de cookies explica qué cookies y tecnologías similares utiliza el Sitio, en el sentido del art. 122 del D.Lgs. 196/2003 y de las Directrices del Garante per la protezione dei dati personali (autoridad italiana de protección de datos) del 10 de junio de 2021."
+          },
+          {
+            "h3": "Qué son las cookies"
+          },
+          {
+            "p": "Las cookies son pequeños archivos de texto que los sitios guardan en el dispositivo del usuario para funcionar correctamente o para recabar información. Se distinguen entre cookies técnicas, necesarias para el funcionamiento y la prestación del servicio solicitado por el usuario, para las cuales no se requiere el consentimiento, y cookies de elaboración de perfiles o de terceros con fines de marketing, que requieren el consentimiento previo."
+          },
+          {
+            "h3": "Cookies utilizadas por el Sitio"
+          },
+          {
+            "p": "El Sitio utiliza exclusivamente cookies técnicas y funcionales. No utiliza cookies de elaboración de perfiles, de marketing o de terceros con dichos fines, y no cede datos a terceros para dichos fines. En consecuencia, en el sentido de las Directrices del Garante, no se requiere ningún consentimiento previo y no está presente un banner de consentimiento."
+          },
+          {
+            "li": "<b>NEXT_LOCALE</b>: memoriza el idioma de las páginas visitadas, para mostrar los contenidos en el idioma correcto. Duración: sesión. Finalidad: funcional. Propia."
+          },
+          {
+            "li": "<b>Cookies de vista previa de contenidos</b> (__prerender_bypass, sanity-preview-perspective, sanity-preview-variant, sanity-preview-partitioned): configuradas solo para los administradores del Sitio durante la modificación de los contenidos en el CMS. Duración: sesión. Finalidad: técnica. Propia."
+          },
+          {
+            "h3": "Estadísticas de uso"
+          },
+          {
+            "p": "Para las estadísticas de uso, el Sitio utiliza Vercel Web Analytics, que no emplea cookies ni identificadores persistentes y recopila datos agregados (páginas visitadas, procedencia, país, tipo de dispositivo). No se trata de elaboración de perfiles y no se requiere el consentimiento."
+          },
+          {
+            "h3": "Contenidos de terceros"
+          },
+          {
+            "p": "La página Contacto incorpora un mapa de Google Maps. En la configuración adoptada por el Sitio, el mapa no instala cookies (verificación del 16 de septiembre de 2026); no obstante, recibe los datos técnicos de navegación, tal y como se describe en la política de privacidad. Si Google modificara este comportamiento, antes de la carga del mapa se activará un banner de consentimiento."
+          },
+          {
+            "p": "Los vídeos presentes en el Sitio son distribuidos por Cloudflare Inc. sin cookies. El Sitio no incorpora otros widgets o scripts de terceros, de redes sociales o de plataformas publicitarias. Los eventuales enlaces a sitios de terceros (redes sociales, ferias, socios) conducen a sitios que aplican sus propias políticas sobre cookies."
+          },
+          {
+            "h3": "Cómo gestionar las cookies"
+          },
+          {
+            "p": "El usuario puede bloquear o eliminar las cookies a través de la configuración de su navegador. La desactivación de las cookies técnicas puede comprometer algunas funcionalidades del Sitio, por ejemplo la memorización del idioma. Las instrucciones están disponibles en las guías de Chrome, Firefox, Safari y Edge."
+          },
+          {
+            "h3": "Actualizaciones"
+          },
+          {
+            "p": "La presente política de cookies puede ser actualizada con el tiempo; las modificaciones se publicarán en esta página. En caso de futura introducción de herramientas de análisis con cookies o de herramientas de elaboración de perfiles, se activará un banner de consentimiento conforme antes de su carga."
+          }
+        ]
+      },
+      "ai": {
+        "titolo": "Transparencia sobre el uso de la inteligencia artificial",
+        "aggiornato": "Última actualización: septiembre de 2026.",
+        "blocchi": [
+          {
+            "p": "En el sentido del art. 50 del Reglamento (UE) 2024/1689 («AI Act»), Fontealta informa de que:"
+          },
+          {
+            "li": "<b>Imágenes.</b> Algunas imágenes de ambientación publicadas en el Sitio se generan con herramientas de inteligencia artificial a partir de los renders oficiales de los productos Fontealta. Las fotografías de los productos, de la fábrica y de las personas no se generan artificialmente. Los productos representados corresponden a los productos reales; los ambientes y los colores tienen valor ilustrativo."
+          },
+          {
+            "li": "<b>Ningún sistema interactivo.</b> El Sitio no utiliza asistentes conversacionales, chatbots, sistemas de reconocimiento de emociones o de categorización biométrica."
+          }
+        ]
+      }
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Materia, proyecto, territorio. El acero AISI 316 contado por quien lo conoce de oficio, desde 1999.",
+    "heroTitle": "Blog",
+    "heroSubtitle": "Materia, proyecto, territorio. El acero AISI 316 contado por quien lo conoce de oficio, desde 1999.",
+    "filterAll": "Todos",
+    "readArticle": "Leer el artículo",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "empty": "Ningún artículo publicado.",
+    "back": "Volver al Blog",
+    "writtenBy": "Escrito por",
+    "readingTime": "{min} min de lectura",
+    "updatedOn": "Actualizado el {date}",
+    "watchOnYoutube": "Ver en YouTube",
+    "contactH2": "¿Tiene una pregunta técnica?",
+    "contactSub": "Escríbanos: le responde quien trabaja el acero cada día.",
+    "notFound": "Artículo no encontrado"
+  },
+  "errorPages": {
+    "notFound": {
+      "eyebrow": "404",
+      "metaTitle": "Página no encontrada",
+      "title": "Esta página no existe, o ya no existe.",
+      "body": "Como el agua, nuestro catálogo fluye y se transforma. Lo que busca podría haber cambiado de forma.",
+      "ctaPrimary": "Explorar las colecciones",
+      "ctaSecondary": "Volver al inicio"
+    },
+    "error": {
+      "title": "Algo no ha funcionado.",
+      "body": "Un imprevisto técnico, no un defecto de fabricación. Vuelva a intentarlo en un instante, o escríbanos a <mail>info@fontealta.it</mail>.",
+      "ctaRetry": "Reintentar",
+      "ctaSecondary": "Explorar las colecciones"
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "contactPrompt": "¿No encuentra la respuesta? <link>Escríbanos</link>"
+  },
+  "paginaUso": {
+    "outdoorShower": "Ducha exterior",
+    "inSintesi": "En resumen",
+    "tabella": "Tabla comparativa",
+    "collezioni": "Nuestras colecciones con columna de ducha exterior"
+  },
+  "immagini": {
+    "stabilimento": "La fábrica de Fontealta en Viareggio",
+    "collezione": "colección {nome}",
+    "prodotto": "{descrizione} {codice}, {collezione}",
+    "prodottoConMisura": "{descrizione} {codice}, {misura}, {collezione}",
+    "misura": "{nome} {valore}",
+    "misure": {
+      "altezzaTotale": "altura total",
+      "diametroPlacca": "Ø de la placa",
+      "placca": "placa",
+      "sporgenzaBocca": "vuelo del caño",
+      "diametroSoffione": "Ø del rociador",
+      "soffione": "rociador",
+      "lunghezza": "longitud",
+      "diametro": "Ø",
+      "base": "base",
+      "profondita": "profundidad"
+    }
+  }
+}

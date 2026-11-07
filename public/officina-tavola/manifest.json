@@ -1,0 +1,30 @@
+{
+  "nota": "Generato da tavola/build/tools/build-web.js: non si modifica a mano.",
+  "voce": "https://media.fontealta.it/tavola/voce-it-5f24182c.mp3",
+  "sorgenti": {
+    "tavola/build/fonts/Archivo_latin_1.woff2": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+    "tavola/build/fonts/Archivo_latin-ext_0.woff2": "a75c792f980dc1dbe0e85efb721808267e32d2e7ef6c4a99d525c842d8712a08",
+    "tavola/build/fonts/g.css": "ea975cb7887a7e8947a3332ece21bd4409ed4b3c0aaa64fd2505074beb7c8b8b",
+    "tavola/build/fonts/JetBrainsMono_latin_3.woff2": "2c32b9b3ee358c119e210f6f5195f9bd34894d78a785ff2e95d60e718e400af4",
+    "tavola/build/fonts/JetBrainsMono_latin-ext_2.woff2": "9c38cb2d0d2d93c1ee6e21fa78db76f13ea7e15e15cc64214c7ca89b6aaa35c4",
+    "tavola/build/fonts/Satoshi-Variable.woff2": "e739aff9b4d02c264341d6d4872edcda28e79373aeda936f659566a1cd3eb47f",
+    "tavola/build/tools/build-web.js": "aec9e0b6aff5044e7584e810f85c59f75568a0477f20a985fdf96c810549a2fe",
+    "tavola/i18n/de.json": "c63128930443064433f6cdf15518f6260e0da7810642c254f65d0f126bd48464",
+    "tavola/i18n/en.json": "f39bc7a40065ce053b68132634ed0fb46aa0b83109feef13ecc3345fb5e481e5",
+    "tavola/i18n/es.json": "ccd970c61c64608387371623befa719dc0e72e066ad9d52595adc0b0de462283",
+    "tavola/i18n/fr.json": "7859f92ec867842bfa42442e20fda9720ffaafa9e5ac20f8db77da60e5076d01",
+    "tavola/i18n/it.json": "25478458de2881598b718c76c3309880e5bd11b5ac49373b12783cda34165202",
+    "tavola/src.html": "76f1fc83d57d17834078184769a4c42702d88c0cebfbba318aeff287b78f3400",
+    "tavola/voce.mp3": "5f24182c5dd5b5a45852d7e0ceffb66dde04af5cfc4631b5a6e1d7e87d9660fa"
+  },
+  "uscite": {
+    "facciata.png": "804865d62a0f65cb1735f42123152c4497bba8a985c1062338e4c88ead065ff3",
+    "fonts/Archivo_latin_1.woff2": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+    "fonts/Archivo_latin-ext_0.woff2": "a75c792f980dc1dbe0e85efb721808267e32d2e7ef6c4a99d525c842d8712a08",
+    "fonts/JetBrainsMono_latin_3.woff2": "2c32b9b3ee358c119e210f6f5195f9bd34894d78a785ff2e95d60e718e400af4",
+    "fonts/JetBrainsMono_latin-ext_2.woff2": "9c38cb2d0d2d93c1ee6e21fa78db76f13ea7e15e15cc64214c7ca89b6aaa35c4",
+    "fonts/Satoshi-Variable.woff2": "e739aff9b4d02c264341d6d4872edcda28e79373aeda936f659566a1cd3eb47f",
+    "index.html": "bee5091812f48137ae605b029b1016c864e622c1b31a5e90e94478d5895996c4",
+    "og.jpg": "2469579aa5497a84b657c2b9977dc26d14bdf12b0ab4e6e39357f63ffb6372af"
+  }
+}

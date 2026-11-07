@@ -1,0 +1,140 @@
+[
+  {
+    "_id": "model-mr",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Miscelatore da incasso per doccia MR — collezione Skinny",
+    "after": "Miscelatore da incasso per doccia MR, collezione Skinny"
+  },
+  {
+    "_id": "model-mr",
+    "field": "images[_key==\"g2\"].alt",
+    "before": "Miscelatore da incasso per doccia MR — collezione Twiggy",
+    "after": "Miscelatore da incasso per doccia MR, collezione Twiggy"
+  },
+  {
+    "_id": "model-mr",
+    "field": "images[_key==\"g3\"].alt",
+    "before": "Miscelatore da incasso per doccia MR — collezione Boss",
+    "after": "Miscelatore da incasso per doccia MR, collezione Boss"
+  },
+  {
+    "_id": "model-mr",
+    "field": "images[_key==\"g4\"].alt",
+    "before": "Miscelatore da incasso per doccia MR — collezione Origo",
+    "after": "Miscelatore da incasso per doccia MR, collezione Origo"
+  },
+  {
+    "_id": "model-wmrl",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Miscelatore da incasso per lavabo WMRL — collezione Skinny",
+    "after": "Miscelatore da incasso per lavabo WMRL, collezione Skinny"
+  },
+  {
+    "_id": "model-wmrl",
+    "field": "images[_key==\"g2\"].alt",
+    "before": "Miscelatore da incasso per lavabo WMRL — collezione Twiggy",
+    "after": "Miscelatore da incasso per lavabo WMRL, collezione Twiggy"
+  },
+  {
+    "_id": "model-wmrl",
+    "field": "images[_key==\"g3\"].alt",
+    "before": "Miscelatore da incasso per lavabo WMRL — collezione Boss",
+    "after": "Miscelatore da incasso per lavabo WMRL, collezione Boss"
+  },
+  {
+    "_id": "model-wmrl",
+    "field": "images[_key==\"g4\"].alt",
+    "before": "Miscelatore da incasso per lavabo WMRL — collezione Origo",
+    "after": "Miscelatore da incasso per lavabo WMRL, collezione Origo"
+  },
+  {
+    "_id": "model-wx30sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Gruppo esterno con kit doccia WX30.SK — collezione Classy",
+    "after": "Gruppo esterno con kit doccia WX30.SK, collezione Classy"
+  },
+  {
+    "_id": "model-wx32sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Rubinetto esterno con kit doccia WX32.SK — collezione Classy",
+    "after": "Rubinetto esterno con kit doccia WX32.SK, collezione Classy"
+  },
+  {
+    "_id": "model-wx44sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Gruppo esterno con kit doccia WX44.SK — collezione Boss Wide",
+    "after": "Gruppo esterno con kit doccia WX44.SK, collezione Boss Wide"
+  },
+  {
+    "_id": "model-wx47csk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Rubinetto esterno con kit doccia WX47C.SK — collezione Boss Wide",
+    "after": "Rubinetto esterno con kit doccia WX47C.SK, collezione Boss Wide"
+  },
+  {
+    "_id": "model-wx4a6sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX4A6.SK — collezione Boss Wide",
+    "after": "Miscelatore termostatico esterno con kit doccia WX4A6.SK, collezione Boss Wide"
+  },
+  {
+    "_id": "model-wx54sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Gruppo esterno con kit doccia WX54.SK — collezione Club Large",
+    "after": "Gruppo esterno con kit doccia WX54.SK, collezione Club Large"
+  },
+  {
+    "_id": "model-wx57csk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Rubinetto esterno con kit doccia WX57C.SK — collezione Club Large",
+    "after": "Rubinetto esterno con kit doccia WX57C.SK, collezione Club Large"
+  },
+  {
+    "_id": "model-wx5a6sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX5A6.SK — collezione Club Large",
+    "after": "Miscelatore termostatico esterno con kit doccia WX5A6.SK, collezione Club Large"
+  },
+  {
+    "_id": "model-wx75sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX75.SK — collezione Skinny",
+    "after": "Miscelatore termostatico esterno con kit doccia WX75.SK, collezione Skinny"
+  },
+  {
+    "_id": "model-wx75sk",
+    "field": "images[_key==\"g2\"].alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX75.SK — collezione Classy",
+    "after": "Miscelatore termostatico esterno con kit doccia WX75.SK, collezione Classy"
+  },
+  {
+    "_id": "model-wx75sk",
+    "field": "images[_key==\"g3\"].alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX75.SK — collezione Twiggy",
+    "after": "Miscelatore termostatico esterno con kit doccia WX75.SK, collezione Twiggy"
+  },
+  {
+    "_id": "model-wx75sk",
+    "field": "images[_key==\"g4\"].alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX75.SK — collezione Origo",
+    "after": "Miscelatore termostatico esterno con kit doccia WX75.SK, collezione Origo"
+  },
+  {
+    "_id": "model-wx83sk",
+    "field": "images[_key==\"g1\"].alt",
+    "before": "Miscelatore esterno con kit doccia WX83.SK — collezione Classy",
+    "after": "Miscelatore esterno con kit doccia WX83.SK, collezione Classy"
+  },
+  {
+    "_id": "model-wx83sk",
+    "field": "images[_key==\"g2\"].alt",
+    "before": "Miscelatore esterno con kit doccia WX83.SK — collezione Twiggy",
+    "after": "Miscelatore esterno con kit doccia WX83.SK, collezione Twiggy"
+  },
+  {
+    "_id": "model-wx83sk",
+    "field": "images[_key==\"g3\"].alt",
+    "before": "Miscelatore esterno con kit doccia WX83.SK — collezione Origo",
+    "after": "Miscelatore esterno con kit doccia WX83.SK, collezione Origo"
+  }
+]

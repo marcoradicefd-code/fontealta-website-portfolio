@@ -1,0 +1,97 @@
+{
+  "mode": "EXECUTE (scrive)",
+  "generated": "2026-07-25",
+  "toWrite": 595,
+  "alreadyOk": 0,
+  "dist": {
+    "lavabo": 76,
+    "vasca": 86,
+    "doccia": 392,
+    "bidet": 6,
+    "giardino": 18,
+    "cucina": 17
+  },
+  "macroChanges": {
+    "lavabo → bidet": [
+      "CD35B",
+      "F50B",
+      "I30B",
+      "W30B",
+      "W35B",
+      "W40B"
+    ],
+    "doccia → giardino": [
+      "COL30",
+      "COL30.G",
+      "COL30.H",
+      "COL90",
+      "COL90.2",
+      "COL90.AST",
+      "COL90.AST.L",
+      "COL90.L",
+      "COL90.M",
+      "COL90.R",
+      "W10",
+      "W10.FS",
+      "W10.FS.L",
+      "W10.HB",
+      "W10.HB.L",
+      "W10.L",
+      "W12.AST.FS"
+    ],
+    "lavabo → cucina": [
+      "K1M.LT",
+      "K2M.CD",
+      "K2M.L",
+      "K2M.LT",
+      "K2M.LTS",
+      "K2M.O",
+      "K2M.Y",
+      "K35.CD",
+      "K35.L",
+      "K35.O",
+      "K35.S",
+      "K35.Y",
+      "K40.LS",
+      "K40.OS",
+      "KW30",
+      "KW50",
+      "KW50.UP"
+    ],
+    "lavabo → doccia": [
+      "MRL"
+    ],
+    "doccia → lavabo": [
+      "W100",
+      "W200",
+      "W35.M"
+    ],
+    "lavabo → giardino": [
+      "W12.AST"
+    ]
+  },
+  "flagged": [
+    {
+      "code": "COL90.AST",
+      "target": "giardino-colonna",
+      "legacy": "doccia"
+    },
+    {
+      "code": "COL90.AST.L",
+      "target": "giardino-colonna",
+      "legacy": "doccia"
+    },
+    {
+      "code": "W12.AST",
+      "target": "giardino-rubinetto-parete",
+      "legacy": "lavabo"
+    },
+    {
+      "code": "W12.AST.FS",
+      "target": "giardino-rubinetto-parete",
+      "legacy": "doccia"
+    }
+  ],
+  "payloadKb": "54.7",
+  "anomalies": []
+}

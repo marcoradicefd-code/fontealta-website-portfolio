@@ -1,0 +1,179 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - "sprint/**"
+  pull_request:
+    branches: [main]
+    # `ready_for_review` NON è fra i tipi predefiniti (opened, synchronize,
+    # reopened): senza, una PR spinta in bozza e tolta da bozza dopo non innesca
+    # nessuna run nuova, e Lighthouse (dal 26/10/2026 un passo del job `build`,
+    # con `if: draft == false`) resta saltato per sempre su quel commit. Nemmeno un re-run lo recupera:
+    # rivaluta la stessa payload, dove `draft` era ancora `true`. Capitato sulla
+    # #171, e la cura è qui e non nel job.
+    types: [opened, synchronize, reopened, ready_for_review]
+
+# Un push nuovo su una PR ferma il run del commit precedente sulla stessa PR.
+# `head_ref` esiste solo sugli eventi pull_request: sui push a main e sprint/**
+# è vuoto, il gruppo prende `run_id`, che è unico per run, e niente si cancella.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+# Il GITHUB_TOKEN dei job legge e basta: nessun job scrive sul repo. Checkout e
+# cache non chiedono altro; Lighthouse e Sonar usano i loro token, non questo.
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: "24"
+  PNPM_VERSION: "11.0.4"
+  # Sanity reads use these in CI; for now they're harmless placeholders so
+  # build doesn't crash. Real values arrive via repo secrets in Sprint 2.
+  NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_SANITY_PROJECT_ID || 'mwlqc6ab' }}
+  NEXT_PUBLIC_SANITY_DATASET: ${{ secrets.NEXT_PUBLIC_SANITY_DATASET || 'production' }}
+  NEXT_PUBLIC_SANITY_API_VERSION: "2024-10-01"
+  SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN || '' }}
+  SANITY_REVALIDATE_SECRET: ${{ secrets.SANITY_REVALIDATE_SECRET || '' }}
+
+# Supply-chain hardening: every third-party action below is pinned to a full
+# commit SHA (the version tag is kept as a trailing comment).
+#
+# pnpm 11 lifecycle-scripts policy: `pnpm install` intentionally runs WITHOUT
+# `--ignore-scripts`. pnpm 11 blocks ALL dependency lifecycle scripts by default,
+# permitting only the native builders allowlisted in pnpm-workspace.yaml
+# `allowBuilds` (@parcel/watcher, @swc/core, esbuild, sharp, unrs-resolver).
+# package.json has no install-time lifecycle scripts, so `--ignore-scripts` would
+# add zero supply-chain safety and would break those required native builds.
+
+jobs:
+  # I controlli brevi in UN job (21/10/2026): prima erano cinque (install, lint,
+  # typecheck, test, cinque-lingue), di 30-100 s l'uno, e GitHub fattura ogni job al
+  # minuto intero. Insieme rifacevano cinque volte checkout, setup e pnpm install.
+  # Misurato sulle 30 run riuscite prima del cambio: 7 minuti fatturati a run per i
+  # cinque, contro i 3-4 stimati per questo job (somma dei passi, 187 s di mediana,
+  # 212 al massimo). I passi vanno in fila; un passo rosso ferma quelli dopo, e il
+  # nome del passo dice quale. Dal 26/10/2026 `build` e `sonar` non lo aspettano.
+  verifica:
+    runs-on: ubuntu-latest
+    # Sopra il doppio del massimo misurato (212 s), come gli altri job.
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with: { version: "${{ env.PNPM_VERSION }}" }
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with: { node-version: "${{ env.NODE_VERSION }}", cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm format:check
+      - run: pnpm typegen
+      - run: pnpm typecheck
+      - run: pnpm test
+      # La guardia delle cinque lingue: typecheck e suite con ACTIVE_LOCALES uguale
+      # a ALL_LOCALES. Le lingue spente non compilano niente, e una tabella scritta
+      # per it ed en passerebbe tutti gli altri controlli fino al giorno
+      # dell'accensione. ⚠️ PER ULTIMA: `--qui` riscrive ACTIVE_LOCALES nel checkout
+      # e non la rimette, quindi un passo dopo di lei leggerebbe le cinque lingue
+      # accese. Un passo nuovo va PRIMA di questa riga, o dopo un ripristino del file.
+      - run: pnpm i18n:cinque-lingue --qui
+
+  # Build e Lighthouse in UN job, in parallelo a `verifica` (26/10/2026, decisione di
+  # Marco; rivede lo scarto del 13/10, «riusare il build in lighthouse»). Prima il job
+  # `lighthouse` aspettava `build` e rifaceva install, typegen e un secondo build da
+  # 92-100 s; `build` aspettava `verifica`. Misurato sulle PR #302 e #304: 15-17 minuti
+  # fatturati e 12,4-14,2 di durata. Un job senza `needs` parte subito: «A workflow run
+  # is made up of one or more jobs, which run in parallel by default» (GitHub Docs,
+  # workflow syntax). Il prezzo: una PR col lint rosso costruisce lo stesso.
+  #
+  # L'env di produzione vale per TUTTI i build della CI, anche sui push a main dove
+  # Lighthouse non gira, perché l'audit deve misurare la configurazione indicizzabile
+  # (M12 ↔ M20): dal #209 (17/09/2026) robots.txt e X-Robots-Tag li decide
+  # `VERCEL_ENV === "production"`, e senza quella variabile il build esce noindex e
+  # `is-crawlable` fallisce su tutti gli URL. Al controllo del build non cambia niente:
+  # verifica che il codice compili. Le anteprime vere di Vercel restano noindex.
+  build:
+    runs-on: ubuntu-latest
+    # Il limite del job `lighthouse` di prima, di cui fa il lavoro (447 s sulla #304).
+    timeout-minutes: 15
+    env:
+      NEXT_PUBLIC_SITE_URL: https://fontealta.it
+      VERCEL_ENV: production
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with: { version: "${{ env.PNPM_VERSION }}" }
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with: { node-version: "${{ env.NODE_VERSION }}", cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typegen
+      # La cache di compilazione di Turbopack (21/10/2026; guida di Next «CI Build
+      # Caching»). SOLO la cartella turbopack e NON tutta .next/cache: accanto c'è
+      # fetch-cache, cioè le risposte di Sanity salvate durante il build, che con
+      # revalidate: false non scadono mai, e restituite farebbero compilare la CI su
+      # contenuti vecchi. La chiave cambia col lockfile, con Node e coi file che
+      # entrano nel build; docs/ e .claude/ ne sono usciti con la #293, che li toglie
+      # da Tailwind (@source not), così una PR di soli documenti non perde la cache.
+      # Se la chiave non c'è, si riparte dall'ultima cache con lo stesso lockfile.
+      # Provato in locale: build pulito e build con la cache danno lo stesso HTML, gli
+      # stessi payload e lo stesso CSS, anche dopo una classe nuova scritta in un
+      # documento (prima della #293, quando Tailwind li leggeva).
+      # ⚠️ PREFISSO `prodenv` dal 26/10/2026: da allora questo build ha l'env di
+      # produzione, e `NEXT_PUBLIC_SITE_URL` finisce compilata nei bundle. La guida di
+      # Next sulla cache di Turbopack non dice se un cambio di variabile la invalida,
+      # quindi le cache fatte con l'env di prima non si rileggono: un build a freddo,
+      # una volta sola. Chi cambia l'env di questo job cambia anche il prefisso.
+      # Si LEGGE sempre e si SALVA solo dai push su main: le PR nascono pronte e
+      # fanno una run sola, quindi una cache salvata da una PR non la rileggerebbe
+      # nessuno, e ogni salvataggio occupa circa 290 MB dei 10 GB del repository.
+      # Quella di main invece la leggono tutte le PR.
+      - id: cache-turbopack
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ${{ github.workspace }}/.next/cache/turbopack
+          key: nextjs-turbopack-prodenv-${{ runner.os }}-node${{ env.NODE_VERSION }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('src/**', 'sanity/**', 'public/**', 'next.config.ts', 'tsconfig.json', 'postcss.config.mjs', 'sanity.config.ts', 'sanity.cli.ts', 'package.json') }}
+          restore-keys: |
+            nextjs-turbopack-prodenv-${{ runner.os }}-node${{ env.NODE_VERSION }}-${{ hashFiles('pnpm-lock.yaml') }}-
+      - run: pnpm build
+      # La chiave viene dal passo di lettura e non è riscritta: le due non possono
+      # divergere. Con la chiave già presente non si salva di nuovo (come fa
+      # actions/cache intera).
+      - if: github.event_name == 'push' && github.ref == 'refs/heads/main' && steps.cache-turbopack.outputs.cache-hit != 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ${{ github.workspace }}/.next/cache/turbopack
+          key: ${{ steps.cache-turbopack.outputs.cache-primary-key }}
+      # Lighthouse sul build appena fatto: stesse 5 URL × 3 giri e stesse soglie di
+      # lighthouserc.js. M12 (giu 2026): su TUTTE le PR non in bozza verso main; sui
+      # push a main no. Gira da solo sul suo runner, dopo il build: «DO NOT collect
+      # multiple Lighthouse reports at the same time on the same machine» (Lighthouse,
+      # docs/variability.md).
+      - if: github.event_name == 'pull_request' && github.event.pull_request.draft == false
+        run: pnpm exec lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+  sonar:
+    # Senza `needs` dal 26/10/2026: lo scanner legge il sorgente e non il build, e il
+    # check è advisory. Con Lighthouse dentro `build` avrebbe aspettato anche lui.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # CI-based SonarQube Cloud analysis. Replaces Automatic Analysis, which
+    # ignored the UI duplication exclusions on PR analysis; the repo-side
+    # sonar-project.properties applies here. Runs on PRs + push to main only
+    # (skipped on sprint/* pushes). SonarQube Cloud needs no SONAR_HOST_URL.
+    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # full history → accurate new-code (PR) detection
+      - uses: SonarSource/sonarqube-scan-action@d209202bc7d53ff1cc128f7f907dac145c9d6ae9 # v8.3.0
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+  # ⛔ Niente job e2e (22/10/2026): le prove di tests/regression/ girano sul Mac con
+  # `pnpm e2e:firma`, che pubblica sul commit lo stato «e2e (locale)». Il job che
+  # c'era dal 22/10 (#285) costava circa 25 minuti fatturati a PR. Script e hook
+  # in scripts/e2e-firma.mjs e .claude/settings.json.

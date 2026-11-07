@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+._*
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# sanity (regenerated artifacts)
+/sanity/schema.json
+# /sanity/types.gen.ts — committed for CI typechecking (regen via `pnpm typegen`)
+
+# temp / scratch artifacts (visual checks, smoke tests, throwaway scripts)
+/tmp/
+.playwright-mcp/
+# Playwright e2e output (traces/report da `pnpm test:e2e`)
+/test-results/
+/playwright-report/
+# QA/review artifacts at repo ROOT (leading slash = root-anchored → NON tocca le
+# immagini vere del sito sotto public/)
+/REVIEW/
+/blog-spacing-*.png
+/form-*.png
+/errpage-*.png
+
+# graphify (generated knowledge graph — regenerate ad-hoc via /graphify)
+/graphify-out/
+
+# heavy local hero videos — served locally from public/ via `pnpm start`, but kept
+# OUT of git (too heavy). Prod source = Cloudflare R2 via Sanity (chiSiamoHeroVideoUrl);
+# when Sanity is empty the hero falls back to its committed poster. NB: home-hero.mp4
+# stays TRACKED (it is the home hero's committed local fallback).
+/public/video/chi-siamo-hero.*
+
+# tavola dell'officina: file della fiera, video, prove e librerie restano sull'SSD
+/tavola/come-nasce-una-colonna.html
+/tavola/*.mp4
+/tavola/build/qc/
+/tavola/build/tools/pylib/
+/tavola/build/tools/node_modules/
+/tavola/build/r2/
+
+# Resource fork macOS (disco esterno): si rigenerano da soli, vanno ignorati
+._*
+.DS_Store

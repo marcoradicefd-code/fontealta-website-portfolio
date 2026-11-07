@@ -1,0 +1,49 @@
+.next
+node_modules
+pnpm-lock.yaml
+sanity/types.gen.ts
+sanity/schema.json
+public
+tavola/
+*.md
+
+# Boss's read-only files (docs/archive/ARCHITECTURE-2026-06.md §0.5) — do NOT format.
+src/app/globals.css
+src/components/ui/button.tsx
+src/app/fonts/
+
+# macOS AppleDouble / metadata sidecars (exFAT external-drive checkout)
+._*
+.DS_Store
+
+# visual-check / scratch artifacts
+/tmp/
+.playwright-mcp/
+
+# agent local config — settings.local.json è git-ignored (globalmente, non dal repo)
+# ma Prettier lo vedeva comunque e rendeva `format:check` rosso su ogni macchina
+# che ha quel file, senza nessun rapporto col codice in review.
+.claude/
+
+# generated migration dry-run log (rewritten on every dry-run, like types.gen.ts)
+scripts/migration/dryrun-log.json
+scripts/migration/blocco1-dryrun-log.json
+scripts/migration/gocce-dryrun-log.json
+scripts/migration/water-supply-dryrun-log.json
+scripts/migration/taxonomy-dryrun-log.json
+scripts/migration/incassi-dryrun-log.json
+scripts/migration/unset-product-type-dryrun-log.json
+
+# one-shot data-import artifacts — immutable post-execution (the script + its verbatim
+# source data), excluded from Prettier for the same reason as the dry-run logs above.
+scripts/populate-water-supply.ts
+scripts/data/andrea-corrections-2026-07-23.json
+scripts/data/taxonomy-v2-2026-07-25.json
+scripts/migrate-taxonomy.ts
+scripts/unset-product-type.ts
+scripts/data/product-type-backup-2026-07-28.json
+scripts/data/incassi-data-2026-07-28.json
+scripts/enrich-concealed-bodies.ts
+scripts/data/concealed-bodies-backup-2026-07-28.json
+scripts/data/descrizioni-en-ille-2026-07-29.json
+scripts/data/descriptions-backup-2026-07-29.json

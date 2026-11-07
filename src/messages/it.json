@@ -1,0 +1,789 @@
+{
+  "skip": {
+    "toContent": "Salta al contenuto"
+  },
+  "nav": {
+    "ariaLabel": "Navigazione principale",
+    "collezioni": "Collezioni",
+    "produzione": "Produzione",
+    "outdoor": "Outdoor",
+    "indoor": "Indoor",
+    "kitchen": "Kitchen",
+    "finiture": "Finiture",
+    "chiSiamo": "Chi siamo",
+    "contatti": "Contatti",
+    "blog": "Blog",
+    "areaPro": "Area Riservata",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "back": "Indietro",
+    "home": "Home",
+    "breadcrumbAria": "Percorso",
+    "switchTo": "Passa a {lang}",
+    "langLabel": "Seleziona lingua",
+    "comingSoon": "Coming soon",
+    "menzioniLegali": "Menzioni legali"
+  },
+  "footer": {
+    "columns": {
+      "collezioni": "Collezioni",
+      "azienda": "Azienda",
+      "contatti": "Contatti",
+      "suDiNoi": "Su di noi",
+      "legal": "Legal",
+      "areaRiservata": "Area riservata",
+      "newsletter": "Newsletter"
+    },
+    "links": {
+      "chiSiamo": "Chi Siamo",
+      "produzione": "Produzione",
+      "finiture": "Finiture",
+      "progetti": "Progetti",
+      "news": "News",
+      "richiediPreventivo": "Richiedi preventivo",
+      "areaPro": "Area Riservata"
+    },
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "allRightsReserved": "Tutti i diritti riservati.",
+    "newsletterInvito": "Collezioni, finiture e progetti realizzati: le novità di Fontealta."
+  },
+  "brand": {
+    "wordmark": "FONTEALTA",
+    "tagline": {
+      "line1": "Specialisti dell'acciaio.",
+      "line2": "Colonne doccia outdoor.",
+      "line3": "Made in Italy."
+    }
+  },
+  "collezioni": {
+    "heroEyebrow": "Il catalogo.",
+    "heroH1Top": "Vestiamo l’acqua",
+    "heroH1Bot": "in acciaio AISI 316.",
+    "heroSub": "Le collezioni Fontealta in acciaio inox AISI 316, per il bagno, l’outdoor, la cucina, lo yacht.",
+    "heroImageAlt": "Veduta dall’alto di una spiaggia di sabbia bianca e del mare turchese che vi si infrange.",
+    "stat1Label": "Collezioni",
+    "stat2Value": "500+",
+    "stat2Label": "Articoli",
+    "stat3Value": "7",
+    "stat3Label": "Finiture a catalogo",
+    "stat4Value": "Italy",
+    "stat4Label": "Made in",
+    "gridEyebrow": "Le collezioni",
+    "gridH2": "Ogni collezione, una storia da raccontare.",
+    "gridIntro": "Ogni collezione nasce da un punto di vista sul rapporto tra acciaio, gesto, quotidianità.",
+    "progettareH2": "Non trovi quello che cerchi?",
+    "progettareSub": "Raccontaci il progetto: residenza, hospitality, yacht. Il nostro team tecnico ti accompagna dalla scelta delle finiture al disegno su misura.",
+    "metaTitle": "Collezioni",
+    "metaDescription": "Le collezioni Fontealta in acciaio inox AISI 316, per il bagno, l’outdoor, la cucina, lo yacht. Colonne freestanding, rubinetteria, soluzioni su misura.",
+    "titoloConTipo": "{tipo} {titolo}",
+    "tipoBreve": {
+      "doccia": "Colonne doccia",
+      "docciaEBagno": "Colonne doccia",
+      "bagno": "Rubinetteria bagno",
+      "cucina": "Rubinetti cucina",
+      "giardino": "Rubinetti giardino",
+      "bidet": "Miscelatori bidet"
+    }
+  },
+  "catalogo": {
+    "eyebrow": "Catalogo",
+    "titolo": "Scopri come nasce il Made in Italy",
+    "sottotitolo": "Tutte le collezioni, le finiture e i codici in un unico PDF. Te lo inviamo subito.",
+    "badgeAnno": "Catalogo 2026",
+    "badgePagine": "143 pagine",
+    "badgeFormato": "PDF"
+  },
+  "dettaglio": {
+    "eyebrow": "Collezione",
+    "statArticoli": "Articoli",
+    "statFiniture": "Finiture",
+    "statAmbient": "Ambiente",
+    "filtroFinitura": "Finitura",
+    "filtroAmbiente": "Ambiente",
+    "filtroNessunRisultato": "Nessun modello corrisponde ai filtri selezionati.",
+    "filtriApri": "Filtri",
+    "filtriApriConta": "Filtri ({n})",
+    "filtriTitolo": "Filtri",
+    "filtriChiudi": "Chiudi i filtri",
+    "filtriMostra": "Mostra {n} modelli",
+    "filtriMostraUno": "Mostra 1 modello",
+    "filtriNessuno": "Nessun modello",
+    "filtriTogli": "Togli un filtro per vedere i modelli",
+    "filtriAzzera": "Azzera",
+    "filtriRimuovi": "Rimuovi filtro {nome}",
+    "filtriApplicati": "Filtri applicati",
+    "tagRichiedeCorpoIncasso": "Richiede corpo incasso",
+    "metaDescription": "La collezione {collezione} di Fontealta in acciaio inox AISI 316: {articoli, plural, =1 {un articolo} other {# articoli}}{finiture, plural, =0 {} =1 {, una finitura} other {, # finiture}}."
+  },
+  "corpiIncasso": {
+    "eyebrow": "Corpi a incasso",
+    "statCorpi": "Corpi",
+    "statAmbienti": "Ambienti",
+    "usedByTitle": "Usato da",
+    "labelAmbiti": "Ambiti",
+    "metaTitle": "Corpi a incasso",
+    "metaDescription": "I corpi a incasso Fontealta in acciaio inox AISI 316: la parte che resta nel muro e regge il progetto.",
+    "metaTitleCorpo": "{codice} · Corpi a incasso",
+    "metaDescriptionCorpo": "{codice}, corpo a incasso Fontealta in acciaio inox AISI 316: la parte che resta nel muro e regge il progetto."
+  },
+  "modello": {
+    "eyebrow": "Collezione",
+    "specsTitle": "Specifiche",
+    "labelType": "Tipologia",
+    "labelAmbient": "Ambiente",
+    "labelFinishes": "Finiture disponibili",
+    "labelConcealedBody": "Corpo incasso",
+    "labelCustomizable": "Personalizzabile",
+    "labelDimensions": "Dimensioni",
+    "yes": "Sì",
+    "waterHotCold": "Acqua fredda e calda",
+    "waterCold": "Solo acqua fredda",
+    "alimStandard": "Installazione standard",
+    "alimStandardPlus": "Variante XT / XQ / XQ.A",
+    "alimCw": "Alimentazione idrica a incasso",
+    "alimEw": "Alimentazione idrica esterna",
+    "alim4s": "Antigelo: cablaggio riscaldante 230V",
+    "collectionAffinitiesTitle": "Collezioni affini",
+    "finishesTitle": "Finiture",
+    "metaTitle": "{nome} · {testa}",
+    "metaDescription": "{nome}, dalla collezione {collezione} di Fontealta. Acciaio inox AISI 316{finiture, plural, =0 {.} =1 {, una finitura disponibile.} other {, # finiture disponibili.}}",
+    "tipo": "{subtype} per {categoria}",
+    "tipoSoloAmbiente": "per {categoria}",
+    "metaDescriptionTipo": "{nome}. {tipo} Fontealta in acciaio inox AISI 316{finiture, plural, =0 {.} =1 {, una finitura disponibile.} other {, # finiture disponibili.}}"
+  },
+  "schedaModello": {
+    "progettareH2": "Ti interessa questo modello?",
+    "progettareSub": "Raccontaci il tuo progetto: ti rispondiamo su finiture, disponibilità e tempi.",
+    "richiediInformazioni": "Richiedi informazioni"
+  },
+  "produzione": {
+    "metaTitle": "Produzione",
+    "metaDescription": "Ogni prodotto è lavorato in molteplici fasi secondo gli standard della nautica: acciaio AISI 316 europeo, saldatura TIG, lucidatura, verniciatura. Viareggio, dal 1999.",
+    "heroEyebrow": "La produzione",
+    "heroH1": "Come nasce una colonna.",
+    "heroSub": "Si parte da una barra d’acciaio lunga sei metri. Si arriva a una colonna doccia. In mezzo c’è un numero di passaggi che non ci si aspetta, e diversi di questi si fanno ancora a mano.",
+    "heroImageAlt": "Barre di acciaio inox in lavorazione nello stabilimento Fontealta di Viareggio.",
+    "fasiAria": "Le nove fasi della produzione",
+    "f1Title": "La barra",
+    "f1Spec": "6000 mm · AISI 316",
+    "f1P1": "L’acciaio arriva in barre da sei metri, già marcate a laser all’origine con diametro, spessore, numero di colata, lotto e data esatta di produzione. Ogni tubo viene ispezionato all’ingresso.",
+    "f1P2": "Significa che di ogni colonna uscita da qui sappiamo da quale colata proviene. Non è burocrazia: è quello che permette, anni dopo, di risalire all’origine di un pezzo.",
+    "f1Alt": "Barre di acciaio inox AISI 316 da sei metri, marcate a laser all’origine.",
+    "f2Title": "Il taglio",
+    "f2Spec": "3000 mm · 30° su Twiggy",
+    "f2P1": "Le barre vengono sezionate esattamente a metà: tre metri, la misura di sviluppo dei modelli più alti. Nessuno scarto, nessun ritaglio inutilizzabile.",
+    "f2P2": "Sulla serie Twiggy il taglio ha un’inclinazione di trenta gradi, eseguita quando il tubo è ancora dritto. A quel punto della lavorazione sembra un errore. Serve a compensare lo spostamento del metallo durante la piega, in modo che la testa della colonna, alla fine, risulti perfettamente parallela al suolo.",
+    "f2Alt": "Sezionamento di una barra di acciaio inox a metà lunghezza.",
+    "f3Title": "La piega",
+    "f3Spec": "Spessore > 3 mm",
+    "f3P1": "Piegare a freddo un tubo con spessore oltre i tre millimetri senza schiacciarlo richiede un pezzo che nessun cliente vedrà mai: un’anima mobile in lega di bronzo e alluminio, che entra nel tubo e ne tiene la sezione rotonda mentre la piegatrice lavora.",
+    "f3P2": "L’anima però non basta. L’elasticità dell’acciaio cambia impercettibilmente da una colata all’altra, e due tubi con la stessa identica specifica reagiscono in modo leggermente diverso. All’inizio di ogni lotto l’angolo di piega viene ricalibrato a mano: si piega, si misura, si corregge.",
+    "f3Alt": "Piegatrice al lavoro su un tubo di acciaio inox a parete spessa.",
+    "f4Title": "I componenti",
+    "f4Spec": "Fresati dal pieno · CNC",
+    "f4P1": "Nella nostra officina i centri di lavoro a controllo numerico fresano dal pieno i corpi interni dei rubinetti temporizzati e le componenti meccaniche. La scheda tecnica di ogni pezzo dice di che materiale è fatto.",
+    "f4P2": "Fresare dal pieno invece che assemblare significa meno giunzioni, e ogni giunzione in meno è un punto in meno dove qualcosa può cedere.",
+    "f4Alt": "Componenti in acciaio inox fresati dal pieno su centro di lavoro a controllo numerico.",
+    "f5Title": "La saldatura",
+    "f5Spec": "TIG",
+    "f5P1": "Le strutture esterne vengono consolidate con saldatura TIG. È il metodo più lento tra quelli disponibili ed è quello che tiene sulle strutture più imponenti.",
+    "f5Alt": "Saldatura TIG su una struttura esterna in acciaio inox.",
+    "f6Title": "La pulimentatura",
+    "f6Spec": "Grana crescente",
+    "f6P1": "È la fase che il cliente non vede e che decide tutto il resto.",
+    "f6P2": "L’acciaio grezzo ha una porosità naturale: microscopiche aperture dove la corrosione può innescarsi. La superficie viene lucidata con carte abrasive a grana crescente, poi con macchine a spazzole lamellari e panni di cotone, che chiudono definitivamente i pori.",
+    "f6P3": "Solo a quel punto lo strato di ossido di cromo, quello che rende inossidabile l’acciaio, può avvolgere l’intera superficie senza lasciare punti deboli. Una finitura a specchio non è un vezzo estetico: è il segno che sotto non è rimasto niente di aperto.",
+    "f6Alt": "Lucidatura di una superficie in acciaio inox con spazzole lamellari.",
+    "f7Title": "La finitura",
+    "f7Spec": "7 finiture · RAL Pantone NCS",
+    "f7P1": "Da qui la colonna prende la sua pelle: specchio, spazzolato, verniciato e PVD. Sono sette le finiture a catalogo. Il colore no: quello non ha un numero, perché la verniciatura non ha limiti. RAL, Pantone o NCS, anche su un pezzo solo.",
+    "f7Alt": "Colonne doccia in acciaio inox con finiture diverse affiancate.",
+    "f8Title": "L’essiccazione",
+    "f8Spec": "14 giorni · −20/+60 °C",
+    "f8P1": "I pezzi verniciati asciugano naturalmente, a temperatura ambiente, per due settimane. Sono due delle cinque che indichiamo come tempo di produzione.",
+    "f8P2": "Un forno farebbe lo stesso lavoro in meno di un’ora, ma indurirebbe la vernice rendendola rigida. Una colonna da esterno passa dai meno venti gradi dell’inverno agli oltre sessanta di una superficie al sole, e a ogni ciclo l’acciaio si dilata. Una vernice rigida, prima o poi, si crepa. Una vernice essiccata lentamente resta elastica e segue il metallo.",
+    "f8P3": "Due settimane di attesa contro dieci anni di tenuta.",
+    "f8Alt": "Pezzi verniciati in essiccazione naturale a temperatura ambiente.",
+    "f9Title": "Impianto, collaudo, imballo",
+    "f9Spec": "Tolleranze millimetriche",
+    "f9P1": "All’interno vengono montati impianti idraulici dove ogni raccordo lavora su tolleranze millimetriche. Le maniglie ricevono la marcatura laser Fontealta, che autentica il pezzo. Ogni colonna viene collaudata idraulicamente prima di uscire.",
+    "f9P2": "L’ultimo passaggio è un sacchetto morbido in TNT, poi l’imballo antiurto: perché la parte più rischiosa del percorso, per un pezzo lucidato a specchio e verniciato, è spesso l’ultima.",
+    "f9Alt": "Montaggio dell’impianto idraulico interno e collaudo di una colonna doccia.",
+    "chiusuraH2": "Il tempo è un materiale.",
+    "chiusuraP": "Non lavoriamo per essere veloci. Lavoriamo perché il pezzo regga fuori, al sale e al sole, negli anni.",
+    "chiusuraCta": "Esplora l’officina",
+    "chiusuraDidascalia": "Ricostruzione illustrata dell’officina di Viareggio.",
+    "formH2": "Vuoi vedere come lavoriamo?"
+  },
+  "finiture": {
+    "metaTitle": "Finiture",
+    "metaDescription": "Sette finiture a catalogo e qualsiasi colore su richiesta: RAL, Pantone o NCS, anche su un pezzo solo. Sullo stesso acciaio AISI 316.",
+    "heroEyebrow": "I Materiali",
+    "heroTitle": "Le finiture.",
+    "heroSubtitle": "Naturale, verniciata, PVD. Personalizzazione su richiesta in qualsiasi RAL, PANTONE, NCS.",
+    "emptyState": "Nessuna finitura disponibile al momento.",
+    "progettareH2": "Il colore che ti serve non è in questa pagina?",
+    "category": {
+      "natural": "Naturale",
+      "mirror": "Specchio",
+      "painted": "Verniciato",
+      "pvd": "PVD"
+    }
+  },
+  "referenze": {
+    "metaTitle": "Referenze",
+    "metaDescription": "Progetti e installazioni Fontealta firmati da architetti e studi di tutto il mondo.",
+    "heroEyebrow": "Referenze",
+    "heroTitle": "Progetti firmati Fontealta.",
+    "heroSubtitle": "Ville sul Mediterraneo, beach club, yacht. I luoghi dove l’acciaio Fontealta prende forma.",
+    "eyebrowItem": "Progetto",
+    "emptyEyebrow": "In arrivo",
+    "emptyTitle": "Le nostre referenze, presto online.",
+    "emptyBody": "Stiamo raccogliendo i progetti più significativi realizzati con Fontealta. Nel frattempo, raccontaci il tuo.",
+    "emptyCta": "Contattaci",
+    "notFoundTitle": "Referenza non trovata",
+    "galleryEyebrow": "Galleria",
+    "galleryHeading": "Il progetto in immagini.",
+    "collectionsEyebrow": "Collezioni",
+    "collectionsHeading": "Collezioni utilizzate.",
+    "collectionEyebrowItem": "Collezione",
+    "category": {
+      "hospitality": "Hospitality",
+      "residenziale": "Residenziale",
+      "yacht": "Yacht",
+      "beach-club": "Beach club",
+      "spa-wellness": "Spa · Wellness"
+    }
+  },
+  "chiSiamo": {
+    "metaTitle": "Chi siamo",
+    "metaDescription": "Dal 1999 a Viareggio lavoriamo l’acciaio inox AISI 316: colonne doccia freestanding, rubinetteria, colore su misura. Due mestieri, un’idea.",
+    "heroH1": "L’acciaio marino.",
+    "heroSub": "Dal 1999 lavoriamo l’acciaio inox AISI 316 a Viareggio, sul mare, dove il sale mette alla prova ogni superficie.",
+    "s1Eyebrow": "1999",
+    "s1H2": "Due mestieri, un’idea.",
+    "s1P1": "Fontealta nasce a Viareggio nel febbraio 1999, dall’incontro tra due competenze che di solito non si parlano.",
+    "s1P2": "Da una parte la rubinetteria. Il padre di Andrea Farnocchia ci aveva passato una vita: sapeva come si fa scorrere l’acqua dentro un corpo di metallo, quali sono le tolleranze che contano e quali sono le cose che si rompono.",
+    "s1P3": "Dall’altra la nautica. Andrea arrivava dagli studi del settore, dove la prima domanda su un materiale non è mai se sia bello, ma quanto resiste al sale.",
+    "s1P4": "Da quell’incontro è nata una scelta che allora sembrava eccentrica: fare rubinetteria di alta gamma in acciaio inossidabile, invece che in ottone cromato come facevano tutti.",
+    "s1ImageAlt": "Artigiano Fontealta al lavoro su un miscelatore in acciaio",
+    "s2H2": "Perché AISI 316.",
+    "s2P1": "Vicino al mare l’acciaio incontra il sale ogni giorno: per questo serve l’acciaio marino.",
+    "s2P2": "Tra un AISI 304 e un AISI 316 ci sono pochi punti percentuali di molibdeno. È quel poco a frenare la corrosione puntiforme, quella che comincia da un punto invisibile e da lì si allarga.",
+    "s2P3": "Il 316 costa di più ed è più difficile da lavorare: rallenta ogni fase della produzione, e il nichel e il molibdeno in più lo rendono più caro come materia prima.",
+    "s2P4": "Le nostre colonne doccia e i nostri rubinetti in acciaio sono in AISI 316. E l’acciaio che lavoriamo è esclusivamente di produzione europea.",
+    "s3H2": "Dal tubo al collaudo.",
+    "s3P1": "Colonne doccia freestanding, rubinetteria da bagno, soluzioni per la cucina e per la nautica. Venti collezioni, oltre cinquecento articoli, sette finiture a catalogo e qualsiasi colore su richiesta: RAL, Pantone o NCS, anche su un pezzo solo, senza minimi d’ordine.",
+    "s3P2": "Disegniamo e produciamo internamente, dal tubo grezzo al collaudo idraulico. Il ciclo produttivo è interamente italiano: la precisione della macchina dove serve la macchina, la mano dell’artigiano dove la macchina non arriva.",
+    "s3P3": "Quando un progetto chiede qualcosa che non esiste, lo costruiamo. È un’abitudine che abbiamo dal lavoro sui megayacht, dove il pezzo standard non basta quasi mai.",
+    "s4H2": "Perché proprio qui.",
+    "s4P1": "Viareggio non è un indirizzo. È il motivo per cui possiamo fare certe cose.",
+    "s4P2": "I cantieri navali ci hanno dato fornitori che lavorano l’acciaio secondo standard nautici: un difetto che altrove passerebbe inosservato qui viene subito messo in evidenza, e genera uno scarto.",
+    "s4P3": "Gli stabilimenti balneari e gli hotel della costa sono il nostro banco di prova: una doccia che sopporta un’estate in spiaggia ha già superato qualunque uso domestico.",
+    "s4P4": "E poi c’è il Carnevale. I carri sono strutture alte fino a venti metri, ricostruite ogni anno da zero e dipinte a mano in qualsiasi tonalità serva. Attorno a loro, e ai verniciatori dei megayacht, è cresciuto a Viareggio un indotto che nel resto d’Italia non ha equivalenti.",
+    "s4P5": "Sono gli stessi fornitori a cui ci rivolgiamo noi. È per questo che una tinta fuori catalogo su un pezzo singolo, da noi, è una richiesta normale e non un’eccezione da negoziare.",
+    "s5H2": "Prima le domande.",
+    "s5P1": "Le nostre colonne doccia e i nostri rubinetti in acciaio sono sempre in AISI 316, e si installano ovunque. Le differenze stanno altrove, e sono tre.",
+    "s5P2": "La finitura, perché non tutte rispondono allo stesso modo all’esposizione e alla manutenzione che il progetto potrà garantire. La dotazione, perché cambia in base all’impianto che c’è o che si può portare. L’installazione, perché dipende da chi userà il prodotto e con quale frequenza.",
+    "s5P3": "Sono le domande che facciamo prima di proporre qualsiasi cosa. Non è cortesia commerciale: è il modo di evitare che un progettista si trovi, tre anni dopo la consegna, a rispondere di una scelta che si poteva fare meglio.",
+    "s5P4": "Il nostro lavoro finisce quando il progetto regge nel tempo. Non quando parte l’ordine.",
+    "formH2": "Il resto lo raccontiamo di persona.",
+    "formIntro": "Raccontaci il tuo progetto: dalla residenza privata all’hospitality, fino ai megayacht."
+  },
+  "contatti": {
+    "metaTitle": "Contatti",
+    "metaDescription": "Parla con Fontealta del tuo progetto indoor e outdoor in acciaio AISI 316. Sede a Viareggio, Toscana.",
+    "heroEyebrow": "Consulenza personalizzata",
+    "heroH1": "Parliamo del tuo progetto.",
+    "heroSub": "Dalla prima idea alla posa in opera, il nostro team ti accompagna in ogni fase.",
+    "sedeEyebrow": "La nostra sede",
+    "form": {
+      "nome": "Nome",
+      "cognome": "Cognome",
+      "email": "Email",
+      "telefono": "Telefono",
+      "azienda": "Azienda",
+      "richiesta": "Di cosa hai bisogno",
+      "richiestaPlaceholder": "Scegli un’opzione",
+      "richiestaOptions": {
+        "preventivo": "Preventivo",
+        "consulenza": "Consulenza",
+        "altro": "Altro"
+      },
+      "paese": "Paese",
+      "paesePlaceholder": "Seleziona…",
+      "paeseAltro": "Altro Paese",
+      "noteFacoltative": "Note (facoltativo)",
+      "noteAltro": "Descrivi la tua richiesta",
+      "noteAltroPaese": "Indica il tuo Paese e descrivi la richiesta",
+      "notePaese": "Note · indica il tuo Paese",
+      "noteContatore": "{n} su {max} caratteri",
+      "submit": "Invia",
+      "inviato": "Inviato",
+      "invioInCorso": "Invio in corso",
+      "confermaRiga": "Grazie, {nome}. Ti ricontatteremo.",
+      "nuovaRichiesta": "Invia un’altra richiesta",
+      "catalogoRimando": "Cerchi il catalogo? Ricevilo subito via email →",
+      "catalogoRicevi": "Guarda il catalogo",
+      "catalogoConferma": "Ti abbiamo inviato il catalogo a {email}. Se non lo trovi, controlla anche nello spam.",
+      "catalogoRipiego": "Non siamo riusciti a inviarti l’email.",
+      "catalogoScarica": "Scarica subito il PDF",
+      "newsletterCasella": "Acconsento a ricevere via email la newsletter e comunicazioni commerciali di Fontealta, come descritto nell’<link>informativa</link>.",
+      "newsletterConferma": "Grazie, ti abbiamo iscritto alla newsletter. Puoi disiscriverti in qualsiasi momento dal link presente in ogni email.",
+      "errorGeneric": "Non siamo riusciti a inviare la richiesta. Riprova oppure scrivici a info@fontealta.it.",
+      "privacyRiga": "Inviando la richiesta dichiari di aver letto l’<link>informativa sulla privacy</link>.",
+      "esca": "Non compilare questo campo",
+      "errors": {
+        "nomeRequired": "Inserisci il tuo nome.",
+        "cognomeRequired": "Inserisci il tuo cognome.",
+        "emailInvalid": "Inserisci un indirizzo email valido.",
+        "richiestaRequired": "Seleziona un’opzione.",
+        "paeseRequired": "Seleziona il tuo Paese.",
+        "noteRequired": "Descrivi la richiesta in almeno 10 caratteri.",
+        "notePaeseRequired": "Indica il tuo Paese nelle note."
+      }
+    },
+    "mapTitle": "Mappa della sede Fontealta a Viareggio",
+    "mapAriaLabel": "Mappa",
+    "areaProH2": "Sei un progettista?",
+    "areaProText": "Accedi all’area riservata per schede tecniche, listini e file 3D.",
+    "areaProLogin": "Accedi",
+    "areaProRegister": "Registrati",
+    "newsletterFooter": {
+      "iscriviti": "Iscriviti",
+      "iscritto": "Iscritto",
+      "casella": "Spunta la casella per iscriverti."
+    }
+  },
+  "areaRiservata": {
+    "metaTitle": "Area Riservata",
+    "metaDescription": "Lo spazio per architetti, rivenditori e cantieri è in lavorazione. Per listini, schede tecniche e disegni, scriveteci.",
+    "eyebrow": "Area Riservata",
+    "title": "L’acciaio ha i suoi tempi.",
+    "body": "Stiamo preparando uno spazio per architetti, rivenditori e cantieri: listini, schede tecniche, disegni. Per tutto il resto, oggi, ci siamo noi.",
+    "cta": "Scrivici"
+  },
+  "officina": {
+    "metaTitle": "Come nasce una colonna",
+    "metaDescription": "L’officina di Viareggio in dodici reparti, dalla barra d’acciaio alla colonna imballata.",
+    "ogImageAlt": "Tavola illustrata dell’officina Fontealta di Viareggio: i dodici reparti, dalla barra d’acciaio alla colonna imballata",
+    "titoloIframe": "Tavola interattiva dell’officina Fontealta"
+  },
+  "home": {
+    "heroH1Top": "Acciaio",
+    "heroH1Bot": "e Colore.",
+    "heroSub": "Colonne doccia e rubinetteria in acciaio inox AISI 316. Qualsiasi colore RAL, Pantone o NCS, anche su un pezzo solo. Made in Viareggio dal 1999.",
+    "heroProjectCta": "Parliamo del tuo progetto",
+    "heroStat1Value": "1999",
+    "heroStat1Label": "Dal",
+    "heroStat2Label": "Collezioni",
+    "heroStat3Value": "500+",
+    "heroStat3Label": "Articoli",
+    "heroStat4Value": "Italy",
+    "heroStat4Label": "Made in",
+    "featuredEyebrow": "Le collezioni",
+    "featuredH2": "Ogni collezione, una storia da raccontare.",
+    "featuredIntro": "Colonne doccia freestanding, rubinetteria, soluzioni su misura. Sette finiture a catalogo e qualsiasi colore su richiesta, anche per un solo pezzo.",
+    "featuredPrev": "Collezione precedente",
+    "featuredNext": "Collezione successiva",
+    "featuredGoTo": "Vai alla collezione {n}",
+    "featuredCardAlt": "Collezione {nome}",
+    "featuredCta": "Scopri le collezioni",
+    "aisiH2Top": "AISI 316.",
+    "aisiH2Bot": "Un legame inossidabile.",
+    "aisiIntro": "Dal 1999 la conoscenza profonda dell’acciaio è alla base delle nostre collezioni. Resiste alla salsedine, al cloro e ai raggi UV. Riciclabile al 100%, infinite volte.",
+    "teamEyebrow": "Chi siamo",
+    "teamH2Top": "Alta qualità,",
+    "teamH2Bot": "Altamente umano.",
+    "teamIntro": "Da Viareggio, in Toscana, ogni pezzo passa per mani esperte: tagliato, saldato, lucidato e controllato un’unità alla volta.",
+    "teamCta": "Scopri la nostra storia",
+    "ctaH2": "Raccontaci il progetto.",
+    "ctaIntro": "Una residenza, un hotel, uno yacht: dicci cosa stai progettando.",
+    "formPersonal": "Dati personali",
+    "formNeed": "Di cosa hai bisogno",
+    "metaTitle": "Rubinetteria e colonne doccia inox AISI 316 · Fontealta",
+    "metaDescription": "Colonne doccia indoor e outdoor, rubinetteria bagno e cucina in acciaio inox AISI 316, per casa, hotel e yacht. Ogni colore RAL, Pantone o NCS. Dal 1999."
+  },
+  "productCategories": {
+    "lavabo": "Lavabo",
+    "doccia": "Doccia",
+    "vasca": "Vasca",
+    "cucina": "Cucina",
+    "giardino": "Giardino",
+    "bidet": "Bidet"
+  },
+  "productSubtypes": {
+    "accessori": "Accessori",
+    "accessori-colonna": "Accessori colonna",
+    "batteria-3-fori": "Batteria 3 fori",
+    "bocca": "Bocca",
+    "bodyjet": "Body Jet",
+    "braccio": "Braccio",
+    "braccio-con-soffione": "Braccio con soffione",
+    "cascata": "Cascata",
+    "colonna": "Colonna",
+    "colonna-divisibile": "Colonna divisibile",
+    "doccetta": "Doccetta",
+    "erogazione-parete": "Erogazione parete",
+    "flessibile": "Flessibile",
+    "kit": "Kit",
+    "miscelatore": "Miscelatore",
+    "miscelatore-parete": "Miscelatore parete",
+    "pannello": "Pannello",
+    "ponte": "Ponte",
+    "rubinetto": "Rubinetto",
+    "rubinetto-parete": "Rubinetto parete",
+    "saliscendi": "Saliscendi",
+    "scarico": "Scarico",
+    "soffione": "Soffione",
+    "soffitto": "Soffitto"
+  },
+  "legale": {
+    "metaTitle": "Menzioni legali",
+    "metaDescription": "Termini d’uso del sito Fontealta, informativa sulla privacy, cookie policy e trasparenza sull’uso dell’intelligenza artificiale.",
+    "eyebrow": "Legale",
+    "title": "Menzioni legali",
+    "intro": "Le condizioni d’uso del sito fontealta.it e le informazioni sul trattamento dei dati personali, sui cookie e sull’uso dell’intelligenza artificiale.",
+    "sezioni": {
+      "societa": {
+        "titolo": "Dati societari e certificazioni",
+        "aggiornato": "Ultimo aggiornamento: ottobre 2026.",
+        "blocchi": [
+          {
+            "li": "<b>Ragione sociale:</b> {ragioneSociale}"
+          },
+          {
+            "li": "<b>Sede legale:</b> {sede}"
+          },
+          {
+            "li": "<b>Partita IVA:</b> {piva}"
+          },
+          {
+            "li": "<b>Iscrizione al Registro delle Imprese della Toscana Nord-Ovest:</b> n. {codiceFiscale} (REA {rea})"
+          },
+          {
+            "li": "<b>Capitale sociale:</b> {capitale} interamente versato"
+          },
+          {
+            "li": "<b>PEC:</b> {pec}"
+          },
+          {
+            "li": "<b>Certificazione:</b> sistema di gestione per la qualità conforme alla norma {norma}, certificato n. {numero} rilasciato da {ente}, settore IAF {settore}, valido fino {scadenzaArticolata}."
+          },
+          {
+            "li": "<b>Documenti da scaricare:</b> {certificato} · {politica}"
+          }
+        ],
+        "documenti": {
+          "certificato": "Certificato ISO 9001:2015 (PDF)",
+          "politica": "Politica per la qualità (PDF)"
+        }
+      },
+      "termini": {
+        "titolo": "Termini e condizioni d’uso del sito",
+        "aggiornato": "Ultimo aggiornamento: ottobre 2026.",
+        "blocchi": [
+          {
+            "h3": "Accettazione"
+          },
+          {
+            "p": "L’accesso al sito fontealta.it e alle sue pagine (di seguito «il Sito») e il suo utilizzo comportano l’accettazione integrale dei presenti Termini. Chi non intende accettarli è invitato a non utilizzare il Sito. Rubinetteria F & F L’Artigiana S.r.l. (di seguito «Fontealta» o «la Società») può modificare i presenti Termini in qualsiasi momento; la versione in vigore è quella pubblicata su questa pagina con la data di ultimo aggiornamento. In caso di discordanza fra le versioni linguistiche del Sito prevale la versione italiana."
+          },
+          {
+            "h3": "Natura del Sito"
+          },
+          {
+            "p": "Il Sito ha finalità informative e di presentazione dei prodotti Fontealta. <b>Il Sito non è un negozio online</b>: non consente acquisti, non espone prezzi al pubblico e non costituisce offerta al pubblico ai sensi dell’art. 1336 del Codice Civile. Le informazioni pubblicate, comprese le descrizioni dei prodotti, le finiture, le immagini e le eventuali caratteristiche tecniche, hanno valore indicativo. Per ogni fornitura fanno fede esclusivamente l’offerta commerciale e la conferma d’ordine emesse dalla Società, i cataloghi e i listini ufficiali nella versione in vigore."
+          },
+          {
+            "h3": "Proprietà intellettuale"
+          },
+          {
+            "p": "Tutti i contenuti del Sito sono di proprietà di Fontealta o dei suoi licenzianti e sono protetti dalle norme italiane e internazionali sul diritto d’autore, sui marchi e sul design. Ne fanno parte, a titolo di esempio: i testi, le fotografie, i render e le immagini, i video, i disegni, le schede tecniche, i cataloghi e i listini, il codice del Sito, il marchio <b>Fontealta</b>, il monogramma, i nomi delle collezioni pubblicate sul Sito e i codici dei modelli."
+          },
+          {
+            "p": "I prodotti Fontealta, il loro design e le loro forme sono di esclusiva ideazione della Società. È vietata la riproduzione, la copia, l’imitazione, la contraffazione o l’uso, anche parziale, di prodotti, disegni, marchi e nomi senza il consenso scritto della Società."
+          },
+          {
+            "p": "È consentita la consultazione del Sito e la stampa o il salvataggio di singole pagine per uso personale e non commerciale, a condizione che ogni copia mantenga l’indicazione della fonte e i riferimenti alla proprietà intellettuale. Ogni altro uso, e in particolare la riproduzione delle immagini di prodotto su siti, cataloghi, marketplace o materiali di terzi, richiede l’autorizzazione scritta della Società, da richiedere a info@fontealta.it."
+          },
+          {
+            "p": "I marchi, i nomi e i loghi di terzi eventualmente citati nel Sito (fra cui le denominazioni delle finiture, degli standard tecnici come AISI e RAL, delle fiere e dei fornitori tecnologici) appartengono ai rispettivi titolari."
+          },
+          {
+            "h3": "Uso consentito"
+          },
+          {
+            "p": "L’utente si impegna a utilizzare il Sito in conformità alla legge e ai presenti Termini. In particolare è vietato: estrarre o raccogliere in modo sistematico contenuti, immagini o dati del Sito (scraping, crawling non autorizzato, download massivo); introdurre virus, codice malevolo o interferire con il funzionamento del Sito o dell’infrastruttura che lo ospita; utilizzare il modulo di contatto per invii automatici, pubblicitari o comunque estranei alla sua funzione; aggirare le misure tecniche di protezione del Sito."
+          },
+          {
+            "h3": "Esclusione di garanzie e limitazione di responsabilità"
+          },
+          {
+            "p": "Fontealta cura l’accuratezza dei contenuti del Sito ma non garantisce che siano privi di errori, completi o aggiornati in ogni momento; si riserva di modificarli senza preavviso. Le caratteristiche dei prodotti possono variare senza preavviso; i colori delle finiture riprodotti a video sono indicativi e possono differire dal prodotto reale. Fontealta non garantisce che il Sito sia sempre accessibile o privo di interruzioni."
+          },
+          {
+            "p": "Nei limiti consentiti dalla legge, Fontealta non risponde di danni diretti o indiretti derivanti dall’uso o dall’impossibilità di uso del Sito, dall’affidamento sulle informazioni in esso contenute, da interruzioni, errori, virus o accessi non autorizzati, salvo il caso di dolo o colpa grave. Nulla nei presenti Termini esclude o limita responsabilità che non possono essere escluse per legge."
+          },
+          {
+            "h3": "Collegamenti a siti di terzi"
+          },
+          {
+            "p": "Il Sito può contenere collegamenti a siti di terzi (ad esempio profili social, siti di fiere, partner). Tali siti non sono controllati da Fontealta, che non risponde dei loro contenuti, delle loro politiche di privacy e del loro funzionamento. Chi desidera inserire un collegamento al Sito può farlo verso la pagina iniziale o verso singole pagine, senza incorniciarle (framing) e senza far intendere un’associazione o un’approvazione inesistente."
+          },
+          {
+            "h3": "Modulo di contatto e richieste"
+          },
+          {
+            "p": "Le richieste inviate tramite il modulo di contatto vengono trattate come indicato nell’informativa sulla privacy. Una risposta della Società a una richiesta non costituisce impegno contrattuale finché non è formalizzata in un’offerta o in una conferma d’ordine."
+          },
+          {
+            "h3": "Legge applicabile e foro competente"
+          },
+          {
+            "p": "I presenti Termini sono regolati dalla legge italiana. Per ogni controversia relativa al Sito e ai presenti Termini è competente in via esclusiva il Foro di Lucca, salvo il foro inderogabile previsto dalla legge per i consumatori."
+          }
+        ]
+      },
+      "privacy": {
+        "titolo": "Informativa sulla privacy",
+        "aggiornato": "Ultimo aggiornamento: ottobre 2026.",
+        "blocchi": [
+          {
+            "p": "La presente informativa descrive le modalità di trattamento dei dati personali degli utenti che consultano il Sito e utilizzano i suoi moduli di contatto, di richiesta del catalogo e di iscrizione alla newsletter, ai sensi dell’art. 13 del Regolamento UE 2016/679 («GDPR») e del D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018."
+          },
+          {
+            "h3": "Titolare del trattamento"
+          },
+          {
+            "p": "Rubinetteria F & F L’Artigiana S.r.l., Via Libeccio 13/15, 55049 Viareggio (LU), Italia, P.IVA IT01718720467, email info@fontealta.it, PEC fontealta_lartigiana@pec.it. Il Titolare può essere contattato per ogni richiesta relativa ai dati personali ai recapiti indicati. La Società non ha nominato un Responsabile della protezione dei dati, non ricorrendone i presupposti di legge."
+          },
+          {
+            "h3": "Dati raccolti e finalità"
+          },
+          {
+            "p": "<b>Modulo di contatto.</b> Nome, cognome, email, telefono (facoltativo), azienda (facoltativo) e tipo di richiesta, scelto fra preventivo, consulenza e altro. Inoltre: Paese, note (facoltative; obbligatorie con la richiesta «altro» o con «Altro Paese») e lingua di navigazione del Sito, rilevata in automatico. Finalità: dare riscontro a richieste di informazioni e preventivo. Base giuridica: esecuzione di misure precontrattuali su richiesta dell’interessato (art. 6.1.b GDPR) e legittimo interesse del Titolare a rispondere (art. 6.1.f). Dopo l’invio, l’interessato riceve all’indirizzo indicato un’email automatica di conferma della ricezione, inviata tramite Brevo. L’invio della richiesta non comporta l’iscrizione alla newsletter, che avviene solo se l’interessato seleziona l’apposita casella facoltativa."
+          },
+          {
+            "p": "<b>Richiesta del catalogo.</b> Nome, cognome, email e Paese; note solo con «Altro Paese», per indicarlo. Inoltre: lingua di navigazione del Sito, rilevata in automatico. Finalità: inviare via email il catalogo in PDF richiesto, nella lingua del Paese indicato, e dare riscontro alla richiesta. L’invio della richiesta non comporta l’iscrizione alla newsletter, che avviene solo se l’interessato seleziona l’apposita casella facoltativa. Base giuridica: esecuzione di misure precontrattuali su richiesta dell’interessato (art. 6.1.b GDPR) e legittimo interesse del Titolare a rispondere (art. 6.1.f)."
+          },
+          {
+            "p": "<b>Newsletter e comunicazioni commerciali.</b> Dati: email, nome, cognome, Paese (non richiesto dal modulo nel piè di pagina), lingua del Sito, pagina di provenienza, data, ora e versione del testo del consenso. Finalità: invio via email della newsletter e di comunicazioni commerciali su prodotti, collezioni, progetti ed eventi di Fontealta, e misurazione aggregata e individuale di aperture e clic dei messaggi, per migliorarne i contenuti. Base giuridica: consenso dell’interessato (art. 6.1.a GDPR e art. 130 D.Lgs. 196/2003), prestato selezionando la casella facoltativa al momento dell’invio di un modulo di contatto o di richiesta del catalogo, oppure iscrivendosi con il modulo della newsletter nel piè di pagina del Sito, che chiede nome, cognome ed email e la selezione della casella. Il consenso è facoltativo: il mancato consenso non impedisce né condiziona la risposta alle richieste o l’invio del catalogo. Il consenso può essere revocato in qualsiasi momento con il link di disiscrizione presente in ogni email o scrivendo a info@fontealta.it, senza pregiudicare la liceità del trattamento basata sul consenso prima della revoca (art. 7.3 GDPR)."
+          },
+          {
+            "p": "<b>Dati di navigazione tecnici.</b> Indirizzo IP, tipo di browser e dispositivo, pagine richieste, orari, trattati dai fornitori di hosting e distribuzione per il funzionamento e la sicurezza del Sito (protezione da attacchi, diagnostica). Base giuridica: legittimo interesse (art. 6.1.f). Questi dati non sono usati per identificare l’utente."
+          },
+          {
+            "p": "<b>Statistiche di utilizzo.</b> Il Sito utilizza Vercel Web Analytics, che non impiega cookie né identificatori persistenti e raccoglie dati aggregati (pagine visitate, provenienza, paese, tipo di dispositivo). Non è profilazione e non è richiesto alcun consenso."
+          },
+          {
+            "p": "Il Sito non prevede registrazione di account per il pubblico, non svolge profilazione e non prende decisioni automatizzate. Le comunicazioni commerciali sono inviate soltanto a chi ha prestato il consenso con le modalità descritte sopra. Il conferimento dei dati contrassegnati come obbligatori nel modulo è necessario per dare seguito alla richiesta; in mancanza, la richiesta non può essere evasa. Il consenso alla newsletter è invece facoltativo."
+          },
+          {
+            "h3": "Destinatari e responsabili del trattamento"
+          },
+          {
+            "p": "I dati possono essere trattati, per conto del Titolare, da fornitori designati responsabili del trattamento ai sensi dell’art. 28 GDPR:"
+          },
+          {
+            "li": "Vercel Inc.: hosting, infrastruttura web e statistiche di utilizzo"
+          },
+          {
+            "li": "Sanity AS: gestione dei contenuti (CMS)"
+          },
+          {
+            "li": "Zapier Inc.: inoltro al Titolare delle richieste inviate dai moduli del Sito"
+          },
+          {
+            "li": "Sendinblue SAS (Brevo), 17 rue Salneuve, 75017 Parigi, Francia: invio dell’email con il catalogo richiesto e dell’email automatica di conferma delle richieste di contatto, invio della newsletter e gestione delle iscrizioni e delle disiscrizioni"
+          },
+          {
+            "li": "Cloudflare Inc.: hosting e distribuzione dei video"
+          },
+          {
+            "p": "Nella pagina Contatti è incorporata una mappa di Google Maps, fornita da Google Ireland Ltd.: al caricamento della mappa Google riceve i dati tecnici di navigazione, fra cui l’indirizzo IP, e li tratta secondo la propria informativa sulla privacy."
+          },
+          {
+            "p": "I dati possono inoltre essere conosciuti da personale della Società autorizzato al trattamento e, ove necessario, da consulenti, rivenditori o agenti di zona per dare seguito alla richiesta, nei limiti della finalità. I dati non sono diffusi né ceduti a terzi per finalità proprie."
+          },
+          {
+            "h3": "Trasferimento dei dati fuori dall’Unione Europea"
+          },
+          {
+            "p": "Alcuni fornitori, fra cui Google per la mappa della pagina Contatti, hanno sede negli Stati Uniti o vi trasferiscono i dati. I trasferimenti avvengono sulla base di garanzie adeguate ai sensi degli artt. 44-49 GDPR: Clausole Contrattuali Standard adottate dalla Commissione Europea e, ove applicabile, adesione del fornitore al Data Privacy Framework UE-USA. Copia delle garanzie può essere richiesta al Titolare."
+          },
+          {
+            "h3": "Periodo di conservazione"
+          },
+          {
+            "p": "I dati raccolti tramite il modulo di contatto sono conservati per il tempo necessario a gestire la richiesta e comunque per un massimo di 24 mesi dall’ultimo contatto, salvo diversi obblighi di legge o l’instaurazione di un rapporto contrattuale, nel qual caso si applicano i termini di conservazione previsti per la documentazione commerciale e fiscale. I dati di navigazione tecnici sono conservati dai fornitori per il tempo strettamente necessario alla sicurezza, di norma non oltre 30 giorni."
+          },
+          {
+            "p": "I dati trattati per la newsletter sono conservati fino alla revoca del consenso e comunque non oltre 24 mesi dall’ultima interazione con le comunicazioni ricevute, dopo di che sono cancellati. Dopo la revoca o la cancellazione il Titolare conserva soltanto l’indirizzo email e le informazioni sul consenso e sulla sua revoca, per il tempo necessario a dimostrare la liceità del trattamento e a rispettare la volontà dell’interessato di non ricevere più comunicazioni (art. 6.1.c e 6.1.f GDPR)."
+          },
+          {
+            "p": "I registri degli invii delle email sono conservati da Brevo per 24 mesi."
+          },
+          {
+            "h3": "Diritti dell’interessato"
+          },
+          {
+            "p": "L’interessato può esercitare in ogni momento i diritti previsti dagli artt. 15-22 GDPR: accesso ai propri dati, rettifica, cancellazione, limitazione del trattamento, portabilità, opposizione al trattamento fondato sul legittimo interesse e, in qualsiasi momento e senza motivazione, al trattamento per finalità di marketing (art. 21.2 GDPR), revoca del consenso (art. 7.3 GDPR). Le richieste vanno inviate a info@fontealta.it. Il Titolare risponde entro un mese, prorogabile nei casi previsti dalla legge."
+          },
+          {
+            "h3": "Reclamo all’autorità di controllo"
+          },
+          {
+            "p": "L’interessato ha diritto di proporre reclamo al Garante per la protezione dei dati personali (www.gpdp.it) qualora ritenga che il trattamento dei propri dati violi il GDPR, fatta salva ogni altra azione in sede amministrativa o giudiziale."
+          },
+          {
+            "h3": "Sicurezza"
+          },
+          {
+            "p": "Il Titolare adotta misure tecniche e organizzative adeguate al rischio: connessioni cifrate (HTTPS), controllo degli accessi al CMS, fornitori qualificati vincolati da accordi ai sensi dell’art. 28 GDPR, protezioni contro invii automatici sul modulo di contatto."
+          },
+          {
+            "h3": "Modifiche"
+          },
+          {
+            "p": "La presente informativa può essere aggiornata; la versione in vigore è quella pubblicata su questa pagina con la data di ultimo aggiornamento."
+          }
+        ]
+      },
+      "cookie": {
+        "titolo": "Cookie policy",
+        "aggiornato": "Ultimo aggiornamento: ottobre 2026.",
+        "blocchi": [
+          {
+            "p": "La presente cookie policy spiega quali cookie e tecnologie simili utilizza il Sito, ai sensi dell’art. 122 del D.Lgs. 196/2003 e delle Linee guida del Garante per la protezione dei dati personali del 10 giugno 2021."
+          },
+          {
+            "h3": "Cosa sono i cookie"
+          },
+          {
+            "p": "I cookie sono piccoli file di testo che i siti salvano sul dispositivo dell’utente per funzionare correttamente o per raccogliere informazioni. Si distinguono in cookie tecnici, necessari al funzionamento e all’erogazione del servizio richiesto dall’utente, per i quali non è richiesto il consenso, e cookie di profilazione o di terze parti con finalità di marketing, che richiedono il consenso preventivo."
+          },
+          {
+            "h3": "Cookie utilizzati dal Sito"
+          },
+          {
+            "p": "Il Sito utilizza esclusivamente cookie tecnici e funzionali. Non utilizza cookie di profilazione, di marketing o di terze parti con tali finalità, e non cede dati a terzi per tali finalità. Di conseguenza, ai sensi delle Linee guida del Garante, non è richiesto alcun consenso preventivo e non è presente un banner di consenso."
+          },
+          {
+            "li": "<b>NEXT_LOCALE</b>: memorizza la lingua delle pagine visitate, per mostrare i contenuti nella lingua corretta. Durata: di sessione. Finalità: funzionale. Prima parte."
+          },
+          {
+            "li": "<b>Cookie di anteprima dei contenuti</b> (__prerender_bypass, sanity-preview-perspective, sanity-preview-variant, sanity-preview-partitioned): impostati solo per gli amministratori del Sito durante la modifica dei contenuti nel CMS. Durata: di sessione. Finalità: tecnica. Prima parte."
+          },
+          {
+            "h3": "Statistiche di utilizzo"
+          },
+          {
+            "p": "Per le statistiche di utilizzo il Sito utilizza Vercel Web Analytics, che non impiega cookie né identificatori persistenti e raccoglie dati aggregati (pagine visitate, provenienza, paese, tipo di dispositivo). Non è profilazione e non è richiesto alcun consenso."
+          },
+          {
+            "h3": "Contenuti di terzi"
+          },
+          {
+            "p": "La pagina Contatti incorpora una mappa di Google Maps. Nella configurazione adottata dal Sito la mappa non imposta cookie (verifica del 16 settembre 2026); riceve comunque i dati tecnici di navigazione, come descritto nell’informativa sulla privacy. Se Google modificasse questo comportamento, prima del caricamento della mappa verrà attivato un banner di consenso."
+          },
+          {
+            "p": "I video presenti nel Sito sono distribuiti da Cloudflare Inc. senza cookie. Il Sito non incorpora altri widget o script di terze parti, di social network o di piattaforme pubblicitarie. Eventuali collegamenti a siti di terzi (social, fiere, partner) portano su siti che applicano le proprie politiche sui cookie."
+          },
+          {
+            "h3": "Come gestire i cookie"
+          },
+          {
+            "p": "L’utente può bloccare o eliminare i cookie tramite le impostazioni del proprio browser. La disabilitazione dei cookie tecnici può compromettere alcune funzionalità del Sito, ad esempio la memoria della lingua. Le istruzioni sono disponibili nelle guide di Chrome, Firefox, Safari ed Edge."
+          },
+          {
+            "h3": "Aggiornamenti"
+          },
+          {
+            "p": "La presente cookie policy può essere aggiornata nel tempo; le modifiche saranno pubblicate su questa pagina. In caso di futura introduzione di strumenti di analisi con cookie o di strumenti di profilazione, verrà attivato un banner di consenso conforme prima del loro caricamento."
+          }
+        ]
+      },
+      "ai": {
+        "titolo": "Trasparenza sull’uso dell’intelligenza artificiale",
+        "aggiornato": "Ultimo aggiornamento: settembre 2026.",
+        "blocchi": [
+          {
+            "p": "Ai sensi dell’art. 50 del Regolamento (UE) 2024/1689 («AI Act»), Fontealta informa che:"
+          },
+          {
+            "li": "<b>Immagini.</b> Alcune immagini di ambientazione pubblicate sul Sito sono generate con strumenti di intelligenza artificiale a partire dai render ufficiali dei prodotti Fontealta. Le fotografie dei prodotti, dello stabilimento e delle persone non sono generate artificialmente. I prodotti raffigurati corrispondono ai prodotti reali; ambienti e colori hanno valore illustrativo."
+          },
+          {
+            "li": "<b>Nessun sistema interattivo.</b> Il Sito non utilizza assistenti conversazionali, chatbot, sistemi di riconoscimento delle emozioni o di categorizzazione biometrica."
+          }
+        ]
+      }
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Materia, progetto, territorio. L’acciaio AISI 316 raccontato da chi lo conosce per mestiere, dal 1999.",
+    "heroTitle": "Blog",
+    "heroSubtitle": "Materia, progetto, territorio. L’acciaio AISI 316 raccontato da chi lo conosce per mestiere, dal 1999.",
+    "filterAll": "Tutti",
+    "readArticle": "Leggi l’articolo",
+    "prev": "Precedente",
+    "next": "Successivo",
+    "empty": "Nessun articolo pubblicato.",
+    "back": "Torna al Blog",
+    "writtenBy": "Scritto da",
+    "readingTime": "{min} min di lettura",
+    "updatedOn": "Aggiornato il {date}",
+    "watchOnYoutube": "Guarda su YouTube",
+    "contactH2": "Hai una domanda tecnica?",
+    "contactSub": "Scrivici: ti risponde chi l’acciaio lo lavora ogni giorno.",
+    "notFound": "Articolo non trovato"
+  },
+  "errorPages": {
+    "notFound": {
+      "eyebrow": "404",
+      "metaTitle": "Pagina non trovata",
+      "title": "Questa pagina non esiste, o non esiste più.",
+      "body": "Come l’acqua, il nostro catalogo scorre e si trasforma. Ciò che cerchi potrebbe aver cambiato forma.",
+      "ctaPrimary": "Esplora le collezioni",
+      "ctaSecondary": "Torna alla home"
+    },
+    "error": {
+      "title": "Qualcosa non ha funzionato.",
+      "body": "Un imprevisto tecnico, non un difetto di fabbricazione. Riprova tra un istante, oppure scrivici a <mail>info@fontealta.it</mail>.",
+      "ctaRetry": "Riprova",
+      "ctaSecondary": "Esplora le collezioni"
+    }
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "contactPrompt": "Non trovi la risposta? <link>Scrivici</link>"
+  },
+  "paginaUso": {
+    "outdoorShower": "Doccia da esterno",
+    "inSintesi": "In sintesi",
+    "tabella": "Tabella di confronto",
+    "collezioni": "Le nostre collezioni con colonna doccia da esterno"
+  },
+  "immagini": {
+    "stabilimento": "Lo stabilimento Fontealta a Viareggio",
+    "collezione": "collezione {nome}",
+    "prodotto": "{descrizione} {codice}, {collezione}",
+    "prodottoConMisura": "{descrizione} {codice}, {misura}, {collezione}",
+    "misura": "{nome} {valore}",
+    "misure": {
+      "altezzaTotale": "altezza totale",
+      "diametroPlacca": "Ø placca",
+      "placca": "placca",
+      "sporgenzaBocca": "sporgenza bocca",
+      "diametroSoffione": "Ø soffione",
+      "soffione": "soffione",
+      "lunghezza": "lunghezza",
+      "diametro": "Ø",
+      "base": "base",
+      "profondita": "profondità"
+    }
+  }
+}

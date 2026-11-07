@@ -1,0 +1,59 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    # Settimanale, con minor e patch in DUE PR al massimo (Marco, 20/10/2026): prima erano una PR per
+    # pacchetto o quasi, sette aperte insieme. I major restano PR singole (e quelli della lista
+    # `ignore` qui sotto non arrivano proprio).
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      # ⚠️ Sanity PER PRIMO: Dependabot mette una dipendenza nel primo gruppo che combacia. Sanity sta
+      # sulla linea `stable` a versioni esatte (rule ci-deploy), che è quasi sempre indietro rispetto a
+      # `latest`: dentro il gruppo generale renderebbe ogni PR settimanale non mergiabile intera. A
+      # parte, la sua PR si giudica col tag stable (`npm view sanity dist-tags.stable`).
+      sanity:
+        patterns: ["sanity", "@sanity/*", "next-sanity", "sanity-plugin-*"]
+        update-types: ["minor", "patch"]
+      # ⚠️ Il «primo gruppo vince» non è bastato: il 20/10 la #276 di questo gruppo ha portato
+      # `@sanity/vision` 6.19.0 e tre plugin Sanity fuori dalla linea stable, e il build è morto
+      # (`getDefaultVariant` assente in `sanity` 6.15.0). L'esclusione toglie quei pacchetti da qui
+      # comunque vada l'assegnazione ai gruppi: stessi quattro pattern del gruppo `sanity`.
+      minor-e-patch:
+        update-types: ["minor", "patch"]
+        exclude-patterns: ["sanity", "@sanity/*", "next-sanity", "sanity-plugin-*"]
+    ignore:
+      - dependency-name: "next"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react-dom"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
+      # Classe migrazione: i major di questo blocco si decidono a mano, in una
+      # finestra dedicata, non si propongono ogni mese.
+      - dependency-name: "sanity"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@sanity/*"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "next-sanity"
+        update-types: ["version-update:semver-major"]
+      # Peer del plugin traduzioni, diretta da Sanity 6: fuori dal pattern @sanity/*.
+      - dependency-name: "sanity-plugin-internationalized-array"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@portabletext/react"
+        update-types: ["version-update:semver-major"]
+      # I tipi seguono il runtime, non lo anticipano: il bersaglio di @types/node
+      # è la versione di Node in engines/.nvmrc/ci.yml/dashboard Vercel.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions:
+        update-types: ["minor", "patch"]

@@ -1,0 +1,3482 @@
+[
+  {
+    "_id": "concealedBody-cw-1",
+    "field": "image.alt",
+    "before": "Corpo incasso acciaio inox Aisi 316 per articoli Freetanding, acqua fredda o premiscelata CW.1 — collezione Corpi a incasso",
+    "after": "Corpo incasso acciaio inox AISI 316 per articoli Freestanding, acqua fredda o premiscelata CW.1, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-cw-2",
+    "field": "image.alt",
+    "before": "Corpo incasso acciaio inox Aisi 316 per articoli Freetanding, acqua calda e fredda CW.2 — collezione Corpi a incasso",
+    "after": "Corpo incasso acciaio inox AISI 316 per articoli Freestanding, acqua calda e fredda CW.2, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-hf1-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore termostatico High-Flow a 1 uscita HF1.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore termostatico High-Flow a 1 uscita HF1.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-hf2-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore termostatico High-Flow a 2 uscite HF2.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore termostatico High-Flow a 2 uscite HF2.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-hf3-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore termostatico High-Flow a 3 uscite HF3.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore termostatico High-Flow a 3 uscite HF3.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-hf4-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore termostatico High-Flow a 4 uscite HF4.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore termostatico High-Flow a 4 uscite HF4.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-mr-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore MR.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore MR.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-mr2-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore con deviatore a 2 vie MR2.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore con deviatore a 2 vie MR2.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-mr3-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore con deviatore a 3 vie MR3.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore con deviatore a 3 vie MR3.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-mx-inc",
+    "field": "image.alt",
+    "before": "Corpo incassato per sistema MX-TC MX.INC — collezione Corpi a incasso",
+    "after": "Corpo incassato per sistema MX-TC MX.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-st-inc",
+    "field": "image.alt",
+    "before": "Corpo incassato per rubinetto di arresto ST.INC — collezione Corpi a incasso",
+    "after": "Corpo incassato per rubinetto di arresto ST.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-w2mp-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore con bocca W2MP.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore con bocca W2MP.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-w3mp-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore con deviatore a 2 vie e presa d'acqua W3MP.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore con deviatore a 2 vie e presa d'acqua W3MP.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-w3p-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per batteria da lavabo 3 fori W3P.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per batteria da lavabo 3 fori W3P.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-w4mp-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore vasca con deviatore a 2 vie, presa d'acqua e bocca W4MP.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore vasca con deviatore a 2 vie, presa d'acqua e bocca W4MP.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-wm30-inc",
+    "field": "image.alt",
+    "before": "Corpo incassato per miscelatore da lavabo WM30.INC — collezione Corpi a incasso",
+    "after": "Corpo incassato per miscelatore da lavabo WM30.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "concealedBody-wmp-inc",
+    "field": "image.alt",
+    "before": "Corpo incasso per miscelatore lavabo con bocca WMP.INC — collezione Corpi a incasso",
+    "after": "Corpo incasso per miscelatore lavabo con bocca WMP.INC, collezione Corpi a incasso"
+  },
+  {
+    "_id": "model-b40l",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con rubinetto d'arresto B40L — collezione Boss",
+    "after": "Colonna per lavabo con rubinetto d'arresto B40L, collezione Boss"
+  },
+  {
+    "_id": "model-b40lm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore B40L.M — collezione Boss",
+    "after": "Colonna per lavabo con miscelatore B40L.M, collezione Boss"
+  },
+  {
+    "_id": "model-b40lrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto B40L.RC — collezione Boss",
+    "after": "Colonna per lavabo per comando remoto B40L.RC, collezione Boss"
+  },
+  {
+    "_id": "model-b40v",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto B40V — collezione Boss",
+    "after": "Colonna per vasca con rubinetto d'arresto B40V, collezione Boss"
+  },
+  {
+    "_id": "model-b40ve",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto e doccetta B40V.E — collezione Boss",
+    "after": "Colonna per vasca con rubinetto d'arresto e doccetta B40V.E, collezione Boss"
+  },
+  {
+    "_id": "model-b40vm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore B40V.M — collezione Boss",
+    "after": "Colonna per vasca con miscelatore B40V.M, collezione Boss"
+  },
+  {
+    "_id": "model-b40vme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta B40V.ME — collezione Boss",
+    "after": "Colonna per vasca con miscelatore e doccetta B40V.ME, collezione Boss"
+  },
+  {
+    "_id": "model-b40vrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto B40V.RC — collezione Boss",
+    "after": "Colonna per vasca per comando remoto B40V.RC, collezione Boss"
+  },
+  {
+    "_id": "model-b60vhfm",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore B60V.HF.M — collezione Boss",
+    "after": "Colonna High-Flow per vasca con miscelatore B60V.HF.M, collezione Boss"
+  },
+  {
+    "_id": "model-b60vhfme",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore e doccetta B60V.HF.ME — collezione Boss",
+    "after": "Colonna High-Flow per vasca con miscelatore e doccetta B60V.HF.ME, collezione Boss"
+  },
+  {
+    "_id": "model-b76",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta B76 — collezione Boss",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta B76, collezione Boss"
+  },
+  {
+    "_id": "model-b762",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con 2 rubinetti d'arresto e soffione incassato B76.2 — collezione Boss",
+    "after": "Colonna doccia con 2 rubinetti d'arresto e soffione incassato B76.2, collezione Boss"
+  },
+  {
+    "_id": "model-b762e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con 2 rubinetti d'arresto, soffione incassato e doccetta B76.2E — collezione Boss",
+    "after": "Colonna doccia con 2 rubinetti d'arresto, soffione incassato e doccetta B76.2E, collezione Boss"
+  },
+  {
+    "_id": "model-b76ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto temporizzato e soffione incassato B76.AST — collezione Community",
+    "after": "Colonna doccia con rubinetto temporizzato e soffione incassato B76.AST, collezione Community"
+  },
+  {
+    "_id": "model-b76e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta B76.E — collezione Boss",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta B76.E, collezione Boss"
+  },
+  {
+    "_id": "model-b76m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato B76.M — collezione Boss",
+    "after": "Colonna doccia con miscelatore e soffione incassato B76.M, collezione Boss"
+  },
+  {
+    "_id": "model-b76me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta B76.ME — collezione Boss",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta B76.ME, collezione Boss"
+  },
+  {
+    "_id": "model-b76rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto B76.RC — collezione Boss",
+    "after": "Colonna doccia con soffione incassato per comando remoto B76.RC, collezione Boss"
+  },
+  {
+    "_id": "model-bj02",
+    "field": "primaryImage.alt",
+    "before": "Body-Jet esterno Spray BJ.02 — collezione Waterline",
+    "after": "Body-Jet esterno Spray BJ.02, collezione Waterline"
+  },
+  {
+    "_id": "model-bj04",
+    "field": "primaryImage.alt",
+    "before": "Body-Jet esterno Rain BJ.04 — collezione Waterline",
+    "after": "Body-Jet esterno Rain BJ.04, collezione Waterline"
+  },
+  {
+    "_id": "model-bw76",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S12 Ø400 mm BW76 — collezione Boss Wide",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S12 Ø400 mm BW76, collezione Boss Wide"
+  },
+  {
+    "_id": "model-bw762",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con 2 rubinetti d'arresto e soffione S12 Ø400 mm BW76.2 — collezione Boss Wide",
+    "after": "Colonna doccia con 2 rubinetti d'arresto e soffione S12 Ø400 mm BW76.2, collezione Boss Wide"
+  },
+  {
+    "_id": "model-bw762e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con 2 rubinetti d'arresto, soffione S12 Ø400 mm e doccetta BW76.2E — collezione Boss Wide",
+    "after": "Colonna doccia con 2 rubinetti d'arresto, soffione S12 Ø400 mm e doccetta BW76.2E, collezione Boss Wide"
+  },
+  {
+    "_id": "model-bw76ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto temporizzato e soffione S10 Ø300 mm BW76.AST — collezione Community",
+    "after": "Colonna doccia con rubinetto temporizzato e soffione S10 Ø300 mm BW76.AST, collezione Community"
+  },
+  {
+    "_id": "model-bw76e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S12 Ø400 mm e doccetta BW76.E — collezione Boss Wide",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S12 Ø400 mm e doccetta BW76.E, collezione Boss Wide"
+  },
+  {
+    "_id": "model-bw76m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S12 Ø400 mm BW76.M — collezione Boss Wide",
+    "after": "Colonna doccia con miscelatore e soffione S12 Ø400 mm BW76.M, collezione Boss Wide"
+  },
+  {
+    "_id": "model-bw76me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S12 Ø400 mm e doccetta BW76.ME — collezione Boss Wide",
+    "after": "Colonna doccia con miscelatore, soffione S12 Ø400 mm e doccetta BW76.ME, collezione Boss Wide"
+  },
+  {
+    "_id": "model-bw76rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione S12 Ø400 mm per comando remoto BW76.RC — collezione Boss Wide",
+    "after": "Colonna doccia con soffione S12 Ø400 mm per comando remoto BW76.RC, collezione Boss Wide"
+  },
+  {
+    "_id": "model-c1402",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 2 rubinetti d’arresto e 2 soffioni S02.ABS Ø130 mm C140.2 — collezione Community",
+    "after": "Colonna doccia da esterno con 2 rubinetti d’arresto e 2 soffioni S02.ABS Ø130 mm C140.2, collezione Community"
+  },
+  {
+    "_id": "model-c1403",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 3 rubinetti d’arresto e 3 soffioni S02.ABS Ø130 mm C140.3 — collezione Community",
+    "after": "Colonna doccia da esterno con 3 rubinetti d’arresto e 3 soffioni S02.ABS Ø130 mm C140.3, collezione Community"
+  },
+  {
+    "_id": "model-c1404",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 4 rubinetti d’arresto e 4 soffioni S02.ABS Ø130 mm C140.4 — collezione Community",
+    "after": "Colonna doccia da esterno con 4 rubinetti d’arresto e 4 soffioni S02.ABS Ø130 mm C140.4, collezione Community"
+  },
+  {
+    "_id": "model-c140ast2",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 2 rubinetti temporizzati e 2 soffioni S02.ABS Ø130 mm C140.AST.2 — collezione Community",
+    "after": "Colonna doccia da esterno con 2 rubinetti temporizzati e 2 soffioni S02.ABS Ø130 mm C140.AST.2, collezione Community"
+  },
+  {
+    "_id": "model-c140ast3",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 3 rubinetti temporizzati e 3 soffioni S02.ABS Ø130 mm C140.AST.3 — collezione Community",
+    "after": "Colonna doccia da esterno con 3 rubinetti temporizzati e 3 soffioni S02.ABS Ø130 mm C140.AST.3, collezione Community"
+  },
+  {
+    "_id": "model-c140ast4",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 4 rubinetti temporizzati e 4 soffioni S02.ABS Ø130 mm C140.AST.4 — collezione Community",
+    "after": "Colonna doccia da esterno con 4 rubinetti temporizzati e 4 soffioni S02.ABS Ø130 mm C140.AST.4, collezione Community"
+  },
+  {
+    "_id": "model-c40",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S10 Ø300 mm C40 — collezione Classy",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S10 Ø300 mm C40, collezione Classy"
+  },
+  {
+    "_id": "model-c40e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S10 Ø300 mm e doccetta C40.E — collezione Classy",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S10 Ø300 mm e doccetta C40.E, collezione Classy"
+  },
+  {
+    "_id": "model-c40l",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con rubinetto d'arresto C40L — collezione Origo",
+    "after": "Colonna per lavabo con rubinetto d'arresto C40L, collezione Origo"
+  },
+  {
+    "_id": "model-c40lm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore C40L.M — collezione Origo",
+    "after": "Colonna per lavabo con miscelatore C40L.M, collezione Origo"
+  },
+  {
+    "_id": "model-c40lrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto C40L.RC — collezione Origo",
+    "after": "Colonna per lavabo per comando remoto C40L.RC, collezione Origo"
+  },
+  {
+    "_id": "model-c40m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S10 Ø300 mm C40.M — collezione Classy",
+    "after": "Colonna doccia con miscelatore e soffione S10 Ø300 mm C40.M, collezione Classy"
+  },
+  {
+    "_id": "model-c40me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S10 Ø300 mm e doccetta C40.ME — collezione Classy",
+    "after": "Colonna doccia con miscelatore, soffione S10 Ø300 mm e doccetta C40.ME, collezione Classy"
+  },
+  {
+    "_id": "model-c40rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione S10 Ø300 mm per comando remoto C40.RC — collezione Classy",
+    "after": "Colonna doccia con soffione S10 Ø300 mm per comando remoto C40.RC, collezione Classy"
+  },
+  {
+    "_id": "model-c40v",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto C40V — collezione Origo",
+    "after": "Colonna per vasca con rubinetto d'arresto C40V, collezione Origo"
+  },
+  {
+    "_id": "model-c40ve",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto e doccetta C40V.E — collezione Origo",
+    "after": "Colonna per vasca con rubinetto d'arresto e doccetta C40V.E, collezione Origo"
+  },
+  {
+    "_id": "model-c40vm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore C40V.M — collezione Origo",
+    "after": "Colonna per vasca con miscelatore C40V.M, collezione Origo"
+  },
+  {
+    "_id": "model-c40vme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta C40V.ME — collezione Origo",
+    "after": "Colonna per vasca con miscelatore e doccetta C40V.ME, collezione Origo"
+  },
+  {
+    "_id": "model-c40vrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto C40V.RC — collezione Origo",
+    "after": "Colonna per vasca per comando remoto C40V.RC, collezione Origo"
+  },
+  {
+    "_id": "model-c50as",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S06 Ø200 mm C50AS — collezione Origo",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S06 Ø200 mm C50AS, collezione Origo"
+  },
+  {
+    "_id": "model-c50asast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto temporizzato e soffione S06 Ø200 mm C50AS.AST — collezione Community",
+    "after": "Colonna doccia con rubinetto temporizzato e soffione S06 Ø200 mm C50AS.AST, collezione Community"
+  },
+  {
+    "_id": "model-c50ase",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S06 Ø200 mm e doccetta C50AS.E — collezione Origo",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S06 Ø200 mm e doccetta C50AS.E, collezione Origo"
+  },
+  {
+    "_id": "model-c50asm",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S06 Ø200 mm C50AS.M — collezione Origo",
+    "after": "Colonna doccia con miscelatore e soffione S06 Ø200 mm C50AS.M, collezione Origo"
+  },
+  {
+    "_id": "model-c50asme",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S06 Ø200 mm e doccetta C50AS.ME — collezione Origo",
+    "after": "Colonna doccia con miscelatore, soffione S06 Ø200 mm e doccetta C50AS.ME, collezione Origo"
+  },
+  {
+    "_id": "model-c50asrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione S06 Ø200 mm per comando remoto C50AS.RC — collezione Origo",
+    "after": "Colonna doccia con soffione S06 Ø200 mm per comando remoto C50AS.RC, collezione Origo"
+  },
+  {
+    "_id": "model-c50r",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia in rame con rubinetto d'arresto e soffione S08 Ø200 mm C50R — collezione Origo Rame",
+    "after": "Colonna doccia in rame con rubinetto d'arresto e soffione S08 Ø200 mm C50R, collezione Origo Rame"
+  },
+  {
+    "_id": "model-c50re",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia in rame con rubinetto d'arresto, soffione S08 Ø200 mm e doccetta C50R.E — collezione Origo Rame",
+    "after": "Colonna doccia in rame con rubinetto d'arresto, soffione S08 Ø200 mm e doccetta C50R.E, collezione Origo Rame"
+  },
+  {
+    "_id": "model-c50rm",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia in rame con miscelatore e soffione S08 Ø200 mm C50R.M — collezione Origo Rame",
+    "after": "Colonna doccia in rame con miscelatore e soffione S08 Ø200 mm C50R.M, collezione Origo Rame"
+  },
+  {
+    "_id": "model-c50rme",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia in rame con miscelatore, soffione S08 Ø200 mm e doccetta C50R.ME — collezione Origo Rame",
+    "after": "Colonna doccia in rame con miscelatore, soffione S08 Ø200 mm e doccetta C50R.ME, collezione Origo Rame"
+  },
+  {
+    "_id": "model-c50rrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia in rame con soffione S08 Ø200 mm per comando remoto C50R.RC — collezione Origo Rame",
+    "after": "Colonna doccia in rame con soffione S08 Ø200 mm per comando remoto C50R.RC, collezione Origo Rame"
+  },
+  {
+    "_id": "model-c60vhfm",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore C60V.HF.M — collezione Origo",
+    "after": "Colonna High-Flow per vasca con miscelatore C60V.HF.M, collezione Origo"
+  },
+  {
+    "_id": "model-c60vhfme",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore e doccetta C60V.HF.ME — collezione Origo",
+    "after": "Colonna High-Flow per vasca con miscelatore e doccetta C60V.HF.ME, collezione Origo"
+  },
+  {
+    "_id": "model-c90",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta C90 — collezione Club",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta C90, collezione Club"
+  },
+  {
+    "_id": "model-c90ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto temporizzato e soffione incassato C90.AST — collezione Community",
+    "after": "Colonna doccia con rubinetto temporizzato e soffione incassato C90.AST, collezione Community"
+  },
+  {
+    "_id": "model-c90e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta C90.E — collezione Club",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta C90.E, collezione Club"
+  },
+  {
+    "_id": "model-c90m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato C90.M — collezione Club",
+    "after": "Colonna doccia con miscelatore e soffione incassato C90.M, collezione Club"
+  },
+  {
+    "_id": "model-c90me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta C90.ME — collezione Club",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta C90.ME, collezione Club"
+  },
+  {
+    "_id": "model-c90rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto C90.RC — collezione Club",
+    "after": "Colonna doccia con soffione incassato per comando remoto C90.RC, collezione Club"
+  },
+  {
+    "_id": "model-cd35",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavabo CD35 — collezione Boss",
+    "after": "Miscelatore da lavabo CD35, collezione Boss"
+  },
+  {
+    "_id": "model-cd35b",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da bidet CD35B — collezione Boss",
+    "after": "Miscelatore da bidet CD35B, collezione Boss"
+  },
+  {
+    "_id": "model-cd35h",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore alto da lavabo CD35H — collezione Boss",
+    "after": "Miscelatore alto da lavabo CD35H, collezione Boss"
+  },
+  {
+    "_id": "model-cl90",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S10 Ø300 mm CL90 — collezione Club Large",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S10 Ø300 mm CL90, collezione Club Large"
+  },
+  {
+    "_id": "model-cl90ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto temporizzato e soffione S10 Ø300 mm CL90.AST — collezione Community",
+    "after": "Colonna doccia con rubinetto temporizzato e soffione S10 Ø300 mm CL90.AST, collezione Community"
+  },
+  {
+    "_id": "model-cl90e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S10 Ø300 mm e doccetta CL90.E — collezione Club Large",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S10 Ø300 mm e doccetta CL90.E, collezione Club Large"
+  },
+  {
+    "_id": "model-cl90m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S10 Ø300 mm CL90.M — collezione Club Large",
+    "after": "Colonna doccia con miscelatore e soffione S10 Ø300 mm CL90.M, collezione Club Large"
+  },
+  {
+    "_id": "model-cl90me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S10 Ø300 mm e doccetta CL90.ME — collezione Club Large",
+    "after": "Colonna doccia con miscelatore, soffione S10 Ø300 mm e doccetta CL90.ME, collezione Club Large"
+  },
+  {
+    "_id": "model-cl90rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione S10 Ø300 mm per comando remoto CL90.RC — collezione Club Large",
+    "after": "Colonna doccia con soffione S10 Ø300 mm per comando remoto CL90.RC, collezione Club Large"
+  },
+  {
+    "_id": "model-col30",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto d'arresto (altezza 80cm) COL30 — collezione Spring",
+    "after": "Colonna con rubinetto d'arresto (altezza 80cm) COL30, collezione Spring"
+  },
+  {
+    "_id": "model-col30g",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto da giardino per installazione su terreno COL30.G — collezione Spring",
+    "after": "Colonna con rubinetto da giardino per installazione su terreno COL30.G, collezione Spring"
+  },
+  {
+    "_id": "model-col30h",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto d'arresto (altezza 120cm) COL30.H — collezione Spring",
+    "after": "Colonna con rubinetto d'arresto (altezza 120cm) COL30.H, collezione Spring"
+  },
+  {
+    "_id": "model-col90",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto d'arresto e doccetta COL90 — collezione Spring",
+    "after": "Colonna con rubinetto d'arresto e doccetta COL90, collezione Spring"
+  },
+  {
+    "_id": "model-col902",
+    "field": "primaryImage.alt",
+    "before": "Colonna con 2 rubinetti d'arresto, doccetta e lavapiedi COL90.2 — collezione Spring",
+    "after": "Colonna con 2 rubinetti d'arresto, doccetta e lavapiedi COL90.2, collezione Spring"
+  },
+  {
+    "_id": "model-col90ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto  temporizzato e doccetta COL90.AST — collezione Community",
+    "after": "Colonna con rubinetto temporizzato e doccetta COL90.AST, collezione Community"
+  },
+  {
+    "_id": "model-col90astl",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto  temporizzato e lavapiedi COL90.AST.L — collezione Community",
+    "after": "Colonna con rubinetto temporizzato e lavapiedi COL90.AST.L, collezione Community"
+  },
+  {
+    "_id": "model-col90l",
+    "field": "primaryImage.alt",
+    "before": "Colonna lavapiedi COL90.L — collezione Spring",
+    "after": "Colonna lavapiedi COL90.L, collezione Spring"
+  },
+  {
+    "_id": "model-col90m",
+    "field": "primaryImage.alt",
+    "before": "Colonna con miscelatore e doccetta COL90.M — collezione Spring",
+    "after": "Colonna con miscelatore e doccetta COL90.M, collezione Spring"
+  },
+  {
+    "_id": "model-col90r",
+    "field": "primaryImage.alt",
+    "before": "Colonna con rubinetto acqua fredda COL90.R — collezione Spring",
+    "after": "Colonna con rubinetto acqua fredda COL90.R, collezione Spring"
+  },
+  {
+    "_id": "model-cs40l",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con rubinetto d'arresto CS40L — collezione Twiggy",
+    "after": "Colonna per lavabo con rubinetto d'arresto CS40L, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40lm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore CS40L.M — collezione Twiggy",
+    "after": "Colonna per lavabo con miscelatore CS40L.M, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40lrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto CS40L.RC — collezione Twiggy",
+    "after": "Colonna per lavabo per comando remoto CS40L.RC, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40v",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto CS40V — collezione Twiggy",
+    "after": "Colonna per vasca con rubinetto d'arresto CS40V, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40ve",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto e doccetta CS40V.E — collezione Twiggy",
+    "after": "Colonna per vasca con rubinetto d'arresto e doccetta CS40V.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40vm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore CS40V.M — collezione Twiggy",
+    "after": "Colonna per vasca con miscelatore CS40V.M, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40vme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta CS40V.ME — collezione Twiggy",
+    "after": "Colonna per vasca con miscelatore e doccetta CS40V.ME, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs40vrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto CS40V.RC — collezione Twiggy",
+    "after": "Colonna per vasca per comando remoto CS40V.RC, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs60vhfm",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore CS60V.HF.M — collezione Twiggy",
+    "after": "Colonna High-Flow per vasca con miscelatore CS60V.HF.M, collezione Twiggy"
+  },
+  {
+    "_id": "model-cs60vhfme",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore e doccetta CS60V.HF.ME — collezione Twiggy",
+    "after": "Colonna High-Flow per vasca con miscelatore e doccetta CS60V.HF.ME, collezione Twiggy"
+  },
+  {
+    "_id": "model-csr40",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta CSR40 — collezione Twiggy",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta CSR40, collezione Twiggy"
+  },
+  {
+    "_id": "model-csr40e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta CSR40.E — collezione Twiggy",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta CSR40.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-csr40m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato CSR40.M — collezione Twiggy",
+    "after": "Colonna doccia con miscelatore e soffione incassato CSR40.M, collezione Twiggy"
+  },
+  {
+    "_id": "model-csr40me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta CSR40.ME — collezione Twiggy",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta CSR40.ME, collezione Twiggy"
+  },
+  {
+    "_id": "model-csr40rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto CSR40.RC — collezione Twiggy",
+    "after": "Colonna doccia con soffione incassato per comando remoto CSR40.RC, collezione Twiggy"
+  },
+  {
+    "_id": "model-d03q",
+    "field": "primaryImage.alt",
+    "before": "Doccetta quadrata anticalcare, ottone cromato D03.Q — collezione Componenti doccia",
+    "after": "Doccetta quadrata anticalcare, ottone cromato D03.Q, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-d04",
+    "field": "primaryImage.alt",
+    "before": "Doccetta, ottone lucido naturale D04 — collezione Componenti doccia",
+    "after": "Doccetta, ottone lucido naturale D04, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-d06",
+    "field": "primaryImage.alt",
+    "before": "Doccetta tonda anticalcare, acciaio inox Aisi 316 D06 — collezione Componenti doccia",
+    "after": "Doccetta tonda anticalcare, acciaio inox AISI 316 D06, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-d10",
+    "field": "primaryImage.alt",
+    "before": "Doccetta tonda, acciaio inox Aisi 316 con impugnatura in resina nera D10 — collezione Componenti doccia",
+    "after": "Doccetta tonda, acciaio inox AISI 316 con impugnatura in resina nera D10, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-d12",
+    "field": "primaryImage.alt",
+    "before": "Doccetta tonda Ø90 mm anticalcare, acciaio inox Aisi 316 con impugnatura in resina nera D12 — collezione Componenti doccia",
+    "after": "Doccetta tonda Ø90 mm anticalcare, acciaio inox AISI 316 con impugnatura in resina nera D12, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-d14k",
+    "field": "primaryImage.alt",
+    "before": "Doccetta Kneipp, acciaio inox Aisi 316 con impugnatura in resina nera D14.K — collezione Componenti doccia",
+    "after": "Doccetta Kneipp, acciaio inox AISI 316 con impugnatura in resina nera D14.K, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-d50",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S06 Ø200 mm D50 — collezione Onda",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S06 Ø200 mm D50, collezione Onda"
+  },
+  {
+    "_id": "model-d50e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S06 Ø200 mm e doccetta D50.E — collezione Onda",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S06 Ø200 mm e doccetta D50.E, collezione Onda"
+  },
+  {
+    "_id": "model-d50m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S06 Ø200 mm D50.M — collezione Onda",
+    "after": "Colonna doccia con miscelatore e soffione S06 Ø200 mm D50.M, collezione Onda"
+  },
+  {
+    "_id": "model-d50me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S06 Ø200 mm e doccetta D50.ME — collezione Onda",
+    "after": "Colonna doccia con miscelatore, soffione S06 Ø200 mm e doccetta D50.ME, collezione Onda"
+  },
+  {
+    "_id": "model-d50rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione S06 Ø200 mm per comando remoto D50.RC — collezione Onda",
+    "after": "Colonna doccia con soffione S06 Ø200 mm per comando remoto D50.RC, collezione Onda"
+  },
+  {
+    "_id": "model-f50",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavabo F50 — collezione Flamingo",
+    "after": "Miscelatore da lavabo F50, collezione Flamingo"
+  },
+  {
+    "_id": "model-f50b",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da bidet F50B — collezione Flamingo",
+    "after": "Miscelatore da bidet F50B, collezione Flamingo"
+  },
+  {
+    "_id": "model-f50h",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore alto da lavabo F50H — collezione Flamingo",
+    "after": "Miscelatore alto da lavabo F50H, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60dm",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato PVD F60.D.M — collezione Flamingo",
+    "after": "Colonna doccia con miscelatore e soffione incassato PVD F60.D.M, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60dme",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta PVD F60.D.ME — collezione Flamingo",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta PVD F60.D.ME, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60drc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto PVD F60.D.RC — collezione Flamingo",
+    "after": "Colonna doccia con soffione incassato per comando remoto PVD F60.D.RC, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60ldm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore. PVD F60L.D.M — collezione Flamingo",
+    "after": "Colonna per lavabo con miscelatore. PVD F60L.D.M, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60ldrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto. PVD F60L.D.RC — collezione Flamingo",
+    "after": "Colonna per lavabo per comando remoto. PVD F60L.D.RC, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60lm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore F60L.M — collezione Flamingo",
+    "after": "Colonna per lavabo con miscelatore F60L.M, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60lrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto F60L.RC — collezione Flamingo",
+    "after": "Colonna per lavabo per comando remoto F60L.RC, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato F60.M — collezione Flamingo",
+    "after": "Colonna doccia con miscelatore e soffione incassato F60.M, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta F60.ME — collezione Flamingo",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta F60.ME, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto F60.RC — collezione Flamingo",
+    "after": "Colonna doccia con soffione incassato per comando remoto F60.RC, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60vdm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore PVD F60V.D.M — collezione Flamingo",
+    "after": "Colonna per vasca con miscelatore PVD F60V.D.M, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60vdme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta PVD F60V.D.ME — collezione Flamingo",
+    "after": "Colonna per vasca con miscelatore e doccetta PVD F60V.D.ME, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60vdrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto PVD F60V.D.RC — collezione Flamingo",
+    "after": "Colonna per vasca per comando remoto PVD F60V.D.RC, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60vm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore F60V.M — collezione Flamingo",
+    "after": "Colonna per vasca con miscelatore F60V.M, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60vme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta F60V.ME — collezione Flamingo",
+    "after": "Colonna per vasca con miscelatore e doccetta F60V.ME, collezione Flamingo"
+  },
+  {
+    "_id": "model-f60vrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto F60V.RC — collezione Flamingo",
+    "after": "Colonna per vasca per comando remoto F60V.RC, collezione Flamingo"
+  },
+  {
+    "_id": "model-flx02",
+    "field": "primaryImage.alt",
+    "before": "Flessibile 150 cm doppia aggraffatura, ottone naturale FLX02 — collezione Componenti doccia",
+    "after": "Flessibile 150 cm doppia aggraffatura, ottone naturale FLX02, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-flx06",
+    "field": "primaryImage.alt",
+    "before": "Flessibile antitorsione 150 cm, PET nero con calotte in acciaio 316 FLX06 — collezione Componenti doccia",
+    "after": "Flessibile antitorsione 150 cm, PET nero con calotte in acciaio 316 FLX06, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-flx07",
+    "field": "primaryImage.alt",
+    "before": "Flessibile antitorsione 150 cm, PET argento con calotte in acciaio 316 FLX07 — collezione Componenti doccia",
+    "after": "Flessibile antitorsione 150 cm, PET argento con calotte in acciaio 316 FLX07, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-flx08",
+    "field": "primaryImage.alt",
+    "before": "Flessibile antitorsione 150 cm, PET nero con calotte in acciaio 316, MF FLX08 — collezione Componenti doccia",
+    "after": "Flessibile antitorsione 150 cm, PET nero con calotte in acciaio 316, MF FLX08, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-i30",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavabo I30 — collezione Ille",
+    "after": "Miscelatore da lavabo I30, collezione Ille"
+  },
+  {
+    "_id": "model-i30b",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da bidet I30B — collezione Ille",
+    "after": "Miscelatore da bidet I30B, collezione Ille"
+  },
+  {
+    "_id": "model-i30h",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore alto da lavabo I30H — collezione Ille",
+    "after": "Miscelatore alto da lavabo I30H, collezione Ille"
+  },
+  {
+    "_id": "model-i40",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta I40 — collezione Ille",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta I40, collezione Ille"
+  },
+  {
+    "_id": "model-i40d",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta PVD I40.D — collezione Ille",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta PVD I40.D, collezione Ille"
+  },
+  {
+    "_id": "model-i40de",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta PVD I40.D.E — collezione Ille",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta PVD I40.D.E, collezione Ille"
+  },
+  {
+    "_id": "model-i40dm",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato PVD I40.D.M — collezione Ille",
+    "after": "Colonna doccia con miscelatore e soffione incassato PVD I40.D.M, collezione Ille"
+  },
+  {
+    "_id": "model-i40dme",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta PVD I40.D.ME — collezione Ille",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta PVD I40.D.ME, collezione Ille"
+  },
+  {
+    "_id": "model-i40drc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto PVD I40.D.RC — collezione Ille",
+    "after": "Colonna doccia con soffione incassato per comando remoto PVD I40.D.RC, collezione Ille"
+  },
+  {
+    "_id": "model-i40e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta I40.E — collezione Ille",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta I40.E, collezione Ille"
+  },
+  {
+    "_id": "model-i40l",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con rubinetto d'arresto I40L — collezione Ille",
+    "after": "Colonna per lavabo con rubinetto d'arresto I40L, collezione Ille"
+  },
+  {
+    "_id": "model-i40ld",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con rubinetto d'arresto. PVD I40L.D — collezione Ille",
+    "after": "Colonna per lavabo con rubinetto d'arresto. PVD I40L.D, collezione Ille"
+  },
+  {
+    "_id": "model-i40ldm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore. PVD I40L.D.M — collezione Ille",
+    "after": "Colonna per lavabo con miscelatore. PVD I40L.D.M, collezione Ille"
+  },
+  {
+    "_id": "model-i40ldrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto. PVD I40L.D.RC — collezione Ille",
+    "after": "Colonna per lavabo per comando remoto. PVD I40L.D.RC, collezione Ille"
+  },
+  {
+    "_id": "model-i40lm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore I40L.M — collezione Ille",
+    "after": "Colonna per lavabo con miscelatore I40L.M, collezione Ille"
+  },
+  {
+    "_id": "model-i40lrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto I40L.RC — collezione Ille",
+    "after": "Colonna per lavabo per comando remoto I40L.RC, collezione Ille"
+  },
+  {
+    "_id": "model-i40m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato I40.M — collezione Ille",
+    "after": "Colonna doccia con miscelatore e soffione incassato I40.M, collezione Ille"
+  },
+  {
+    "_id": "model-i40me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta I40.ME — collezione Ille",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta I40.ME, collezione Ille"
+  },
+  {
+    "_id": "model-i40rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto I40.RC — collezione Ille",
+    "after": "Colonna doccia con soffione incassato per comando remoto I40.RC, collezione Ille"
+  },
+  {
+    "_id": "model-i40v",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto I40V — collezione Ille",
+    "after": "Colonna per vasca con rubinetto d'arresto I40V, collezione Ille"
+  },
+  {
+    "_id": "model-i40vd",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto PVD I40V.D — collezione Ille",
+    "after": "Colonna per vasca con rubinetto d'arresto PVD I40V.D, collezione Ille"
+  },
+  {
+    "_id": "model-i40vde",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto e doccetta PVD I40V.D.E — collezione Ille",
+    "after": "Colonna per vasca con rubinetto d'arresto e doccetta PVD I40V.D.E, collezione Ille"
+  },
+  {
+    "_id": "model-i40vdm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore PVD I40V.D.M — collezione Ille",
+    "after": "Colonna per vasca con miscelatore PVD I40V.D.M, collezione Ille"
+  },
+  {
+    "_id": "model-i40vdme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta PVD I40V.D.ME — collezione Ille",
+    "after": "Colonna per vasca con miscelatore e doccetta PVD I40V.D.ME, collezione Ille"
+  },
+  {
+    "_id": "model-i40vdrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto PVD I40V.D.RC — collezione Ille",
+    "after": "Colonna per vasca per comando remoto PVD I40V.D.RC, collezione Ille"
+  },
+  {
+    "_id": "model-i40ve",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto e doccetta I40V.E — collezione Ille",
+    "after": "Colonna per vasca con rubinetto d'arresto e doccetta I40V.E, collezione Ille"
+  },
+  {
+    "_id": "model-i40vm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore I40V.M — collezione Ille",
+    "after": "Colonna per vasca con miscelatore I40V.M, collezione Ille"
+  },
+  {
+    "_id": "model-i40vme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta I40V.ME — collezione Ille",
+    "after": "Colonna per vasca con miscelatore e doccetta I40V.ME, collezione Ille"
+  },
+  {
+    "_id": "model-i40vrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto I40V.RC — collezione Ille",
+    "after": "Colonna per vasca per comando remoto I40V.RC, collezione Ille"
+  },
+  {
+    "_id": "model-k1mlt",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello abbattibile K1M.LT — collezione Kitchen",
+    "after": "Miscelatore da lavello abbattibile K1M.LT, collezione Kitchen"
+  },
+  {
+    "_id": "model-k2mcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavello, con miscelatore e bocca girevole K2M.CD — collezione Kitchen",
+    "after": "Batteria da lavello, con miscelatore e bocca girevole K2M.CD, collezione Kitchen"
+  },
+  {
+    "_id": "model-k2ml",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavello, con miscelatore e bocca girevole K2M.L — collezione Kitchen",
+    "after": "Batteria da lavello, con miscelatore e bocca girevole K2M.L, collezione Kitchen"
+  },
+  {
+    "_id": "model-k2mlt",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavello, con miscelatore e bocca abbattibile K2M.LT — collezione Kitchen",
+    "after": "Batteria da lavello, con miscelatore e bocca abbattibile K2M.LT, collezione Kitchen"
+  },
+  {
+    "_id": "model-k2mlts",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello, con bocca abbattibile e doccetta Pull-out a doppio getto K2M.LTS — collezione Kitchen",
+    "after": "Miscelatore da lavello, con bocca abbattibile e doccetta Pull-out a doppio getto K2M.LTS, collezione Kitchen"
+  },
+  {
+    "_id": "model-k2mo",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavello, con miscelatore e bocca girevole K2M.O — collezione Kitchen",
+    "after": "Batteria da lavello, con miscelatore e bocca girevole K2M.O, collezione Kitchen"
+  },
+  {
+    "_id": "model-k2my",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavello, con miscelatore e bocca girevole K2M.Y — collezione Kitchen",
+    "after": "Batteria da lavello, con miscelatore e bocca girevole K2M.Y, collezione Kitchen"
+  },
+  {
+    "_id": "model-k35cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con canna girevole K35.CD — collezione Kitchen",
+    "after": "Miscelatore da lavello con canna girevole K35.CD, collezione Kitchen"
+  },
+  {
+    "_id": "model-k35l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con canna girevole K35.L — collezione Kitchen",
+    "after": "Miscelatore da lavello con canna girevole K35.L, collezione Kitchen"
+  },
+  {
+    "_id": "model-k35o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con canna girevole K35.O — collezione Kitchen",
+    "after": "Miscelatore da lavello con canna girevole K35.O, collezione Kitchen"
+  },
+  {
+    "_id": "model-k35s",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con doccia Pull-out a doppio getto K35.S — collezione Kitchen",
+    "after": "Miscelatore da lavello con doccia Pull-out a doppio getto K35.S, collezione Kitchen"
+  },
+  {
+    "_id": "model-k35y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con canna girevole K35.Y — collezione Kitchen",
+    "after": "Miscelatore da lavello con canna girevole K35.Y, collezione Kitchen"
+  },
+  {
+    "_id": "model-k40ls",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con doccia Pull-out a doppio getto K40.LS — collezione Kitchen",
+    "after": "Miscelatore da lavello con doccia Pull-out a doppio getto K40.LS, collezione Kitchen"
+  },
+  {
+    "_id": "model-k40os",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavello con doccia Pull-out a doppio getto K40.OS — collezione Kitchen",
+    "after": "Miscelatore da lavello con doccia Pull-out a doppio getto K40.OS, collezione Kitchen"
+  },
+  {
+    "_id": "model-kw30",
+    "field": "primaryImage.alt",
+    "before": "Gruppo da lavello a ponte con bocca girevole KW30 — collezione Kitchen",
+    "after": "Gruppo da lavello a ponte con bocca girevole KW30, collezione Kitchen"
+  },
+  {
+    "_id": "model-kw50",
+    "field": "primaryImage.alt",
+    "before": "Gruppo da lavello a parete con bocca girevole KW50 — collezione Kitchen",
+    "after": "Gruppo da lavello a parete con bocca girevole KW50, collezione Kitchen"
+  },
+  {
+    "_id": "model-kw50up",
+    "field": "primaryImage.alt",
+    "before": "Gruppo da lavello a parete con bocca girevole KW50.UP — collezione Kitchen",
+    "after": "Gruppo da lavello a parete con bocca girevole KW50.UP, collezione Kitchen"
+  },
+  {
+    "_id": "model-mr",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia MR — collezione Flamingo",
+    "after": "Miscelatore da incasso per doccia MR, collezione Flamingo"
+  },
+  {
+    "_id": "model-mr1",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia MR1 — collezione Waterline",
+    "after": "Miscelatore da incasso per doccia MR1, collezione Waterline"
+  },
+  {
+    "_id": "model-mr2",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia con deviatore automatico a 2 vie MR2 — collezione Waterline",
+    "after": "Miscelatore da incasso per doccia con deviatore automatico a 2 vie MR2, collezione Waterline"
+  },
+  {
+    "_id": "model-mr2cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.CD — collezione Boss",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.CD, collezione Boss"
+  },
+  {
+    "_id": "model-mr2f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.F — collezione Flamingo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-mr2i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso , con deviatore a 2 vie MR2.I — collezione Ille",
+    "after": "Miscelatore da incasso , con deviatore a 2 vie MR2.I, collezione Ille"
+  },
+  {
+    "_id": "model-mr2l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.L — collezione Skinny",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.L, collezione Skinny"
+  },
+  {
+    "_id": "model-mr2o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.O — collezione Origo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.O, collezione Origo"
+  },
+  {
+    "_id": "model-mr2y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.Y — collezione Twiggy",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MR2.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-mr3cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.CD — collezione Boss",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.CD, collezione Boss"
+  },
+  {
+    "_id": "model-mr3f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.F — collezione Flamingo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-mr3i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso , con deviatore a 3 vie MR3.I — collezione Ille",
+    "after": "Miscelatore da incasso , con deviatore a 3 vie MR3.I, collezione Ille"
+  },
+  {
+    "_id": "model-mr3l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.L — collezione Skinny",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.L, collezione Skinny"
+  },
+  {
+    "_id": "model-mr3o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.O — collezione Origo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.O, collezione Origo"
+  },
+  {
+    "_id": "model-mr3y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.Y — collezione Twiggy",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MR3.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-mri",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso MR.I — collezione Ille",
+    "after": "Miscelatore da incasso MR.I, collezione Ille"
+  },
+  {
+    "_id": "model-mrl",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per lavabo MRL — collezione Waterline",
+    "after": "Miscelatore da incasso per lavabo MRL, collezione Waterline"
+  },
+  {
+    "_id": "model-mx2cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.CD — collezione Boss",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.CD, collezione Boss"
+  },
+  {
+    "_id": "model-mx2f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.F — collezione Flamingo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-mx2i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso con deviatore a 2 vie MX2.I — collezione Ille",
+    "after": "Miscelatore da incasso con deviatore a 2 vie MX2.I, collezione Ille"
+  },
+  {
+    "_id": "model-mx2l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.L — collezione Skinny",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.L, collezione Skinny"
+  },
+  {
+    "_id": "model-mx2o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.O — collezione Origo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.O, collezione Origo"
+  },
+  {
+    "_id": "model-mx2y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.Y — collezione Twiggy",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 2 vie MX2.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-mx3cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.CD — collezione Boss",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.CD, collezione Boss"
+  },
+  {
+    "_id": "model-mx3f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.F — collezione Flamingo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-mx3i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso , con deviatore a 3 vie MX3.I — collezione Ille",
+    "after": "Miscelatore da incasso , con deviatore a 3 vie MX3.I, collezione Ille"
+  },
+  {
+    "_id": "model-mx3l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.L — collezione Skinny",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.L, collezione Skinny"
+  },
+  {
+    "_id": "model-mx3o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.O — collezione Origo",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.O, collezione Origo"
+  },
+  {
+    "_id": "model-mx3y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.Y — collezione Twiggy",
+    "after": "Miscelatore da incasso per doccia, con deviatore a 3 vie MX3.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-p22",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale, con rubinetto d'arresto e soffione incassato 220x110 mm P22 — collezione In&Out",
+    "after": "Pannello doccia murale, con rubinetto d'arresto e soffione incassato 220x110 mm P22, collezione In&Out"
+  },
+  {
+    "_id": "model-p22ast",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale con rubinetto temporizzato e soffione incassato 220x110 mm P22.AST — collezione Community",
+    "after": "Pannello doccia murale con rubinetto temporizzato e soffione incassato 220x110 mm P22.AST, collezione Community"
+  },
+  {
+    "_id": "model-p22e",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale, con rubinetto d'arresto, soffione incassato 220x110 mm e doccetta P22.E — collezione In&Out",
+    "after": "Pannello doccia murale, con rubinetto d'arresto, soffione incassato 220x110 mm e doccetta P22.E, collezione In&Out"
+  },
+  {
+    "_id": "model-p22m",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale, con miscelatore e soffione incassato 220x110 mm P22.M — collezione In&Out",
+    "after": "Pannello doccia murale, con miscelatore e soffione incassato 220x110 mm P22.M, collezione In&Out"
+  },
+  {
+    "_id": "model-p22me",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale, con miscelatore, soffione 220x110 mm e doccetta P22.ME — collezione In&Out",
+    "after": "Pannello doccia murale, con miscelatore, soffione 220x110 mm e doccetta P22.ME, collezione In&Out"
+  },
+  {
+    "_id": "model-p22s",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale, con miscelatore, deviatore 5 vie, 6 body-jet orientabili, soffione incassato 220x110 mm e doccetta P22.S — collezione In&Out",
+    "after": "Pannello doccia murale, con miscelatore, deviatore 5 vie, 6 body-jet orientabili, soffione incassato 220x110 mm e doccetta P22.S, collezione In&Out"
+  },
+  {
+    "_id": "model-p9",
+    "field": "primaryImage.alt",
+    "before": "Pannello doccia murale, con 2 rubinetti d’arresto, doccetta e lavapiedi P9 — collezione In&Out",
+    "after": "Pannello doccia murale, con 2 rubinetti d’arresto, doccetta e lavapiedi P9, collezione In&Out"
+  },
+  {
+    "_id": "model-pq80",
+    "field": "primaryImage.alt",
+    "before": "Doccia a ponte con 2 rubinetti d’arresto, soffione S07 200X200 mm e doccetta PQ80 — collezione Community",
+    "after": "Doccia a ponte con 2 rubinetti d’arresto, soffione S07 200X200 mm e doccetta PQ80, collezione Community"
+  },
+  {
+    "_id": "model-pq802",
+    "field": "primaryImage.alt",
+    "before": "Doccia a ponte con 3 rubinetti d’arresto, 2 soffioni S07 200X200 mm e doccetta PQ80.2 — collezione Community",
+    "after": "Doccia a ponte con 3 rubinetti d’arresto, 2 soffioni S07 200X200 mm e doccetta PQ80.2, collezione Community"
+  },
+  {
+    "_id": "model-ps03",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua PS03 — collezione Componenti doccia",
+    "after": "Presa d'acqua PS03, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-ps04",
+    "field": "primaryImage.alt",
+    "before": "Supporto a muro per doccetta PS04 — collezione Componenti doccia",
+    "after": "Supporto a muro per doccetta PS04, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-ps05",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con supporto per doccetta PS05 — collezione Componenti doccia",
+    "after": "Presa d'acqua con supporto per doccetta PS05, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-ps09",
+    "field": "primaryImage.alt",
+    "before": "Supporto a muro per doccetta PS09 — collezione Componenti doccia",
+    "after": "Supporto a muro per doccetta PS09, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-ps10",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con supporto per doccetta PS10 — collezione Componenti doccia",
+    "after": "Presa d'acqua con supporto per doccetta PS10, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-q120",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 4 rubinetti d’arresto e 4 soffioni S07 200X200 mm Q120 — collezione Community",
+    "after": "Colonna doccia da esterno con 4 rubinetti d’arresto e 4 soffioni S07 200X200 mm Q120, collezione Community"
+  },
+  {
+    "_id": "model-q120ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 4 rubinetti temporizzati e 4 soffioni S07 200X200 mm Q120.AST — collezione Community",
+    "after": "Colonna doccia da esterno con 4 rubinetti temporizzati e 4 soffioni S07 200X200 mm Q120.AST, collezione Community"
+  },
+  {
+    "_id": "model-q380",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con soffione integrato Q380 — collezione Waterline",
+    "after": "Doccia a soffitto con soffione integrato Q380, collezione Waterline"
+  },
+  {
+    "_id": "model-q380c",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con cascata centrale Crystal e soffione integrato Q380.C — collezione Waterline",
+    "after": "Doccia a soffitto con cascata centrale Crystal e soffione integrato Q380.C, collezione Waterline"
+  },
+  {
+    "_id": "model-q380df",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con getto a cascata e soffione integrato Q380.DF — collezione Waterline",
+    "after": "Doccia a soffitto con getto a cascata e soffione integrato Q380.DF, collezione Waterline"
+  },
+  {
+    "_id": "model-q500",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con soffione integrato Q500 — collezione Waterline",
+    "after": "Doccia a soffitto con soffione integrato Q500, collezione Waterline"
+  },
+  {
+    "_id": "model-q500df",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con getto a cascata e soffione integrato Q500.DF — collezione Waterline",
+    "after": "Doccia a soffitto con getto a cascata e soffione integrato Q500.DF, collezione Waterline"
+  },
+  {
+    "_id": "model-q53",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S09 250x140 mm Q53 — collezione Arko",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S09 250x140 mm Q53, collezione Arko"
+  },
+  {
+    "_id": "model-q53e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S09 250x140 mm e doccetta Q53.E — collezione Arko",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S09 250x140 mm e doccetta Q53.E, collezione Arko"
+  },
+  {
+    "_id": "model-q53m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S09 250x140 mm Q53.M — collezione Arko",
+    "after": "Colonna doccia con miscelatore e soffione S09 250x140 mm Q53.M, collezione Arko"
+  },
+  {
+    "_id": "model-q53me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S09 250x140 mm e doccetta Q53.ME — collezione Arko",
+    "after": "Colonna doccia con miscelatore, soffione S09 250x140 mm e doccetta Q53.ME, collezione Arko"
+  },
+  {
+    "_id": "model-q53rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione soffione S09 250x140 mm per comando remoto Q53.RC — collezione Arko",
+    "after": "Colonna doccia con soffione soffione S09 250x140 mm per comando remoto Q53.RC, collezione Arko"
+  },
+  {
+    "_id": "model-q86",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto e soffione S07 200x200 mm Q86 — collezione Square",
+    "after": "Colonna doccia con rubinetto d'arresto e soffione S07 200x200 mm Q86, collezione Square"
+  },
+  {
+    "_id": "model-q862",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 2 rubinetti d’arresto e 2 soffioni S07 200X200 mm Q86.2 — collezione Community",
+    "after": "Colonna doccia da esterno con 2 rubinetti d’arresto e 2 soffioni S07 200X200 mm Q86.2, collezione Community"
+  },
+  {
+    "_id": "model-q86ast",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto temporizzato e soffione S07 200X200 mm Q86.AST — collezione Community",
+    "after": "Colonna doccia con rubinetto temporizzato e soffione S07 200X200 mm Q86.AST, collezione Community"
+  },
+  {
+    "_id": "model-q86ast2",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia da esterno con 2 rubinetti temporizzati e 2 soffioni S07 200X200 mm Q86.AST.2 — collezione Community",
+    "after": "Colonna doccia da esterno con 2 rubinetti temporizzati e 2 soffioni S07 200X200 mm Q86.AST.2, collezione Community"
+  },
+  {
+    "_id": "model-q86e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d'arresto, soffione S07 200x200 mm e doccetta Q86.E — collezione Square",
+    "after": "Colonna doccia con rubinetto d'arresto, soffione S07 200x200 mm e doccetta Q86.E, collezione Square"
+  },
+  {
+    "_id": "model-q86m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione S07 200x200 mm Q86.M — collezione Square",
+    "after": "Colonna doccia con miscelatore e soffione S07 200x200 mm Q86.M, collezione Square"
+  },
+  {
+    "_id": "model-q86me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione S07 200x200 mm e doccetta Q86.ME — collezione Square",
+    "after": "Colonna doccia con miscelatore, soffione S07 200x200 mm e doccetta Q86.ME, collezione Square"
+  },
+  {
+    "_id": "model-q86rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione soffione S07 200x200 mm per comando remoto Q86.RC — collezione Square",
+    "after": "Colonna doccia con soffione soffione S07 200x200 mm per comando remoto Q86.RC, collezione Square"
+  },
+  {
+    "_id": "model-r700",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con soffione integrato R700 — collezione Waterline",
+    "after": "Doccia a soffitto con soffione integrato R700, collezione Waterline"
+  },
+  {
+    "_id": "model-r700df",
+    "field": "primaryImage.alt",
+    "before": "Doccia a soffitto con getto a cascata e soffione integrato R700.DF — collezione Waterline",
+    "after": "Doccia a soffitto con getto a cascata e soffione integrato R700.DF, collezione Waterline"
+  },
+  {
+    "_id": "model-re04l",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia Origo Rame, ottone lucido naturale RE04.L — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia Origo Rame, ottone lucido naturale RE04.L, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re10",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia, acciaio\ninox Aisi 316 RE10 — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia, acciaio\ninox AISI 316 RE10, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re10fs",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia, acciaio inox Aisi 316 con soffione lavapiedi S03 RE10.FS — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia, acciaio inox AISI 316 con soffione lavapiedi S03 RE10.FS, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re10fsl",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia, acciaio inox Aisi 316 con soffione lavapiedi S03 RE10.FS.L — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia, acciaio inox AISI 316 con soffione lavapiedi S03 RE10.FS.L, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re10hb",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia, acciaio inox Aisi 316 con raccordo portagomma G 3/4\" RE10.HB — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia, acciaio inox AISI 316 con raccordo portagomma G 3/4\" RE10.HB, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re10hbl",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia, acciaio inox Aisi 316 con raccordo portagomma G 3/4\" RE10.HB.L — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia, acciaio inox AISI 316 con raccordo portagomma G 3/4\" RE10.HB.L, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re10l",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno per colonne doccia, acciaio\ninox Aisi 316 RE10.L — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno per colonne doccia, acciaio\ninox AISI 316 RE10.L, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re12ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato a pressione  per colonne doccia, acciaio inox Aisi 316 RE12.AST — collezione Accessori colonna doccia",
+    "after": "Rubinetto esterno temporizzato a pressione per colonne doccia, acciaio inox AISI 316 RE12.AST, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-re12astfs",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto temporizzato a pressione acciaio inox Aisi 316 con soffione lavapiedi S03 RE12.AST.FS — collezione Accessori colonna doccia",
+    "after": "Rubinetto temporizzato a pressione acciaio inox AISI 316 con soffione lavapiedi S03 RE12.AST.FS, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-s02abs",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare Ø130 mm, ABS cromato S02.ABS — collezione Componenti doccia",
+    "after": "Soffione anticalcare Ø130 mm, ABS cromato S02.ABS, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s03",
+    "field": "primaryImage.alt",
+    "before": "Soffione lavapiedi Spray Ø25 mm, acciaio inox Aisi 316 S03 — collezione Componenti doccia",
+    "after": "Soffione lavapiedi Spray Ø25 mm, acciaio inox AISI 316 S03, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s04",
+    "field": "primaryImage.alt",
+    "before": "Soffione lavapiedi Rain Ø35 mm, acciaio inox Aisi 316 S04 — collezione Componenti doccia",
+    "after": "Soffione lavapiedi Rain Ø35 mm, acciaio inox AISI 316 S04, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s05",
+    "field": "primaryImage.alt",
+    "before": "Soffione lavapiedi Rain Ø35 mm,  ottone cromato S05 — collezione Componenti doccia",
+    "after": "Soffione lavapiedi Rain Ø35 mm, ottone cromato S05, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s06",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare Ø200 mm, acciaio inox Aisi 316 S06 — collezione Componenti doccia",
+    "after": "Soffione anticalcare Ø200 mm, acciaio inox AISI 316 S06, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s07",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare 200x200 mm, acciaio inox Aisi 316 S07 — collezione Componenti doccia",
+    "after": "Soffione anticalcare 200x200 mm, acciaio inox AISI 316 S07, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s08",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare Ø200 mm, ottone lucido naturale S08 — collezione Componenti doccia",
+    "after": "Soffione anticalcare Ø200 mm, ottone lucido naturale S08, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s09",
+    "field": "primaryImage.alt",
+    "before": "Pomme de douche anticalcaire 250x140 mm, acier inox Aisi 316 S09 — collezione Componenti doccia",
+    "after": "Pomme de douche anticalcaire 250x140 mm, acier inox AISI 316 S09, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s10",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare Ø300 mm, acciaio inox Aisi 316 S10 — collezione Componenti doccia",
+    "after": "Soffione anticalcare Ø300 mm, acciaio inox AISI 316 S10, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s11",
+    "field": "primaryImage.alt",
+    "before": "Pomme de douche anticalcaire 300x300 mm, acier inox Aisi 316 S11 — collezione Componenti doccia",
+    "after": "Pomme de douche anticalcaire 300x300 mm, acier inox AISI 316 S11, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s12",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare Ø400 mm, acciaio inox Aisi 316 S12 — collezione Componenti doccia",
+    "after": "Soffione anticalcare Ø400 mm, acciaio inox AISI 316 S12, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s15",
+    "field": "primaryImage.alt",
+    "before": "Pomme de douche anticalcaire 400x400 mm, acier inox Aisi 316 S15 — collezione Componenti doccia",
+    "after": "Pomme de douche anticalcaire 400x400 mm, acier inox AISI 316 S15, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s16",
+    "field": "primaryImage.alt",
+    "before": "Soffione anticalcare Ø300 mm, ottone lucido naturale S16 — collezione Componenti doccia",
+    "after": "Soffione anticalcare Ø300 mm, ottone lucido naturale S16, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-s40",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta S40 — collezione Skinny",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta S40, collezione Skinny"
+  },
+  {
+    "_id": "model-s40e",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta S40.E — collezione Skinny",
+    "after": "Colonna doccia con rubinetto d’arresto, soffione incassato e doccetta S40.E, collezione Skinny"
+  },
+  {
+    "_id": "model-s40l",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con rubinetto d'arresto S40L — collezione Skinny",
+    "after": "Colonna per lavabo con rubinetto d'arresto S40L, collezione Skinny"
+  },
+  {
+    "_id": "model-s40lm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo con miscelatore S40L.M — collezione Skinny",
+    "after": "Colonna per lavabo con miscelatore S40L.M, collezione Skinny"
+  },
+  {
+    "_id": "model-s40lrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per lavabo per comando remoto S40L.RC — collezione Skinny",
+    "after": "Colonna per lavabo per comando remoto S40L.RC, collezione Skinny"
+  },
+  {
+    "_id": "model-s40m",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore e soffione incassato S40.M — collezione Skinny",
+    "after": "Colonna doccia con miscelatore e soffione incassato S40.M, collezione Skinny"
+  },
+  {
+    "_id": "model-s40me",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con miscelatore, soffione incassato e doccetta S40.ME — collezione Skinny",
+    "after": "Colonna doccia con miscelatore, soffione incassato e doccetta S40.ME, collezione Skinny"
+  },
+  {
+    "_id": "model-s40rc",
+    "field": "primaryImage.alt",
+    "before": "Colonna doccia con soffione incassato per comando remoto S40.RC — collezione Skinny",
+    "after": "Colonna doccia con soffione incassato per comando remoto S40.RC, collezione Skinny"
+  },
+  {
+    "_id": "model-s40v",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto S40V — collezione Skinny",
+    "after": "Colonna per vasca con rubinetto d'arresto S40V, collezione Skinny"
+  },
+  {
+    "_id": "model-s40ve",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con rubinetto d'arresto e doccetta S40V.E — collezione Skinny",
+    "after": "Colonna per vasca con rubinetto d'arresto e doccetta S40V.E, collezione Skinny"
+  },
+  {
+    "_id": "model-s40vm",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore S40V.M — collezione Skinny",
+    "after": "Colonna per vasca con miscelatore S40V.M, collezione Skinny"
+  },
+  {
+    "_id": "model-s40vme",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca con miscelatore e doccetta S40V.ME — collezione Skinny",
+    "after": "Colonna per vasca con miscelatore e doccetta S40V.ME, collezione Skinny"
+  },
+  {
+    "_id": "model-s40vrc",
+    "field": "primaryImage.alt",
+    "before": "Colonna per vasca per comando remoto S40V.RC — collezione Skinny",
+    "after": "Colonna per vasca per comando remoto S40V.RC, collezione Skinny"
+  },
+  {
+    "_id": "model-s60vhfm",
+    "field": "primaryImage.alt",
+    "before": "Colonna High-Flow per vasca con miscelatore S60V.HF.M — collezione Skinny",
+    "after": "Colonna High-Flow per vasca con miscelatore S60V.HF.M, collezione Skinny"
+  },
+  {
+    "_id": "model-sa150s",
+    "field": "primaryImage.alt",
+    "before": "Soffione doccia da parete SA150.S — collezione Waterline",
+    "after": "Soffione doccia da parete SA150.S, collezione Waterline"
+  },
+  {
+    "_id": "model-sa150sc",
+    "field": "primaryImage.alt",
+    "before": "Soffione doccia da parete con cascata SA150.SC — collezione Waterline",
+    "after": "Soffione doccia da parete con cascata SA150.SC, collezione Waterline"
+  },
+  {
+    "_id": "model-sa2106",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S06 Ø200 mm SA21.06 — collezione Waterline",
+    "after": "Braccio doccia con soffione S06 Ø200 mm SA21.06, collezione Waterline"
+  },
+  {
+    "_id": "model-sa300c",
+    "field": "primaryImage.alt",
+    "before": "soffione a cascata da parete SA300.C — collezione Waterline",
+    "after": "soffione a cascata da parete SA300.C, collezione Waterline"
+  },
+  {
+    "_id": "model-sa300sc",
+    "field": "primaryImage.alt",
+    "before": "Soffione doccia da parete con cascata SA300.SC — collezione Waterline",
+    "after": "Soffione doccia da parete con cascata SA300.SC, collezione Waterline"
+  },
+  {
+    "_id": "model-sa3310",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S10 Ø300 mm SA33.10 — collezione Waterline",
+    "after": "Braccio doccia con soffione S10 Ø300 mm SA33.10, collezione Waterline"
+  },
+  {
+    "_id": "model-sa35f",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione integrato SA35.F — collezione Waterline",
+    "after": "Braccio doccia con soffione integrato SA35.F, collezione Waterline"
+  },
+  {
+    "_id": "model-sa40",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione integrato SA40 — collezione Waterline",
+    "after": "Braccio doccia con soffione integrato SA40, collezione Waterline"
+  },
+  {
+    "_id": "model-sa4012",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S12 Ø400 mm SA40.12 — collezione Waterline",
+    "after": "Braccio doccia con soffione S12 Ø400 mm SA40.12, collezione Waterline"
+  },
+  {
+    "_id": "model-sa5307",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S07 200x200 mm SA53.07 — collezione Waterline",
+    "after": "Braccio doccia con soffione S07 200x200 mm SA53.07, collezione Waterline"
+  },
+  {
+    "_id": "model-sa5309",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S09 250x140 mm SA53.09 — collezione Waterline",
+    "after": "Braccio doccia con soffione S09 250x140 mm SA53.09, collezione Waterline"
+  },
+  {
+    "_id": "model-sa5311",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S11 300x300 mm SA53.11 — collezione Waterline",
+    "after": "Braccio doccia con soffione S11 300x300 mm SA53.11, collezione Waterline"
+  },
+  {
+    "_id": "model-sa5315",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia con soffione S15 400x400 mm SA53.15 — collezione Waterline",
+    "after": "Braccio doccia con soffione S15 400x400 mm SA53.15, collezione Waterline"
+  },
+  {
+    "_id": "model-saq",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia rettangolare cm 45 SA.Q — collezione Componenti doccia",
+    "after": "Braccio doccia rettangolare cm 45 SA.Q, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-saqb",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia rettangolare cm 45 SA.QB — collezione Componenti doccia",
+    "after": "Braccio doccia rettangolare cm 45 SA.QB, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-sar",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia tondo cm 45 SA.R — collezione Componenti doccia",
+    "after": "Braccio doccia tondo cm 45 SA.R, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-sarb",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia tondo cm 45 SA.RB — collezione Componenti doccia",
+    "after": "Braccio doccia tondo cm 45 SA.RB, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-sarc",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia tondo cm 45 SA.RC — collezione Componenti doccia",
+    "after": "Braccio doccia tondo cm 45 SA.RC, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-sb",
+    "field": "primaryImage.alt",
+    "before": "Asta saliscendi con supporti regolabili (solo asta) SB — collezione Waterline",
+    "after": "Asta saliscendi con supporti regolabili (solo asta) SB, collezione Waterline"
+  },
+  {
+    "_id": "model-sbslim",
+    "field": "primaryImage.alt",
+    "before": "Asta saliscendi (solo asta) SB.SLIM — collezione Waterline",
+    "after": "Asta saliscendi (solo asta) SB.SLIM, collezione Waterline"
+  },
+  {
+    "_id": "model-scq",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia a soffitto cm 30, quadrato SC.Q — collezione Componenti doccia",
+    "after": "Braccio doccia a soffitto cm 30, quadrato SC.Q, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-scr",
+    "field": "primaryImage.alt",
+    "before": "Braccio doccia a soffitto cm 30, tondo SC.R — collezione Componenti doccia",
+    "after": "Braccio doccia a soffitto cm 30, tondo SC.R, collezione Componenti doccia"
+  },
+  {
+    "_id": "model-sk",
+    "field": "primaryImage.alt",
+    "before": "Kit Doccia (Doccetta , flessibile e presa d'acqua) SK — collezione Waterline",
+    "after": "Kit Doccia (Doccetta , flessibile e presa d'acqua) SK, collezione Waterline"
+  },
+  {
+    "_id": "model-sk10",
+    "field": "primaryImage.alt",
+    "before": "Kit Doccia (Doccetta, flessibile e presa d'acqua) SK.10 — collezione Waterline",
+    "after": "Kit Doccia (Doccetta, flessibile e presa d'acqua) SK.10, collezione Waterline"
+  },
+  {
+    "_id": "model-spcd",
+    "field": "primaryImage.alt",
+    "before": "Bocca a parete SP.CD — collezione Boss",
+    "after": "Bocca a parete SP.CD, collezione Boss"
+  },
+  {
+    "_id": "model-spf",
+    "field": "primaryImage.alt",
+    "before": "Bocca a parete SP.F — collezione Flamingo",
+    "after": "Bocca a parete SP.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-spi",
+    "field": "primaryImage.alt",
+    "before": "Bocca a parete SP.I — collezione Ille",
+    "after": "Bocca a parete SP.I, collezione Ille"
+  },
+  {
+    "_id": "model-spl",
+    "field": "primaryImage.alt",
+    "before": "Bocca a parete SP.L — collezione Skinny",
+    "after": "Bocca a parete SP.L, collezione Skinny"
+  },
+  {
+    "_id": "model-spo",
+    "field": "primaryImage.alt",
+    "before": "Bocca a parete SP.O — collezione Origo",
+    "after": "Bocca a parete SP.O, collezione Origo"
+  },
+  {
+    "_id": "model-spy",
+    "field": "primaryImage.alt",
+    "before": "Bocca a parete SP.Y — collezione Twiggy",
+    "after": "Bocca a parete SP.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-sr",
+    "field": "primaryImage.alt",
+    "before": "Asta saliscendi con supporti regolabili, doccetta e flessibile SR — collezione Waterline",
+    "after": "Asta saliscendi con supporti regolabili, doccetta e flessibile SR, collezione Waterline"
+  },
+  {
+    "_id": "model-srslim",
+    "field": "primaryImage.alt",
+    "before": "Asta saliscendi, con doccetta e flessibile SR.SLIM — collezione Waterline",
+    "after": "Asta saliscendi, con doccetta e flessibile SR.SLIM, collezione Waterline"
+  },
+  {
+    "_id": "model-st1",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto da incasso ST1 — collezione Waterline",
+    "after": "Rubinetto da incasso ST1, collezione Waterline"
+  },
+  {
+    "_id": "model-st1l",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto da incasso ST1.L — collezione Waterline",
+    "after": "Rubinetto da incasso ST1.L, collezione Waterline"
+  },
+  {
+    "_id": "model-stcd",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto incasso ST.CD — collezione Boss",
+    "after": "Rubinetto incasso ST.CD, collezione Boss"
+  },
+  {
+    "_id": "model-stf",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto incasso ST.F — collezione Flamingo",
+    "after": "Rubinetto incasso ST.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-sti",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto incasso ST.I — collezione Ille",
+    "after": "Rubinetto incasso ST.I, collezione Ille"
+  },
+  {
+    "_id": "model-stl",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto incasso ST.L — collezione Skinny",
+    "after": "Rubinetto incasso ST.L, collezione Skinny"
+  },
+  {
+    "_id": "model-sto",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto incasso ST.O — collezione Origo",
+    "after": "Rubinetto incasso ST.O, collezione Origo"
+  },
+  {
+    "_id": "model-sty",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto incasso ST.Y — collezione Twiggy",
+    "after": "Rubinetto incasso ST.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-tc1cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia TC1.CD — collezione Boss",
+    "after": "Miscelatore termostatico da incasso per doccia TC1.CD, collezione Boss"
+  },
+  {
+    "_id": "model-tc1f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia TC1.F — collezione Flamingo",
+    "after": "Miscelatore termostatico da incasso per doccia TC1.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-tc1i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso 1 via TC1.I — collezione Ille",
+    "after": "Miscelatore termostatico da incasso 1 via TC1.I, collezione Ille"
+  },
+  {
+    "_id": "model-tc1l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia TC1.L — collezione Skinny",
+    "after": "Miscelatore termostatico da incasso per doccia TC1.L, collezione Skinny"
+  },
+  {
+    "_id": "model-tc1o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia TC1.O — collezione Origo",
+    "after": "Miscelatore termostatico da incasso per doccia TC1.O, collezione Origo"
+  },
+  {
+    "_id": "model-tc1y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia TC1.Y — collezione Twiggy",
+    "after": "Miscelatore termostatico da incasso per doccia TC1.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-tc2cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.CD — collezione Boss",
+    "after": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.CD, collezione Boss"
+  },
+  {
+    "_id": "model-tc2f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.F — collezione Flamingo",
+    "after": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-tc2i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso 2 vie TC2.I — collezione Ille",
+    "after": "Miscelatore termostatico da incasso 2 vie TC2.I, collezione Ille"
+  },
+  {
+    "_id": "model-tc2l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.L — collezione Skinny",
+    "after": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.L, collezione Skinny"
+  },
+  {
+    "_id": "model-tc2o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.O — collezione Origo",
+    "after": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.O, collezione Origo"
+  },
+  {
+    "_id": "model-tc2y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.Y — collezione Twiggy",
+    "after": "Miscelatore termostatico da incasso per doccia, 2 vie TC2.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-tc3cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.CD — collezione Boss",
+    "after": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.CD, collezione Boss"
+  },
+  {
+    "_id": "model-tc3f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.F — collezione Flamingo",
+    "after": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-tc3i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso 3 vie TC3.I — collezione Ille",
+    "after": "Miscelatore termostatico da incasso 3 vie TC3.I, collezione Ille"
+  },
+  {
+    "_id": "model-tc3l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.L — collezione Skinny",
+    "after": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.L, collezione Skinny"
+  },
+  {
+    "_id": "model-tc3o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.O — collezione Origo",
+    "after": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.O, collezione Origo"
+  },
+  {
+    "_id": "model-tc3y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.Y — collezione Twiggy",
+    "after": "Miscelatore termostatico da incasso per doccia, 3 vie TC3.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-tchf1",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico da incasso per doccia, High-Flow TC.HF1 — collezione Waterline",
+    "after": "Miscelatore termostatico da incasso per doccia, High-Flow TC.HF1, collezione Waterline"
+  },
+  {
+    "_id": "model-tchf2",
+    "field": "primaryImage.alt",
+    "before": "Misceltatore termostatico da incasso per doccia a 2 vie, High Flow TC.HF2 — collezione Waterline",
+    "after": "Misceltatore termostatico da incasso per doccia a 2 vie, High Flow TC.HF2, collezione Waterline"
+  },
+  {
+    "_id": "model-tchf3",
+    "field": "primaryImage.alt",
+    "before": "Misceltatore termostatico da incasso per doccia a 3 vie, High Flow TC.HF3 — collezione Waterline",
+    "after": "Misceltatore termostatico da incasso per doccia a 3 vie, High Flow TC.HF3, collezione Waterline"
+  },
+  {
+    "_id": "model-tchf4",
+    "field": "primaryImage.alt",
+    "before": "Misceltatore termostatico da incasso per doccia a 4 vie, High Flow TC.HF4 — collezione Waterline",
+    "after": "Misceltatore termostatico da incasso per doccia a 4 vie, High Flow TC.HF4, collezione Waterline"
+  },
+  {
+    "_id": "model-w010",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione 200 mm S06 Ø200 mm W010 — collezione Waterline",
+    "after": "Gruppo esterno con colonna doccia e soffione 200 mm S06 Ø200 mm W010, collezione Waterline"
+  },
+  {
+    "_id": "model-w010e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W010.E — collezione Waterline",
+    "after": "Gruppo esterno con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W010.E, collezione Waterline"
+  },
+  {
+    "_id": "model-w012",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione 200 mm S06 Ø200 mm W012 — collezione Waterline",
+    "after": "Rubinetto esterno con colonna doccia e soffione 200 mm S06 Ø200 mm W012, collezione Waterline"
+  },
+  {
+    "_id": "model-w012e",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W012.E — collezione Waterline",
+    "after": "Rubinetto esterno con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W012.E, collezione Waterline"
+  },
+  {
+    "_id": "model-w075e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno, con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W075.E — collezione Waterline",
+    "after": "Miscelatore termostatico esterno, con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W075.E, collezione Waterline"
+  },
+  {
+    "_id": "model-w083",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia e soffione 200 mm S06 Ø200 mm W083 — collezione Waterline",
+    "after": "Miscelatore esterno con colonna doccia e soffione 200 mm S06 Ø200 mm W083, collezione Waterline"
+  },
+  {
+    "_id": "model-w083e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W083.E — collezione Waterline",
+    "after": "Miscelatore esterno con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W083.E, collezione Waterline"
+  },
+  {
+    "_id": "model-w08ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione S06 Ø200 mm W08.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione S06 Ø200 mm W08.AST, collezione Community"
+  },
+  {
+    "_id": "model-w0x1",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia e soffione 200 mm S06 Ø200 mm W0X1 — collezione Waterline",
+    "after": "Presa d'acqua con colonna doccia e soffione 200 mm S06 Ø200 mm W0X1, collezione Waterline"
+  },
+  {
+    "_id": "model-w0x1e",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W0X1.E — collezione Waterline",
+    "after": "Presa d'acqua con colonna doccia, soffione 200 mm S06 Ø200 mm e doccetta W0X1.E, collezione Waterline"
+  },
+  {
+    "_id": "model-w10",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto a parete W10 — collezione Spring",
+    "after": "Rubinetto a parete W10, collezione Spring"
+  },
+  {
+    "_id": "model-w100",
+    "field": "primaryImage.alt",
+    "before": "Scarico per lavabo, con tappo a pressione W100 — collezione Accessori tecnici",
+    "after": "Scarico per lavabo, con tappo a pressione W100, collezione Accessori tecnici"
+  },
+  {
+    "_id": "model-w10fs",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto a parete con soffione lavapiedi S03 Ø25 mm W10.FS — collezione Spring",
+    "after": "Rubinetto a parete con soffione lavapiedi S03 Ø25 mm W10.FS, collezione Spring"
+  },
+  {
+    "_id": "model-w10fsl",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto a parete con soffione lavapiedi S03 Ø25 mm W10.FS.L — collezione Spring",
+    "after": "Rubinetto a parete con soffione lavapiedi S03 Ø25 mm W10.FS.L, collezione Spring"
+  },
+  {
+    "_id": "model-w10hbl",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto da giardino con raccordo portagomma G 3/4\" W10.HB.L — collezione Spring",
+    "after": "Rubinetto da giardino con raccordo portagomma G 3/4\" W10.HB.L, collezione Spring"
+  },
+  {
+    "_id": "model-w10l",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto a parete W10.L — collezione Spring",
+    "after": "Rubinetto a parete W10.L, collezione Spring"
+  },
+  {
+    "_id": "model-w12ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto temporizzato a parete W12.AST — collezione Community",
+    "after": "Rubinetto temporizzato a parete W12.AST, collezione Community"
+  },
+  {
+    "_id": "model-w12astfs",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto temporizzato a parete con soffione lavapiedi S03 Ø25 mm W12.AST.FS — collezione Community",
+    "after": "Rubinetto temporizzato a parete con soffione lavapiedi S03 Ø25 mm W12.AST.FS, collezione Community"
+  },
+  {
+    "_id": "model-w154",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W154 — collezione Club",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W154, collezione Club"
+  },
+  {
+    "_id": "model-w154e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W154.E — collezione Club",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W154.E, collezione Club"
+  },
+  {
+    "_id": "model-w157c",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione incassato W157C — collezione Club",
+    "after": "Rubinetto esterno con colonna doccia e soffione incassato W157C, collezione Club"
+  },
+  {
+    "_id": "model-w159ce",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W159C.E — collezione Club",
+    "after": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W159C.E, collezione Club"
+  },
+  {
+    "_id": "model-w159e",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W159.E — collezione Club",
+    "after": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W159.E, collezione Club"
+  },
+  {
+    "_id": "model-w15a6e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W15A6.E — collezione Club",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W15A6.E, collezione Club"
+  },
+  {
+    "_id": "model-w18ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W18.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W18.AST, collezione Community"
+  },
+  {
+    "_id": "model-w1x7",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia e soffione incassato W1X7 — collezione Club",
+    "after": "Presa d’acqua con colonna doccia e soffione incassato W1X7, collezione Club"
+  },
+  {
+    "_id": "model-w200",
+    "field": "primaryImage.alt",
+    "before": "Sifone da lavabo W200 — collezione Accessori tecnici",
+    "after": "Sifone da lavabo W200, collezione Accessori tecnici"
+  },
+  {
+    "_id": "model-w254",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione S10 Ø300 mm W254 — collezione Club Large",
+    "after": "Gruppo esterno con colonna doccia e soffione S10 Ø300 mm W254, collezione Club Large"
+  },
+  {
+    "_id": "model-w254e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W254.E — collezione Club Large",
+    "after": "Gruppo esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W254.E, collezione Club Large"
+  },
+  {
+    "_id": "model-w257c",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione S10 Ø300 mm W257C — collezione Club Large",
+    "after": "Rubinetto esterno con colonna doccia e soffione S10 Ø300 mm W257C, collezione Club Large"
+  },
+  {
+    "_id": "model-w259ce",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W259C.E — collezione Club Large",
+    "after": "Rubinetto esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W259C.E, collezione Club Large"
+  },
+  {
+    "_id": "model-w259e",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia, soffione S10 Ø300 mm e doccetta W259.E — collezione Club Large",
+    "after": "Presa d'acqua con colonna doccia, soffione S10 Ø300 mm e doccetta W259.E, collezione Club Large"
+  },
+  {
+    "_id": "model-w25a6e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W25A6.E — collezione Club Large",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W25A6.E, collezione Club Large"
+  },
+  {
+    "_id": "model-w28ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione S10 Ø300 mm W28.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione S10 Ø300 mm W28.AST, collezione Community"
+  },
+  {
+    "_id": "model-w2mbcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 2 fori W2MB.CD — collezione Boss",
+    "after": "Batteria bordo vasca 2 fori W2MB.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w2mbf",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 2 fori W2MB.F — collezione Flamingo",
+    "after": "Batteria bordo vasca 2 fori W2MB.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w2mbi",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 2 fori W2MB.I — collezione Ille",
+    "after": "Batteria bordo vasca 2 fori W2MB.I, collezione Ille"
+  },
+  {
+    "_id": "model-w2mbl",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 2 fori W2MB.L — collezione Skinny",
+    "after": "Batteria bordo vasca 2 fori W2MB.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w2mbo",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 2 fori W2MB.O — collezione Origo",
+    "after": "Batteria bordo vasca 2 fori W2MB.O, collezione Origo"
+  },
+  {
+    "_id": "model-w2mbpcd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso W2MBP.CD — collezione Boss",
+    "after": "Miscelatore vasca da incasso W2MBP.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w2mbpf",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso W2MBP.F — collezione Flamingo",
+    "after": "Miscelatore vasca da incasso W2MBP.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w2mbpi",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso W2MBP.I — collezione Ille",
+    "after": "Miscelatore vasca da incasso W2MBP.I, collezione Ille"
+  },
+  {
+    "_id": "model-w2mbpl",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso W2MBP.L — collezione Skinny",
+    "after": "Miscelatore vasca da incasso W2MBP.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w2mbpo",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso W2MBP.O — collezione Origo",
+    "after": "Miscelatore vasca da incasso W2MBP.O, collezione Origo"
+  },
+  {
+    "_id": "model-w2mbpy",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso W2MBP.Y — collezione Twiggy",
+    "after": "Miscelatore vasca da incasso W2MBP.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w2mby",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 2 fori W2MB.Y — collezione Twiggy",
+    "after": "Batteria bordo vasca 2 fori W2MB.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w2mcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 2 fori W2M.CD — collezione Boss",
+    "after": "Batteria da lavabo 2 fori W2M.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w2mf",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 2 fori W2M.F — collezione Flamingo",
+    "after": "Batteria da lavabo 2 fori W2M.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w2mi",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 2 fori W2M.I — collezione Ille",
+    "after": "Batteria da lavabo 2 fori W2M.I, collezione Ille"
+  },
+  {
+    "_id": "model-w2ml",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 2 fori W2M.L — collezione Skinny",
+    "after": "Batteria da lavabo 2 fori W2M.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w2mo",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 2 fori W2M.O — collezione Origo",
+    "after": "Batteria da lavabo 2 fori W2M.O, collezione Origo"
+  },
+  {
+    "_id": "model-w2mp2cd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.2.CD — collezione Boss",
+    "after": "Miscelatore lavabo da incasso W2MP.2.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w2mp2f",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.2.F — collezione Flamingo",
+    "after": "Miscelatore lavabo da incasso W2MP.2.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w2mp2l",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.2.L — collezione Skinny",
+    "after": "Miscelatore lavabo da incasso W2MP.2.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w2mp2o",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.2.O — collezione Origo",
+    "after": "Miscelatore lavabo da incasso W2MP.2.O, collezione Origo"
+  },
+  {
+    "_id": "model-w2mp2y",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.2.Y — collezione Twiggy",
+    "after": "Miscelatore lavabo da incasso W2MP.2.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w2mpcd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.CD — collezione Boss",
+    "after": "Miscelatore lavabo da incasso W2MP.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w2mpf",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.F — collezione Flamingo",
+    "after": "Miscelatore lavabo da incasso W2MP.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w2mpl",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.L — collezione Skinny",
+    "after": "Miscelatore lavabo da incasso W2MP.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w2mpo",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.O — collezione Origo",
+    "after": "Miscelatore lavabo da incasso W2MP.O, collezione Origo"
+  },
+  {
+    "_id": "model-w2mpy",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso W2MP.Y — collezione Twiggy",
+    "after": "Miscelatore lavabo da incasso W2MP.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w2my",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 2 fori W2M.Y — collezione Twiggy",
+    "after": "Batteria da lavabo 2 fori W2M.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w2x7",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia e soffione S10 Ø300 mm W2X7 — collezione Club Large",
+    "after": "Presa d'acqua con colonna doccia e soffione S10 Ø300 mm W2X7, collezione Club Large"
+  },
+  {
+    "_id": "model-w30",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavabo W30 — collezione Twiggy",
+    "after": "Miscelatore da lavabo W30, collezione Twiggy"
+  },
+  {
+    "_id": "model-w30b",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da bidet W30B — collezione Twiggy",
+    "after": "Miscelatore da bidet W30B, collezione Twiggy"
+  },
+  {
+    "_id": "model-w30h",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore alto da lavabo W30H — collezione Twiggy",
+    "after": "Miscelatore alto da lavabo W30H, collezione Twiggy"
+  },
+  {
+    "_id": "model-w344",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W344 — collezione Boss",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W344, collezione Boss"
+  },
+  {
+    "_id": "model-w344e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W344.E — collezione Boss",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W344.E, collezione Boss"
+  },
+  {
+    "_id": "model-w347c",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione incassato W347C — collezione Boss",
+    "after": "Rubinetto esterno con colonna doccia e soffione incassato W347C, collezione Boss"
+  },
+  {
+    "_id": "model-w349ce",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W349C.E — collezione Boss",
+    "after": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W349C.E, collezione Boss"
+  },
+  {
+    "_id": "model-w349e",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W349.E — collezione Boss",
+    "after": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W349.E, collezione Boss"
+  },
+  {
+    "_id": "model-w34a6e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W34A6.E — collezione Boss",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W34A6.E, collezione Boss"
+  },
+  {
+    "_id": "model-w35",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavabo W35 — collezione Skinny",
+    "after": "Miscelatore da lavabo W35, collezione Skinny"
+  },
+  {
+    "_id": "model-w35b",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da bidet W35B — collezione Skinny",
+    "after": "Miscelatore da bidet W35B, collezione Skinny"
+  },
+  {
+    "_id": "model-w35h",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore alto da lavabo W35H — collezione Skinny",
+    "after": "Miscelatore alto da lavabo W35H, collezione Skinny"
+  },
+  {
+    "_id": "model-w35m",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto acqua fredda W35.M — collezione Spring",
+    "after": "Rubinetto acqua fredda W35.M, collezione Spring"
+  },
+  {
+    "_id": "model-w35mast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto temporizzato da lavabo W35.M.AST — collezione Community",
+    "after": "Rubinetto temporizzato da lavabo W35.M.AST, collezione Community"
+  },
+  {
+    "_id": "model-w38ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W38.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W38.AST, collezione Community"
+  },
+  {
+    "_id": "model-w3bcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 3 fori W3B.CD — collezione Boss",
+    "after": "Batteria bordo vasca 3 fori W3B.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w3bf",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 3 fori W3B.F — collezione Flamingo",
+    "after": "Batteria bordo vasca 3 fori W3B.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w3bi",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 3 fori W3B.I — collezione Ille",
+    "after": "Batteria bordo vasca 3 fori W3B.I, collezione Ille"
+  },
+  {
+    "_id": "model-w3bl",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 3 fori W3B.L — collezione Skinny",
+    "after": "Batteria bordo vasca 3 fori W3B.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w3bo",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 3 fori W3B.O — collezione Origo",
+    "after": "Batteria bordo vasca 3 fori W3B.O, collezione Origo"
+  },
+  {
+    "_id": "model-w3by",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 3 fori W3B.Y — collezione Twiggy",
+    "after": "Batteria bordo vasca 3 fori W3B.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w3cd",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 3 fori W3.CD — collezione Boss",
+    "after": "Batteria da lavabo 3 fori W3.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w3f",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 3 fori W3.F — collezione Flamingo",
+    "after": "Batteria da lavabo 3 fori W3.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w3i",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 3 fori W3.I — collezione Ille",
+    "after": "Batteria da lavabo 3 fori W3.I, collezione Ille"
+  },
+  {
+    "_id": "model-w3l",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 3 fori W3.L — collezione Skinny",
+    "after": "Batteria da lavabo 3 fori W3.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w3mbpcd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con doccetta W3MBP.CD — collezione Boss",
+    "after": "Miscelatore vasca da incasso con doccetta W3MBP.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w3mbpf",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con doccetta W3MBP.F — collezione Flamingo",
+    "after": "Miscelatore vasca da incasso con doccetta W3MBP.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w3mbpi",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con doccetta W3MBP.I — collezione Ille",
+    "after": "Miscelatore vasca da incasso con doccetta W3MBP.I, collezione Ille"
+  },
+  {
+    "_id": "model-w3mbpl",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con doccetta W3MBP.L — collezione Skinny",
+    "after": "Miscelatore vasca da incasso con doccetta W3MBP.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w3mbpo",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con doccetta W3MBP.O — collezione Origo",
+    "after": "Miscelatore vasca da incasso con doccetta W3MBP.O, collezione Origo"
+  },
+  {
+    "_id": "model-w3mbpy",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con doccetta W3MBP.Y — collezione Twiggy",
+    "after": "Miscelatore vasca da incasso con doccetta W3MBP.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w3o",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 3 fori W3.O — collezione Origo",
+    "after": "Batteria da lavabo 3 fori W3.O, collezione Origo"
+  },
+  {
+    "_id": "model-w3pcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria lavabo da incasso W3P.CD — collezione Boss",
+    "after": "Batteria lavabo da incasso W3P.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w3pf",
+    "field": "primaryImage.alt",
+    "before": "Batteria lavabo da incasso W3P.F — collezione Flamingo",
+    "after": "Batteria lavabo da incasso W3P.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w3pi",
+    "field": "primaryImage.alt",
+    "before": "Batteria lavabo da incasso W3P.I — collezione Ille",
+    "after": "Batteria lavabo da incasso W3P.I, collezione Ille"
+  },
+  {
+    "_id": "model-w3pl",
+    "field": "primaryImage.alt",
+    "before": "Batteria lavabo da incasso W3P.L — collezione Skinny",
+    "after": "Batteria lavabo da incasso W3P.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w3po",
+    "field": "primaryImage.alt",
+    "before": "Batteria lavabo da incasso W3P.O — collezione Origo",
+    "after": "Batteria lavabo da incasso W3P.O, collezione Origo"
+  },
+  {
+    "_id": "model-w3py",
+    "field": "primaryImage.alt",
+    "before": "Batteria lavabo da incasso W3P.Y — collezione Twiggy",
+    "after": "Batteria lavabo da incasso W3P.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w3x7",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia e soffione incassato W3X7 — collezione Boss",
+    "after": "Presa d’acqua con colonna doccia e soffione incassato W3X7, collezione Boss"
+  },
+  {
+    "_id": "model-w3y",
+    "field": "primaryImage.alt",
+    "before": "Batteria da lavabo 3 fori W3.Y — collezione Twiggy",
+    "after": "Batteria da lavabo 3 fori W3.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w40",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da lavabo W40 — collezione Origo",
+    "after": "Miscelatore da lavabo W40, collezione Origo"
+  },
+  {
+    "_id": "model-w40b",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da bidet W40B — collezione Origo",
+    "after": "Miscelatore da bidet W40B, collezione Origo"
+  },
+  {
+    "_id": "model-w40h",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore alto da lavabo W40H — collezione Origo",
+    "after": "Miscelatore alto da lavabo W40H, collezione Origo"
+  },
+  {
+    "_id": "model-w444",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione S10 Ø300 mm W444 — collezione Boss Wide",
+    "after": "Gruppo esterno con colonna doccia e soffione S10 Ø300 mm W444, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w444e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W444.E — collezione Boss Wide",
+    "after": "Gruppo esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W444.E, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w447c",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione S10 Ø300 mm W447C — collezione Boss Wide",
+    "after": "Rubinetto esterno con colonna doccia e soffione S10 Ø300 mm W447C, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w449ce",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W449C.E — collezione Boss Wide",
+    "after": "Rubinetto esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W449C.E, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w449e",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia, soffione S10 Ø300 mm e doccetta W449.E — collezione Boss Wide",
+    "after": "Presa d'acqua con colonna doccia, soffione S10 Ø300 mm e doccetta W449.E, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w44a6e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W44A6.E — collezione Boss Wide",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W44A6.E, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w48ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione S10 Ø300 mm W48.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione S10 Ø300 mm W48.AST, collezione Community"
+  },
+  {
+    "_id": "model-w4mbcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 4 fori W4MB.CD — collezione Boss",
+    "after": "Batteria bordo vasca 4 fori W4MB.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w4mbf",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 4 fori W4MB.F — collezione Flamingo",
+    "after": "Batteria bordo vasca 4 fori W4MB.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w4mbi",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 4 fori W4MB.I — collezione Ille",
+    "after": "Batteria bordo vasca 4 fori W4MB.I, collezione Ille"
+  },
+  {
+    "_id": "model-w4mbl",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 4 fori W4MB.L — collezione Skinny",
+    "after": "Batteria bordo vasca 4 fori W4MB.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w4mbo",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 4 fori W4MB.O — collezione Origo",
+    "after": "Batteria bordo vasca 4 fori W4MB.O, collezione Origo"
+  },
+  {
+    "_id": "model-w4mbpcd",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.CD — collezione Boss",
+    "after": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w4mbpf",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.F — collezione Flamingo",
+    "after": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w4mbpi",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.I — collezione Ille",
+    "after": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.I, collezione Ille"
+  },
+  {
+    "_id": "model-w4mbpl",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.L — collezione Skinny",
+    "after": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w4mbpo",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.O — collezione Origo",
+    "after": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.O, collezione Origo"
+  },
+  {
+    "_id": "model-w4mbpy",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.Y — collezione Twiggy",
+    "after": "Miscelatore vasca da incasso con bocca e doccetta W4MBP.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w4mby",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 4 fori W4MB.Y — collezione Twiggy",
+    "after": "Batteria bordo vasca 4 fori W4MB.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w4x7",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia e soffione S10 Ø300 mm W4X7 — collezione Boss Wide",
+    "after": "Presa d'acqua con colonna doccia e soffione S10 Ø300 mm W4X7, collezione Boss Wide"
+  },
+  {
+    "_id": "model-w564",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W564 — collezione Flamingo",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W564, collezione Flamingo"
+  },
+  {
+    "_id": "model-w564e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione incassato e doccetta W564.E — collezione Flamingo",
+    "after": "Gruppo esterno con colonna doccia, soffione incassato e doccetta W564.E, collezione Flamingo"
+  },
+  {
+    "_id": "model-w567c",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione incassato W567C — collezione Flamingo",
+    "after": "Rubinetto esterno con colonna doccia e soffione incassato W567C, collezione Flamingo"
+  },
+  {
+    "_id": "model-w569ce",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W569C.E — collezione Flamingo",
+    "after": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W569C.E, collezione Flamingo"
+  },
+  {
+    "_id": "model-w569e",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W569.E — collezione Flamingo",
+    "after": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W569.E, collezione Flamingo"
+  },
+  {
+    "_id": "model-w56a6e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W56A6.E — collezione Flamingo",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W56A6.E, collezione Flamingo"
+  },
+  {
+    "_id": "model-w5bcd",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 5 fori W5B.CD — collezione Boss",
+    "after": "Batteria bordo vasca 5 fori W5B.CD, collezione Boss"
+  },
+  {
+    "_id": "model-w5bf",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 5 fori W5B.F — collezione Flamingo",
+    "after": "Batteria bordo vasca 5 fori W5B.F, collezione Flamingo"
+  },
+  {
+    "_id": "model-w5bi",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 5 fori W5B.I — collezione Ille",
+    "after": "Batteria bordo vasca 5 fori W5B.I, collezione Ille"
+  },
+  {
+    "_id": "model-w5bl",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 5 fori W5B.L — collezione Skinny",
+    "after": "Batteria bordo vasca 5 fori W5B.L, collezione Skinny"
+  },
+  {
+    "_id": "model-w5bo",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 5 fori W5B.O — collezione Origo",
+    "after": "Batteria bordo vasca 5 fori W5B.O, collezione Origo"
+  },
+  {
+    "_id": "model-w5by",
+    "field": "primaryImage.alt",
+    "before": "Batteria bordo vasca 5 fori W5B.Y — collezione Twiggy",
+    "after": "Batteria bordo vasca 5 fori W5B.Y, collezione Twiggy"
+  },
+  {
+    "_id": "model-w5x7",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia e soffione incassato W5X7 — collezione Flamingo",
+    "after": "Presa d’acqua con colonna doccia e soffione incassato W5X7, collezione Flamingo"
+  },
+  {
+    "_id": "model-w630",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione S10 Ø300 mm W630 — collezione Classy",
+    "after": "Gruppo esterno con colonna doccia e soffione S10 Ø300 mm W630, collezione Classy"
+  },
+  {
+    "_id": "model-w630e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W630.E — collezione Classy",
+    "after": "Gruppo esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W630.E, collezione Classy"
+  },
+  {
+    "_id": "model-w632",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione S10 Ø300 mm W632 — collezione Classy",
+    "after": "Rubinetto esterno con colonna doccia e soffione S10 Ø300 mm W632, collezione Classy"
+  },
+  {
+    "_id": "model-w632e",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W632.E — collezione Classy",
+    "after": "Rubinetto esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W632.E, collezione Classy"
+  },
+  {
+    "_id": "model-w675e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W675.E — collezione Classy",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W675.E, collezione Classy"
+  },
+  {
+    "_id": "model-w683",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia e soffione S10 Ø300 mm W683 — collezione Classy",
+    "after": "Miscelatore esterno con colonna doccia e soffione S10 Ø300 mm W683, collezione Classy"
+  },
+  {
+    "_id": "model-w683e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W683.E — collezione Classy",
+    "after": "Miscelatore esterno con colonna doccia, soffione S10 Ø300 mm e doccetta W683.E, collezione Classy"
+  },
+  {
+    "_id": "model-w68ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione S10 Ø300 mm W68.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione S10 Ø300 mm W68.AST, collezione Community"
+  },
+  {
+    "_id": "model-w6x1",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia e  soffione S10 Ø300 mm W6X1 — collezione Classy",
+    "after": "Presa d'acqua con colonna doccia e soffione S10 Ø300 mm W6X1, collezione Classy"
+  },
+  {
+    "_id": "model-w6x1e",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia, soffione S10 Ø300 mm e doccetta W6X1.E — collezione Classy",
+    "after": "Presa d'acqua con colonna doccia, soffione S10 Ø300 mm e doccetta W6X1.E, collezione Classy"
+  },
+  {
+    "_id": "model-w730",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W730 — collezione Skinny",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W730, collezione Skinny"
+  },
+  {
+    "_id": "model-w730e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W730.E — collezione Skinny",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W730.E, collezione Skinny"
+  },
+  {
+    "_id": "model-w732",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione incassato W732 — collezione Skinny",
+    "after": "Rubinetto esterno con colonna doccia e soffione incassato W732, collezione Skinny"
+  },
+  {
+    "_id": "model-w732e",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W732.E — collezione Skinny",
+    "after": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W732.E, collezione Skinny"
+  },
+  {
+    "_id": "model-w775e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W775.E — collezione Skinny",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W775.E, collezione Skinny"
+  },
+  {
+    "_id": "model-w783",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia e soffione incassato W783 — collezione Skinny",
+    "after": "Miscelatore esterno con colonna doccia e soffione incassato W783, collezione Skinny"
+  },
+  {
+    "_id": "model-w783e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia, soffione incassato e doccetta W783.E — collezione Skinny",
+    "after": "Miscelatore esterno con colonna doccia, soffione incassato e doccetta W783.E, collezione Skinny"
+  },
+  {
+    "_id": "model-w78ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W78.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W78.AST, collezione Community"
+  },
+  {
+    "_id": "model-w7x1",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia e soffione incassato W7X1 — collezione Skinny",
+    "after": "Presa d’acqua con colonna doccia e soffione incassato W7X1, collezione Skinny"
+  },
+  {
+    "_id": "model-w7x1e",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W7X1.E — collezione Skinny",
+    "after": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W7X1.E, collezione Skinny"
+  },
+  {
+    "_id": "model-w810",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W810 — collezione Twiggy",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W810, collezione Twiggy"
+  },
+  {
+    "_id": "model-w810e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato W810.E — collezione Twiggy",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato W810.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-w812",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione incassato W812 — collezione Twiggy",
+    "after": "Rubinetto esterno con colonna doccia e soffione incassato W812, collezione Twiggy"
+  },
+  {
+    "_id": "model-w812e",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W812.E — collezione Twiggy",
+    "after": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta W812.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-w875e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W875.E — collezione Twiggy",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta W875.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-w883",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia e soffione incassato W883 — collezione Twiggy",
+    "after": "Miscelatore esterno con colonna doccia e soffione incassato W883, collezione Twiggy"
+  },
+  {
+    "_id": "model-w883e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia, soffione incassato e doccetta W883.E — collezione Twiggy",
+    "after": "Miscelatore esterno con colonna doccia, soffione incassato e doccetta W883.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-w88ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W88.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione incassato W88.AST, collezione Community"
+  },
+  {
+    "_id": "model-w8x1",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia e soffione incassato W8X1 — collezione Twiggy",
+    "after": "Presa d’acqua con colonna doccia e soffione incassato W8X1, collezione Twiggy"
+  },
+  {
+    "_id": "model-w8x1e",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W8X1.E — collezione Twiggy",
+    "after": "Presa d’acqua con colonna doccia, soffione incassato e doccetta W8X1.E, collezione Twiggy"
+  },
+  {
+    "_id": "model-w920",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione S06 Ø200 mm W920 — collezione Origo",
+    "after": "Gruppo esterno con colonna doccia e soffione S06 Ø200 mm W920, collezione Origo"
+  },
+  {
+    "_id": "model-w920e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W920.E — collezione Origo",
+    "after": "Gruppo esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W920.E, collezione Origo"
+  },
+  {
+    "_id": "model-w922",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione S06 Ø200 mm W922 — collezione Origo",
+    "after": "Rubinetto esterno con colonna doccia e soffione S06 Ø200 mm W922, collezione Origo"
+  },
+  {
+    "_id": "model-w922e",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W922.E — collezione Origo",
+    "after": "Rubinetto esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W922.E, collezione Origo"
+  },
+  {
+    "_id": "model-w975e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W975.E — collezione Origo",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W975.E, collezione Origo"
+  },
+  {
+    "_id": "model-w983",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia e soffione S06 Ø200 mm W983 — collezione Origo",
+    "after": "Miscelatore esterno con colonna doccia e soffione S06 Ø200 mm W983, collezione Origo"
+  },
+  {
+    "_id": "model-w983e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W983.E — collezione Origo",
+    "after": "Miscelatore esterno con colonna doccia, soffione S06 Ø200 mm e doccetta W983.E, collezione Origo"
+  },
+  {
+    "_id": "model-w98ast",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno temporizzato con colonna doccia e soffione S06 Ø200 mm W98.AST — collezione Community",
+    "after": "Rubinetto esterno temporizzato con colonna doccia e soffione S06 Ø200 mm W98.AST, collezione Community"
+  },
+  {
+    "_id": "model-w9x1",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia e  soffione S06 Ø200 mm W9X1 — collezione Origo",
+    "after": "Presa d'acqua con colonna doccia e soffione S06 Ø200 mm W9X1, collezione Origo"
+  },
+  {
+    "_id": "model-w9x1e",
+    "field": "primaryImage.alt",
+    "before": "Presa d'acqua con colonna doccia, soffione S06 Ø200 mm e doccetta W9X1.E — collezione Origo",
+    "after": "Presa d'acqua con colonna doccia, soffione S06 Ø200 mm e doccetta W9X1.E, collezione Origo"
+  },
+  {
+    "_id": "model-wa03",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia e soffione incassato WA03 — collezione Ille",
+    "after": "Miscelatore esterno con colonna doccia e soffione incassato WA03, collezione Ille"
+  },
+  {
+    "_id": "model-wa03e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con colonna doccia, soffione incassato e doccetta WA03.E — collezione Ille",
+    "after": "Miscelatore esterno con colonna doccia, soffione incassato e doccetta WA03.E, collezione Ille"
+  },
+  {
+    "_id": "model-wa75e",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta WA75.E — collezione Ille",
+    "after": "Miscelatore termostatico esterno con colonna doccia, soffione incassato e doccetta WA75.E, collezione Ille"
+  },
+  {
+    "_id": "model-wa90",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia e soffione incassato WA90 — collezione Ille",
+    "after": "Gruppo esterno con colonna doccia e soffione incassato WA90, collezione Ille"
+  },
+  {
+    "_id": "model-wa90e",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con colonna doccia, soffione incassato e doccetta WA90.E — collezione Ille",
+    "after": "Gruppo esterno con colonna doccia, soffione incassato e doccetta WA90.E, collezione Ille"
+  },
+  {
+    "_id": "model-wa92",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia e soffione incassato WA92 — collezione Ille",
+    "after": "Rubinetto esterno con colonna doccia e soffione incassato WA92, collezione Ille"
+  },
+  {
+    "_id": "model-wa92e",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta WA92.E — collezione Ille",
+    "after": "Rubinetto esterno con colonna doccia, soffione incassato e doccetta WA92.E, collezione Ille"
+  },
+  {
+    "_id": "model-wax1",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia e soffione incassato WAX1 — collezione Ille",
+    "after": "Presa d’acqua con colonna doccia e soffione incassato WAX1, collezione Ille"
+  },
+  {
+    "_id": "model-wax1e",
+    "field": "primaryImage.alt",
+    "before": "Presa d’acqua con colonna doccia, soffione incassato e doccetta WAX1.E — collezione Ille",
+    "after": "Presa d’acqua con colonna doccia, soffione incassato e doccetta WAX1.E, collezione Ille"
+  },
+  {
+    "_id": "model-wf01",
+    "field": "primaryImage.alt",
+    "before": "Body-Jet da incasso Wave WF.01 — collezione Waterline",
+    "after": "Body-Jet da incasso Wave WF.01, collezione Waterline"
+  },
+  {
+    "_id": "model-wf02",
+    "field": "primaryImage.alt",
+    "before": "Cascata da incasso WF.02 — collezione Waterline",
+    "after": "Cascata da incasso WF.02, collezione Waterline"
+  },
+  {
+    "_id": "model-wm30i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per lavabo WM30.I — collezione Ille",
+    "after": "Miscelatore da incasso per lavabo WM30.I, collezione Ille"
+  },
+  {
+    "_id": "model-wmp2i",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso WMP.2.I — collezione Ille",
+    "after": "Miscelatore lavabo da incasso WMP.2.I, collezione Ille"
+  },
+  {
+    "_id": "model-wmpi",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore lavabo da incasso WMP.I — collezione Ille",
+    "after": "Miscelatore lavabo da incasso WMP.I, collezione Ille"
+  },
+  {
+    "_id": "model-wmrl",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore da incasso per lavabo WMRL — collezione Flamingo",
+    "after": "Miscelatore da incasso per lavabo WMRL, collezione Flamingo"
+  },
+  {
+    "_id": "model-wx03sk",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con kit doccia WX03.SK — collezione Ille",
+    "after": "Miscelatore esterno con kit doccia WX03.SK, collezione Ille"
+  },
+  {
+    "_id": "model-wx10sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX10.SK — collezione Twiggy",
+    "after": "Gruppo esterno con kit doccia WX10.SK, collezione Twiggy"
+  },
+  {
+    "_id": "model-wx12sk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX12.SK — collezione Twiggy",
+    "after": "Rubinetto esterno con kit doccia WX12.SK, collezione Twiggy"
+  },
+  {
+    "_id": "model-wx20sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX20.SK — collezione Origo",
+    "after": "Gruppo esterno con kit doccia WX20.SK, collezione Origo"
+  },
+  {
+    "_id": "model-wx22sk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX22.SK — collezione Origo",
+    "after": "Rubinetto esterno con kit doccia WX22.SK, collezione Origo"
+  },
+  {
+    "_id": "model-wx30sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX30.SK — collezione Skinny",
+    "after": "Gruppo esterno con kit doccia WX30.SK, collezione Skinny"
+  },
+  {
+    "_id": "model-wx32sk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX32.SK — collezione Skinny",
+    "after": "Rubinetto esterno con kit doccia WX32.SK, collezione Skinny"
+  },
+  {
+    "_id": "model-wx44sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX44.SK — collezione Boss",
+    "after": "Gruppo esterno con kit doccia WX44.SK, collezione Boss"
+  },
+  {
+    "_id": "model-wx47csk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX47C.SK — collezione Boss",
+    "after": "Rubinetto esterno con kit doccia WX47C.SK, collezione Boss"
+  },
+  {
+    "_id": "model-wx47cskk",
+    "field": "primaryImage.alt",
+    "before": "WX47C.SK.K — collezione Waterline",
+    "after": "WX47C.SK.K, collezione Waterline"
+  },
+  {
+    "_id": "model-wx4a6sk",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX4A6.SK — collezione Boss",
+    "after": "Miscelatore termostatico esterno con kit doccia WX4A6.SK, collezione Boss"
+  },
+  {
+    "_id": "model-wx54sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX54.SK — collezione Club",
+    "after": "Gruppo esterno con kit doccia WX54.SK, collezione Club"
+  },
+  {
+    "_id": "model-wx57csk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX57C.SK — collezione Club",
+    "after": "Rubinetto esterno con kit doccia WX57C.SK, collezione Club"
+  },
+  {
+    "_id": "model-wx5a6sk",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX5A6.SK — collezione Club",
+    "after": "Miscelatore termostatico esterno con kit doccia WX5A6.SK, collezione Club"
+  },
+  {
+    "_id": "model-wx64sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX64.SK — collezione Flamingo",
+    "after": "Gruppo esterno con kit doccia WX64.SK, collezione Flamingo"
+  },
+  {
+    "_id": "model-wx67csk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX67C.SK — collezione Flamingo",
+    "after": "Rubinetto esterno con kit doccia WX67C.SK, collezione Flamingo"
+  },
+  {
+    "_id": "model-wx6a6sk",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX6A6.SK — collezione Flamingo",
+    "after": "Miscelatore termostatico esterno con kit doccia WX6A6.SK, collezione Flamingo"
+  },
+  {
+    "_id": "model-wx75sk",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore termostatico esterno con kit doccia WX75.SK — collezione Ille",
+    "after": "Miscelatore termostatico esterno con kit doccia WX75.SK, collezione Ille"
+  },
+  {
+    "_id": "model-wx83sk",
+    "field": "primaryImage.alt",
+    "before": "Miscelatore esterno con kit doccia WX83.SK — collezione Skinny",
+    "after": "Miscelatore esterno con kit doccia WX83.SK, collezione Skinny"
+  },
+  {
+    "_id": "model-wx8astsk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto temporizzato con kit doccia WX8.AST.SK — collezione Community",
+    "after": "Rubinetto temporizzato con kit doccia WX8.AST.SK, collezione Community"
+  },
+  {
+    "_id": "model-wx90sk",
+    "field": "primaryImage.alt",
+    "before": "Gruppo esterno con kit doccia WX90.SK — collezione Ille",
+    "after": "Gruppo esterno con kit doccia WX90.SK, collezione Ille"
+  },
+  {
+    "_id": "model-wx92sk",
+    "field": "primaryImage.alt",
+    "before": "Rubinetto esterno con kit doccia WX92.SK — collezione Ille",
+    "after": "Rubinetto esterno con kit doccia WX92.SK, collezione Ille"
+  },
+  {
+    "_id": "model-xq200",
+    "field": "primaryImage.alt",
+    "before": "Innesto per fissaggio a terreno, con base 200x200 mm, acciaio inox Aisi 316 XQ200 — collezione Accessori colonna doccia",
+    "after": "Innesto per fissaggio a terreno, con base 200x200 mm, acciaio inox AISI 316 XQ200, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-xq200a",
+    "field": "primaryImage.alt",
+    "before": "Innesto per fissaggio a terreno, con base 200x160 mm, acciaio inox Aisi 316 XQ200.A — collezione Accessori colonna doccia",
+    "after": "Innesto per fissaggio a terreno, con base 200x160 mm, acciaio inox AISI 316 XQ200.A, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-xt200",
+    "field": "primaryImage.alt",
+    "before": "Innesto per fissaggio a terreno, con base Ø200 mm, acciaio inox Aisi 316 XT200 — collezione Accessori colonna doccia",
+    "after": "Innesto per fissaggio a terreno, con base Ø200 mm, acciaio inox AISI 316 XT200, collezione Accessori colonna doccia"
+  },
+  {
+    "_id": "model-xt250",
+    "field": "primaryImage.alt",
+    "before": "Innesto per fissaggio a terreno, con base Ø250 mm, acciaio inox Aisi 316 XT250 — collezione Accessori colonna doccia",
+    "after": "Innesto per fissaggio a terreno, con base Ø250 mm, acciaio inox AISI 316 XT250, collezione Accessori colonna doccia"
+  }
+]

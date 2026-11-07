@@ -1,0 +1,721 @@
+{
+  "mode": "EXECUTE (writes)",
+  "generatedFrom": "/Volumes/PortableSSD/01_Clienti/FonteAlta/Fonte alta cartella madre/08_Sito-Web/sito fonte-alta/fontealta-website/scripts/data/blocco1-data.json",
+  "op1": [
+    {
+      "_id": "concealedBody-cw-1",
+      "code": "CW.1"
+    },
+    {
+      "_id": "concealedBody-cw-2",
+      "code": "CW.2"
+    },
+    {
+      "_id": "concealedBody-st-inc",
+      "code": "ST.INC"
+    },
+    {
+      "_id": "concealedBody-w3p-inc",
+      "code": "W3P.INC"
+    },
+    {
+      "_id": "concealedBody-wm30-inc",
+      "code": "WM30.INC"
+    },
+    {
+      "_id": "concealedBody-wmp-inc",
+      "code": "WMP.INC"
+    },
+    {
+      "_id": "concealedBody-mr-inc",
+      "code": "MR.INC"
+    },
+    {
+      "_id": "concealedBody-mr2-inc",
+      "code": "MR2.INC"
+    },
+    {
+      "_id": "concealedBody-mr3-inc",
+      "code": "MR3.INC"
+    },
+    {
+      "_id": "concealedBody-mx-inc",
+      "code": "MX.INC"
+    },
+    {
+      "_id": "concealedBody-hf1-inc",
+      "code": "HF1.INC"
+    },
+    {
+      "_id": "concealedBody-hf2-inc",
+      "code": "HF2.INC"
+    },
+    {
+      "_id": "concealedBody-hf3-inc",
+      "code": "HF3.INC"
+    },
+    {
+      "_id": "concealedBody-hf4-inc",
+      "code": "HF4.INC"
+    },
+    {
+      "_id": "concealedBody-w2mp-inc",
+      "code": "W2MP.INC"
+    },
+    {
+      "_id": "concealedBody-w3mp-inc",
+      "code": "W3MP.INC"
+    },
+    {
+      "_id": "concealedBody-w4mp-inc",
+      "code": "W4MP.INC"
+    }
+  ],
+  "op2": [
+    {
+      "article": "W3P.I",
+      "id": "model-w3pi",
+      "inc": "W3P.INC",
+      "cbRef": "concealedBody-w3p-inc"
+    },
+    {
+      "article": "WMP.I",
+      "id": "model-wmpi",
+      "inc": "WMP.INC",
+      "cbRef": "concealedBody-wmp-inc"
+    },
+    {
+      "article": "WMP.2.I",
+      "id": "model-wmp2i",
+      "inc": "WM30.INC",
+      "cbRef": "concealedBody-wm30-inc"
+    },
+    {
+      "article": "WM30.I",
+      "id": "model-wm30i",
+      "inc": "WM30.INC",
+      "cbRef": "concealedBody-wm30-inc"
+    },
+    {
+      "article": "W2MBP.I",
+      "id": "model-w2mbpi",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W3MBP.I",
+      "id": "model-w3mbpi",
+      "inc": "W3MP.INC",
+      "cbRef": "concealedBody-w3mp-inc"
+    },
+    {
+      "article": "W4MBP.I",
+      "id": "model-w4mbpi",
+      "inc": "W4MP.INC",
+      "cbRef": "concealedBody-w4mp-inc"
+    },
+    {
+      "article": "ST.I",
+      "id": "model-sti",
+      "inc": "ST.INC",
+      "cbRef": "concealedBody-st-inc"
+    },
+    {
+      "article": "MR.I",
+      "id": "model-mri",
+      "inc": "MR.INC",
+      "cbRef": "concealedBody-mr-inc"
+    },
+    {
+      "article": "MR2.I",
+      "id": "model-mr2i",
+      "inc": "MR2.INC",
+      "cbRef": "concealedBody-mr2-inc"
+    },
+    {
+      "article": "MR3.I",
+      "id": "model-mr3i",
+      "inc": "MR3.INC",
+      "cbRef": "concealedBody-mr3-inc"
+    },
+    {
+      "article": "MX2.I",
+      "id": "model-mx2i",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "MX3.I",
+      "id": "model-mx3i",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC1.I",
+      "id": "model-tc1i",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC2.I",
+      "id": "model-tc2i",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC3.I",
+      "id": "model-tc3i",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "W3P.F",
+      "id": "model-w3pf",
+      "inc": "W3P.INC",
+      "cbRef": "concealedBody-w3p-inc"
+    },
+    {
+      "article": "W2MP.F",
+      "id": "model-w2mpf",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MP.2.F",
+      "id": "model-w2mp2f",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "WMRL",
+      "id": "model-wmrl",
+      "inc": "MR.INC",
+      "cbRef": "concealedBody-mr-inc"
+    },
+    {
+      "article": "W2MBP.F",
+      "id": "model-w2mbpf",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W3MBP.F",
+      "id": "model-w3mbpf",
+      "inc": "W3MP.INC",
+      "cbRef": "concealedBody-w3mp-inc"
+    },
+    {
+      "article": "W4MBP.F",
+      "id": "model-w4mbpf",
+      "inc": "W4MP.INC",
+      "cbRef": "concealedBody-w4mp-inc"
+    },
+    {
+      "article": "ST.F",
+      "id": "model-stf",
+      "inc": "ST.INC",
+      "cbRef": "concealedBody-st-inc"
+    },
+    {
+      "article": "MR",
+      "id": "model-mr",
+      "inc": "MR.INC",
+      "cbRef": "concealedBody-mr-inc"
+    },
+    {
+      "article": "MR2.F",
+      "id": "model-mr2f",
+      "inc": "MR2.INC",
+      "cbRef": "concealedBody-mr2-inc"
+    },
+    {
+      "article": "MR3.F",
+      "id": "model-mr3f",
+      "inc": "MR3.INC",
+      "cbRef": "concealedBody-mr3-inc"
+    },
+    {
+      "article": "MX2.F",
+      "id": "model-mx2f",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "MX3.F",
+      "id": "model-mx3f",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC1.F",
+      "id": "model-tc1f",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC2.F",
+      "id": "model-tc2f",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC3.F",
+      "id": "model-tc3f",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "W3P.L",
+      "id": "model-w3pl",
+      "inc": "W3P.INC",
+      "cbRef": "concealedBody-w3p-inc"
+    },
+    {
+      "article": "W2MP.L",
+      "id": "model-w2mpl",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MP.2.L",
+      "id": "model-w2mp2l",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MBP.L",
+      "id": "model-w2mbpl",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W3MBP.L",
+      "id": "model-w3mbpl",
+      "inc": "W3MP.INC",
+      "cbRef": "concealedBody-w3mp-inc"
+    },
+    {
+      "article": "W4MBP.L",
+      "id": "model-w4mbpl",
+      "inc": "W4MP.INC",
+      "cbRef": "concealedBody-w4mp-inc"
+    },
+    {
+      "article": "ST.L",
+      "id": "model-stl",
+      "inc": "ST.INC",
+      "cbRef": "concealedBody-st-inc"
+    },
+    {
+      "article": "MR2.L",
+      "id": "model-mr2l",
+      "inc": "MR2.INC",
+      "cbRef": "concealedBody-mr2-inc"
+    },
+    {
+      "article": "MR3.L",
+      "id": "model-mr3l",
+      "inc": "MR3.INC",
+      "cbRef": "concealedBody-mr3-inc"
+    },
+    {
+      "article": "MX2.L",
+      "id": "model-mx2l",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "MX3.L",
+      "id": "model-mx3l",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC1.L",
+      "id": "model-tc1l",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC2.L",
+      "id": "model-tc2l",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC3.L",
+      "id": "model-tc3l",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "W3P.Y",
+      "id": "model-w3py",
+      "inc": "W3P.INC",
+      "cbRef": "concealedBody-w3p-inc"
+    },
+    {
+      "article": "W2MP.Y",
+      "id": "model-w2mpy",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MP.2.Y",
+      "id": "model-w2mp2y",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MBP.Y",
+      "id": "model-w2mbpy",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W3MBP.Y",
+      "id": "model-w3mbpy",
+      "inc": "W3MP.INC",
+      "cbRef": "concealedBody-w3mp-inc"
+    },
+    {
+      "article": "W4MBP.Y",
+      "id": "model-w4mbpy",
+      "inc": "W4MP.INC",
+      "cbRef": "concealedBody-w4mp-inc"
+    },
+    {
+      "article": "ST.Y",
+      "id": "model-sty",
+      "inc": "ST.INC",
+      "cbRef": "concealedBody-st-inc"
+    },
+    {
+      "article": "MR2.Y",
+      "id": "model-mr2y",
+      "inc": "MR2.INC",
+      "cbRef": "concealedBody-mr2-inc"
+    },
+    {
+      "article": "MR3.Y",
+      "id": "model-mr3y",
+      "inc": "MR3.INC",
+      "cbRef": "concealedBody-mr3-inc"
+    },
+    {
+      "article": "MX2.Y",
+      "id": "model-mx2y",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "MX3.Y",
+      "id": "model-mx3y",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC1.Y",
+      "id": "model-tc1y",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC2.Y",
+      "id": "model-tc2y",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC3.Y",
+      "id": "model-tc3y",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "W3P.CD",
+      "id": "model-w3pcd",
+      "inc": "W3P.INC",
+      "cbRef": "concealedBody-w3p-inc"
+    },
+    {
+      "article": "W2MP.CD",
+      "id": "model-w2mpcd",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MP.2.CD",
+      "id": "model-w2mp2cd",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MBP.CD",
+      "id": "model-w2mbpcd",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W3MBP.CD",
+      "id": "model-w3mbpcd",
+      "inc": "W3MP.INC",
+      "cbRef": "concealedBody-w3mp-inc"
+    },
+    {
+      "article": "W4MBP.CD",
+      "id": "model-w4mbpcd",
+      "inc": "W4MP.INC",
+      "cbRef": "concealedBody-w4mp-inc"
+    },
+    {
+      "article": "ST.CD",
+      "id": "model-stcd",
+      "inc": "ST.INC",
+      "cbRef": "concealedBody-st-inc"
+    },
+    {
+      "article": "MR2.CD",
+      "id": "model-mr2cd",
+      "inc": "MR2.INC",
+      "cbRef": "concealedBody-mr2-inc"
+    },
+    {
+      "article": "MR3.CD",
+      "id": "model-mr3cd",
+      "inc": "MR3.INC",
+      "cbRef": "concealedBody-mr3-inc"
+    },
+    {
+      "article": "MX2.CD",
+      "id": "model-mx2cd",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "MX3.CD",
+      "id": "model-mx3cd",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC1.CD",
+      "id": "model-tc1cd",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC2.CD",
+      "id": "model-tc2cd",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC3.CD",
+      "id": "model-tc3cd",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "W3P.O",
+      "id": "model-w3po",
+      "inc": "W3P.INC",
+      "cbRef": "concealedBody-w3p-inc"
+    },
+    {
+      "article": "W2MP.O",
+      "id": "model-w2mpo",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MP.2.O",
+      "id": "model-w2mp2o",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W2MBP.O",
+      "id": "model-w2mbpo",
+      "inc": "W2MP.INC",
+      "cbRef": "concealedBody-w2mp-inc"
+    },
+    {
+      "article": "W3MBP.O",
+      "id": "model-w3mbpo",
+      "inc": "W3MP.INC",
+      "cbRef": "concealedBody-w3mp-inc"
+    },
+    {
+      "article": "W4MBP.O",
+      "id": "model-w4mbpo",
+      "inc": "W4MP.INC",
+      "cbRef": "concealedBody-w4mp-inc"
+    },
+    {
+      "article": "ST.O",
+      "id": "model-sto",
+      "inc": "ST.INC",
+      "cbRef": "concealedBody-st-inc"
+    },
+    {
+      "article": "MR2.O",
+      "id": "model-mr2o",
+      "inc": "MR2.INC",
+      "cbRef": "concealedBody-mr2-inc"
+    },
+    {
+      "article": "MR3.O",
+      "id": "model-mr3o",
+      "inc": "MR3.INC",
+      "cbRef": "concealedBody-mr3-inc"
+    },
+    {
+      "article": "MX2.O",
+      "id": "model-mx2o",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "MX3.O",
+      "id": "model-mx3o",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC1.O",
+      "id": "model-tc1o",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC2.O",
+      "id": "model-tc2o",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC3.O",
+      "id": "model-tc3o",
+      "inc": "MX.INC",
+      "cbRef": "concealedBody-mx-inc"
+    },
+    {
+      "article": "TC.HF1",
+      "id": "model-tchf1",
+      "inc": "HF1.INC",
+      "cbRef": "concealedBody-hf1-inc"
+    },
+    {
+      "article": "TC.HF2",
+      "id": "model-tchf2",
+      "inc": "HF2.INC",
+      "cbRef": "concealedBody-hf2-inc"
+    },
+    {
+      "article": "TC.HF3",
+      "id": "model-tchf3",
+      "inc": "HF3.INC",
+      "cbRef": "concealedBody-hf3-inc"
+    },
+    {
+      "article": "TC.HF4",
+      "id": "model-tchf4",
+      "inc": "HF4.INC",
+      "cbRef": "concealedBody-hf4-inc"
+    }
+  ],
+  "op3": [
+    {
+      "code": "F60L.RC",
+      "id": "model-f60lrc",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60L.M",
+      "id": "model-f60lm",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60V.RC",
+      "id": "model-f60vrc",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60V.M",
+      "id": "model-f60vm",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60V.ME",
+      "id": "model-f60vme",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60.RC",
+      "id": "model-f60rc",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60.M",
+      "id": "model-f60m",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "code": "F60.ME",
+      "id": "model-f60me",
+      "before": 8,
+      "after": 4
+    }
+  ],
+  "op4": [
+    {
+      "_id": "model-f60ldrc",
+      "code": "F60L.D.RC",
+      "productType": "lavabo-colonna"
+    },
+    {
+      "_id": "model-f60ldm",
+      "code": "F60L.D.M",
+      "productType": "lavabo-colonna"
+    },
+    {
+      "_id": "model-f60vdrc",
+      "code": "F60V.D.RC",
+      "productType": "vasca-colonna"
+    },
+    {
+      "_id": "model-f60vdm",
+      "code": "F60V.D.M",
+      "productType": "vasca-colonna"
+    },
+    {
+      "_id": "model-f60vdme",
+      "code": "F60V.D.ME",
+      "productType": "vasca-colonna"
+    },
+    {
+      "_id": "model-f60drc",
+      "code": "F60.D.RC",
+      "productType": "doccia-colonna"
+    },
+    {
+      "_id": "model-f60dm",
+      "code": "F60.D.M",
+      "productType": "doccia-colonna"
+    },
+    {
+      "_id": "model-f60dme",
+      "code": "F60.D.ME",
+      "productType": "doccia-colonna"
+    }
+  ],
+  "skipped": []
+}

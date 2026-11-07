@@ -1,0 +1,30 @@
+{
+  "mode": "EXECUTE (scrive)",
+  "toPatch": 17,
+  "textFixes": [
+    {
+      "code": "CW.1",
+      "lang": "it",
+      "from": "Corpo incasso acciaio inox Aisi 316 per articoli Freetanding, acqua fredda o premiscelata",
+      "to": "Corpo incasso acciaio inox Aisi 316 per articoli freestanding, acqua fredda o premiscelata"
+    },
+    {
+      "code": "CW.2",
+      "lang": "it",
+      "from": "Corpo incasso acciaio inox Aisi 316 per articoli Freetanding, acqua calda e fredda",
+      "to": "Corpo incasso acciaio inox Aisi 316 per articoli freestanding, acqua calda e fredda"
+    },
+    {
+      "code": "W3MP.INC",
+      "lang": "en",
+      "from": "Concealed body for mixer with 2-ways diverter and wall copuling",
+      "to": "Concealed body for mixer with 2-ways diverter and wall coupling"
+    },
+    {
+      "code": "W4MP.INC",
+      "lang": "en",
+      "from": "Concealed body for bathtub mixer with 2-ways diverter, wall copuling and spout",
+      "to": "Concealed body for bathtub mixer with 2-ways diverter, wall coupling and spout"
+    }
+  ]
+}

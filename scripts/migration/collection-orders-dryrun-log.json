@@ -1,0 +1,279 @@
+{
+  "mode": "EXECUTE (writes)",
+  "generatedFrom": "/Volumes/PortableSSD/01_Clienti/FonteAlta/Fonte alta cartella madre/08_Sito-Web/sito fonte-alta/fontealta-website/scripts/data/blocco3b-collection-orders.json",
+  "entriesCount": 23,
+  "modelsToPatch": 12,
+  "skipped": [],
+  "diagnostics": {
+    "definedBefore": 0,
+    "unexpectedBefore": 0
+  },
+  "resolvedSlugs": {
+    "boss": "collection-boss-it",
+    "boss-wide": "collection-boss-wide-it",
+    "classy": "collection-classy-it",
+    "club-large": "collection-club-large-it",
+    "ille": "collection-ille-it",
+    "origo": "collection-origo-it",
+    "skinny": "collection-skinny-it",
+    "twiggy": "collection-twiggy-it"
+  },
+  "patches": [
+    {
+      "code": "MR",
+      "id": "model-mr",
+      "items": [
+        {
+          "_key": "co-skinny",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-skinny-it"
+          },
+          "position": 79.5
+        },
+        {
+          "_key": "co-twiggy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-twiggy-it"
+          },
+          "position": 145.5
+        },
+        {
+          "_key": "co-boss",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-boss-it"
+          },
+          "position": 195.5
+        },
+        {
+          "_key": "co-origo",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-origo-it"
+          },
+          "position": 260.5
+        }
+      ]
+    },
+    {
+      "code": "WMRL",
+      "id": "model-wmrl",
+      "items": [
+        {
+          "_key": "co-skinny",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-skinny-it"
+          },
+          "position": 60.5
+        },
+        {
+          "_key": "co-twiggy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-twiggy-it"
+          },
+          "position": 126.5
+        },
+        {
+          "_key": "co-boss",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-boss-it"
+          },
+          "position": 176.5
+        },
+        {
+          "_key": "co-origo",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-origo-it"
+          },
+          "position": 241.5
+        }
+      ]
+    },
+    {
+      "code": "WX30.SK",
+      "id": "model-wx30sk",
+      "items": [
+        {
+          "_key": "co-classy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-classy-it"
+          },
+          "position": 113.2
+        }
+      ]
+    },
+    {
+      "code": "WX32.SK",
+      "id": "model-wx32sk",
+      "items": [
+        {
+          "_key": "co-classy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-classy-it"
+          },
+          "position": 113.4
+        }
+      ]
+    },
+    {
+      "code": "WX44.SK",
+      "id": "model-wx44sk",
+      "items": [
+        {
+          "_key": "co-boss-wide",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-boss-wide-it"
+          },
+          "position": 226.25
+        }
+      ]
+    },
+    {
+      "code": "WX47C.SK",
+      "id": "model-wx47csk",
+      "items": [
+        {
+          "_key": "co-boss-wide",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-boss-wide-it"
+          },
+          "position": 226.5
+        }
+      ]
+    },
+    {
+      "code": "WX4A6.SK",
+      "id": "model-wx4a6sk",
+      "items": [
+        {
+          "_key": "co-boss-wide",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-boss-wide-it"
+          },
+          "position": 226.75
+        }
+      ]
+    },
+    {
+      "code": "WX54.SK",
+      "id": "model-wx54sk",
+      "items": [
+        {
+          "_key": "co-club-large",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-club-large-it"
+          },
+          "position": 305.25
+        }
+      ]
+    },
+    {
+      "code": "WX57C.SK",
+      "id": "model-wx57csk",
+      "items": [
+        {
+          "_key": "co-club-large",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-club-large-it"
+          },
+          "position": 305.5
+        }
+      ]
+    },
+    {
+      "code": "WX5A6.SK",
+      "id": "model-wx5a6sk",
+      "items": [
+        {
+          "_key": "co-club-large",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-club-large-it"
+          },
+          "position": 305.75
+        }
+      ]
+    },
+    {
+      "code": "WX75.SK",
+      "id": "model-wx75sk",
+      "items": [
+        {
+          "_key": "co-classy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-classy-it"
+          },
+          "position": 113.8
+        },
+        {
+          "_key": "co-twiggy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-twiggy-it"
+          },
+          "position": 163.6667
+        },
+        {
+          "_key": "co-origo",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-origo-it"
+          },
+          "position": 278.6667
+        },
+        {
+          "_key": "co-ille",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-ille-it"
+          },
+          "position": 505.5
+        }
+      ]
+    },
+    {
+      "code": "WX83.SK",
+      "id": "model-wx83sk",
+      "items": [
+        {
+          "_key": "co-classy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-classy-it"
+          },
+          "position": 113.6
+        },
+        {
+          "_key": "co-twiggy",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-twiggy-it"
+          },
+          "position": 163.3333
+        },
+        {
+          "_key": "co-origo",
+          "collection": {
+            "_type": "reference",
+            "_ref": "collection-origo-it"
+          },
+          "position": 278.3333
+        }
+      ]
+    }
+  ]
+}

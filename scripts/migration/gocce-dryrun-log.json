@@ -1,0 +1,1487 @@
+{
+  "mode": "EXECUTE (writes)",
+  "generatedFrom": "/Volumes/PortableSSD/01_Clienti/FonteAlta/Fonte alta cartella madre/08_Sito-Web/sito fonte-alta/fontealta-website/scripts/data/blocco2-gocce-data.json",
+  "distribution": {
+    "cold": 103,
+    "hot-cold": 147,
+    "none": 44
+  },
+  "toPatch": 294,
+  "skipped": [
+    "YCWS",
+    "YEWS"
+  ],
+  "pendingExcluded": 52,
+  "patches": [
+    {
+      "code": "Q86.2",
+      "id": "model-q862",
+      "value": "cold"
+    },
+    {
+      "code": "Q86.AST.2",
+      "id": "model-q86ast2",
+      "value": "cold"
+    },
+    {
+      "code": "Q120",
+      "id": "model-q120",
+      "value": "cold"
+    },
+    {
+      "code": "Q120.AST",
+      "id": "model-q120ast",
+      "value": "cold"
+    },
+    {
+      "code": "C140.2",
+      "id": "model-c1402",
+      "value": "cold"
+    },
+    {
+      "code": "C140.AST.2",
+      "id": "model-c140ast2",
+      "value": "cold"
+    },
+    {
+      "code": "C140.3",
+      "id": "model-c1403",
+      "value": "cold"
+    },
+    {
+      "code": "C140.AST.3",
+      "id": "model-c140ast3",
+      "value": "cold"
+    },
+    {
+      "code": "C140.4",
+      "id": "model-c1404",
+      "value": "cold"
+    },
+    {
+      "code": "C140.AST.4",
+      "id": "model-c140ast4",
+      "value": "cold"
+    },
+    {
+      "code": "PQ80",
+      "id": "model-pq80",
+      "value": "cold"
+    },
+    {
+      "code": "PQ80.2",
+      "id": "model-pq802",
+      "value": "cold"
+    },
+    {
+      "code": "P9",
+      "id": "model-p9",
+      "value": "cold"
+    },
+    {
+      "code": "Q53",
+      "id": "model-q53",
+      "value": "cold"
+    },
+    {
+      "code": "Q53.E",
+      "id": "model-q53e",
+      "value": "cold"
+    },
+    {
+      "code": "Q53.M",
+      "id": "model-q53m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "Q53.ME",
+      "id": "model-q53me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "ST.CD",
+      "id": "model-stcd",
+      "value": "cold"
+    },
+    {
+      "code": "MR",
+      "id": "model-mr",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR2.CD",
+      "id": "model-mr2cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR3.CD",
+      "id": "model-mr3cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX2.CD",
+      "id": "model-mx2cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX3.CD",
+      "id": "model-mx3cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC1.CD",
+      "id": "model-tc1cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC2.CD",
+      "id": "model-tc2cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC3.CD",
+      "id": "model-tc3cd",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W344",
+      "id": "model-w344",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W344.E",
+      "id": "model-w344e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W347C",
+      "id": "model-w347c",
+      "value": "cold"
+    },
+    {
+      "code": "W349C.E",
+      "id": "model-w349ce",
+      "value": "cold"
+    },
+    {
+      "code": "W34A6.E",
+      "id": "model-w34a6e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX44.SK",
+      "id": "model-wx44sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX47C.SK",
+      "id": "model-wx47csk",
+      "value": "cold"
+    },
+    {
+      "code": "WX4A6.SK",
+      "id": "model-wx4a6sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "B76",
+      "id": "model-b76",
+      "value": "cold"
+    },
+    {
+      "code": "B76.E",
+      "id": "model-b76e",
+      "value": "cold"
+    },
+    {
+      "code": "B76.2",
+      "id": "model-b762",
+      "value": "hot-cold"
+    },
+    {
+      "code": "B76.2E",
+      "id": "model-b762e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "B76.M",
+      "id": "model-b76m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "B76.ME",
+      "id": "model-b76me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W444",
+      "id": "model-w444",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W444.E",
+      "id": "model-w444e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W447C",
+      "id": "model-w447c",
+      "value": "cold"
+    },
+    {
+      "code": "W449C.E",
+      "id": "model-w449ce",
+      "value": "cold"
+    },
+    {
+      "code": "W44A6.E",
+      "id": "model-w44a6e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "BW76",
+      "id": "model-bw76",
+      "value": "cold"
+    },
+    {
+      "code": "BW76.E",
+      "id": "model-bw76e",
+      "value": "cold"
+    },
+    {
+      "code": "BW76.2",
+      "id": "model-bw762",
+      "value": "hot-cold"
+    },
+    {
+      "code": "BW76.2E",
+      "id": "model-bw762e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "BW76.M",
+      "id": "model-bw76m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "BW76.ME",
+      "id": "model-bw76me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W630",
+      "id": "model-w630",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W630.E",
+      "id": "model-w630e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W632",
+      "id": "model-w632",
+      "value": "cold"
+    },
+    {
+      "code": "W632.E",
+      "id": "model-w632e",
+      "value": "cold"
+    },
+    {
+      "code": "W683",
+      "id": "model-w683",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W683.E",
+      "id": "model-w683e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W675.E",
+      "id": "model-w675e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX30.SK",
+      "id": "model-wx30sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX32.SK",
+      "id": "model-wx32sk",
+      "value": "cold"
+    },
+    {
+      "code": "WX83.SK",
+      "id": "model-wx83sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX75.SK",
+      "id": "model-wx75sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C40",
+      "id": "model-c40",
+      "value": "cold"
+    },
+    {
+      "code": "C40.E",
+      "id": "model-c40e",
+      "value": "cold"
+    },
+    {
+      "code": "C40.M",
+      "id": "model-c40m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C40.ME",
+      "id": "model-c40me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W154",
+      "id": "model-w154",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W154.E",
+      "id": "model-w154e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W157C",
+      "id": "model-w157c",
+      "value": "cold"
+    },
+    {
+      "code": "W159C.E",
+      "id": "model-w159ce",
+      "value": "cold"
+    },
+    {
+      "code": "W15A6.E",
+      "id": "model-w15a6e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX54.SK",
+      "id": "model-wx54sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX57C.SK",
+      "id": "model-wx57csk",
+      "value": "cold"
+    },
+    {
+      "code": "WX5A6.SK",
+      "id": "model-wx5a6sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C90",
+      "id": "model-c90",
+      "value": "cold"
+    },
+    {
+      "code": "C90.E",
+      "id": "model-c90e",
+      "value": "cold"
+    },
+    {
+      "code": "C90.M",
+      "id": "model-c90m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C90.ME",
+      "id": "model-c90me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W254",
+      "id": "model-w254",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W254.E",
+      "id": "model-w254e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W257C",
+      "id": "model-w257c",
+      "value": "cold"
+    },
+    {
+      "code": "W259C.E",
+      "id": "model-w259ce",
+      "value": "cold"
+    },
+    {
+      "code": "W25A6.E",
+      "id": "model-w25a6e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "CL90",
+      "id": "model-cl90",
+      "value": "cold"
+    },
+    {
+      "code": "CL90.E",
+      "id": "model-cl90e",
+      "value": "cold"
+    },
+    {
+      "code": "CL90.M",
+      "id": "model-cl90m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "CL90.ME",
+      "id": "model-cl90me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C50AS.AST",
+      "id": "model-c50asast",
+      "value": "cold"
+    },
+    {
+      "code": "B76.AST",
+      "id": "model-b76ast",
+      "value": "cold"
+    },
+    {
+      "code": "BW76.AST",
+      "id": "model-bw76ast",
+      "value": "cold"
+    },
+    {
+      "code": "C90.AST",
+      "id": "model-c90ast",
+      "value": "cold"
+    },
+    {
+      "code": "CL90.AST",
+      "id": "model-cl90ast",
+      "value": "cold"
+    },
+    {
+      "code": "Q86.AST",
+      "id": "model-q86ast",
+      "value": "cold"
+    },
+    {
+      "code": "P22.AST",
+      "id": "model-p22ast",
+      "value": "cold"
+    },
+    {
+      "code": "COL90.AST",
+      "id": "model-col90ast",
+      "value": "cold"
+    },
+    {
+      "code": "COL90.AST.L",
+      "id": "model-col90astl",
+      "value": "cold"
+    },
+    {
+      "code": "W88.AST",
+      "id": "model-w88ast",
+      "value": "cold"
+    },
+    {
+      "code": "W78.AST",
+      "id": "model-w78ast",
+      "value": "cold"
+    },
+    {
+      "code": "W68.AST",
+      "id": "model-w68ast",
+      "value": "cold"
+    },
+    {
+      "code": "W98.AST",
+      "id": "model-w98ast",
+      "value": "cold"
+    },
+    {
+      "code": "W18.AST",
+      "id": "model-w18ast",
+      "value": "cold"
+    },
+    {
+      "code": "W28.AST",
+      "id": "model-w28ast",
+      "value": "cold"
+    },
+    {
+      "code": "W38.AST",
+      "id": "model-w38ast",
+      "value": "cold"
+    },
+    {
+      "code": "W48.AST",
+      "id": "model-w48ast",
+      "value": "cold"
+    },
+    {
+      "code": "W08.AST",
+      "id": "model-w08ast",
+      "value": "cold"
+    },
+    {
+      "code": "WX8.AST.SK",
+      "id": "model-wx8astsk",
+      "value": "cold"
+    },
+    {
+      "code": "W12.AST",
+      "id": "model-w12ast",
+      "value": "cold"
+    },
+    {
+      "code": "W12.AST.FS",
+      "id": "model-w12astfs",
+      "value": "cold"
+    },
+    {
+      "code": "W35.M.AST",
+      "id": "model-w35mast",
+      "value": "cold"
+    },
+    {
+      "code": "ST.F",
+      "id": "model-stf",
+      "value": "cold"
+    },
+    {
+      "code": "MR2.F",
+      "id": "model-mr2f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR3.F",
+      "id": "model-mr3f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX2.F",
+      "id": "model-mx2f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX3.F",
+      "id": "model-mx3f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC1.F",
+      "id": "model-tc1f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC2.F",
+      "id": "model-tc2f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC3.F",
+      "id": "model-tc3f",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W564",
+      "id": "model-w564",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W564.E",
+      "id": "model-w564e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W567C",
+      "id": "model-w567c",
+      "value": "cold"
+    },
+    {
+      "code": "W569C.E",
+      "id": "model-w569ce",
+      "value": "cold"
+    },
+    {
+      "code": "W56A6.E",
+      "id": "model-w56a6e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX64.SK",
+      "id": "model-wx64sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX67C.SK",
+      "id": "model-wx67csk",
+      "value": "cold"
+    },
+    {
+      "code": "WX6A6.SK",
+      "id": "model-wx6a6sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "F60.M",
+      "id": "model-f60m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "F60.ME",
+      "id": "model-f60me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "ST.I",
+      "id": "model-sti",
+      "value": "cold"
+    },
+    {
+      "code": "MR2.I",
+      "id": "model-mr2i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR3.I",
+      "id": "model-mr3i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX2.I",
+      "id": "model-mx2i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX3.I",
+      "id": "model-mx3i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC1.I",
+      "id": "model-tc1i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC2.I",
+      "id": "model-tc2i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC3.I",
+      "id": "model-tc3i",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WA90",
+      "id": "model-wa90",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WA90.E",
+      "id": "model-wa90e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WA92",
+      "id": "model-wa92",
+      "value": "cold"
+    },
+    {
+      "code": "WA92.E",
+      "id": "model-wa92e",
+      "value": "cold"
+    },
+    {
+      "code": "WA03",
+      "id": "model-wa03",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WA03.E",
+      "id": "model-wa03e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WA75.E",
+      "id": "model-wa75e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX90.SK",
+      "id": "model-wx90sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX92.SK",
+      "id": "model-wx92sk",
+      "value": "cold"
+    },
+    {
+      "code": "WX03.SK",
+      "id": "model-wx03sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "I40",
+      "id": "model-i40",
+      "value": "cold"
+    },
+    {
+      "code": "I40.D",
+      "id": "model-i40d",
+      "value": "cold"
+    },
+    {
+      "code": "I40.E",
+      "id": "model-i40e",
+      "value": "cold"
+    },
+    {
+      "code": "I40.D.E",
+      "id": "model-i40de",
+      "value": "cold"
+    },
+    {
+      "code": "I40.M",
+      "id": "model-i40m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "I40.D.M",
+      "id": "model-i40dm",
+      "value": "hot-cold"
+    },
+    {
+      "code": "I40.ME",
+      "id": "model-i40me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "I40.D.ME",
+      "id": "model-i40dme",
+      "value": "hot-cold"
+    },
+    {
+      "code": "P22",
+      "id": "model-p22",
+      "value": "cold"
+    },
+    {
+      "code": "P22.E",
+      "id": "model-p22e",
+      "value": "cold"
+    },
+    {
+      "code": "P22.M",
+      "id": "model-p22m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "P22.ME",
+      "id": "model-p22me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "P22.S",
+      "id": "model-p22s",
+      "value": "hot-cold"
+    },
+    {
+      "code": "D50",
+      "id": "model-d50",
+      "value": "cold"
+    },
+    {
+      "code": "D50.E",
+      "id": "model-d50e",
+      "value": "cold"
+    },
+    {
+      "code": "D50.M",
+      "id": "model-d50m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "D50.ME",
+      "id": "model-d50me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "ST.O",
+      "id": "model-sto",
+      "value": "cold"
+    },
+    {
+      "code": "MR2.O",
+      "id": "model-mr2o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR3.O",
+      "id": "model-mr3o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX2.O",
+      "id": "model-mx2o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX3.O",
+      "id": "model-mx3o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC1.O",
+      "id": "model-tc1o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC2.O",
+      "id": "model-tc2o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC3.O",
+      "id": "model-tc3o",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W920",
+      "id": "model-w920",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W920.E",
+      "id": "model-w920e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W922",
+      "id": "model-w922",
+      "value": "cold"
+    },
+    {
+      "code": "W922.E",
+      "id": "model-w922e",
+      "value": "cold"
+    },
+    {
+      "code": "W983",
+      "id": "model-w983",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W983.E",
+      "id": "model-w983e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W975.E",
+      "id": "model-w975e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX20.SK",
+      "id": "model-wx20sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX22.SK",
+      "id": "model-wx22sk",
+      "value": "cold"
+    },
+    {
+      "code": "C50AS",
+      "id": "model-c50as",
+      "value": "cold"
+    },
+    {
+      "code": "C50AS.E",
+      "id": "model-c50ase",
+      "value": "cold"
+    },
+    {
+      "code": "C50AS.M",
+      "id": "model-c50asm",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C50AS.ME",
+      "id": "model-c50asme",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C50R",
+      "id": "model-c50r",
+      "value": "cold"
+    },
+    {
+      "code": "C50R.E",
+      "id": "model-c50re",
+      "value": "cold"
+    },
+    {
+      "code": "C50R.M",
+      "id": "model-c50rm",
+      "value": "hot-cold"
+    },
+    {
+      "code": "C50R.ME",
+      "id": "model-c50rme",
+      "value": "hot-cold"
+    },
+    {
+      "code": "ST.L",
+      "id": "model-stl",
+      "value": "cold"
+    },
+    {
+      "code": "MR2.L",
+      "id": "model-mr2l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR3.L",
+      "id": "model-mr3l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX2.L",
+      "id": "model-mx2l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX3.L",
+      "id": "model-mx3l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC1.L",
+      "id": "model-tc1l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC2.L",
+      "id": "model-tc2l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC3.L",
+      "id": "model-tc3l",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W730",
+      "id": "model-w730",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W730.E",
+      "id": "model-w730e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W732",
+      "id": "model-w732",
+      "value": "cold"
+    },
+    {
+      "code": "W732.E",
+      "id": "model-w732e",
+      "value": "cold"
+    },
+    {
+      "code": "W783",
+      "id": "model-w783",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W783.E",
+      "id": "model-w783e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W775.E",
+      "id": "model-w775e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "S40",
+      "id": "model-s40",
+      "value": "cold"
+    },
+    {
+      "code": "S40.E",
+      "id": "model-s40e",
+      "value": "cold"
+    },
+    {
+      "code": "S40.M",
+      "id": "model-s40m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "S40.ME",
+      "id": "model-s40me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "Q86",
+      "id": "model-q86",
+      "value": "cold"
+    },
+    {
+      "code": "Q86.E",
+      "id": "model-q86e",
+      "value": "cold"
+    },
+    {
+      "code": "Q86.M",
+      "id": "model-q86m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "Q86.ME",
+      "id": "model-q86me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "ST.Y",
+      "id": "model-sty",
+      "value": "cold"
+    },
+    {
+      "code": "MR2.Y",
+      "id": "model-mr2y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR3.Y",
+      "id": "model-mr3y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX2.Y",
+      "id": "model-mx2y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MX3.Y",
+      "id": "model-mx3y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC1.Y",
+      "id": "model-tc1y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC2.Y",
+      "id": "model-tc2y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC3.Y",
+      "id": "model-tc3y",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W810",
+      "id": "model-w810",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W810.E",
+      "id": "model-w810e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W812",
+      "id": "model-w812",
+      "value": "cold"
+    },
+    {
+      "code": "W812.E",
+      "id": "model-w812e",
+      "value": "cold"
+    },
+    {
+      "code": "W883",
+      "id": "model-w883",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W883.E",
+      "id": "model-w883e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W875.E",
+      "id": "model-w875e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX10.SK",
+      "id": "model-wx10sk",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX12.SK",
+      "id": "model-wx12sk",
+      "value": "cold"
+    },
+    {
+      "code": "CSR40",
+      "id": "model-csr40",
+      "value": "cold"
+    },
+    {
+      "code": "CSR40.E",
+      "id": "model-csr40e",
+      "value": "cold"
+    },
+    {
+      "code": "CSR40.M",
+      "id": "model-csr40m",
+      "value": "hot-cold"
+    },
+    {
+      "code": "CSR40.ME",
+      "id": "model-csr40me",
+      "value": "hot-cold"
+    },
+    {
+      "code": "ST1",
+      "id": "model-st1",
+      "value": "cold"
+    },
+    {
+      "code": "ST1.L",
+      "id": "model-st1l",
+      "value": "cold"
+    },
+    {
+      "code": "MRL",
+      "id": "model-mrl",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR1",
+      "id": "model-mr1",
+      "value": "hot-cold"
+    },
+    {
+      "code": "MR2",
+      "id": "model-mr2",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC.HF1",
+      "id": "model-tchf1",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC.HF2",
+      "id": "model-tchf2",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC.HF3",
+      "id": "model-tchf3",
+      "value": "hot-cold"
+    },
+    {
+      "code": "TC.HF4",
+      "id": "model-tchf4",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W010",
+      "id": "model-w010",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W010.E",
+      "id": "model-w010e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W012",
+      "id": "model-w012",
+      "value": "cold"
+    },
+    {
+      "code": "W012.E",
+      "id": "model-w012e",
+      "value": "cold"
+    },
+    {
+      "code": "W083",
+      "id": "model-w083",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W083.E",
+      "id": "model-w083e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "W075.E",
+      "id": "model-w075e",
+      "value": "hot-cold"
+    },
+    {
+      "code": "WX47C.SK.K",
+      "id": "model-wx47cskk",
+      "value": "cold"
+    },
+    {
+      "code": "F60.D.M",
+      "id": "model-f60dm",
+      "value": "hot-cold"
+    },
+    {
+      "code": "F60.D.ME",
+      "id": "model-f60dme",
+      "value": "hot-cold"
+    },
+    {
+      "code": "Q53.RC",
+      "id": "model-q53rc",
+      "value": "none"
+    },
+    {
+      "code": "B76.RC",
+      "id": "model-b76rc",
+      "value": "none"
+    },
+    {
+      "code": "BW76.RC",
+      "id": "model-bw76rc",
+      "value": "none"
+    },
+    {
+      "code": "C40.RC",
+      "id": "model-c40rc",
+      "value": "none"
+    },
+    {
+      "code": "C90.RC",
+      "id": "model-c90rc",
+      "value": "none"
+    },
+    {
+      "code": "CL90.RC",
+      "id": "model-cl90rc",
+      "value": "none"
+    },
+    {
+      "code": "F60.RC",
+      "id": "model-f60rc",
+      "value": "none"
+    },
+    {
+      "code": "I40.RC",
+      "id": "model-i40rc",
+      "value": "none"
+    },
+    {
+      "code": "I40.D.RC",
+      "id": "model-i40drc",
+      "value": "none"
+    },
+    {
+      "code": "D50.RC",
+      "id": "model-d50rc",
+      "value": "none"
+    },
+    {
+      "code": "C50AS.RC",
+      "id": "model-c50asrc",
+      "value": "none"
+    },
+    {
+      "code": "C50R.RC",
+      "id": "model-c50rrc",
+      "value": "none"
+    },
+    {
+      "code": "S40.RC",
+      "id": "model-s40rc",
+      "value": "none"
+    },
+    {
+      "code": "Q86.RC",
+      "id": "model-q86rc",
+      "value": "none"
+    },
+    {
+      "code": "CSR40.RC",
+      "id": "model-csr40rc",
+      "value": "none"
+    },
+    {
+      "code": "SR",
+      "id": "model-sr",
+      "value": "none"
+    },
+    {
+      "code": "SB",
+      "id": "model-sb",
+      "value": "none"
+    },
+    {
+      "code": "SR.SLIM",
+      "id": "model-srslim",
+      "value": "none"
+    },
+    {
+      "code": "SB.SLIM",
+      "id": "model-sbslim",
+      "value": "none"
+    },
+    {
+      "code": "SA35.F",
+      "id": "model-sa35f",
+      "value": "none"
+    },
+    {
+      "code": "SA40",
+      "id": "model-sa40",
+      "value": "none"
+    },
+    {
+      "code": "SA21.06",
+      "id": "model-sa2106",
+      "value": "none"
+    },
+    {
+      "code": "SA33.10",
+      "id": "model-sa3310",
+      "value": "none"
+    },
+    {
+      "code": "SA40.12",
+      "id": "model-sa4012",
+      "value": "none"
+    },
+    {
+      "code": "SA53.09",
+      "id": "model-sa5309",
+      "value": "none"
+    },
+    {
+      "code": "SA53.07",
+      "id": "model-sa5307",
+      "value": "none"
+    },
+    {
+      "code": "SA53.11",
+      "id": "model-sa5311",
+      "value": "none"
+    },
+    {
+      "code": "SA53.15",
+      "id": "model-sa5315",
+      "value": "none"
+    },
+    {
+      "code": "SA150.S",
+      "id": "model-sa150s",
+      "value": "none"
+    },
+    {
+      "code": "SA150.SC",
+      "id": "model-sa150sc",
+      "value": "none"
+    },
+    {
+      "code": "SA300.SC",
+      "id": "model-sa300sc",
+      "value": "none"
+    },
+    {
+      "code": "SA300.C",
+      "id": "model-sa300c",
+      "value": "none"
+    },
+    {
+      "code": "BJ.02",
+      "id": "model-bj02",
+      "value": "none"
+    },
+    {
+      "code": "BJ.04",
+      "id": "model-bj04",
+      "value": "none"
+    },
+    {
+      "code": "WF.01",
+      "id": "model-wf01",
+      "value": "none"
+    },
+    {
+      "code": "WF.02",
+      "id": "model-wf02",
+      "value": "none"
+    },
+    {
+      "code": "Q380",
+      "id": "model-q380",
+      "value": "none"
+    },
+    {
+      "code": "Q380.DF",
+      "id": "model-q380df",
+      "value": "none"
+    },
+    {
+      "code": "Q380.C",
+      "id": "model-q380c",
+      "value": "none"
+    },
+    {
+      "code": "Q500",
+      "id": "model-q500",
+      "value": "none"
+    },
+    {
+      "code": "Q500.DF",
+      "id": "model-q500df",
+      "value": "none"
+    },
+    {
+      "code": "R700",
+      "id": "model-r700",
+      "value": "none"
+    },
+    {
+      "code": "R700.DF",
+      "id": "model-r700df",
+      "value": "none"
+    },
+    {
+      "code": "F60.D.RC",
+      "id": "model-f60drc",
+      "value": "none"
+    }
+  ]
+}

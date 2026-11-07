@@ -1,0 +1,29 @@
+{
+  "mode": "EXECUTE (scrive)",
+  "liveCount": 595,
+  "draftCount": 0,
+  "withLegacy": 595,
+  "byType": {
+    "lavabo-colonna": 22,
+    "vasca-colonna": 48,
+    "doccia-colonna": 225,
+    "doccia-accessori": 54,
+    "lavabo-miscelatore": 50,
+    "doccia-miscelatore": 48,
+    "doccia-pannello": 9,
+    "doccia-soffione": 53,
+    "vasca-bordo": 38,
+    "lavabo-incasso": 20,
+    "lavabo-batteria": 6,
+    "kit-doccia": 22
+  },
+  "dist": {
+    "lavabo": 76,
+    "vasca": 86,
+    "doccia": 392,
+    "bidet": 6,
+    "giardino": 18,
+    "cucina": 17
+  },
+  "payloadKb": "32.0"
+}
